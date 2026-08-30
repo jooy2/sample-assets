@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Workshop registration — form sample</title>
+    <style>
+      body { margin: 0 auto; padding: 2rem 1.25rem 4rem; max-width: 40rem; color: #1c1f24;
+             font: 15px/1.55 system-ui, -apple-system, "Segoe UI", sans-serif; background: #fff; }
+      h1 { font-size: 1.5rem; }
+      fieldset { border: 1px solid #d9dde3; border-radius: 6px; margin: 0 0 1.5rem; padding: 1rem 1.25rem 1.25rem; }
+      legend { font-weight: 600; padding: 0 .35rem; }
+      label { display: block; margin: .85rem 0 .3rem; font-weight: 500; }
+      input, select, textarea { width: 100%; box-sizing: border-box; padding: .5rem .6rem;
+                                border: 1px solid #c7ccd4; border-radius: 4px; font: inherit; }
+      input[type="checkbox"], input[type="radio"] { width: auto; margin-right: .4rem; }
+      .inline { display: flex; align-items: center; margin: .35rem 0; font-weight: 400; }
+      .hint { color: #5c6470; font-size: .85rem; margin: .25rem 0 0; }
+      .row { display: flex; gap: 1rem; }
+      .row > * { flex: 1; }
+      button { font: inherit; padding: .55rem 1.1rem; border-radius: 4px; border: 1px solid #2f6f4f; cursor: pointer; }
+      button[type="submit"] { background: #2f6f4f; color: #fff; }
+      button[type="reset"] { background: #fff; color: #2f6f4f; }
+      output { display: block; margin-top: .5rem; color: #5c6470; }
+    </style>
+  </head>
+  <body>
+    <h1>Workshop registration</h1>
+    <p class="hint">
+      Every input type a form parser is likely to meet, on one page. The action points at
+      a URL that does not exist, so submitting the form goes nowhere.
+    </p>
+
+    <form action="https://example.com/register" method="post" enctype="multipart/form-data" novalidate>
+      <fieldset>
+        <legend>Attendee</legend>
+
+        <div class="row">
+          <div>
+            <label for="given-name">Given name</label>
+            <input type="text" id="given-name" name="given_name" autocomplete="given-name"
+                   placeholder="Dana" required maxlength="40" />
+          </div>
+          <div>
+            <label for="family-name">Family name</label>
+            <input type="text" id="family-name" name="family_name" autocomplete="family-name"
+                   placeholder="Whitfield" required maxlength="40" />
+          </div>
+        </div>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="dana@example.com" required />
+        <p class="hint">Used only to send the joining link.</p>
+
+        <label for="phone">Phone</label>
+        <input type="tel" id="phone" name="phone" placeholder="+82 2 555 0100"
+               pattern="[0-9 +()-]{7,20}" />
+
+        <label for="website">Website</label>
+        <input type="url" id="website" name="website" placeholder="https://example.com" />
+
+        <label for="company">Company</label>
+        <input type="text" id="company" name="company" list="companies" placeholder="Vantabrook Ltd." />
+        <datalist id="companies">
+          <option value="Vantabrook Ltd."></option>
+          <option value="Orrery Analytics"></option>
+          <option value="Copperline Foods"></option>
+        </datalist>
+      </fieldset>
+
+      <fieldset>
+        <legend>Session</legend>
+
+        <label for="track">Track</label>
+        <select id="track" name="track" required>
+          <option value="">Choose a track…</option>
+          <optgroup label="Morning">
+            <option value="build-systems" selected>Build systems</option>
+            <option value="observability">Observability</option>
+          </optgroup>
+          <optgroup label="Afternoon">
+            <option value="data-modelling">Data modelling</option>
+            <option value="accessibility">Accessibility</option>
+          </optgroup>
+        </select>
+
+        <label for="date">Preferred date</label>
+        <input type="date" id="date" name="date" min="2026-09-01" max="2026-12-18" value="2026-09-24" />
+
+        <label for="time">Preferred start time</label>
+        <input type="time" id="time" name="time" value="10:00" step="1800" />
+
+        <label for="seats">Seats</label>
+        <input type="number" id="seats" name="seats" min="1" max="8" step="1" value="1" />
+
+        <label for="experience">Years of experience: <output id="experience-out" for="experience">5</output></label>
+        <input type="range" id="experience" name="experience" min="0" max="20" step="1" value="5"
+               oninput="document.getElementById('experience-out').value = this.value" />
+
+        <label>Attendance</label>
+        <label class="inline"><input type="radio" name="attendance" value="in-person" checked /> In person</label>
+        <label class="inline"><input type="radio" name="attendance" value="remote" /> Remote</label>
+        <label class="inline"><input type="radio" name="attendance" value="recording" disabled /> Recording only (sold out)</label>
+
+        <label>Extras</label>
+        <label class="inline"><input type="checkbox" name="extras" value="lunch" checked /> Lunch</label>
+        <label class="inline"><input type="checkbox" name="extras" value="notes" /> Printed notes</label>
+        <label class="inline"><input type="checkbox" name="extras" value="certificate" /> Certificate</label>
+
+        <label for="colour">Badge colour</label>
+        <input type="color" id="colour" name="colour" value="#2f6f4f" />
+
+        <label for="handout">Handout to review (PDF)</label>
+        <input type="file" id="handout" name="handout" accept="application/pdf,.pdf" />
+
+        <label for="notes">Anything we should know?</label>
+        <textarea id="notes" name="notes" rows="4" maxlength="500"
+                  placeholder="Dietary requirements, accessibility needs, questions…"></textarea>
+      </fieldset>
+
+      <input type="hidden" name="form_version" value="3" />
+      <input type="hidden" name="source" value="sample-assets" />
+
+      <label class="inline">
+        <input type="checkbox" name="terms" value="accepted" required />
+        I accept the (fictional) terms of participation
+      </label>
+
+      <p>
+        <button type="submit">Register</button>
+        <button type="reset">Clear</button>
+      </p>
+    </form>
+  </body>
+</html>

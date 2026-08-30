@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Quarterly figures — table sample</title>
+    <style>
+      body { margin: 0 auto; padding: 2rem 1.25rem 4rem; max-width: 54rem; color: #1c1f24;
+             font: 15px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; background: #fff; }
+      h1 { font-size: 1.5rem; }
+      h2 { font-size: 1.1rem; margin-top: 2.5rem; }
+      table { border-collapse: collapse; width: 100%; margin-top: .75rem; font-variant-numeric: tabular-nums; }
+      caption { text-align: left; padding-bottom: .5rem; color: #5c6470; font-size: .9rem; }
+      th, td { border: 1px solid #d9dde3; padding: .45rem .6rem; text-align: left; }
+      thead th, tfoot td, tfoot th { background: #f4f6f5; }
+      tbody tr:nth-child(even) { background: #fafbfc; }
+      td.num, th.num { text-align: right; }
+      .scroll { overflow-x: auto; }
+      .hint { color: #5c6470; font-size: .9rem; }
+    </style>
+  </head>
+  <body>
+    <h1>Table sample</h1>
+    <p class="hint">
+      Three tables for scrapers and converters: a plain one, one with merged cells and a
+      footer, and one whose rows carry data attributes. The figures are invented.
+    </p>
+
+    <h2>1. Plain table</h2>
+    <div class="scroll">
+      <table id="stations">
+        <caption>Transit stations, invented network</caption>
+        <thead>
+          <tr>
+            <th scope="col">Code</th>
+            <th scope="col">Station</th>
+            <th scope="col">Line</th>
+            <th scope="col" class="num">Daily entries</th>
+            <th scope="col">Step-free</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>ASH</td><td>Ashvale</td><td>Green</td><td class="num">18,420</td><td>Yes</td></tr>
+          <tr><td>KRW</td><td>Kestrel Row</td><td>Green</td><td class="num">9,105</td><td>No</td></tr>
+          <tr><td>MFD</td><td>Marrowfield</td><td>Amber</td><td class="num">27,860</td><td>Yes</td></tr>
+          <tr><td>QLN</td><td>Quillon Park</td><td>Amber</td><td class="num">4,973</td><td>Partial</td></tr>
+          <tr><td>VBK</td><td>Vantabrook</td><td>Blue</td><td class="num">31,244</td><td>Yes</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h2>2. Merged cells, row groups, and a footer</h2>
+    <div class="scroll">
+      <table id="quarterly">
+        <caption>Revenue by region and quarter, in thousands of invented currency units</caption>
+        <colgroup>
+          <col span="1" />
+          <col span="4" />
+          <col span="1" />
+        </colgroup>
+        <thead>
+          <tr>
+            <th scope="col" rowspan="2">Region</th>
+            <th scope="colgroup" colspan="4">2026</th>
+            <th scope="col" rowspan="2" class="num">Total</th>
+          </tr>
+          <tr>
+            <th scope="col" class="num">Q1</th>
+            <th scope="col" class="num">Q2</th>
+            <th scope="col" class="num">Q3</th>
+            <th scope="col" class="num">Q4</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><th scope="row">North</th><td class="num">412</td><td class="num">455</td><td class="num">398</td><td class="num">501</td><td class="num">1,766</td></tr>
+          <tr><th scope="row">South</th><td class="num">288</td><td class="num">301</td><td class="num">344</td><td class="num">362</td><td class="num">1,295</td></tr>
+        </tbody>
+        <tbody>
+          <tr><th scope="row">East</th><td class="num">120</td><td class="num">98</td><td class="num">176</td><td class="num">204</td><td class="num">598</td></tr>
+          <tr><th scope="row">West</th><td class="num">75</td><td colspan="2" class="num">168 (merged)</td><td class="num">91</td><td class="num">334</td></tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <th scope="row">Total</th>
+            <td class="num">895</td><td class="num">1,022</td><td class="num">918</td><td class="num">1,158</td>
+            <td class="num">3,993</td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+
+    <h2>3. Rows carrying data attributes</h2>
+    <div class="scroll">
+      <table id="orders" data-source="sample-assets" data-rows="4">
+        <caption>Orders, with machine-readable values on each row</caption>
+        <thead>
+          <tr>
+            <th scope="col">Order</th>
+            <th scope="col">Placed</th>
+            <th scope="col">Customer</th>
+            <th scope="col">Status</th>
+            <th scope="col" class="num">Amount</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr data-order-id="10241" data-status="shipped">
+            <td>#10241</td><td><time datetime="2026-03-02">2 Mar 2026</time></td>
+            <td>Copperline Foods</td><td>Shipped</td><td class="num">1,240.00</td>
+          </tr>
+          <tr data-order-id="10242" data-status="pending">
+            <td>#10242</td><td><time datetime="2026-03-04">4 Mar 2026</time></td>
+            <td>Orrery Analytics</td><td>Pending</td><td class="num">318.50</td>
+          </tr>
+          <tr data-order-id="10243" data-status="cancelled">
+            <td>#10243</td><td><time datetime="2026-03-04">4 Mar 2026</time></td>
+            <td>Kestrel &amp; Pike</td><td>Cancelled</td><td class="num">0.00</td>
+          </tr>
+          <tr data-order-id="10244" data-status="delivered">
+            <td>#10244</td><td><time datetime="2026-03-09">9 Mar 2026</time></td>
+            <td>Vantabrook Ltd.</td><td>Delivered</td><td class="num">7,905.75</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>

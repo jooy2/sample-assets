@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kestrel — a tiny task runner</title>
+    <meta name="description" content="Kestrel runs only the tasks that changed. A fictional product page used as a sample document." />
+    <meta property="og:title" content="Kestrel — a tiny task runner" />
+    <meta property="og:description" content="Runs only the tasks that changed." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://example.com/kestrel" />
+    <style>
+      * { box-sizing: border-box; }
+      :root { --ink: #12161c; --muted: #59616e; --line: #e3e7ec; --accent: #2f6f4f; --wash: #f5f8f6; }
+      body { margin: 0; color: var(--ink); background: #fff;
+             font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+      .wrap { max-width: 60rem; margin: 0 auto; padding: 0 1.25rem; }
+      header { border-bottom: 1px solid var(--line); }
+      nav { display: flex; align-items: center; gap: 1.5rem; padding: 1rem 0; }
+      nav strong { font-size: 1.1rem; letter-spacing: -.01em; }
+      nav a { color: var(--muted); text-decoration: none; font-size: .95rem; }
+      nav a:hover { color: var(--ink); }
+      nav .spacer { margin-left: auto; }
+      .btn { display: inline-block; padding: .6rem 1.15rem; border-radius: 6px; text-decoration: none;
+             font-weight: 600; font-size: .95rem; border: 1px solid var(--accent); }
+      .btn-primary { background: var(--accent); color: #fff; }
+      .btn-ghost { color: var(--accent); background: #fff; }
+      .hero { padding: 4.5rem 0 3.5rem; text-align: center; }
+      .hero h1 { font-size: clamp(2rem, 5vw, 3rem); line-height: 1.1; margin: 0 0 1rem; letter-spacing: -.02em; }
+      .hero p { color: var(--muted); font-size: 1.15rem; max-width: 34rem; margin: 0 auto 2rem; }
+      pre { background: #12161c; color: #e8edf2; padding: 1rem 1.25rem; border-radius: 8px;
+            overflow-x: auto; text-align: left; font: .9rem/1.5 ui-monospace, Menlo, monospace; }
+      .features { display: grid; gap: 1.25rem; grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+                  padding: 3rem 0; }
+      .card { border: 1px solid var(--line); border-radius: 10px; padding: 1.25rem; background: var(--wash); }
+      .card h3 { margin: 0 0 .4rem; font-size: 1.05rem; }
+      .card p { margin: 0; color: var(--muted); font-size: .95rem; }
+      .pricing { display: grid; gap: 1.25rem; grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+                 padding: 1rem 0 3rem; }
+      .plan { border: 1px solid var(--line); border-radius: 10px; padding: 1.5rem; }
+      .plan.featured { border-color: var(--accent); box-shadow: 0 6px 22px rgba(47,111,79,.12); }
+      .price { font-size: 2rem; font-weight: 700; }
+      .price span { font-size: .95rem; font-weight: 400; color: var(--muted); }
+      .plan ul { padding-left: 1.1rem; color: var(--muted); font-size: .95rem; }
+      h2.section { text-align: center; font-size: 1.6rem; margin-top: 3rem; }
+      footer { border-top: 1px solid var(--line); color: var(--muted); font-size: .9rem;
+               padding: 2rem 0 3rem; }
+      footer a { color: var(--muted); }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="wrap">
+        <nav>
+          <strong>Kestrel</strong>
+          <a href="#features">Features</a>
+          <a href="#pricing">Pricing</a>
+          <a href="https://example.com/docs">Docs</a>
+          <span class="spacer"></span>
+          <a class="btn btn-ghost" href="https://example.com/sign-in">Sign in</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="wrap">
+          <h1>Run only what changed.</h1>
+          <p>
+            Kestrel hashes your task inputs, skips everything it has already built, and
+            gets out of the way. Four commands, one config file, no daemon.
+          </p>
+          <p>
+            <a class="btn btn-primary" href="https://example.com/install">Get started</a>
+            <a class="btn btn-ghost" href="https://example.com/docs">Read the docs</a>
+          </p>
+          <div style="max-width: 34rem; margin: 2rem auto 0;">
+<pre><code>$ npm install --global kestrel
+$ kestrel run test
+  build   cached  0.2s
+  test    ran     4.8s
+done in 5.0s</code></pre>
+          </div>
+        </div>
+      </section>
+
+      <section id="features" class="wrap">
+        <h2 class="section">What it does</h2>
+        <div class="features">
+          <article class="card">
+            <h3>Content-addressed cache</h3>
+            <p>Keys come from file contents, not timestamps, so a checkout is still a hit.</p>
+          </article>
+          <article class="card">
+            <h3>Dependency graph</h3>
+            <p>Declare what a task needs; Kestrel works out the order and the parallelism.</p>
+          </article>
+          <article class="card">
+            <h3>Watch mode</h3>
+            <p>Re-runs a task when one of its declared inputs changes, and nothing else.</p>
+          </article>
+          <article class="card">
+            <h3>Readable output</h3>
+            <p>One line per task, colour when it helps, plain text when piped.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="pricing" class="wrap">
+        <h2 class="section">Pricing</h2>
+        <div class="pricing">
+          <div class="plan">
+            <h3>Solo</h3>
+            <p class="price">Free</p>
+            <ul>
+              <li>Local cache</li>
+              <li>Unlimited tasks</li>
+              <li>Community support</li>
+            </ul>
+            <a class="btn btn-ghost" href="https://example.com/install">Install</a>
+          </div>
+          <div class="plan featured">
+            <h3>Team</h3>
+            <p class="price">18 <span>/ seat / month</span></p>
+            <ul>
+              <li>Shared remote cache</li>
+              <li>Build history for 90 days</li>
+              <li>Email support</li>
+            </ul>
+            <a class="btn btn-primary" href="https://example.com/sign-up">Start a trial</a>
+          </div>
+          <div class="plan">
+            <h3>Self-hosted</h3>
+            <p class="price">Talk to us</p>
+            <ul>
+              <li>Cache server in your network</li>
+              <li>Audit log export</li>
+              <li>Named contact</li>
+            </ul>
+            <a class="btn btn-ghost" href="https://example.com/contact">Contact</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="wrap">
+        <p>
+          Kestrel is an invented product, and this page is sample material. The prices,
+          the claims, and the company behind them are fictional.
+        </p>
+        <p>
+          <a href="https://example.com/privacy">Privacy</a> ·
+          <a href="https://example.com/terms">Terms</a> ·
+          <a href="https://example.com/contact">Contact</a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

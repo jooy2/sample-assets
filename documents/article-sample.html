@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Why your build cache keeps missing — Kestrel Journal</title>
+    <meta name="description" content="Four reasons a content-addressed build cache misses, and how to tell them apart." />
+    <meta name="author" content="Priya Ramanathan" />
+    <meta property="og:title" content="Why your build cache keeps missing" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://example.com/articles/build-cache-misses" />
+    <link rel="canonical" href="https://example.com/articles/build-cache-misses" />
+    <style>
+      :root { --ink: #1c1f24; --muted: #5c6470; --rule: #e2e5ea; --accent: #2f6f4f; }
+      body { margin: 0 auto; padding: 2rem 1.25rem 4rem; max-width: 42rem; color: var(--ink);
+             font: 16px/1.65 Georgia, "Times New Roman", serif; background: #fdfdfc; }
+      header { border-bottom: 1px solid var(--rule); padding-bottom: 1.25rem; margin-bottom: 2rem; }
+      h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 .5rem; }
+      .byline { color: var(--muted); font-size: .9rem; font-family: system-ui, sans-serif; }
+      h2 { font-size: 1.25rem; margin-top: 2.25rem; }
+      figure { margin: 2rem 0; }
+      figcaption { color: var(--muted); font-size: .85rem; font-family: system-ui, sans-serif; }
+      table { border-collapse: collapse; width: 100%; font-family: system-ui, sans-serif; font-size: .9rem; }
+      th, td { border: 1px solid var(--rule); padding: .5rem .65rem; text-align: left; }
+      th { background: #f4f6f5; }
+      blockquote { margin: 1.5rem 0; padding-left: 1rem; border-left: 3px solid var(--accent); color: var(--muted); }
+      code { font: .875em/1.4 ui-monospace, "SFMono-Regular", Menlo, monospace; background: #f2f3f5; padding: .1em .35em; border-radius: 3px; }
+      footer { margin-top: 3rem; padding-top: 1.25rem; border-top: 1px solid var(--rule);
+               color: var(--muted); font-size: .85rem; font-family: system-ui, sans-serif; }
+      a { color: var(--accent); }
+    </style>
+  </head>
+  <body>
+    <header>
+      <p class="byline"><a href="https://example.com">Kestrel Journal</a> · Engineering</p>
+      <h1>Why your build cache keeps missing</h1>
+      <p class="byline">
+        By Priya Ramanathan ·
+        <time datetime="2026-05-14">14 May 2026</time> ·
+        6 min read
+      </p>
+    </header>
+
+    <article>
+      <p>
+        A build cache that misses every time is not neutral. You pay for the hashing, the
+        upload, and the storage, and you get none of the time back. Before tuning
+        anything, find out <em>which</em> of the four common causes you have.
+      </p>
+
+      <h2>1. A timestamp is in the key</h2>
+      <p>
+        The most common cause. Something in the input set changes on every checkout: a
+        generated file with the build date in it, a lockfile rewritten by the installer,
+        or a <code>.git</code> directory pulled in by an over-broad glob.
+      </p>
+      <blockquote>
+        Print the key inputs and diff two consecutive runs. If a file differs whose
+        contents should not have, that file is the cache.
+      </blockquote>
+
+      <h2>2. The environment is part of the key, and it moves</h2>
+      <p>
+        Compiler versions, locale, and the absolute path of the workspace all leak into
+        output. Systems that hash the environment to stay correct will miss whenever the
+        runner image changes — which, on a hosted runner, is often.
+      </p>
+
+      <h2>3. The key is right and the store is empty</h2>
+      <p>
+        Distinguish a key mismatch from a store miss before changing anything. A store
+        that evicts after 24 hours looks exactly like a bad key to anyone reading only the
+        hit rate.
+      </p>
+
+      <h2>4. Nothing is cacheable</h2>
+      <p>
+        Some tasks genuinely have an input set the size of the repository. Splitting the
+        task is the fix; there is no cache configuration that helps.
+      </p>
+
+      <figure>
+        <table>
+          <caption>Telling the four causes apart</caption>
+          <thead>
+            <tr><th scope="col">Symptom</th><th scope="col">Likely cause</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Key differs between identical checkouts</td><td>1</td></tr>
+            <tr><td>Key differs only across runners</td><td>2</td></tr>
+            <tr><td>Key matches, no entry found</td><td>3</td></tr>
+            <tr><td>Key differs after any commit at all</td><td>4</td></tr>
+          </tbody>
+        </table>
+        <figcaption>Start with the key: it is cheap to print and halves the search space.</figcaption>
+      </figure>
+    </article>
+
+    <footer>
+      <p>
+        Kestrel Journal is a fictional publication used for sample content. Any
+        resemblance to a real publication is coincidental.
+      </p>
+    </footer>
+  </body>
+</html>
