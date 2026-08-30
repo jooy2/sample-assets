@@ -1,0 +1,2344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 180 synthetic library catalogue entries. Invented data; it describes nobody. -->
+<books>
+  <book>
+    <catalog_id>BK-0001</catalog_id>
+    <title>Undertow in the Wickerlight</title>
+    <author>Alastair Novachek</author>
+    <genre>Poetry</genre>
+    <language>en</language>
+    <pages>279</pages>
+    <published_year>2013</published_year>
+    <publisher>Hollowbrook Books</publisher>
+    <format>hardcover</format>
+    <copies_available>10</copies_available>
+    <rating>2.9</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0002</catalog_id>
+    <title>Brittle Moorlight</title>
+    <author>Ferris Novachek</author>
+    <genre>Literary Fiction</genre>
+    <language>en</language>
+    <pages>193</pages>
+    <published_year>2006</published_year>
+    <publisher>Northmere Editions</publisher>
+    <format>paperback</format>
+    <copies_available>1</copies_available>
+    <rating>4.7</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0003</catalog_id>
+    <title>Thornmere in the Larkspur</title>
+    <author>Giselle Jandreau</author>
+    <genre>Cookery</genre>
+    <language>es</language>
+    <pages>964</pages>
+    <published_year>2006</published_year>
+    <publisher>Quarto Lantern</publisher>
+    <format>hardcover</format>
+    <copies_available>4</copies_available>
+    <rating>3.7</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0004</catalog_id>
+    <title>The Last Emberline</title>
+    <author>Celeste Whitlock</author>
+    <genre>Travel Writing</genre>
+    <language>en</language>
+    <pages>661</pages>
+    <published_year>2023</published_year>
+    <publisher>Thistle Row</publisher>
+    <format>ebook</format>
+    <copies_available>2</copies_available>
+    <rating>4.8</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0005</catalog_id>
+    <title>Saltglass and Amberfall</title>
+    <author>Galen Duskwood</author>
+    <genre>Literary Fiction</genre>
+    <language>en</language>
+    <pages>545</pages>
+    <published_year>2000</published_year>
+    <publisher>Northmere Editions</publisher>
+    <format>ebook</format>
+    <copies_available>8</copies_available>
+    <rating>3.3</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0006</catalog_id>
+    <title>Hollowmere and Cinderbell</title>
+    <author>Willa Iversen</author>
+    <genre>Poetry</genre>
+    <language>en</language>
+    <pages>640</pages>
+    <published_year>1999</published_year>
+    <publisher>Quarto Lantern</publisher>
+    <format>paperback</format>
+    <copies_available>6</copies_available>
+    <rating>3.9</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0007</catalog_id>
+    <title>A Unnumbered Gleamfield</title>
+    <author>Aurelio Abernathy</author>
+    <genre>Travel Writing</genre>
+    <language>en</language>
+    <pages>688</pages>
+    <published_year>2016</published_year>
+    <publisher>Quarto Lantern</publisher>
+    <format>paperback</format>
+    <copies_available>3</copies_available>
+    <rating>4.6</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0008</catalog_id>
+    <title>Halfmoon in the Ashenvale</title>
+    <author>Orsolya Duskwood</author>
+    <genre>Literary Fiction</genre>
+    <language>en</language>
+    <pages>779</pages>
+    <published_year>2018</published_year>
+    <publisher>Marrow &amp; Vane</publisher>
+    <format>audiobook</format>
+    <copies_available>4</copies_available>
+    <rating>3.4</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0009</catalog_id>
+    <title>Thornmere in the Mistfall</title>
+    <author>Peregrine Hawthorne</author>
+    <genre>Fantasy</genre>
+    <language>ja</language>
+    <pages>882</pages>
+    <published_year>2024</published_year>
+    <publisher>Sixpenny House</publisher>
+    <format>audiobook</format>
+    <copies_available>6</copies_available>
+    <rating>4.7</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0010</catalog_id>
+    <title>Hollowmere and Ravenglass</title>
+    <author>Peregrine Jandreau</author>
+    <genre>Science Fiction</genre>
+    <language>en</language>
+    <pages>368</pages>
+    <published_year>2012</published_year>
+    <publisher>Northmere Editions</publisher>
+    <format>paperback</format>
+    <copies_available>12</copies_available>
+    <rating>4.7</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0011</catalog_id>
+    <title>A Salted Mistfall</title>
+    <author>Alastair Quintero</author>
+    <genre>Science Fiction</genre>
+    <language>en</language>
+    <pages>301</pages>
+    <published_year>2010</published_year>
+    <publisher>Sixpenny House</publisher>
+    <format>paperback</format>
+    <copies_available>11</copies_available>
+    <rating>4.0</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0012</catalog_id>
+    <title>The Undertow of Duskwater</title>
+    <author>Jorvik Ulvestad</author>
+    <genre>Biography</genre>
+    <language>fr</language>
+    <pages>774</pages>
+    <published_year>2017</published_year>
+    <publisher>Thistle Row</publisher>
+    <format>hardcover</format>
+    <copies_available>3</copies_available>
+    <rating>4.9</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0013</catalog_id>
+    <title>The Tidecall of Rookery</title>
+    <author>Imogen Dunmore</author>
+    <genre>Poetry</genre>
+    <language>ja</language>
+    <pages>677</pages>
+    <published_year>2024</published_year>
+    <publisher>Marrow &amp; Vane</publisher>
+    <format>paperback</format>
+    <copies_available>3</copies_available>
+    <rating>3.3</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0014</catalog_id>
+    <title>Hollowmere in the Stormglass</title>
+    <author>Hesper Iversen</author>
+    <genre>Reference</genre>
+    <language>en</language>
+    <pages>333</pages>
+    <published_year>1998</published_year>
+    <publisher>Quarto Lantern</publisher>
+    <format>hardcover</format>
+    <copies_available>10</copies_available>
+    <rating>3.2</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0015</catalog_id>
+    <title>Weathered Tidecall</title>
+    <author>Briony Chaudhry</author>
+    <genre>Popular Science</genre>
+    <language>es</language>
+    <pages>510</pages>
+    <published_year>2015</published_year>
+    <publisher>Marrow &amp; Vane</publisher>
+    <format>paperback</format>
+    <copies_available>7</copies_available>
+    <rating>4.3</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0016</catalog_id>
+    <title>Larkspur in the Mistfall</title>
+    <author>Zephyr Brandt</author>
+    <genre>Historical Fiction</genre>
+    <language>en</language>
+    <pages>593</pages>
+    <published_year>2001</published_year>
+    <publisher>Hollowbrook Books</publisher>
+    <format>paperback</format>
+    <copies_available>2</copies_available>
+    <rating>2.9</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0017</catalog_id>
+    <title>The Quillstone of Stormglass</title>
+    <author>Katriel Dunmore</author>
+    <genre>Biography</genre>
+    <language>en</language>
+    <pages>450</pages>
+    <published_year>2013</published_year>
+    <publisher>Grayling Press</publisher>
+    <format>ebook</format>
+    <copies_available>1</copies_available>
+    <rating>4.8</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0018</catalog_id>
+    <title>Unquiet Lanternwood</title>
+    <author>Hollis Duskwood</author>
+    <genre>Fantasy</genre>
+    <language>en</language>
+    <pages>928</pages>
+    <published_year>2025</published_year>
+    <publisher>Marrow &amp; Vane</publisher>
+    <format>ebook</format>
+    <copies_available>1</copies_available>
+    <rating>4.1</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0019</catalog_id>
+    <title>Nightjar in the Grimwold</title>
+    <author>Hesper Yarrow</author>
+    <genre>Popular Science</genre>
+    <language>en</language>
+    <pages>392</pages>
+    <published_year>2021</published_year>
+    <publisher>Sixpenny House</publisher>
+    <format>ebook</format>
+    <copies_available>10</copies_available>
+    <rating>4.3</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0020</catalog_id>
+    <title>The Ravenglass of Moorlight</title>
+    <author>Ursula Ivarsson</author>
+    <genre>Popular Science</genre>
+    <language>en</language>
+    <pages>532</pages>
+    <published_year>2000</published_year>
+    <publisher>Quarto Lantern</publisher>
+    <format>ebook</format>
+    <copies_available>2</copies_available>
+    <rating>3.8</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0021</catalog_id>
+    <title>The Last Amberfall</title>
+    <author>Linnea Prendergast</author>
+    <genre>Essays</genre>
+    <language>fr</language>
+    <pages>430</pages>
+    <published_year>2005</published_year>
+    <publisher>Quarto Lantern</publisher>
+    <format>hardcover</format>
+    <copies_available>1</copies_available>
+    <rating>3.9</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0022</catalog_id>
+    <title>Emberline in the Ashenvale</title>
+    <author>Zephyr Granholm</author>
+    <genre>Reference</genre>
+    <language>en</language>
+    <pages>165</pages>
+    <published_year>2011</published_year>
+    <publisher>Fen &amp; Fable</publisher>
+    <format>paperback</format>
+    <copies_available>10</copies_available>
+    <rating>3.4</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0023</catalog_id>
+    <title>Forgotten Thornmere</title>
+    <author>Elowen Rasmussen</author>
+    <genre>Travel Writing</genre>
+    <language>ja</language>
+    <pages>277</pages>
+    <published_year>2003</published_year>
+    <publisher>Hollowbrook Books</publisher>
+    <format>paperback</format>
+    <copies_available>10</copies_available>
+    <rating>4.5</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0024</catalog_id>
+    <title>The Hollowmere of Windrow</title>
+    <author>Briony Ivarsson</author>
+    <genre>Mystery</genre>
+    <language>en</language>
+    <pages>227</pages>
+    <published_year>2010</published_year>
+    <publisher>Quarto Lantern</publisher>
+    <format>audiobook</format>
+    <copies_available>2</copies_available>
+    <rating>3.5</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0025</catalog_id>
+    <title>The Last Larkspur</title>
+    <author>Galen Zabala</author>
+    <genre>Poetry</genre>
+    <language>en</language>
+    <pages>320</pages>
+    <published_year>2016</published_year>
+    <publisher>Hollowbrook Books</publisher>
+    <format>hardcover</format>
+    <copies_available>7</copies_available>
+    <rating>4.4</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0026</catalog_id>
+    <title>The Last Ravenglass</title>
+    <author>Beatrix Ingersleben</author>
+    <genre>Poetry</genre>
+    <language>en</language>
+    <pages>880</pages>
+    <published_year>2006</published_year>
+    <publisher>Fen &amp; Fable</publisher>
+    <format>hardcover</format>
+    <copies_available>5</copies_available>
+    <rating>4.1</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0027</catalog_id>
+    <title>Unquiet Quillstone</title>
+    <author>Aurelio Falkenrath</author>
+    <genre>Popular Science</genre>
+    <language>de</language>
+    <pages>531</pages>
+    <published_year>2022</published_year>
+    <publisher>Marrow &amp; Vane</publisher>
+    <format>paperback</format>
+    <copies_available>0</copies_available>
+    <rating>2.8</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0028</catalog_id>
+    <title>Bellwether in the Rookery</title>
+    <author>Ferris Eastgate</author>
+    <genre>Travel Writing</genre>
+    <language>en</language>
+    <pages>791</pages>
+    <published_year>2006</published_year>
+    <publisher>Grayling Press</publisher>
+    <format>ebook</format>
+    <copies_available>0</copies_available>
+    <rating>3.8</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0029</catalog_id>
+    <title>The Last Mistfall</title>
+    <author>Quillon Lyngstad</author>
+    <genre>Popular Science</genre>
+    <language>de</language>
+    <pages>961</pages>
+    <published_year>1998</published_year>
+    <publisher>Hollowbrook Books</publisher>
+    <format>paperback</format>
+    <copies_available>7</copies_available>
+    <rating>4.2</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0030</catalog_id>
+    <title>Tidecall in the Larkspur</title>
+    <author>Celeste Zhang</author>
+    <genre>Literary Fiction</genre>
+    <language>en</language>
+    <pages>382</pages>
+    <published_year>2014</published_year>
+    <publisher>Quarto Lantern</publisher>
+    <format>ebook</format>
+    <copies_available>7</copies_available>
+    <rating>3.9</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0031</catalog_id>
+    <title>The Stormglass of Cinderbell</title>
+    <author>Dorian Lindqvist</author>
+    <genre>Reference</genre>
+    <language>es</language>
+    <pages>209</pages>
+    <published_year>2013</published_year>
+    <publisher>Hollowbrook Books</publisher>
+    <format>ebook</format>
+    <copies_available>6</copies_available>
+    <rating>3.7</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0032</catalog_id>
+    <title>The Last Grimwold</title>
+    <author>Beatrix Delacroix</author>
+    <genre>Popular Science</genre>
+    <language>en</language>
+    <pages>555</pages>
+    <published_year>2025</published_year>
+    <publisher>Thistle Row</publisher>
+    <format>hardcover</format>
+    <copies_available>4</copies_available>
+    <rating>3.3</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0033</catalog_id>
+    <title>The Last Starling</title>
+    <author>Lonan Hawthorne</author>
+    <genre>Historical Fiction</genre>
+    <language>fr</language>
+    <pages>692</pages>
+    <published_year>2018</published_year>
+    <publisher>Hollowbrook Books</publisher>
+    <format>ebook</format>
+    <copies_available>4</copies_available>
+    <rating>3.0</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0034</catalog_id>
+    <title>Moorlight in the Duskwater</title>
+    <author>Peregrine Fenwick</author>
+    <genre>Science Fiction</genre>
+    <language>en</language>
+    <pages>477</pages>
+    <published_year>2016</published_year>
+    <publisher>Sixpenny House</publisher>
+    <format>paperback</format>
+    <copies_available>10</copies_available>
+    <rating>4.0</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0035</catalog_id>
+    <title>A Salted Wickerlight</title>
+    <author>Everard Fenwick</author>
+    <genre>Essays</genre>
+    <language>de</language>
+    <pages>210</pages>
+    <published_year>2007</published_year>
+    <publisher>Grayling Press</publisher>
+    <format>paperback</format>
+    <copies_available>1</copies_available>
+    <rating>4.9</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0036</catalog_id>
+    <title>The Windrow of Nightjar</title>
+    <author>Rosalind Chaudhry</author>
+    <genre>Popular Science</genre>
+    <language>en</language>
+    <pages>225</pages>
+    <published_year>2007</published_year>
+    <publisher>Marrow &amp; Vane</publisher>
+    <format>ebook</format>
+    <copies_available>6</copies_available>
+    <rating>4.7</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0037</catalog_id>
+    <title>Emberline in the Silverfen</title>
+    <author>Yolanda Stellwagen</author>
+    <genre>Historical Fiction</genre>
+    <language>pt</language>
+    <pages>518</pages>
+    <published_year>2000</published_year>
+    <publisher>Hollowbrook Books</publisher>
+    <format>hardcover</format>
+    <copies_available>12</copies_available>
+    <rating>4.5</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0038</catalog_id>
+    <title>The Lanternwood of Wickerlight</title>
+    <author>Yolanda Ardmore</author>
+    <genre>Cookery</genre>
+    <language>en</language>
+    <pages>409</pages>
+    <published_year>2023</published_year>
+    <publisher>Marrow &amp; Vane</publisher>
+    <format>paperback</format>
+    <copies_available>5</copies_available>
+    <rating>3.2</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0039</catalog_id>
+    <title>Amberfall and Brackenhall</title>
+    <author>Yolanda Cortland</author>
+    <genre>Reference</genre>
+    <language>de</language>
+    <pages>283</pages>
+    <published_year>2018</published_year>
+    <publisher>Fen &amp; Fable</publisher>
+    <format>hardcover</format>
+    <copies_available>5</copies_available>
+    <rating>3.0</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0040</catalog_id>
+    <title>The Last Lanternwood</title>
+    <author>Isolde Krivosheev</author>
+    <genre>Fantasy</genre>
+    <language>en</language>
+    <pages>413</pages>
+    <published_year>2010</published_year>
+    <publisher>Hollowbrook Books</publisher>
+    <format>ebook</format>
+    <copies_available>10</copies_available>
+    <rating>3.4</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0041</catalog_id>
+    <title>Borrowed Nightjar</title>
+    <author>Thaddeus Vandermeer</author>
+    <genre>Reference</genre>
+    <language>en</language>
+    <pages>448</pages>
+    <published_year>2018</published_year>
+    <publisher>Hollowbrook Books</publisher>
+    <format>audiobook</format>
+    <copies_available>9</copies_available>
+    <rating>3.5</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0042</catalog_id>
+    <title>A Weathered Larkspur</title>
+    <author>Halcyon Ivarsson</author>
+    <genre>Popular Science</genre>
+    <language>en</language>
+    <pages>694</pages>
+    <published_year>2007</published_year>
+    <publisher>Northmere Editions</publisher>
+    <format>hardcover</format>
+    <copies_available>10</copies_available>
+    <rating>3.6</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0043</catalog_id>
+    <title>A Reluctant Thornmere</title>
+    <author>Celeste Abernathy</author>
+    <genre>Fantasy</genre>
+    <language>en</language>
+    <pages>838</pages>
+    <published_year>2001</published_year>
+    <publisher>Sixpenny House</publisher>
+    <format>paperback</format>
+    <copies_available>3</copies_available>
+    <rating>4.7</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0044</catalog_id>
+    <title>The Thornmere of Mistfall</title>
+    <author>Quinn Prendergast</author>
+    <genre>Biography</genre>
+    <language>de</language>
+    <pages>365</pages>
+    <published_year>2025</published_year>
+    <publisher>Sixpenny House</publisher>
+    <format>hardcover</format>
+    <copies_available>7</copies_available>
+    <rating>3.4</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0045</catalog_id>
+    <title>Grimwold and Larkspur</title>
+    <author>Vesper Quintero</author>
+    <genre>Literary Fiction</genre>
+    <language>en</language>
+    <pages>753</pages>
+    <published_year>2016</published_year>
+    <publisher>Northmere Editions</publisher>
+    <format>ebook</format>
+    <copies_available>4</copies_available>
+    <rating>3.7</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0046</catalog_id>
+    <title>A Gilded Lanternwood</title>
+    <author>Hesper Duskwood</author>
+    <genre>Literary Fiction</genre>
+    <language>de</language>
+    <pages>423</pages>
+    <published_year>2002</published_year>
+    <publisher>Northmere Editions</publisher>
+    <format>ebook</format>
+    <copies_available>1</copies_available>
+    <rating>3.1</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0047</catalog_id>
+    <title>Brackenhall and Saltglass</title>
+    <author>Joaquin Whitlock</author>
+    <genre>Historical Fiction</genre>
+    <language>en</language>
+    <pages>125</pages>
+    <published_year>2024</published_year>
+    <publisher>Marrow &amp; Vane</publisher>
+    <format>paperback</format>
+    <copies_available>1</copies_available>
+    <rating>4.1</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0048</catalog_id>
+    <title>Mistfall in the Saltglass</title>
+    <author>Halcyon Yarrow</author>
+    <genre>Cookery</genre>
+    <language>en</language>
+    <pages>295</pages>
+    <published_year>2016</published_year>
+    <publisher>Fen &amp; Fable</publisher>
+    <format>hardcover</format>
+    <copies_available>7</copies_available>
+    <rating>4.2</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0049</catalog_id>
+    <title>Luminous Mistfall</title>
+    <author>Odessa Marchetti</author>
+    <genre>Travel Writing</genre>
+    <language>de</language>
+    <pages>706</pages>
+    <published_year>2016</published_year>
+    <publisher>Northmere Editions</publisher>
+    <format>paperback</format>
+    <copies_available>12</copies_available>
+    <rating>3.1</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0050</catalog_id>
+    <title>Wickerlight in the Frostwick</title>
+    <author>Vesper Pennington</author>
+    <genre>Science Fiction</genre>
+    <language>en</language>
+    <pages>552</pages>
+    <published_year>2023</published_year>
+    <publisher>Northmere Editions</publisher>
+    <format>paperback</format>
+    <copies_available>4</copies_available>
+    <rating>3.7</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0051</catalog_id>
+    <title>The Last Cinderbell</title>
+    <author>Jarek Dunmore</author>
+    <genre>Historical Fiction</genre>
+    <language>en</language>
+    <pages>133</pages>
+    <published_year>2025</published_year>
+    <publisher>Sixpenny House</publisher>
+    <format>ebook</format>
+    <copies_available>11</copies_available>
+    <rating>4.6</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0052</catalog_id>
+    <title>The Last Silverfen</title>
+    <author>Hollis Ardmore</author>
+    <genre>Cookery</genre>
+    <language>en</language>
+    <pages>890</pages>
+    <published_year>2017</published_year>
+    <publisher>Northmere Editions</publisher>
+    <format>hardcover</format>
+    <copies_available>4</copies_available>
+    <rating>3.4</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0053</catalog_id>
+    <title>Fernhollow in the Undertow</title>
+    <author>Kiera Ashcombe</author>
+    <genre>Cookery</genre>
+    <language>pt</language>
+    <pages>461</pages>
+    <published_year>2007</published_year>
+    <publisher>Grayling Press</publisher>
+    <format>paperback</format>
+    <copies_available>12</copies_available>
+    <rating>4.3</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0054</catalog_id>
+    <title>The Ashenvale of Emberline</title>
+    <author>Briony Kowalczyk</author>
+    <genre>Fantasy</genre>
+    <language>es</language>
+    <pages>507</pages>
+    <published_year>2001</published_year>
+    <publisher>Marrow &amp; Vane</publisher>
+    <format>paperback</format>
+    <copies_available>1</copies_available>
+    <rating>3.7</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0055</catalog_id>
+    <title>The Ravenglass of Stormglass</title>
+    <author>Emrys Gundersen</author>
+    <genre>Fantasy</genre>
+    <language>en</language>
+    <pages>790</pages>
+    <published_year>2011</published_year>
+    <publisher>Thistle Row</publisher>
+    <format>ebook</format>
+    <copies_available>1</copies_available>
+    <rating>4.0</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0056</catalog_id>
+    <title>The Fernhollow of Amberfall</title>
+    <author>Amara Larkspur</author>
+    <genre>Historical Fiction</genre>
+    <language>en</language>
+    <pages>215</pages>
+    <published_year>2017</published_year>
+    <publisher>Thistle Row</publisher>
+    <format>audiobook</format>
+    <copies_available>4</copies_available>
+    <rating>2.8</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0057</catalog_id>
+    <title>Gilded Frostwick</title>
+    <author>Wendell Marchetti</author>
+    <genre>Historical Fiction</genre>
+    <language>en</language>
+    <pages>111</pages>
+    <published_year>2000</published_year>
+    <publisher>Thistle Row</publisher>
+    <format>audiobook</format>
+    <copies_available>12</copies_available>
+    <rating>3.0</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0058</catalog_id>
+    <title>Stormglass in the Duskwater</title>
+    <author>Jarek Nakamura</author>
+    <genre>Biography</genre>
+    <language>en</language>
+    <pages>903</pages>
+    <published_year>2017</published_year>
+    <publisher>Northmere Editions</publisher>
+    <format>audiobook</format>
+    <copies_available>1</copies_available>
+    <rating>4.1</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0059</catalog_id>
+    <title>Thornmere in the Cinderbell</title>
+    <author>Delphine Whitlock</author>
+    <genre>Cookery</genre>
+    <language>en</language>
+    <pages>875</pages>
+    <published_year>2017</published_year>
+    <publisher>Fen &amp; Fable</publisher>
+    <format>ebook</format>
+    <copies_available>3</copies_available>
+    <rating>3.5</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0060</catalog_id>
+    <title>Undertow in the Brackenhall</title>
+    <author>Niall Ardmore</author>
+    <genre>Fantasy</genre>
+    <language>en</language>
+    <pages>360</pages>
+    <published_year>2003</published_year>
+    <publisher>Northmere Editions</publisher>
+    <format>paperback</format>
+    <copies_available>6</copies_available>
+    <rating>4.2</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0061</catalog_id>
+    <title>The Last Halfmoon</title>
+    <author>Joaquin Eriksen</author>
+    <genre>Poetry</genre>
+    <language>en</language>
+    <pages>373</pages>
+    <published_year>2007</published_year>
+    <publisher>Hollowbrook Books</publisher>
+    <format>paperback</format>
+    <copies_available>5</copies_available>
+    <rating>3.1</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0062</catalog_id>
+    <title>Ravenglass and Nightjar</title>
+    <author>Ulric Brandt</author>
+    <genre>Poetry</genre>
+    <language>en</language>
+    <pages>230</pages>
+    <published_year>2021</published_year>
+    <publisher>Thistle Row</publisher>
+    <format>paperback</format>
+    <copies_available>4</copies_available>
+    <rating>4.8</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0063</catalog_id>
+    <title>The Saltglass of Cinderbell</title>
+    <author>Jarek Ivarsson</author>
+    <genre>Biography</genre>
+    <language>en</language>
+    <pages>174</pages>
+    <published_year>2017</published_year>
+    <publisher>Grayling Press</publisher>
+    <format>paperback</format>
+    <copies_available>8</copies_available>
+    <rating>3.2</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0064</catalog_id>
+    <title>Luminous Stormglass</title>
+    <author>Verity Ingersleben</author>
+    <genre>Fantasy</genre>
+    <language>es</language>
+    <pages>237</pages>
+    <published_year>2022</published_year>
+    <publisher>Sixpenny House</publisher>
+    <format>audiobook</format>
+    <copies_available>3</copies_available>
+    <rating>3.3</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0065</catalog_id>
+    <title>Ashenvale in the Brackenhall</title>
+    <author>Thaddeus Oakhurst</author>
+    <genre>Biography</genre>
+    <language>en</language>
+    <pages>651</pages>
+    <published_year>2003</published_year>
+    <publisher>Thistle Row</publisher>
+    <format>ebook</format>
+    <copies_available>6</copies_available>
+    <rating>4.7</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0066</catalog_id>
+    <title>The Last Tidecall</title>
+    <author>Giselle Vasquez</author>
+    <genre>Popular Science</genre>
+    <language>en</language>
+    <pages>97</pages>
+    <published_year>2019</published_year>
+    <publisher>Marrow &amp; Vane</publisher>
+    <format>hardcover</format>
+    <copies_available>8</copies_available>
+    <rating>3.2</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0067</catalog_id>
+    <title>The Last Nightjar</title>
+    <author>Ulric Falkenrath</author>
+    <genre>Science Fiction</genre>
+    <language>en</language>
+    <pages>358</pages>
+    <published_year>1999</published_year>
+    <publisher>Grayling Press</publisher>
+    <format>hardcover</format>
+    <copies_available>4</copies_available>
+    <rating>3.6</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0068</catalog_id>
+    <title>Moorlight and Brackenhall</title>
+    <author>Everard Fenwick</author>
+    <genre>Mystery</genre>
+    <language>en</language>
+    <pages>662</pages>
+    <published_year>2007</published_year>
+    <publisher>Northmere Editions</publisher>
+    <format>paperback</format>
+    <copies_available>9</copies_available>
+    <rating>4.5</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0069</catalog_id>
+    <title>A Weathered Tidecall</title>
+    <author>Elowen Holloway</author>
+    <genre>Essays</genre>
+    <language>en</language>
+    <pages>426</pages>
+    <published_year>2023</published_year>
+    <publisher>Hollowbrook Books</publisher>
+    <format>paperback</format>
+    <copies_available>2</copies_available>
+    <rating>3.6</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0070</catalog_id>
+    <title>The Moorlight of Hollowmere</title>
+    <author>Zinnia Delacroix</author>
+    <genre>Cookery</genre>
+    <language>en</language>
+    <pages>569</pages>
+    <published_year>2010</published_year>
+    <publisher>Marrow &amp; Vane</publisher>
+    <format>hardcover</format>
+    <copies_available>2</copies_available>
+    <rating>4.8</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0071</catalog_id>
+    <title>A Salted Frostwick</title>
+    <author>Ilaria Underhill</author>
+    <genre>Mystery</genre>
+    <language>ja</language>
+    <pages>434</pages>
+    <published_year>2002</published_year>
+    <publisher>Fen &amp; Fable</publisher>
+    <format>ebook</format>
+    <copies_available>1</copies_available>
+    <rating>4.8</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0072</catalog_id>
+    <title>Bellwether and Grimwold</title>
+    <author>Freya Whitlock</author>
+    <genre>Reference</genre>
+    <language>en</language>
+    <pages>389</pages>
+    <published_year>2017</published_year>
+    <publisher>Northmere Editions</publisher>
+    <format>paperback</format>
+    <copies_available>6</copies_available>
+    <rating>4.0</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0073</catalog_id>
+    <title>The Cinderbell of Larkspur</title>
+    <author>Jorvik Gilliard</author>
+    <genre>Literary Fiction</genre>
+    <language>en</language>
+    <pages>371</pages>
+    <published_year>2023</published_year>
+    <publisher>Grayling Press</publisher>
+    <format>paperback</format>
+    <copies_available>4</copies_available>
+    <rating>4.6</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0074</catalog_id>
+    <title>The Last Ashenvale</title>
+    <author>Ilaria Iversen</author>
+    <genre>Travel Writing</genre>
+    <language>pt</language>
+    <pages>537</pages>
+    <published_year>1998</published_year>
+    <publisher>Grayling Press</publisher>
+    <format>paperback</format>
+    <copies_available>0</copies_available>
+    <rating>4.7</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0075</catalog_id>
+    <title>Cinderbell and Gleamfield</title>
+    <author>Verity Kaltenbach</author>
+    <genre>Poetry</genre>
+    <language>fr</language>
+    <pages>931</pages>
+    <published_year>2009</published_year>
+    <publisher>Marrow &amp; Vane</publisher>
+    <format>paperback</format>
+    <copies_available>4</copies_available>
+    <rating>4.4</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0076</catalog_id>
+    <title>The Ashenvale of Lanternwood</title>
+    <author>Reverie Vandermeer</author>
+    <genre>Literary Fiction</genre>
+    <language>en</language>
+    <pages>291</pages>
+    <published_year>2019</published_year>
+    <publisher>Marrow &amp; Vane</publisher>
+    <format>paperback</format>
+    <copies_available>3</copies_available>
+    <rating>4.4</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0077</catalog_id>
+    <title>Luminous Cinderbell</title>
+    <author>Amara Caldwell</author>
+    <genre>Science Fiction</genre>
+    <language>en</language>
+    <pages>481</pages>
+    <published_year>2017</published_year>
+    <publisher>Quarto Lantern</publisher>
+    <format>paperback</format>
+    <copies_available>7</copies_available>
+    <rating>4.4</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0078</catalog_id>
+    <title>Ravenglass in the Lanternwood</title>
+    <author>Everard Ardmore</author>
+    <genre>Mystery</genre>
+    <language>en</language>
+    <pages>567</pages>
+    <published_year>2018</published_year>
+    <publisher>Quarto Lantern</publisher>
+    <format>hardcover</format>
+    <copies_available>2</copies_available>
+    <rating>4.9</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0079</catalog_id>
+    <title>Forgotten Brackenhall</title>
+    <author>Lonan Gilliard</author>
+    <genre>Literary Fiction</genre>
+    <language>es</language>
+    <pages>579</pages>
+    <published_year>2009</published_year>
+    <publisher>Fen &amp; Fable</publisher>
+    <format>paperback</format>
+    <copies_available>3</copies_available>
+    <rating>4.9</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0080</catalog_id>
+    <title>Stormglass and Amberfall</title>
+    <author>Katriel Marchetti</author>
+    <genre>Reference</genre>
+    <language>en</language>
+    <pages>764</pages>
+    <published_year>2017</published_year>
+    <publisher>Sixpenny House</publisher>
+    <format>hardcover</format>
+    <copies_available>6</copies_available>
+    <rating>2.9</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0081</catalog_id>
+    <title>Crooked Saltglass</title>
+    <author>Jorvik Larkspur</author>
+    <genre>Fantasy</genre>
+    <language>pt</language>
+    <pages>551</pages>
+    <published_year>2000</published_year>
+    <publisher>Hollowbrook Books</publisher>
+    <format>ebook</format>
+    <copies_available>3</copies_available>
+    <rating>4.3</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0082</catalog_id>
+    <title>Mistfall and Silverfen</title>
+    <author>Caspian Tanaka</author>
+    <genre>Literary Fiction</genre>
+    <language>ja</language>
+    <pages>126</pages>
+    <published_year>2009</published_year>
+    <publisher>Fen &amp; Fable</publisher>
+    <format>paperback</format>
+    <copies_available>0</copies_available>
+    <rating>4.8</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0083</catalog_id>
+    <title>The Ashenvale of Stormglass</title>
+    <author>Bastian Oyelaran</author>
+    <genre>Mystery</genre>
+    <language>es</language>
+    <pages>746</pages>
+    <published_year>2019</published_year>
+    <publisher>Sixpenny House</publisher>
+    <format>paperback</format>
+    <copies_available>4</copies_available>
+    <rating>2.9</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0084</catalog_id>
+    <title>Unquiet Stormglass</title>
+    <author>Halcyon Yarrow</author>
+    <genre>Popular Science</genre>
+    <language>en</language>
+    <pages>474</pages>
+    <published_year>2011</published_year>
+    <publisher>Fen &amp; Fable</publisher>
+    <format>hardcover</format>
+    <copies_available>1</copies_available>
+    <rating>3.8</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0085</catalog_id>
+    <title>Patient Halfmoon</title>
+    <author>Percival Larkspur</author>
+    <genre>Science Fiction</genre>
+    <language>es</language>
+    <pages>775</pages>
+    <published_year>2011</published_year>
+    <publisher>Fen &amp; Fable</publisher>
+    <format>audiobook</format>
+    <copies_available>4</copies_available>
+    <rating>3.2</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0086</catalog_id>
+    <title>The Last Rookery</title>
+    <author>Dahlia Underhill</author>
+    <genre>Popular Science</genre>
+    <language>en</language>
+    <pages>947</pages>
+    <published_year>2012</published_year>
+    <publisher>Marrow &amp; Vane</publisher>
+    <format>paperback</format>
+    <copies_available>4</copies_available>
+    <rating>3.1</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0087</catalog_id>
+    <title>Borrowed Gleamfield</title>
+    <author>Linnea Delacroix</author>
+    <genre>Literary Fiction</genre>
+    <language>en</language>
+    <pages>625</pages>
+    <published_year>2002</published_year>
+    <publisher>Quarto Lantern</publisher>
+    <format>paperback</format>
+    <copies_available>11</copies_available>
+    <rating>4.7</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0088</catalog_id>
+    <title>Unquiet Nightjar</title>
+    <author>Emrys Oakhurst</author>
+    <genre>Science Fiction</genre>
+    <language>en</language>
+    <pages>737</pages>
+    <published_year>2017</published_year>
+    <publisher>Marrow &amp; Vane</publisher>
+    <format>paperback</format>
+    <copies_available>12</copies_available>
+    <rating>3.9</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0089</catalog_id>
+    <title>Emberline and Undertow</title>
+    <author>Giselle Falkenrath</author>
+    <genre>Science Fiction</genre>
+    <language>en</language>
+    <pages>443</pages>
+    <published_year>2014</published_year>
+    <publisher>Northmere Editions</publisher>
+    <format>paperback</format>
+    <copies_available>1</copies_available>
+    <rating>2.8</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0090</catalog_id>
+    <title>The Last Bellwether</title>
+    <author>Lonan Thackeray</author>
+    <genre>Mystery</genre>
+    <language>de</language>
+    <pages>799</pages>
+    <published_year>2005</published_year>
+    <publisher>Quarto Lantern</publisher>
+    <format>hardcover</format>
+    <copies_available>4</copies_available>
+    <rating>2.8</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0091</catalog_id>
+    <title>The Quillstone of Hollowmere</title>
+    <author>Hesper Yeardley</author>
+    <genre>Historical Fiction</genre>
+    <language>en</language>
+    <pages>351</pages>
+    <published_year>2023</published_year>
+    <publisher>Hollowbrook Books</publisher>
+    <format>paperback</format>
+    <copies_available>1</copies_available>
+    <rating>3.3</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0092</catalog_id>
+    <title>Luminous Larkspur</title>
+    <author>Jorvik Novachek</author>
+    <genre>Cookery</genre>
+    <language>en</language>
+    <pages>752</pages>
+    <published_year>2017</published_year>
+    <publisher>Sixpenny House</publisher>
+    <format>hardcover</format>
+    <copies_available>4</copies_available>
+    <rating>4.8</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0093</catalog_id>
+    <title>The Lanternwood of Duskwater</title>
+    <author>Ursula Delacroix</author>
+    <genre>Popular Science</genre>
+    <language>en</language>
+    <pages>290</pages>
+    <published_year>2010</published_year>
+    <publisher>Grayling Press</publisher>
+    <format>paperback</format>
+    <copies_available>3</copies_available>
+    <rating>3.8</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0094</catalog_id>
+    <title>Weathered Amberfall</title>
+    <author>Peregrine Ivarsson</author>
+    <genre>Science Fiction</genre>
+    <language>en</language>
+    <pages>685</pages>
+    <published_year>2023</published_year>
+    <publisher>Quarto Lantern</publisher>
+    <format>hardcover</format>
+    <copies_available>0</copies_available>
+    <rating>3.7</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0095</catalog_id>
+    <title>Mistfall in the Gleamfield</title>
+    <author>Maren Lindqvist</author>
+    <genre>Mystery</genre>
+    <language>en</language>
+    <pages>136</pages>
+    <published_year>2003</published_year>
+    <publisher>Grayling Press</publisher>
+    <format>audiobook</format>
+    <copies_available>5</copies_available>
+    <rating>3.7</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0096</catalog_id>
+    <title>The Last Wickerlight</title>
+    <author>Maren Kowalczyk</author>
+    <genre>Mystery</genre>
+    <language>en</language>
+    <pages>874</pages>
+    <published_year>2001</published_year>
+    <publisher>Quarto Lantern</publisher>
+    <format>paperback</format>
+    <copies_available>10</copies_available>
+    <rating>3.8</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0097</catalog_id>
+    <title>Rookery and Thornmere</title>
+    <author>Yolanda Merriweather</author>
+    <genre>Biography</genre>
+    <language>en</language>
+    <pages>465</pages>
+    <published_year>2009</published_year>
+    <publisher>Grayling Press</publisher>
+    <format>paperback</format>
+    <copies_available>0</copies_available>
+    <rating>4.5</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0098</catalog_id>
+    <title>The Emberline of Quillstone</title>
+    <author>Delphine Gundersen</author>
+    <genre>Reference</genre>
+    <language>en</language>
+    <pages>623</pages>
+    <published_year>2005</published_year>
+    <publisher>Quarto Lantern</publisher>
+    <format>audiobook</format>
+    <copies_available>0</copies_available>
+    <rating>3.8</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0099</catalog_id>
+    <title>Rookery and Silverfen</title>
+    <author>Katriel Sandoval</author>
+    <genre>Popular Science</genre>
+    <language>en</language>
+    <pages>228</pages>
+    <published_year>2002</published_year>
+    <publisher>Northmere Editions</publisher>
+    <format>paperback</format>
+    <copies_available>4</copies_available>
+    <rating>4.3</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0100</catalog_id>
+    <title>Undertow and Ravenglass</title>
+    <author>Rosalind Zabala</author>
+    <genre>Cookery</genre>
+    <language>en</language>
+    <pages>835</pages>
+    <published_year>2001</published_year>
+    <publisher>Marrow &amp; Vane</publisher>
+    <format>paperback</format>
+    <copies_available>2</copies_available>
+    <rating>2.9</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0101</catalog_id>
+    <title>A Luminous Thornmere</title>
+    <author>Linnea Quillfeather</author>
+    <genre>Literary Fiction</genre>
+    <language>en</language>
+    <pages>780</pages>
+    <published_year>1999</published_year>
+    <publisher>Marrow &amp; Vane</publisher>
+    <format>ebook</format>
+    <copies_available>1</copies_available>
+    <rating>2.8</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0102</catalog_id>
+    <title>A Brittle Mistfall</title>
+    <author>Wendell Ravenscroft</author>
+    <genre>Reference</genre>
+    <language>en</language>
+    <pages>380</pages>
+    <published_year>2014</published_year>
+    <publisher>Thistle Row</publisher>
+    <format>paperback</format>
+    <copies_available>3</copies_available>
+    <rating>3.3</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0103</catalog_id>
+    <title>A Luminous Hollowmere</title>
+    <author>Isolde Ivarsson</author>
+    <genre>Biography</genre>
+    <language>en</language>
+    <pages>121</pages>
+    <published_year>2023</published_year>
+    <publisher>Northmere Editions</publisher>
+    <format>audiobook</format>
+    <copies_available>4</copies_available>
+    <rating>3.2</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0104</catalog_id>
+    <title>The Saltglass of Thornmere</title>
+    <author>Willa Lindqvist</author>
+    <genre>Science Fiction</genre>
+    <language>en</language>
+    <pages>457</pages>
+    <published_year>2004</published_year>
+    <publisher>Hollowbrook Books</publisher>
+    <format>audiobook</format>
+    <copies_available>3</copies_available>
+    <rating>2.8</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0105</catalog_id>
+    <title>Saltglass and Mistfall</title>
+    <author>Jorvik Falkenrath</author>
+    <genre>Science Fiction</genre>
+    <language>en</language>
+    <pages>325</pages>
+    <published_year>2023</published_year>
+    <publisher>Sixpenny House</publisher>
+    <format>ebook</format>
+    <copies_available>4</copies_available>
+    <rating>2.9</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0106</catalog_id>
+    <title>Larkspur in the Windrow</title>
+    <author>Dorian Moreau</author>
+    <genre>Travel Writing</genre>
+    <language>es</language>
+    <pages>622</pages>
+    <published_year>2006</published_year>
+    <publisher>Northmere Editions</publisher>
+    <format>ebook</format>
+    <copies_available>0</copies_available>
+    <rating>4.5</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0107</catalog_id>
+    <title>Ravenglass in the Larkspur</title>
+    <author>Jarek Quintero</author>
+    <genre>Popular Science</genre>
+    <language>en</language>
+    <pages>576</pages>
+    <published_year>2008</published_year>
+    <publisher>Marrow &amp; Vane</publisher>
+    <format>ebook</format>
+    <copies_available>3</copies_available>
+    <rating>4.3</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0108</catalog_id>
+    <title>A Gilded Nightjar</title>
+    <author>Odessa Bergstrom</author>
+    <genre>Historical Fiction</genre>
+    <language>pt</language>
+    <pages>604</pages>
+    <published_year>2011</published_year>
+    <publisher>Thistle Row</publisher>
+    <format>hardcover</format>
+    <copies_available>0</copies_available>
+    <rating>4.7</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0109</catalog_id>
+    <title>Wickerlight in the Mistfall</title>
+    <author>Amara Chaudhry</author>
+    <genre>Biography</genre>
+    <language>pt</language>
+    <pages>286</pages>
+    <published_year>2015</published_year>
+    <publisher>Grayling Press</publisher>
+    <format>ebook</format>
+    <copies_available>3</copies_available>
+    <rating>3.0</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0110</catalog_id>
+    <title>The Quillstone of Fernhollow</title>
+    <author>Orsolya Everly</author>
+    <genre>Fantasy</genre>
+    <language>en</language>
+    <pages>202</pages>
+    <published_year>2021</published_year>
+    <publisher>Fen &amp; Fable</publisher>
+    <format>paperback</format>
+    <copies_available>0</copies_available>
+    <rating>4.8</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0111</catalog_id>
+    <title>A Wandering Silverfen</title>
+    <author>Ferris Lyngstad</author>
+    <genre>Essays</genre>
+    <language>en</language>
+    <pages>494</pages>
+    <published_year>2005</published_year>
+    <publisher>Thistle Row</publisher>
+    <format>paperback</format>
+    <copies_available>5</copies_available>
+    <rating>2.9</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0112</catalog_id>
+    <title>The Last Saltglass</title>
+    <author>Dahlia Zabala</author>
+    <genre>Cookery</genre>
+    <language>ja</language>
+    <pages>460</pages>
+    <published_year>2013</published_year>
+    <publisher>Sixpenny House</publisher>
+    <format>paperback</format>
+    <copies_available>1</copies_available>
+    <rating>3.9</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0113</catalog_id>
+    <title>Duskwater in the Amberfall</title>
+    <author>Gideon Fairbourne</author>
+    <genre>Cookery</genre>
+    <language>es</language>
+    <pages>585</pages>
+    <published_year>2014</published_year>
+    <publisher>Thistle Row</publisher>
+    <format>paperback</format>
+    <copies_available>0</copies_available>
+    <rating>4.7</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0114</catalog_id>
+    <title>Fernhollow in the Ravenglass</title>
+    <author>Niall Ingersleben</author>
+    <genre>Biography</genre>
+    <language>en</language>
+    <pages>218</pages>
+    <published_year>2009</published_year>
+    <publisher>Marrow &amp; Vane</publisher>
+    <format>paperback</format>
+    <copies_available>4</copies_available>
+    <rating>4.0</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0115</catalog_id>
+    <title>Frostwick and Emberline</title>
+    <author>Bastian Larkspur</author>
+    <genre>Fantasy</genre>
+    <language>en</language>
+    <pages>361</pages>
+    <published_year>2010</published_year>
+    <publisher>Fen &amp; Fable</publisher>
+    <format>paperback</format>
+    <copies_available>8</copies_available>
+    <rating>4.1</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0116</catalog_id>
+    <title>The Last Moorlight</title>
+    <author>Beatrix Abernathy</author>
+    <genre>Cookery</genre>
+    <language>de</language>
+    <pages>655</pages>
+    <published_year>2011</published_year>
+    <publisher>Fen &amp; Fable</publisher>
+    <format>audiobook</format>
+    <copies_available>3</copies_available>
+    <rating>3.4</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0117</catalog_id>
+    <title>A Unnumbered Larkspur</title>
+    <author>Hesper Stellwagen</author>
+    <genre>Biography</genre>
+    <language>fr</language>
+    <pages>349</pages>
+    <published_year>2005</published_year>
+    <publisher>Northmere Editions</publisher>
+    <format>paperback</format>
+    <copies_available>2</copies_available>
+    <rating>3.6</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0118</catalog_id>
+    <title>Reluctant Amberfall</title>
+    <author>Yolanda Kaltenbach</author>
+    <genre>Travel Writing</genre>
+    <language>en</language>
+    <pages>935</pages>
+    <published_year>2018</published_year>
+    <publisher>Fen &amp; Fable</publisher>
+    <format>ebook</format>
+    <copies_available>2</copies_available>
+    <rating>4.2</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0119</catalog_id>
+    <title>Undertow in the Grimwold</title>
+    <author>Galen Sandoval</author>
+    <genre>Historical Fiction</genre>
+    <language>de</language>
+    <pages>717</pages>
+    <published_year>2017</published_year>
+    <publisher>Quarto Lantern</publisher>
+    <format>ebook</format>
+    <copies_available>3</copies_available>
+    <rating>4.8</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0120</catalog_id>
+    <title>A Borrowed Silverfen</title>
+    <author>Fiora Chaudhry</author>
+    <genre>Literary Fiction</genre>
+    <language>fr</language>
+    <pages>534</pages>
+    <published_year>2019</published_year>
+    <publisher>Sixpenny House</publisher>
+    <format>paperback</format>
+    <copies_available>8</copies_available>
+    <rating>4.0</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0121</catalog_id>
+    <title>Stormglass and Grimwold</title>
+    <author>Verity Nakamura</author>
+    <genre>Mystery</genre>
+    <language>en</language>
+    <pages>869</pages>
+    <published_year>2000</published_year>
+    <publisher>Grayling Press</publisher>
+    <format>ebook</format>
+    <copies_available>3</copies_available>
+    <rating>4.7</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0122</catalog_id>
+    <title>Moorlight in the Frostwick</title>
+    <author>Percival Fairbourne</author>
+    <genre>Science Fiction</genre>
+    <language>fr</language>
+    <pages>903</pages>
+    <published_year>2000</published_year>
+    <publisher>Sixpenny House</publisher>
+    <format>paperback</format>
+    <copies_available>6</copies_available>
+    <rating>4.3</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0123</catalog_id>
+    <title>Grimwold and Tidecall</title>
+    <author>Soren Kaltenbach</author>
+    <genre>Mystery</genre>
+    <language>es</language>
+    <pages>431</pages>
+    <published_year>2009</published_year>
+    <publisher>Thistle Row</publisher>
+    <format>audiobook</format>
+    <copies_available>1</copies_available>
+    <rating>3.0</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0124</catalog_id>
+    <title>Unnumbered Lanternwood</title>
+    <author>Jarek Jessop</author>
+    <genre>Literary Fiction</genre>
+    <language>en</language>
+    <pages>180</pages>
+    <published_year>2017</published_year>
+    <publisher>Marrow &amp; Vane</publisher>
+    <format>paperback</format>
+    <copies_available>1</copies_available>
+    <rating>4.9</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0125</catalog_id>
+    <title>A Hollow Frostwick</title>
+    <author>Linnea Ivarsson</author>
+    <genre>Mystery</genre>
+    <language>en</language>
+    <pages>179</pages>
+    <published_year>2025</published_year>
+    <publisher>Thistle Row</publisher>
+    <format>hardcover</format>
+    <copies_available>3</copies_available>
+    <rating>4.2</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0126</catalog_id>
+    <title>A Luminous Tidecall</title>
+    <author>Katriel Zabala</author>
+    <genre>Reference</genre>
+    <language>en</language>
+    <pages>901</pages>
+    <published_year>2019</published_year>
+    <publisher>Hollowbrook Books</publisher>
+    <format>audiobook</format>
+    <copies_available>1</copies_available>
+    <rating>3.2</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0127</catalog_id>
+    <title>Halfmoon in the Silverfen</title>
+    <author>Quinn Kowalczyk</author>
+    <genre>Fantasy</genre>
+    <language>en</language>
+    <pages>733</pages>
+    <published_year>2019</published_year>
+    <publisher>Marrow &amp; Vane</publisher>
+    <format>hardcover</format>
+    <copies_available>4</copies_available>
+    <rating>2.9</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0128</catalog_id>
+    <title>The Brackenhall of Nightjar</title>
+    <author>Quillon Eastgate</author>
+    <genre>Travel Writing</genre>
+    <language>es</language>
+    <pages>410</pages>
+    <published_year>2004</published_year>
+    <publisher>Northmere Editions</publisher>
+    <format>paperback</format>
+    <copies_available>2</copies_available>
+    <rating>4.8</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0129</catalog_id>
+    <title>Reluctant Mistfall</title>
+    <author>Celeste Nordstrom</author>
+    <genre>Reference</genre>
+    <language>en</language>
+    <pages>879</pages>
+    <published_year>2023</published_year>
+    <publisher>Quarto Lantern</publisher>
+    <format>ebook</format>
+    <copies_available>3</copies_available>
+    <rating>3.5</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0130</catalog_id>
+    <title>Stormglass and Frostwick</title>
+    <author>Gideon Delacroix</author>
+    <genre>Travel Writing</genre>
+    <language>en</language>
+    <pages>469</pages>
+    <published_year>2015</published_year>
+    <publisher>Marrow &amp; Vane</publisher>
+    <format>hardcover</format>
+    <copies_available>2</copies_available>
+    <rating>4.2</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0131</catalog_id>
+    <title>Moorlight in the Bellwether</title>
+    <author>Ferris Nakamura</author>
+    <genre>Mystery</genre>
+    <language>en</language>
+    <pages>377</pages>
+    <published_year>2017</published_year>
+    <publisher>Marrow &amp; Vane</publisher>
+    <format>paperback</format>
+    <copies_available>12</copies_available>
+    <rating>4.2</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0132</catalog_id>
+    <title>Thornmere in the Moorlight</title>
+    <author>Ilaria Cortland</author>
+    <genre>Biography</genre>
+    <language>en</language>
+    <pages>730</pages>
+    <published_year>2000</published_year>
+    <publisher>Hollowbrook Books</publisher>
+    <format>paperback</format>
+    <copies_available>4</copies_available>
+    <rating>4.4</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0133</catalog_id>
+    <title>Reluctant Frostwick</title>
+    <author>Sable Hawthorne</author>
+    <genre>Historical Fiction</genre>
+    <language>en</language>
+    <pages>592</pages>
+    <published_year>2006</published_year>
+    <publisher>Hollowbrook Books</publisher>
+    <format>audiobook</format>
+    <copies_available>10</copies_available>
+    <rating>3.0</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0134</catalog_id>
+    <title>Frostwick in the Amberfall</title>
+    <author>Cormac Whitlock</author>
+    <genre>Biography</genre>
+    <language>en</language>
+    <pages>385</pages>
+    <published_year>2023</published_year>
+    <publisher>Northmere Editions</publisher>
+    <format>paperback</format>
+    <copies_available>8</copies_available>
+    <rating>3.1</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0135</catalog_id>
+    <title>Forgotten Lanternwood</title>
+    <author>Yrsa Yarrow</author>
+    <genre>Fantasy</genre>
+    <language>de</language>
+    <pages>618</pages>
+    <published_year>2021</published_year>
+    <publisher>Northmere Editions</publisher>
+    <format>hardcover</format>
+    <copies_available>4</copies_available>
+    <rating>4.1</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0136</catalog_id>
+    <title>Grimwold in the Mistfall</title>
+    <author>Ulric Cortland</author>
+    <genre>Cookery</genre>
+    <language>es</language>
+    <pages>502</pages>
+    <published_year>2011</published_year>
+    <publisher>Thistle Row</publisher>
+    <format>ebook</format>
+    <copies_available>3</copies_available>
+    <rating>4.9</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0137</catalog_id>
+    <title>Fernhollow in the Nightjar</title>
+    <author>Thaddeus Marchetti</author>
+    <genre>Essays</genre>
+    <language>en</language>
+    <pages>763</pages>
+    <published_year>2021</published_year>
+    <publisher>Marrow &amp; Vane</publisher>
+    <format>paperback</format>
+    <copies_available>2</copies_available>
+    <rating>4.5</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0138</catalog_id>
+    <title>Starling and Emberline</title>
+    <author>Sable Merriweather</author>
+    <genre>Biography</genre>
+    <language>en</language>
+    <pages>736</pages>
+    <published_year>2022</published_year>
+    <publisher>Quarto Lantern</publisher>
+    <format>hardcover</format>
+    <copies_available>7</copies_available>
+    <rating>3.8</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0139</catalog_id>
+    <title>A Reluctant Quillstone</title>
+    <author>Verity Kaltenbach</author>
+    <genre>Cookery</genre>
+    <language>en</language>
+    <pages>382</pages>
+    <published_year>2004</published_year>
+    <publisher>Marrow &amp; Vane</publisher>
+    <format>ebook</format>
+    <copies_available>12</copies_available>
+    <rating>4.2</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0140</catalog_id>
+    <title>Salted Windrow</title>
+    <author>Malachi Vasquez</author>
+    <genre>Biography</genre>
+    <language>de</language>
+    <pages>861</pages>
+    <published_year>2013</published_year>
+    <publisher>Sixpenny House</publisher>
+    <format>audiobook</format>
+    <copies_available>8</copies_available>
+    <rating>3.0</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0141</catalog_id>
+    <title>Hollowmere in the Mistfall</title>
+    <author>Percival Duskwood</author>
+    <genre>Essays</genre>
+    <language>fr</language>
+    <pages>736</pages>
+    <published_year>2006</published_year>
+    <publisher>Hollowbrook Books</publisher>
+    <format>paperback</format>
+    <copies_available>6</copies_available>
+    <rating>2.8</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0142</catalog_id>
+    <title>Moorlight in the Tidecall</title>
+    <author>Bastian Tanaka</author>
+    <genre>Mystery</genre>
+    <language>ja</language>
+    <pages>537</pages>
+    <published_year>2017</published_year>
+    <publisher>Hollowbrook Books</publisher>
+    <format>ebook</format>
+    <copies_available>6</copies_available>
+    <rating>3.4</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0143</catalog_id>
+    <title>Hollowmere in the Saltglass</title>
+    <author>Quillon Oakhurst</author>
+    <genre>Science Fiction</genre>
+    <language>en</language>
+    <pages>587</pages>
+    <published_year>2001</published_year>
+    <publisher>Northmere Editions</publisher>
+    <format>paperback</format>
+    <copies_available>4</copies_available>
+    <rating>4.5</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0144</catalog_id>
+    <title>The Last Undertow</title>
+    <author>Joaquin Nakamura</author>
+    <genre>Science Fiction</genre>
+    <language>en</language>
+    <pages>378</pages>
+    <published_year>2022</published_year>
+    <publisher>Hollowbrook Books</publisher>
+    <format>hardcover</format>
+    <copies_available>2</copies_available>
+    <rating>3.8</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0145</catalog_id>
+    <title>Stormglass and Ashenvale</title>
+    <author>Percival Marchetti</author>
+    <genre>Essays</genre>
+    <language>pt</language>
+    <pages>623</pages>
+    <published_year>2012</published_year>
+    <publisher>Quarto Lantern</publisher>
+    <format>audiobook</format>
+    <copies_available>0</copies_available>
+    <rating>4.5</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0146</catalog_id>
+    <title>Bellwether and Lanternwood</title>
+    <author>Delphine Thackeray</author>
+    <genre>Literary Fiction</genre>
+    <language>en</language>
+    <pages>924</pages>
+    <published_year>2020</published_year>
+    <publisher>Quarto Lantern</publisher>
+    <format>hardcover</format>
+    <copies_available>0</copies_available>
+    <rating>4.3</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0147</catalog_id>
+    <title>A Forgotten Duskwater</title>
+    <author>Briony Blackwood</author>
+    <genre>Cookery</genre>
+    <language>es</language>
+    <pages>551</pages>
+    <published_year>1998</published_year>
+    <publisher>Northmere Editions</publisher>
+    <format>paperback</format>
+    <copies_available>3</copies_available>
+    <rating>4.2</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0148</catalog_id>
+    <title>Tidecall and Duskwater</title>
+    <author>Thaddeus Prendergast</author>
+    <genre>Biography</genre>
+    <language>en</language>
+    <pages>779</pages>
+    <published_year>2023</published_year>
+    <publisher>Marrow &amp; Vane</publisher>
+    <format>paperback</format>
+    <copies_available>3</copies_available>
+    <rating>4.8</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0149</catalog_id>
+    <title>Halfmoon and Silverfen</title>
+    <author>Quinn Ashcombe</author>
+    <genre>Popular Science</genre>
+    <language>en</language>
+    <pages>305</pages>
+    <published_year>2013</published_year>
+    <publisher>Fen &amp; Fable</publisher>
+    <format>paperback</format>
+    <copies_available>2</copies_available>
+    <rating>4.0</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0150</catalog_id>
+    <title>A Gilded Brackenhall</title>
+    <author>Thaddeus Cortland</author>
+    <genre>Science Fiction</genre>
+    <language>fr</language>
+    <pages>269</pages>
+    <published_year>2009</published_year>
+    <publisher>Thistle Row</publisher>
+    <format>paperback</format>
+    <copies_available>8</copies_available>
+    <rating>3.1</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0151</catalog_id>
+    <title>The Last Fernhollow</title>
+    <author>Dorian Ingersleben</author>
+    <genre>Travel Writing</genre>
+    <language>en</language>
+    <pages>571</pages>
+    <published_year>2006</published_year>
+    <publisher>Grayling Press</publisher>
+    <format>ebook</format>
+    <copies_available>4</copies_available>
+    <rating>3.8</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0152</catalog_id>
+    <title>Windrow in the Cinderbell</title>
+    <author>Kestrel Oyelaran</author>
+    <genre>Essays</genre>
+    <language>en</language>
+    <pages>891</pages>
+    <published_year>2023</published_year>
+    <publisher>Sixpenny House</publisher>
+    <format>ebook</format>
+    <copies_available>2</copies_available>
+    <rating>4.0</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0153</catalog_id>
+    <title>Bellwether in the Ravenglass</title>
+    <author>Galen Hawthorne</author>
+    <genre>Poetry</genre>
+    <language>en</language>
+    <pages>499</pages>
+    <published_year>2009</published_year>
+    <publisher>Thistle Row</publisher>
+    <format>paperback</format>
+    <copies_available>2</copies_available>
+    <rating>4.0</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0154</catalog_id>
+    <title>Moorlight and Nightjar</title>
+    <author>Delphine Thackeray</author>
+    <genre>Popular Science</genre>
+    <language>en</language>
+    <pages>912</pages>
+    <published_year>2014</published_year>
+    <publisher>Fen &amp; Fable</publisher>
+    <format>ebook</format>
+    <copies_available>2</copies_available>
+    <rating>4.1</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0155</catalog_id>
+    <title>Wandering Bellwether</title>
+    <author>Zephyr Krivosheev</author>
+    <genre>Travel Writing</genre>
+    <language>es</language>
+    <pages>754</pages>
+    <published_year>2008</published_year>
+    <publisher>Quarto Lantern</publisher>
+    <format>hardcover</format>
+    <copies_available>0</copies_available>
+    <rating>4.2</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0156</catalog_id>
+    <title>Grimwold and Wickerlight</title>
+    <author>Amara Quillfeather</author>
+    <genre>Biography</genre>
+    <language>pt</language>
+    <pages>530</pages>
+    <published_year>2009</published_year>
+    <publisher>Thistle Row</publisher>
+    <format>paperback</format>
+    <copies_available>1</copies_available>
+    <rating>4.8</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0157</catalog_id>
+    <title>Undertow in the Starling</title>
+    <author>Xander Bergstrom</author>
+    <genre>Science Fiction</genre>
+    <language>ja</language>
+    <pages>691</pages>
+    <published_year>2014</published_year>
+    <publisher>Hollowbrook Books</publisher>
+    <format>hardcover</format>
+    <copies_available>4</copies_available>
+    <rating>4.5</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0158</catalog_id>
+    <title>The Amberfall of Wickerlight</title>
+    <author>Odessa Brandt</author>
+    <genre>Literary Fiction</genre>
+    <language>ja</language>
+    <pages>190</pages>
+    <published_year>1998</published_year>
+    <publisher>Sixpenny House</publisher>
+    <format>ebook</format>
+    <copies_available>11</copies_available>
+    <rating>4.8</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0159</catalog_id>
+    <title>Moorlight in the Saltglass</title>
+    <author>Freya Abernathy</author>
+    <genre>Fantasy</genre>
+    <language>de</language>
+    <pages>848</pages>
+    <published_year>1998</published_year>
+    <publisher>Grayling Press</publisher>
+    <format>paperback</format>
+    <copies_available>12</copies_available>
+    <rating>3.4</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0160</catalog_id>
+    <title>Lanternwood and Rookery</title>
+    <author>Isolde Prendergast</author>
+    <genre>Fantasy</genre>
+    <language>ja</language>
+    <pages>511</pages>
+    <published_year>2013</published_year>
+    <publisher>Hollowbrook Books</publisher>
+    <format>paperback</format>
+    <copies_available>4</copies_available>
+    <rating>2.9</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0161</catalog_id>
+    <title>Luminous Lanternwood</title>
+    <author>Thaddeus Tanaka</author>
+    <genre>Mystery</genre>
+    <language>en</language>
+    <pages>648</pages>
+    <published_year>2010</published_year>
+    <publisher>Thistle Row</publisher>
+    <format>paperback</format>
+    <copies_available>0</copies_available>
+    <rating>4.7</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0162</catalog_id>
+    <title>Starling in the Amberfall</title>
+    <author>Xander Blackwood</author>
+    <genre>Mystery</genre>
+    <language>en</language>
+    <pages>567</pages>
+    <published_year>2016</published_year>
+    <publisher>Hollowbrook Books</publisher>
+    <format>ebook</format>
+    <copies_available>12</copies_available>
+    <rating>3.9</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0163</catalog_id>
+    <title>Unnumbered Ashenvale</title>
+    <author>Rosalind Falkenrath</author>
+    <genre>Essays</genre>
+    <language>en</language>
+    <pages>572</pages>
+    <published_year>2021</published_year>
+    <publisher>Grayling Press</publisher>
+    <format>paperback</format>
+    <copies_available>5</copies_available>
+    <rating>3.2</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0164</catalog_id>
+    <title>Reluctant Undertow</title>
+    <author>Peregrine Vasquez</author>
+    <genre>Reference</genre>
+    <language>pt</language>
+    <pages>125</pages>
+    <published_year>2024</published_year>
+    <publisher>Marrow &amp; Vane</publisher>
+    <format>paperback</format>
+    <copies_available>0</copies_available>
+    <rating>2.8</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0165</catalog_id>
+    <title>Patient Saltglass</title>
+    <author>Freya Jarrow</author>
+    <genre>Literary Fiction</genre>
+    <language>en</language>
+    <pages>976</pages>
+    <published_year>2018</published_year>
+    <publisher>Hollowbrook Books</publisher>
+    <format>paperback</format>
+    <copies_available>0</copies_available>
+    <rating>3.3</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0166</catalog_id>
+    <title>A Hollow Starling</title>
+    <author>Caspian Nordstrom</author>
+    <genre>Cookery</genre>
+    <language>en</language>
+    <pages>956</pages>
+    <published_year>2022</published_year>
+    <publisher>Marrow &amp; Vane</publisher>
+    <format>paperback</format>
+    <copies_available>1</copies_available>
+    <rating>3.3</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0167</catalog_id>
+    <title>Thornmere and Windrow</title>
+    <author>Peregrine Gilliard</author>
+    <genre>Cookery</genre>
+    <language>en</language>
+    <pages>776</pages>
+    <published_year>2022</published_year>
+    <publisher>Fen &amp; Fable</publisher>
+    <format>paperback</format>
+    <copies_available>1</copies_available>
+    <rating>3.7</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0168</catalog_id>
+    <title>Saltglass and Fernhollow</title>
+    <author>Ursula Nordstrom</author>
+    <genre>Travel Writing</genre>
+    <language>es</language>
+    <pages>977</pages>
+    <published_year>2010</published_year>
+    <publisher>Quarto Lantern</publisher>
+    <format>paperback</format>
+    <copies_available>4</copies_available>
+    <rating>3.4</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0169</catalog_id>
+    <title>Fernhollow in the Mistfall</title>
+    <author>Reverie Sandoval</author>
+    <genre>Mystery</genre>
+    <language>en</language>
+    <pages>693</pages>
+    <published_year>2023</published_year>
+    <publisher>Marrow &amp; Vane</publisher>
+    <format>paperback</format>
+    <copies_available>8</copies_available>
+    <rating>4.3</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0170</catalog_id>
+    <title>Cinderbell and Starling</title>
+    <author>Hesper Iversen</author>
+    <genre>Poetry</genre>
+    <language>fr</language>
+    <pages>906</pages>
+    <published_year>2006</published_year>
+    <publisher>Northmere Editions</publisher>
+    <format>hardcover</format>
+    <copies_available>8</copies_available>
+    <rating>4.7</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0171</catalog_id>
+    <title>Duskwater and Fernhollow</title>
+    <author>Sable Ardmore</author>
+    <genre>Essays</genre>
+    <language>es</language>
+    <pages>300</pages>
+    <published_year>2011</published_year>
+    <publisher>Hollowbrook Books</publisher>
+    <format>audiobook</format>
+    <copies_available>5</copies_available>
+    <rating>4.9</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0172</catalog_id>
+    <title>Larkspur and Halfmoon</title>
+    <author>Yolanda Lindqvist</author>
+    <genre>Poetry</genre>
+    <language>en</language>
+    <pages>572</pages>
+    <published_year>2022</published_year>
+    <publisher>Marrow &amp; Vane</publisher>
+    <format>paperback</format>
+    <copies_available>3</copies_available>
+    <rating>4.6</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0173</catalog_id>
+    <title>A Wandering Duskwater</title>
+    <author>Jorvik Yarrow</author>
+    <genre>Biography</genre>
+    <language>fr</language>
+    <pages>190</pages>
+    <published_year>2011</published_year>
+    <publisher>Grayling Press</publisher>
+    <format>paperback</format>
+    <copies_available>1</copies_available>
+    <rating>4.1</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0174</catalog_id>
+    <title>Salted Lanternwood</title>
+    <author>Hesper Nakamura</author>
+    <genre>Historical Fiction</genre>
+    <language>en</language>
+    <pages>871</pages>
+    <published_year>2017</published_year>
+    <publisher>Grayling Press</publisher>
+    <format>audiobook</format>
+    <copies_available>0</copies_available>
+    <rating>4.0</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0175</catalog_id>
+    <title>Duskwater in the Moorlight</title>
+    <author>Talia Duskwood</author>
+    <genre>Essays</genre>
+    <language>en</language>
+    <pages>712</pages>
+    <published_year>2018</published_year>
+    <publisher>Grayling Press</publisher>
+    <format>audiobook</format>
+    <copies_available>4</copies_available>
+    <rating>4.5</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0176</catalog_id>
+    <title>Wandering Thornmere</title>
+    <author>Soren Jandreau</author>
+    <genre>Literary Fiction</genre>
+    <language>en</language>
+    <pages>531</pages>
+    <published_year>2006</published_year>
+    <publisher>Thistle Row</publisher>
+    <format>paperback</format>
+    <copies_available>5</copies_available>
+    <rating>4.8</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0177</catalog_id>
+    <title>A Gilded Stormglass</title>
+    <author>Nerissa Underhill</author>
+    <genre>Travel Writing</genre>
+    <language>en</language>
+    <pages>658</pages>
+    <published_year>2014</published_year>
+    <publisher>Marrow &amp; Vane</publisher>
+    <format>paperback</format>
+    <copies_available>4</copies_available>
+    <rating>3.5</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0178</catalog_id>
+    <title>A Salted Saltglass</title>
+    <author>Talia Oyelaran</author>
+    <genre>Biography</genre>
+    <language>de</language>
+    <pages>382</pages>
+    <published_year>2015</published_year>
+    <publisher>Thistle Row</publisher>
+    <format>paperback</format>
+    <copies_available>8</copies_available>
+    <rating>3.6</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0179</catalog_id>
+    <title>Saltglass in the Bellwether</title>
+    <author>Rosalind Chaudhry</author>
+    <genre>Fantasy</genre>
+    <language>en</language>
+    <pages>284</pages>
+    <published_year>2013</published_year>
+    <publisher>Thistle Row</publisher>
+    <format>paperback</format>
+    <copies_available>10</copies_available>
+    <rating>3.1</rating>
+  </book>
+  <book>
+    <catalog_id>BK-0180</catalog_id>
+    <title>A Unnumbered Quillstone</title>
+    <author>Peregrine Moreau</author>
+    <genre>Fantasy</genre>
+    <language>en</language>
+    <pages>826</pages>
+    <published_year>2015</published_year>
+    <publisher>Northmere Editions</publisher>
+    <format>paperback</format>
+    <copies_available>0</copies_available>
+    <rating>3.9</rating>
+  </book>
+</books>
