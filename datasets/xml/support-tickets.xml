@@ -1,0 +1,2104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 150 synthetic support tickets raised by the users in `users`. Invented data; it describes nobody. -->
+<support-tickets>
+  <ticket>
+    <ticket_id>TCK-2001</ticket_id>
+    <user_id>12</user_id>
+    <subject>Cannot remove a card from my wallet</subject>
+    <category>account</category>
+    <priority>high</priority>
+    <status>pending</status>
+    <channel>web-form</channel>
+    <created_at>2025-06-01T12:26:00Z</created_at>
+    <resolved_at/>
+    <assignee>kestrel.blackwood@veranix.example</assignee>
+    <satisfaction/>
+    <message>Removing the old card returns a generic error, so both cards remain on the account.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2002</ticket_id>
+    <user_id>111</user_id>
+    <subject>Timezone shown in the wrong offset</subject>
+    <category>technical</category>
+    <priority>low</priority>
+    <status>closed</status>
+    <channel>web-form</channel>
+    <created_at>2025-06-02T02:53:00Z</created_at>
+    <resolved_at>2025-06-08T03:53:00Z</resolved_at>
+    <assignee>isolde.novachek@veranix.example</assignee>
+    <satisfaction>3</satisfaction>
+    <message>Every timestamp renders two hours behind, even after setting the timezone in settings.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2003</ticket_id>
+    <user_id>50</user_id>
+    <subject>Address change ignored on dispatch</subject>
+    <category>shipping</category>
+    <priority>high</priority>
+    <status>resolved</status>
+    <channel>email</channel>
+    <created_at>2025-06-03T04:38:00Z</created_at>
+    <resolved_at>2025-06-11T00:38:00Z</resolved_at>
+    <assignee>bastian.quintero@veranix.example</assignee>
+    <satisfaction>2</satisfaction>
+    <message>I changed the delivery address an hour before dispatch and it shipped to the old one anyway.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2004</ticket_id>
+    <user_id>49</user_id>
+    <subject>Timezone shown in the wrong offset</subject>
+    <category>technical</category>
+    <priority>high</priority>
+    <status>closed</status>
+    <channel>chat</channel>
+    <created_at>2025-06-03T19:09:00Z</created_at>
+    <resolved_at>2025-06-09T12:09:00Z</resolved_at>
+    <assignee>kiera.eastgate@veranix.example</assignee>
+    <satisfaction>3</satisfaction>
+    <message>Every timestamp renders two hours behind, even after setting the timezone in settings.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2005</ticket_id>
+    <user_id>15</user_id>
+    <subject>Payment declined at checkout</subject>
+    <category>billing</category>
+    <priority>high</priority>
+    <status>pending</status>
+    <channel>chat</channel>
+    <created_at>2025-06-04T19:13:00Z</created_at>
+    <resolved_at/>
+    <assignee>kestrel.hartwell@veranix.example</assignee>
+    <satisfaction/>
+    <message>The checkout page says "payment declined", but my bank statement already shows the charge.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2006</ticket_id>
+    <user_id>119</user_id>
+    <subject>Cannot reset my password</subject>
+    <category>account</category>
+    <priority>normal</priority>
+    <status>pending</status>
+    <channel>web-form</channel>
+    <created_at>2025-06-04T20:54:00Z</created_at>
+    <resolved_at/>
+    <assignee>kiera.eastgate@veranix.example</assignee>
+    <satisfaction/>
+    <message>I have tried three browsers and a private window; the reset link always says it has expired.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2007</ticket_id>
+    <user_id>18</user_id>
+    <subject>Seat count did not update after upgrade</subject>
+    <category>billing</category>
+    <priority>low</priority>
+    <status>resolved</status>
+    <channel>phone</channel>
+    <created_at>2025-06-05T13:47:00Z</created_at>
+    <resolved_at>2025-06-06T06:47:00Z</resolved_at>
+    <assignee>reverie.pennington@veranix.example</assignee>
+    <satisfaction>4</satisfaction>
+    <message>We upgraded to twelve seats, were charged for twelve, and the app still allows only eight.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2008</ticket_id>
+    <user_id>106</user_id>
+    <subject>Duplicate charge on one order</subject>
+    <category>billing</category>
+    <priority>normal</priority>
+    <status>resolved</status>
+    <channel>email</channel>
+    <created_at>2025-06-06T03:50:00Z</created_at>
+    <resolved_at>2025-06-11T16:50:00Z</resolved_at>
+    <assignee>soren.merriweather@veranix.example</assignee>
+    <satisfaction>4</satisfaction>
+    <message>One order, two charges, same amount, same timestamp - please reverse the second one.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2009</ticket_id>
+    <user_id>82</user_id>
+    <subject>Report totals disagree with the dashboard</subject>
+    <category>technical</category>
+    <priority>normal</priority>
+    <status>escalated</status>
+    <channel>chat</channel>
+    <created_at>2025-06-06T06:58:00Z</created_at>
+    <resolved_at/>
+    <assignee>niall.gundersen@veranix.example</assignee>
+    <satisfaction/>
+    <message>The dashboard shows 1,204 events and the CSV export of the same range shows 1,198.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2010</ticket_id>
+    <user_id>27</user_id>
+    <subject>Timezone shown in the wrong offset</subject>
+    <category>technical</category>
+    <priority>normal</priority>
+    <status>open</status>
+    <channel>web-form</channel>
+    <created_at>2025-06-07T19:20:00Z</created_at>
+    <resolved_at/>
+    <assignee/>
+    <satisfaction/>
+    <message>Every timestamp renders two hours behind, even after setting the timezone in settings.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2011</ticket_id>
+    <user_id>118</user_id>
+    <subject>Two-factor codes arrive late</subject>
+    <category>account</category>
+    <priority>high</priority>
+    <status>closed</status>
+    <channel>email</channel>
+    <created_at>2025-06-08T09:00:00Z</created_at>
+    <resolved_at>2025-06-18T15:00:00Z</resolved_at>
+    <assignee>reverie.pennington@veranix.example</assignee>
+    <satisfaction>3</satisfaction>
+    <message>Codes turn up eight or nine minutes late, by which point the login screen has timed out.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2012</ticket_id>
+    <user_id>27</user_id>
+    <subject>Duplicate charge on one order</subject>
+    <category>billing</category>
+    <priority>normal</priority>
+    <status>closed</status>
+    <channel>email</channel>
+    <created_at>2025-06-09T07:51:00Z</created_at>
+    <resolved_at>2025-06-10T01:51:00Z</resolved_at>
+    <assignee>katriel.eriksen@veranix.example</assignee>
+    <satisfaction>5</satisfaction>
+    <message>One order, two charges, same amount, same timestamp - please reverse the second one.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2013</ticket_id>
+    <user_id>54</user_id>
+    <subject>Payment declined at checkout</subject>
+    <category>billing</category>
+    <priority>normal</priority>
+    <status>pending</status>
+    <channel>phone</channel>
+    <created_at>2025-06-11T23:51:00Z</created_at>
+    <resolved_at/>
+    <assignee>kestrel.blackwood@veranix.example</assignee>
+    <satisfaction/>
+    <message>The checkout page says "payment declined", but my bank statement already shows the charge.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2014</ticket_id>
+    <user_id>104</user_id>
+    <subject>Attachment upload stalls at 90 percent</subject>
+    <category>technical</category>
+    <priority>high</priority>
+    <status>resolved</status>
+    <channel>chat</channel>
+    <created_at>2025-06-12T17:38:00Z</created_at>
+    <resolved_at>2025-06-19T14:38:00Z</resolved_at>
+    <assignee>niall.gundersen@veranix.example</assignee>
+    <satisfaction>4</satisfaction>
+    <message>Uploads reach 90 percent and stop; smaller files under 2 MB go through without trouble.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2015</ticket_id>
+    <user_id>31</user_id>
+    <subject>Two-factor codes arrive late</subject>
+    <category>account</category>
+    <priority>normal</priority>
+    <status>pending</status>
+    <channel>chat</channel>
+    <created_at>2025-06-12T22:49:00Z</created_at>
+    <resolved_at/>
+    <assignee>kiera.eastgate@veranix.example</assignee>
+    <satisfaction/>
+    <message>Codes turn up eight or nine minutes late, by which point the login screen has timed out.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2016</ticket_id>
+    <user_id>77</user_id>
+    <subject>Weekly digest email never arrives</subject>
+    <category>account</category>
+    <priority>normal</priority>
+    <status>escalated</status>
+    <channel>social</channel>
+    <created_at>2025-06-13T18:52:00Z</created_at>
+    <resolved_at/>
+    <assignee>kestrel.hartwell@veranix.example</assignee>
+    <satisfaction/>
+    <message>The digest has not arrived since the 12th, and it is not in spam or the promotions tab.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2017</ticket_id>
+    <user_id>82</user_id>
+    <subject>Duplicate charge on one order</subject>
+    <category>billing</category>
+    <priority>high</priority>
+    <status>resolved</status>
+    <channel>email</channel>
+    <created_at>2025-06-13T21:25:00Z</created_at>
+    <resolved_at>2025-06-19T03:25:00Z</resolved_at>
+    <assignee>isolde.vasquez@veranix.example</assignee>
+    <satisfaction>4</satisfaction>
+    <message>One order, two charges, same amount, same timestamp - please reverse the second one.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2018</ticket_id>
+    <user_id>77</user_id>
+    <subject>Cannot remove a card from my wallet</subject>
+    <category>account</category>
+    <priority>high</priority>
+    <status>closed</status>
+    <channel>chat</channel>
+    <created_at>2025-06-15T03:18:00Z</created_at>
+    <resolved_at>2025-06-23T23:18:00Z</resolved_at>
+    <assignee>isolde.prendergast@veranix.example</assignee>
+    <satisfaction>4</satisfaction>
+    <message>Removing the old card returns a generic error, so both cards remain on the account.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2019</ticket_id>
+    <user_id>16</user_id>
+    <subject>Seat count did not update after upgrade</subject>
+    <category>billing</category>
+    <priority>high</priority>
+    <status>open</status>
+    <channel>email</channel>
+    <created_at>2025-06-15T12:02:00Z</created_at>
+    <resolved_at/>
+    <assignee/>
+    <satisfaction/>
+    <message>We upgraded to twelve seats, were charged for twelve, and the app still allows only eight.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2020</ticket_id>
+    <user_id>43</user_id>
+    <subject>Weekly digest email never arrives</subject>
+    <category>account</category>
+    <priority>normal</priority>
+    <status>resolved</status>
+    <channel>social</channel>
+    <created_at>2025-06-17T20:45:00Z</created_at>
+    <resolved_at>2025-06-19T22:45:00Z</resolved_at>
+    <assignee>katriel.eriksen@veranix.example</assignee>
+    <satisfaction>3</satisfaction>
+    <message>The digest has not arrived since the 12th, and it is not in spam or the promotions tab.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2021</ticket_id>
+    <user_id>32</user_id>
+    <subject>Cannot reset my password</subject>
+    <category>account</category>
+    <priority>low</priority>
+    <status>closed</status>
+    <channel>email</channel>
+    <created_at>2025-06-17T21:07:00Z</created_at>
+    <resolved_at>2025-06-23T09:07:00Z</resolved_at>
+    <assignee>dorian.quillfeather@veranix.example</assignee>
+    <satisfaction>5</satisfaction>
+    <message>I have tried three browsers and a private window; the reset link always says it has expired.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2022</ticket_id>
+    <user_id>1</user_id>
+    <subject>Payment declined at checkout</subject>
+    <category>billing</category>
+    <priority>normal</priority>
+    <status>resolved</status>
+    <channel>email</channel>
+    <created_at>2025-06-19T13:29:00Z</created_at>
+    <resolved_at>2025-06-22T00:29:00Z</resolved_at>
+    <assignee>isolde.novachek@veranix.example</assignee>
+    <satisfaction>5</satisfaction>
+    <message>The checkout page says "payment declined", but my bank statement already shows the charge.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2023</ticket_id>
+    <user_id>29</user_id>
+    <subject>Seat count did not update after upgrade</subject>
+    <category>billing</category>
+    <priority>normal</priority>
+    <status>closed</status>
+    <channel>email</channel>
+    <created_at>2025-06-20T08:25:00Z</created_at>
+    <resolved_at>2025-06-22T00:25:00Z</resolved_at>
+    <assignee>niall.gundersen@veranix.example</assignee>
+    <satisfaction>1</satisfaction>
+    <message>We upgraded to twelve seats, were charged for twelve, and the app still allows only eight.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2024</ticket_id>
+    <user_id>82</user_id>
+    <subject>Two-factor codes arrive late</subject>
+    <category>account</category>
+    <priority>normal</priority>
+    <status>resolved</status>
+    <channel>web-form</channel>
+    <created_at>2025-06-20T19:48:00Z</created_at>
+    <resolved_at>2025-06-22T11:48:00Z</resolved_at>
+    <assignee>soren.brandt@veranix.example</assignee>
+    <satisfaction>3</satisfaction>
+    <message>Codes turn up eight or nine minutes late, by which point the login screen has timed out.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2025</ticket_id>
+    <user_id>104</user_id>
+    <subject>Discount code rejected as expired</subject>
+    <category>billing</category>
+    <priority>normal</priority>
+    <status>closed</status>
+    <channel>chat</channel>
+    <created_at>2025-06-20T22:41:00Z</created_at>
+    <resolved_at>2025-06-28T07:41:00Z</resolved_at>
+    <assignee>reverie.pennington@veranix.example</assignee>
+    <satisfaction>4</satisfaction>
+    <message>The code SPRING10 is rejected as "expired" although the banner still advertises it.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2026</ticket_id>
+    <user_id>30</user_id>
+    <subject>Order stuck in pending for four days</subject>
+    <category>shipping</category>
+    <priority>normal</priority>
+    <status>pending</status>
+    <channel>chat</channel>
+    <created_at>2025-06-21T02:33:00Z</created_at>
+    <resolved_at/>
+    <assignee>soren.merriweather@veranix.example</assignee>
+    <satisfaction/>
+    <message>The order has read "pending" since Friday, with no dispatch note and no reply on chat.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2027</ticket_id>
+    <user_id>8</user_id>
+    <subject>Attachment upload stalls at 90 percent</subject>
+    <category>technical</category>
+    <priority>low</priority>
+    <status>pending</status>
+    <channel>chat</channel>
+    <created_at>2025-06-21T06:14:00Z</created_at>
+    <resolved_at/>
+    <assignee>reverie.pennington@veranix.example</assignee>
+    <satisfaction/>
+    <message>Uploads reach 90 percent and stop; smaller files under 2 MB go through without trouble.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2028</ticket_id>
+    <user_id>119</user_id>
+    <subject>Cannot reset my password</subject>
+    <category>account</category>
+    <priority>high</priority>
+    <status>closed</status>
+    <channel>web-form</channel>
+    <created_at>2025-06-21T09:00:00Z</created_at>
+    <resolved_at>2025-06-28T19:00:00Z</resolved_at>
+    <assignee>isolde.novachek@veranix.example</assignee>
+    <satisfaction>4</satisfaction>
+    <message>I have tried three browsers and a private window; the reset link always says it has expired.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2029</ticket_id>
+    <user_id>103</user_id>
+    <subject>Weekly digest email never arrives</subject>
+    <category>account</category>
+    <priority>high</priority>
+    <status>open</status>
+    <channel>web-form</channel>
+    <created_at>2025-06-21T18:08:00Z</created_at>
+    <resolved_at/>
+    <assignee/>
+    <satisfaction/>
+    <message>The digest has not arrived since the 12th, and it is not in spam or the promotions tab.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2030</ticket_id>
+    <user_id>3</user_id>
+    <subject>Account locked after one failed login</subject>
+    <category>account</category>
+    <priority>normal</priority>
+    <status>closed</status>
+    <channel>web-form</channel>
+    <created_at>2025-06-22T02:15:00Z</created_at>
+    <resolved_at>2025-06-24T01:15:00Z</resolved_at>
+    <assignee>kiera.eastgate@veranix.example</assignee>
+    <satisfaction>1</satisfaction>
+    <message>One typo in the password locked the account outright, with no unlock email sent.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2031</ticket_id>
+    <user_id>91</user_id>
+    <subject>Seat count did not update after upgrade</subject>
+    <category>billing</category>
+    <priority>normal</priority>
+    <status>closed</status>
+    <channel>chat</channel>
+    <created_at>2025-06-22T12:10:00Z</created_at>
+    <resolved_at>2025-06-25T12:10:00Z</resolved_at>
+    <assignee>reverie.pennington@veranix.example</assignee>
+    <satisfaction>3</satisfaction>
+    <message>We upgraded to twelve seats, were charged for twelve, and the app still allows only eight.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2032</ticket_id>
+    <user_id>46</user_id>
+    <subject>Parcel marked delivered but missing</subject>
+    <category>shipping</category>
+    <priority>normal</priority>
+    <status>pending</status>
+    <channel>chat</channel>
+    <created_at>2025-06-22T22:53:00Z</created_at>
+    <resolved_at/>
+    <assignee>gideon.jandreau@veranix.example</assignee>
+    <satisfaction/>
+    <message>Tracking says delivered at 10:14, nothing arrived, and the neighbours have not taken it in.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2033</ticket_id>
+    <user_id>115</user_id>
+    <subject>Attachment upload stalls at 90 percent</subject>
+    <category>technical</category>
+    <priority>normal</priority>
+    <status>closed</status>
+    <channel>email</channel>
+    <created_at>2025-06-23T05:57:00Z</created_at>
+    <resolved_at>2025-07-02T22:57:00Z</resolved_at>
+    <assignee>soren.merriweather@veranix.example</assignee>
+    <satisfaction>5</satisfaction>
+    <message>Uploads reach 90 percent and stop; smaller files under 2 MB go through without trouble.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2034</ticket_id>
+    <user_id>27</user_id>
+    <subject>Export finishes with an empty file</subject>
+    <category>technical</category>
+    <priority>normal</priority>
+    <status>pending</status>
+    <channel>web-form</channel>
+    <created_at>2025-06-23T11:17:00Z</created_at>
+    <resolved_at/>
+    <assignee>soren.merriweather@veranix.example</assignee>
+    <satisfaction/>
+    <message>The export runs for a minute, downloads a file of 0 bytes, and no error is shown anywhere.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2035</ticket_id>
+    <user_id>43</user_id>
+    <subject>Two-factor codes arrive late</subject>
+    <category>account</category>
+    <priority>normal</priority>
+    <status>closed</status>
+    <channel>chat</channel>
+    <created_at>2025-06-23T18:47:00Z</created_at>
+    <resolved_at>2025-06-25T01:47:00Z</resolved_at>
+    <assignee>gideon.jandreau@veranix.example</assignee>
+    <satisfaction>3</satisfaction>
+    <message>Codes turn up eight or nine minutes late, by which point the login screen has timed out.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2036</ticket_id>
+    <user_id>53</user_id>
+    <subject>Seat count did not update after upgrade</subject>
+    <category>billing</category>
+    <priority>normal</priority>
+    <status>closed</status>
+    <channel>email</channel>
+    <created_at>2025-06-25T16:38:00Z</created_at>
+    <resolved_at>2025-06-30T08:38:00Z</resolved_at>
+    <assignee>dorian.quillfeather@veranix.example</assignee>
+    <satisfaction>4</satisfaction>
+    <message>We upgraded to twelve seats, were charged for twelve, and the app still allows only eight.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2037</ticket_id>
+    <user_id>13</user_id>
+    <subject>Cannot remove a card from my wallet</subject>
+    <category>account</category>
+    <priority>high</priority>
+    <status>resolved</status>
+    <channel>email</channel>
+    <created_at>2025-06-25T16:49:00Z</created_at>
+    <resolved_at>2025-07-02T14:49:00Z</resolved_at>
+    <assignee>soren.brandt@veranix.example</assignee>
+    <satisfaction>5</satisfaction>
+    <message>Removing the old card returns a generic error, so both cards remain on the account.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2038</ticket_id>
+    <user_id>72</user_id>
+    <subject>Duplicate charge on one order</subject>
+    <category>billing</category>
+    <priority>normal</priority>
+    <status>escalated</status>
+    <channel>phone</channel>
+    <created_at>2025-06-26T22:12:00Z</created_at>
+    <resolved_at/>
+    <assignee>bastian.quintero@veranix.example</assignee>
+    <satisfaction/>
+    <message>One order, two charges, same amount, same timestamp - please reverse the second one.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2039</ticket_id>
+    <user_id>34</user_id>
+    <subject>Seat count did not update after upgrade</subject>
+    <category>billing</category>
+    <priority>low</priority>
+    <status>resolved</status>
+    <channel>chat</channel>
+    <created_at>2025-06-27T06:14:00Z</created_at>
+    <resolved_at>2025-06-27T18:14:00Z</resolved_at>
+    <assignee>kestrel.hartwell@veranix.example</assignee>
+    <satisfaction>3</satisfaction>
+    <message>We upgraded to twelve seats, were charged for twelve, and the app still allows only eight.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2040</ticket_id>
+    <user_id>1</user_id>
+    <subject>Order stuck in pending for four days</subject>
+    <category>shipping</category>
+    <priority>normal</priority>
+    <status>pending</status>
+    <channel>web-form</channel>
+    <created_at>2025-06-28T01:22:00Z</created_at>
+    <resolved_at/>
+    <assignee>dorian.quillfeather@veranix.example</assignee>
+    <satisfaction/>
+    <message>The order has read "pending" since Friday, with no dispatch note and no reply on chat.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2041</ticket_id>
+    <user_id>62</user_id>
+    <subject>Export finishes with an empty file</subject>
+    <category>technical</category>
+    <priority>low</priority>
+    <status>closed</status>
+    <channel>phone</channel>
+    <created_at>2025-06-28T17:06:00Z</created_at>
+    <resolved_at>2025-07-07T14:06:00Z</resolved_at>
+    <assignee>kestrel.hartwell@veranix.example</assignee>
+    <satisfaction>4</satisfaction>
+    <message>The export runs for a minute, downloads a file of 0 bytes, and no error is shown anywhere.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2042</ticket_id>
+    <user_id>118</user_id>
+    <subject>Duplicate charge on one order</subject>
+    <category>billing</category>
+    <priority>normal</priority>
+    <status>open</status>
+    <channel>email</channel>
+    <created_at>2025-06-29T08:28:00Z</created_at>
+    <resolved_at/>
+    <assignee>gideon.jandreau@veranix.example</assignee>
+    <satisfaction/>
+    <message>One order, two charges, same amount, same timestamp - please reverse the second one.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2043</ticket_id>
+    <user_id>18</user_id>
+    <subject>Invoice shows the wrong VAT rate</subject>
+    <category>billing</category>
+    <priority>normal</priority>
+    <status>escalated</status>
+    <channel>email</channel>
+    <created_at>2025-06-29T09:23:00Z</created_at>
+    <resolved_at/>
+    <assignee>isolde.prendergast@veranix.example</assignee>
+    <satisfaction/>
+    <message>The invoice line reads "VAT 20%" while my account is registered as zero-rated.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2044</ticket_id>
+    <user_id>21</user_id>
+    <subject>Export finishes with an empty file</subject>
+    <category>technical</category>
+    <priority>normal</priority>
+    <status>closed</status>
+    <channel>phone</channel>
+    <created_at>2025-06-29T13:19:00Z</created_at>
+    <resolved_at>2025-07-03T22:19:00Z</resolved_at>
+    <assignee>isolde.prendergast@veranix.example</assignee>
+    <satisfaction>4</satisfaction>
+    <message>The export runs for a minute, downloads a file of 0 bytes, and no error is shown anywhere.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2045</ticket_id>
+    <user_id>112</user_id>
+    <subject>Order stuck in pending for four days</subject>
+    <category>shipping</category>
+    <priority>normal</priority>
+    <status>closed</status>
+    <channel>email</channel>
+    <created_at>2025-06-29T15:45:00Z</created_at>
+    <resolved_at>2025-06-30T14:45:00Z</resolved_at>
+    <assignee>soren.merriweather@veranix.example</assignee>
+    <satisfaction>5</satisfaction>
+    <message>The order has read "pending" since Friday, with no dispatch note and no reply on chat.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2046</ticket_id>
+    <user_id>61</user_id>
+    <subject>Address change ignored on dispatch</subject>
+    <category>shipping</category>
+    <priority>low</priority>
+    <status>closed</status>
+    <channel>email</channel>
+    <created_at>2025-06-30T09:44:00Z</created_at>
+    <resolved_at>2025-06-30T14:44:00Z</resolved_at>
+    <assignee>gideon.jandreau@veranix.example</assignee>
+    <satisfaction>1</satisfaction>
+    <message>I changed the delivery address an hour before dispatch and it shipped to the old one anyway.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2047</ticket_id>
+    <user_id>56</user_id>
+    <subject>Search returns no results for a known product</subject>
+    <category>product</category>
+    <priority>low</priority>
+    <status>open</status>
+    <channel>chat</channel>
+    <created_at>2025-07-01T19:14:00Z</created_at>
+    <resolved_at/>
+    <assignee/>
+    <satisfaction/>
+    <message>Searching for the exact product name gives nothing, though the product page loads fine.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2048</ticket_id>
+    <user_id>43</user_id>
+    <subject>Export finishes with an empty file</subject>
+    <category>technical</category>
+    <priority>normal</priority>
+    <status>resolved</status>
+    <channel>email</channel>
+    <created_at>2025-07-03T01:52:00Z</created_at>
+    <resolved_at>2025-07-09T01:52:00Z</resolved_at>
+    <assignee>reverie.pennington@veranix.example</assignee>
+    <satisfaction>3</satisfaction>
+    <message>The export runs for a minute, downloads a file of 0 bytes, and no error is shown anywhere.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2049</ticket_id>
+    <user_id>11</user_id>
+    <subject>Order stuck in pending for four days</subject>
+    <category>shipping</category>
+    <priority>normal</priority>
+    <status>resolved</status>
+    <channel>email</channel>
+    <created_at>2025-07-03T16:44:00Z</created_at>
+    <resolved_at>2025-07-08T06:44:00Z</resolved_at>
+    <assignee>soren.merriweather@veranix.example</assignee>
+    <satisfaction>5</satisfaction>
+    <message>The order has read "pending" since Friday, with no dispatch note and no reply on chat.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2050</ticket_id>
+    <user_id>52</user_id>
+    <subject>Attachment upload stalls at 90 percent</subject>
+    <category>technical</category>
+    <priority>urgent</priority>
+    <status>resolved</status>
+    <channel>chat</channel>
+    <created_at>2025-07-04T12:37:00Z</created_at>
+    <resolved_at>2025-07-07T06:37:00Z</resolved_at>
+    <assignee>soren.merriweather@veranix.example</assignee>
+    <satisfaction>3</satisfaction>
+    <message>Uploads reach 90 percent and stop; smaller files under 2 MB go through without trouble.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2051</ticket_id>
+    <user_id>110</user_id>
+    <subject>Weekly digest email never arrives</subject>
+    <category>account</category>
+    <priority>low</priority>
+    <status>closed</status>
+    <channel>web-form</channel>
+    <created_at>2025-07-04T20:58:00Z</created_at>
+    <resolved_at>2025-07-09T07:58:00Z</resolved_at>
+    <assignee>isolde.prendergast@veranix.example</assignee>
+    <satisfaction>5</satisfaction>
+    <message>The digest has not arrived since the 12th, and it is not in spam or the promotions tab.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2052</ticket_id>
+    <user_id>10</user_id>
+    <subject>Sandbox key rejected by the live endpoint</subject>
+    <category>technical</category>
+    <priority>high</priority>
+    <status>resolved</status>
+    <channel>web-form</channel>
+    <created_at>2025-07-04T22:23:00Z</created_at>
+    <resolved_at>2025-07-15T16:23:00Z</resolved_at>
+    <assignee>reverie.pennington@veranix.example</assignee>
+    <satisfaction>3</satisfaction>
+    <message>The sandbox key works locally but the live endpoint answers 401 with no detail.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2053</ticket_id>
+    <user_id>101</user_id>
+    <subject>Cannot remove a card from my wallet</subject>
+    <category>account</category>
+    <priority>low</priority>
+    <status>closed</status>
+    <channel>email</channel>
+    <created_at>2025-07-06T01:32:00Z</created_at>
+    <resolved_at>2025-07-07T11:32:00Z</resolved_at>
+    <assignee>isolde.novachek@veranix.example</assignee>
+    <satisfaction>4</satisfaction>
+    <message>Removing the old card returns a generic error, so both cards remain on the account.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2054</ticket_id>
+    <user_id>84</user_id>
+    <subject>Report totals disagree with the dashboard</subject>
+    <category>technical</category>
+    <priority>low</priority>
+    <status>resolved</status>
+    <channel>web-form</channel>
+    <created_at>2025-07-07T14:32:00Z</created_at>
+    <resolved_at>2025-07-18T07:32:00Z</resolved_at>
+    <assignee>dorian.quillfeather@veranix.example</assignee>
+    <satisfaction>4</satisfaction>
+    <message>The dashboard shows 1,204 events and the CSV export of the same range shows 1,198.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2055</ticket_id>
+    <user_id>14</user_id>
+    <subject>Payment declined at checkout</subject>
+    <category>billing</category>
+    <priority>normal</priority>
+    <status>resolved</status>
+    <channel>web-form</channel>
+    <created_at>2025-07-07T21:33:00Z</created_at>
+    <resolved_at>2025-07-10T08:33:00Z</resolved_at>
+    <assignee>isolde.vasquez@veranix.example</assignee>
+    <satisfaction>1</satisfaction>
+    <message>The checkout page says "payment declined", but my bank statement already shows the charge.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2056</ticket_id>
+    <user_id>42</user_id>
+    <subject>Export finishes with an empty file</subject>
+    <category>technical</category>
+    <priority>high</priority>
+    <status>open</status>
+    <channel>web-form</channel>
+    <created_at>2025-07-08T00:39:00Z</created_at>
+    <resolved_at/>
+    <assignee>reverie.pennington@veranix.example</assignee>
+    <satisfaction/>
+    <message>The export runs for a minute, downloads a file of 0 bytes, and no error is shown anywhere.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2057</ticket_id>
+    <user_id>39</user_id>
+    <subject>Parcel marked delivered but missing</subject>
+    <category>shipping</category>
+    <priority>normal</priority>
+    <status>closed</status>
+    <channel>chat</channel>
+    <created_at>2025-07-09T17:22:00Z</created_at>
+    <resolved_at>2025-07-19T04:22:00Z</resolved_at>
+    <assignee>kiera.eastgate@veranix.example</assignee>
+    <satisfaction>2</satisfaction>
+    <message>Tracking says delivered at 10:14, nothing arrived, and the neighbours have not taken it in.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2058</ticket_id>
+    <user_id>87</user_id>
+    <subject>Attachment upload stalls at 90 percent</subject>
+    <category>technical</category>
+    <priority>normal</priority>
+    <status>closed</status>
+    <channel>email</channel>
+    <created_at>2025-07-10T13:43:00Z</created_at>
+    <resolved_at>2025-07-11T18:43:00Z</resolved_at>
+    <assignee>soren.merriweather@veranix.example</assignee>
+    <satisfaction>4</satisfaction>
+    <message>Uploads reach 90 percent and stop; smaller files under 2 MB go through without trouble.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2059</ticket_id>
+    <user_id>61</user_id>
+    <subject>Address change ignored on dispatch</subject>
+    <category>shipping</category>
+    <priority>high</priority>
+    <status>resolved</status>
+    <channel>email</channel>
+    <created_at>2025-07-10T19:40:00Z</created_at>
+    <resolved_at>2025-07-17T02:40:00Z</resolved_at>
+    <assignee>kestrel.hartwell@veranix.example</assignee>
+    <satisfaction>5</satisfaction>
+    <message>I changed the delivery address an hour before dispatch and it shipped to the old one anyway.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2060</ticket_id>
+    <user_id>84</user_id>
+    <subject>Search returns no results for a known product</subject>
+    <category>product</category>
+    <priority>normal</priority>
+    <status>closed</status>
+    <channel>email</channel>
+    <created_at>2025-07-10T21:08:00Z</created_at>
+    <resolved_at>2025-07-11T05:08:00Z</resolved_at>
+    <assignee>dorian.quillfeather@veranix.example</assignee>
+    <satisfaction>4</satisfaction>
+    <message>Searching for the exact product name gives nothing, though the product page loads fine.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2061</ticket_id>
+    <user_id>58</user_id>
+    <subject>Seat count did not update after upgrade</subject>
+    <category>billing</category>
+    <priority>normal</priority>
+    <status>closed</status>
+    <channel>web-form</channel>
+    <created_at>2025-07-13T08:27:00Z</created_at>
+    <resolved_at>2025-07-18T10:27:00Z</resolved_at>
+    <assignee>isolde.novachek@veranix.example</assignee>
+    <satisfaction>4</satisfaction>
+    <message>We upgraded to twelve seats, were charged for twelve, and the app still allows only eight.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2062</ticket_id>
+    <user_id>5</user_id>
+    <subject>Seat count did not update after upgrade</subject>
+    <category>billing</category>
+    <priority>normal</priority>
+    <status>closed</status>
+    <channel>phone</channel>
+    <created_at>2025-07-13T09:06:00Z</created_at>
+    <resolved_at>2025-07-20T13:06:00Z</resolved_at>
+    <assignee>soren.merriweather@veranix.example</assignee>
+    <satisfaction>4</satisfaction>
+    <message>We upgraded to twelve seats, were charged for twelve, and the app still allows only eight.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2063</ticket_id>
+    <user_id>66</user_id>
+    <subject>Invoice shows the wrong VAT rate</subject>
+    <category>billing</category>
+    <priority>urgent</priority>
+    <status>resolved</status>
+    <channel>phone</channel>
+    <created_at>2025-07-13T12:41:00Z</created_at>
+    <resolved_at>2025-07-13T21:41:00Z</resolved_at>
+    <assignee>soren.brandt@veranix.example</assignee>
+    <satisfaction>1</satisfaction>
+    <message>The invoice line reads "VAT 20%" while my account is registered as zero-rated.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2064</ticket_id>
+    <user_id>3</user_id>
+    <subject>Seat count did not update after upgrade</subject>
+    <category>billing</category>
+    <priority>normal</priority>
+    <status>escalated</status>
+    <channel>phone</channel>
+    <created_at>2025-07-13T16:36:00Z</created_at>
+    <resolved_at/>
+    <assignee>kestrel.hartwell@veranix.example</assignee>
+    <satisfaction/>
+    <message>We upgraded to twelve seats, were charged for twelve, and the app still allows only eight.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2065</ticket_id>
+    <user_id>48</user_id>
+    <subject>Parcel marked delivered but missing</subject>
+    <category>shipping</category>
+    <priority>normal</priority>
+    <status>pending</status>
+    <channel>email</channel>
+    <created_at>2025-07-14T18:49:00Z</created_at>
+    <resolved_at/>
+    <assignee>katriel.eriksen@veranix.example</assignee>
+    <satisfaction/>
+    <message>Tracking says delivered at 10:14, nothing arrived, and the neighbours have not taken it in.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2066</ticket_id>
+    <user_id>95</user_id>
+    <subject>Invoice shows the wrong VAT rate</subject>
+    <category>billing</category>
+    <priority>normal</priority>
+    <status>open</status>
+    <channel>web-form</channel>
+    <created_at>2025-07-14T22:00:00Z</created_at>
+    <resolved_at/>
+    <assignee>gideon.jandreau@veranix.example</assignee>
+    <satisfaction/>
+    <message>The invoice line reads "VAT 20%" while my account is registered as zero-rated.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2067</ticket_id>
+    <user_id>72</user_id>
+    <subject>Invoice shows the wrong VAT rate</subject>
+    <category>billing</category>
+    <priority>high</priority>
+    <status>resolved</status>
+    <channel>email</channel>
+    <created_at>2025-07-15T00:08:00Z</created_at>
+    <resolved_at>2025-07-24T11:08:00Z</resolved_at>
+    <assignee>bastian.quintero@veranix.example</assignee>
+    <satisfaction>5</satisfaction>
+    <message>The invoice line reads "VAT 20%" while my account is registered as zero-rated.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2068</ticket_id>
+    <user_id>105</user_id>
+    <subject>Sandbox key rejected by the live endpoint</subject>
+    <category>technical</category>
+    <priority>high</priority>
+    <status>open</status>
+    <channel>email</channel>
+    <created_at>2025-07-15T07:38:00Z</created_at>
+    <resolved_at/>
+    <assignee/>
+    <satisfaction/>
+    <message>The sandbox key works locally but the live endpoint answers 401 with no detail.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2069</ticket_id>
+    <user_id>96</user_id>
+    <subject>Address change ignored on dispatch</subject>
+    <category>shipping</category>
+    <priority>urgent</priority>
+    <status>closed</status>
+    <channel>web-form</channel>
+    <created_at>2025-07-16T13:59:00Z</created_at>
+    <resolved_at>2025-07-16T15:59:00Z</resolved_at>
+    <assignee>maren.quintero@veranix.example</assignee>
+    <satisfaction>3</satisfaction>
+    <message>I changed the delivery address an hour before dispatch and it shipped to the old one anyway.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2070</ticket_id>
+    <user_id>81</user_id>
+    <subject>Attachment upload stalls at 90 percent</subject>
+    <category>technical</category>
+    <priority>normal</priority>
+    <status>open</status>
+    <channel>email</channel>
+    <created_at>2025-07-17T03:14:00Z</created_at>
+    <resolved_at/>
+    <assignee/>
+    <satisfaction/>
+    <message>Uploads reach 90 percent and stop; smaller files under 2 MB go through without trouble.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2071</ticket_id>
+    <user_id>68</user_id>
+    <subject>Two-factor codes arrive late</subject>
+    <category>account</category>
+    <priority>low</priority>
+    <status>resolved</status>
+    <channel>email</channel>
+    <created_at>2025-07-17T10:37:00Z</created_at>
+    <resolved_at>2025-07-18T23:37:00Z</resolved_at>
+    <assignee>maren.quintero@veranix.example</assignee>
+    <satisfaction>2</satisfaction>
+    <message>Codes turn up eight or nine minutes late, by which point the login screen has timed out.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2072</ticket_id>
+    <user_id>19</user_id>
+    <subject>Refund has not reached my account</subject>
+    <category>refund</category>
+    <priority>urgent</priority>
+    <status>open</status>
+    <channel>email</channel>
+    <created_at>2025-07-17T16:00:00Z</created_at>
+    <resolved_at/>
+    <assignee>kestrel.blackwood@veranix.example</assignee>
+    <satisfaction/>
+    <message>You confirmed the refund on the 3rd; twelve days later it is still not on the card.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2073</ticket_id>
+    <user_id>61</user_id>
+    <subject>Refund has not reached my account</subject>
+    <category>refund</category>
+    <priority>low</priority>
+    <status>closed</status>
+    <channel>email</channel>
+    <created_at>2025-07-18T01:06:00Z</created_at>
+    <resolved_at>2025-07-19T05:06:00Z</resolved_at>
+    <assignee>isolde.novachek@veranix.example</assignee>
+    <satisfaction>5</satisfaction>
+    <message>You confirmed the refund on the 3rd; twelve days later it is still not on the card.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2074</ticket_id>
+    <user_id>90</user_id>
+    <subject>Cannot remove a card from my wallet</subject>
+    <category>account</category>
+    <priority>normal</priority>
+    <status>open</status>
+    <channel>social</channel>
+    <created_at>2025-07-19T01:53:00Z</created_at>
+    <resolved_at/>
+    <assignee>niall.gundersen@veranix.example</assignee>
+    <satisfaction/>
+    <message>Removing the old card returns a generic error, so both cards remain on the account.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2075</ticket_id>
+    <user_id>35</user_id>
+    <subject>Discount code rejected as expired</subject>
+    <category>billing</category>
+    <priority>low</priority>
+    <status>closed</status>
+    <channel>phone</channel>
+    <created_at>2025-07-19T02:20:00Z</created_at>
+    <resolved_at>2025-07-27T00:20:00Z</resolved_at>
+    <assignee>soren.merriweather@veranix.example</assignee>
+    <satisfaction>5</satisfaction>
+    <message>The code SPRING10 is rejected as "expired" although the banner still advertises it.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2076</ticket_id>
+    <user_id>49</user_id>
+    <subject>Refund has not reached my account</subject>
+    <category>refund</category>
+    <priority>low</priority>
+    <status>closed</status>
+    <channel>phone</channel>
+    <created_at>2025-07-19T04:03:00Z</created_at>
+    <resolved_at>2025-07-29T02:03:00Z</resolved_at>
+    <assignee>niall.gundersen@veranix.example</assignee>
+    <satisfaction>4</satisfaction>
+    <message>You confirmed the refund on the 3rd; twelve days later it is still not on the card.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2077</ticket_id>
+    <user_id>44</user_id>
+    <subject>Timezone shown in the wrong offset</subject>
+    <category>technical</category>
+    <priority>low</priority>
+    <status>resolved</status>
+    <channel>chat</channel>
+    <created_at>2025-07-21T08:34:00Z</created_at>
+    <resolved_at>2025-07-23T18:34:00Z</resolved_at>
+    <assignee>isolde.prendergast@veranix.example</assignee>
+    <satisfaction>2</satisfaction>
+    <message>Every timestamp renders two hours behind, even after setting the timezone in settings.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2078</ticket_id>
+    <user_id>43</user_id>
+    <subject>Search returns no results for a known product</subject>
+    <category>product</category>
+    <priority>low</priority>
+    <status>closed</status>
+    <channel>web-form</channel>
+    <created_at>2025-07-21T10:09:00Z</created_at>
+    <resolved_at>2025-07-29T03:09:00Z</resolved_at>
+    <assignee>dorian.quillfeather@veranix.example</assignee>
+    <satisfaction>5</satisfaction>
+    <message>Searching for the exact product name gives nothing, though the product page loads fine.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2079</ticket_id>
+    <user_id>85</user_id>
+    <subject>Cannot reset my password</subject>
+    <category>account</category>
+    <priority>normal</priority>
+    <status>escalated</status>
+    <channel>chat</channel>
+    <created_at>2025-07-21T19:33:00Z</created_at>
+    <resolved_at/>
+    <assignee>gideon.jandreau@veranix.example</assignee>
+    <satisfaction/>
+    <message>I have tried three browsers and a private window; the reset link always says it has expired.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2080</ticket_id>
+    <user_id>57</user_id>
+    <subject>Seat count did not update after upgrade</subject>
+    <category>billing</category>
+    <priority>normal</priority>
+    <status>closed</status>
+    <channel>email</channel>
+    <created_at>2025-07-22T13:02:00Z</created_at>
+    <resolved_at>2025-08-01T03:02:00Z</resolved_at>
+    <assignee>gideon.jandreau@veranix.example</assignee>
+    <satisfaction>5</satisfaction>
+    <message>We upgraded to twelve seats, were charged for twelve, and the app still allows only eight.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2081</ticket_id>
+    <user_id>71</user_id>
+    <subject>Export finishes with an empty file</subject>
+    <category>technical</category>
+    <priority>high</priority>
+    <status>closed</status>
+    <channel>email</channel>
+    <created_at>2025-07-24T05:43:00Z</created_at>
+    <resolved_at>2025-07-31T14:43:00Z</resolved_at>
+    <assignee>reverie.pennington@veranix.example</assignee>
+    <satisfaction>3</satisfaction>
+    <message>The export runs for a minute, downloads a file of 0 bytes, and no error is shown anywhere.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2082</ticket_id>
+    <user_id>79</user_id>
+    <subject>Cannot remove a card from my wallet</subject>
+    <category>account</category>
+    <priority>normal</priority>
+    <status>closed</status>
+    <channel>email</channel>
+    <created_at>2025-07-24T05:47:00Z</created_at>
+    <resolved_at>2025-07-24T20:47:00Z</resolved_at>
+    <assignee>isolde.novachek@veranix.example</assignee>
+    <satisfaction>5</satisfaction>
+    <message>Removing the old card returns a generic error, so both cards remain on the account.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2083</ticket_id>
+    <user_id>17</user_id>
+    <subject>Seat count did not update after upgrade</subject>
+    <category>billing</category>
+    <priority>urgent</priority>
+    <status>resolved</status>
+    <channel>phone</channel>
+    <created_at>2025-07-24T06:59:00Z</created_at>
+    <resolved_at>2025-07-31T17:59:00Z</resolved_at>
+    <assignee>soren.brandt@veranix.example</assignee>
+    <satisfaction>3</satisfaction>
+    <message>We upgraded to twelve seats, were charged for twelve, and the app still allows only eight.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2084</ticket_id>
+    <user_id>59</user_id>
+    <subject>Search returns no results for a known product</subject>
+    <category>product</category>
+    <priority>normal</priority>
+    <status>pending</status>
+    <channel>phone</channel>
+    <created_at>2025-07-24T11:53:00Z</created_at>
+    <resolved_at/>
+    <assignee>kestrel.hartwell@veranix.example</assignee>
+    <satisfaction/>
+    <message>Searching for the exact product name gives nothing, though the product page loads fine.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2085</ticket_id>
+    <user_id>10</user_id>
+    <subject>Duplicate charge on one order</subject>
+    <category>billing</category>
+    <priority>normal</priority>
+    <status>pending</status>
+    <channel>chat</channel>
+    <created_at>2025-07-24T18:46:00Z</created_at>
+    <resolved_at/>
+    <assignee>soren.brandt@veranix.example</assignee>
+    <satisfaction/>
+    <message>One order, two charges, same amount, same timestamp - please reverse the second one.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2086</ticket_id>
+    <user_id>74</user_id>
+    <subject>Invoice shows the wrong VAT rate</subject>
+    <category>billing</category>
+    <priority>normal</priority>
+    <status>closed</status>
+    <channel>email</channel>
+    <created_at>2025-07-25T14:23:00Z</created_at>
+    <resolved_at>2025-08-01T01:23:00Z</resolved_at>
+    <assignee>reverie.pennington@veranix.example</assignee>
+    <satisfaction>4</satisfaction>
+    <message>The invoice line reads "VAT 20%" while my account is registered as zero-rated.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2087</ticket_id>
+    <user_id>26</user_id>
+    <subject>Sandbox key rejected by the live endpoint</subject>
+    <category>technical</category>
+    <priority>high</priority>
+    <status>resolved</status>
+    <channel>web-form</channel>
+    <created_at>2025-07-26T07:33:00Z</created_at>
+    <resolved_at>2025-08-02T18:33:00Z</resolved_at>
+    <assignee>gideon.jandreau@veranix.example</assignee>
+    <satisfaction>3</satisfaction>
+    <message>The sandbox key works locally but the live endpoint answers 401 with no detail.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2088</ticket_id>
+    <user_id>42</user_id>
+    <subject>Parcel marked delivered but missing</subject>
+    <category>shipping</category>
+    <priority>high</priority>
+    <status>closed</status>
+    <channel>chat</channel>
+    <created_at>2025-07-26T22:28:00Z</created_at>
+    <resolved_at>2025-08-04T01:28:00Z</resolved_at>
+    <assignee>gideon.jandreau@veranix.example</assignee>
+    <satisfaction>2</satisfaction>
+    <message>Tracking says delivered at 10:14, nothing arrived, and the neighbours have not taken it in.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2089</ticket_id>
+    <user_id>118</user_id>
+    <subject>Refund has not reached my account</subject>
+    <category>refund</category>
+    <priority>normal</priority>
+    <status>resolved</status>
+    <channel>chat</channel>
+    <created_at>2025-07-27T04:34:00Z</created_at>
+    <resolved_at>2025-08-04T20:34:00Z</resolved_at>
+    <assignee>isolde.prendergast@veranix.example</assignee>
+    <satisfaction>4</satisfaction>
+    <message>You confirmed the refund on the 3rd; twelve days later it is still not on the card.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2090</ticket_id>
+    <user_id>22</user_id>
+    <subject>Sandbox key rejected by the live endpoint</subject>
+    <category>technical</category>
+    <priority>normal</priority>
+    <status>closed</status>
+    <channel>chat</channel>
+    <created_at>2025-07-28T06:18:00Z</created_at>
+    <resolved_at>2025-07-31T20:18:00Z</resolved_at>
+    <assignee>kiera.eastgate@veranix.example</assignee>
+    <satisfaction>4</satisfaction>
+    <message>The sandbox key works locally but the live endpoint answers 401 with no detail.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2091</ticket_id>
+    <user_id>103</user_id>
+    <subject>Address change ignored on dispatch</subject>
+    <category>shipping</category>
+    <priority>normal</priority>
+    <status>open</status>
+    <channel>phone</channel>
+    <created_at>2025-07-28T10:55:00Z</created_at>
+    <resolved_at/>
+    <assignee>bastian.quintero@veranix.example</assignee>
+    <satisfaction/>
+    <message>I changed the delivery address an hour before dispatch and it shipped to the old one anyway.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2092</ticket_id>
+    <user_id>111</user_id>
+    <subject>Export finishes with an empty file</subject>
+    <category>technical</category>
+    <priority>high</priority>
+    <status>closed</status>
+    <channel>web-form</channel>
+    <created_at>2025-07-29T14:22:00Z</created_at>
+    <resolved_at>2025-08-08T10:22:00Z</resolved_at>
+    <assignee>reverie.pennington@veranix.example</assignee>
+    <satisfaction>5</satisfaction>
+    <message>The export runs for a minute, downloads a file of 0 bytes, and no error is shown anywhere.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2093</ticket_id>
+    <user_id>100</user_id>
+    <subject>Sandbox key rejected by the live endpoint</subject>
+    <category>technical</category>
+    <priority>normal</priority>
+    <status>closed</status>
+    <channel>web-form</channel>
+    <created_at>2025-07-30T06:32:00Z</created_at>
+    <resolved_at>2025-08-07T13:32:00Z</resolved_at>
+    <assignee>kestrel.blackwood@veranix.example</assignee>
+    <satisfaction>3</satisfaction>
+    <message>The sandbox key works locally but the live endpoint answers 401 with no detail.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2094</ticket_id>
+    <user_id>100</user_id>
+    <subject>Seat count did not update after upgrade</subject>
+    <category>billing</category>
+    <priority>high</priority>
+    <status>closed</status>
+    <channel>chat</channel>
+    <created_at>2025-07-30T11:54:00Z</created_at>
+    <resolved_at>2025-08-09T02:54:00Z</resolved_at>
+    <assignee>dorian.quillfeather@veranix.example</assignee>
+    <satisfaction>3</satisfaction>
+    <message>We upgraded to twelve seats, were charged for twelve, and the app still allows only eight.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2095</ticket_id>
+    <user_id>105</user_id>
+    <subject>Sandbox key rejected by the live endpoint</subject>
+    <category>technical</category>
+    <priority>normal</priority>
+    <status>open</status>
+    <channel>email</channel>
+    <created_at>2025-07-31T05:08:00Z</created_at>
+    <resolved_at/>
+    <assignee>bastian.quintero@veranix.example</assignee>
+    <satisfaction/>
+    <message>The sandbox key works locally but the live endpoint answers 401 with no detail.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2096</ticket_id>
+    <user_id>50</user_id>
+    <subject>Seat count did not update after upgrade</subject>
+    <category>billing</category>
+    <priority>low</priority>
+    <status>closed</status>
+    <channel>phone</channel>
+    <created_at>2025-07-31T07:19:00Z</created_at>
+    <resolved_at>2025-08-04T19:19:00Z</resolved_at>
+    <assignee>gideon.jandreau@veranix.example</assignee>
+    <satisfaction>4</satisfaction>
+    <message>We upgraded to twelve seats, were charged for twelve, and the app still allows only eight.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2097</ticket_id>
+    <user_id>36</user_id>
+    <subject>Export finishes with an empty file</subject>
+    <category>technical</category>
+    <priority>normal</priority>
+    <status>closed</status>
+    <channel>chat</channel>
+    <created_at>2025-07-31T12:07:00Z</created_at>
+    <resolved_at>2025-08-01T15:07:00Z</resolved_at>
+    <assignee>kestrel.hartwell@veranix.example</assignee>
+    <satisfaction>5</satisfaction>
+    <message>The export runs for a minute, downloads a file of 0 bytes, and no error is shown anywhere.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2098</ticket_id>
+    <user_id>57</user_id>
+    <subject>Invoice shows the wrong VAT rate</subject>
+    <category>billing</category>
+    <priority>normal</priority>
+    <status>resolved</status>
+    <channel>chat</channel>
+    <created_at>2025-07-31T21:37:00Z</created_at>
+    <resolved_at>2025-08-04T06:37:00Z</resolved_at>
+    <assignee>katriel.eriksen@veranix.example</assignee>
+    <satisfaction>1</satisfaction>
+    <message>The invoice line reads "VAT 20%" while my account is registered as zero-rated.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2099</ticket_id>
+    <user_id>78</user_id>
+    <subject>Account locked after one failed login</subject>
+    <category>account</category>
+    <priority>low</priority>
+    <status>pending</status>
+    <channel>email</channel>
+    <created_at>2025-08-01T07:30:00Z</created_at>
+    <resolved_at/>
+    <assignee>isolde.prendergast@veranix.example</assignee>
+    <satisfaction/>
+    <message>One typo in the password locked the account outright, with no unlock email sent.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2100</ticket_id>
+    <user_id>53</user_id>
+    <subject>Seat count did not update after upgrade</subject>
+    <category>billing</category>
+    <priority>normal</priority>
+    <status>resolved</status>
+    <channel>email</channel>
+    <created_at>2025-08-01T20:21:00Z</created_at>
+    <resolved_at>2025-08-09T09:21:00Z</resolved_at>
+    <assignee>katriel.eriksen@veranix.example</assignee>
+    <satisfaction>3</satisfaction>
+    <message>We upgraded to twelve seats, were charged for twelve, and the app still allows only eight.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2101</ticket_id>
+    <user_id>58</user_id>
+    <subject>Export finishes with an empty file</subject>
+    <category>technical</category>
+    <priority>urgent</priority>
+    <status>closed</status>
+    <channel>web-form</channel>
+    <created_at>2025-08-02T01:45:00Z</created_at>
+    <resolved_at>2025-08-08T06:45:00Z</resolved_at>
+    <assignee>soren.brandt@veranix.example</assignee>
+    <satisfaction>4</satisfaction>
+    <message>The export runs for a minute, downloads a file of 0 bytes, and no error is shown anywhere.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2102</ticket_id>
+    <user_id>87</user_id>
+    <subject>Report totals disagree with the dashboard</subject>
+    <category>technical</category>
+    <priority>low</priority>
+    <status>open</status>
+    <channel>phone</channel>
+    <created_at>2025-08-02T03:55:00Z</created_at>
+    <resolved_at/>
+    <assignee>bastian.quintero@veranix.example</assignee>
+    <satisfaction/>
+    <message>The dashboard shows 1,204 events and the CSV export of the same range shows 1,198.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2103</ticket_id>
+    <user_id>17</user_id>
+    <subject>Discount code rejected as expired</subject>
+    <category>billing</category>
+    <priority>high</priority>
+    <status>closed</status>
+    <channel>email</channel>
+    <created_at>2025-08-02T05:07:00Z</created_at>
+    <resolved_at>2025-08-05T06:07:00Z</resolved_at>
+    <assignee>isolde.vasquez@veranix.example</assignee>
+    <satisfaction>5</satisfaction>
+    <message>The code SPRING10 is rejected as "expired" although the banner still advertises it.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2104</ticket_id>
+    <user_id>67</user_id>
+    <subject>Cannot remove a card from my wallet</subject>
+    <category>account</category>
+    <priority>normal</priority>
+    <status>closed</status>
+    <channel>email</channel>
+    <created_at>2025-08-02T11:21:00Z</created_at>
+    <resolved_at>2025-08-12T06:21:00Z</resolved_at>
+    <assignee>isolde.prendergast@veranix.example</assignee>
+    <satisfaction>5</satisfaction>
+    <message>Removing the old card returns a generic error, so both cards remain on the account.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2105</ticket_id>
+    <user_id>35</user_id>
+    <subject>Timezone shown in the wrong offset</subject>
+    <category>technical</category>
+    <priority>high</priority>
+    <status>escalated</status>
+    <channel>web-form</channel>
+    <created_at>2025-08-02T23:44:00Z</created_at>
+    <resolved_at/>
+    <assignee>isolde.prendergast@veranix.example</assignee>
+    <satisfaction/>
+    <message>Every timestamp renders two hours behind, even after setting the timezone in settings.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2106</ticket_id>
+    <user_id>54</user_id>
+    <subject>Export finishes with an empty file</subject>
+    <category>technical</category>
+    <priority>normal</priority>
+    <status>pending</status>
+    <channel>email</channel>
+    <created_at>2025-08-03T23:43:00Z</created_at>
+    <resolved_at/>
+    <assignee>katriel.eriksen@veranix.example</assignee>
+    <satisfaction/>
+    <message>The export runs for a minute, downloads a file of 0 bytes, and no error is shown anywhere.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2107</ticket_id>
+    <user_id>101</user_id>
+    <subject>Cannot remove a card from my wallet</subject>
+    <category>account</category>
+    <priority>low</priority>
+    <status>pending</status>
+    <channel>email</channel>
+    <created_at>2025-08-04T01:33:00Z</created_at>
+    <resolved_at/>
+    <assignee>isolde.vasquez@veranix.example</assignee>
+    <satisfaction/>
+    <message>Removing the old card returns a generic error, so both cards remain on the account.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2108</ticket_id>
+    <user_id>74</user_id>
+    <subject>Payment declined at checkout</subject>
+    <category>billing</category>
+    <priority>normal</priority>
+    <status>resolved</status>
+    <channel>email</channel>
+    <created_at>2025-08-04T02:24:00Z</created_at>
+    <resolved_at>2025-08-07T10:24:00Z</resolved_at>
+    <assignee>dorian.quillfeather@veranix.example</assignee>
+    <satisfaction>5</satisfaction>
+    <message>The checkout page says "payment declined", but my bank statement already shows the charge.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2109</ticket_id>
+    <user_id>42</user_id>
+    <subject>Address change ignored on dispatch</subject>
+    <category>shipping</category>
+    <priority>high</priority>
+    <status>escalated</status>
+    <channel>web-form</channel>
+    <created_at>2025-08-04T10:02:00Z</created_at>
+    <resolved_at/>
+    <assignee>isolde.novachek@veranix.example</assignee>
+    <satisfaction/>
+    <message>I changed the delivery address an hour before dispatch and it shipped to the old one anyway.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2110</ticket_id>
+    <user_id>111</user_id>
+    <subject>Export finishes with an empty file</subject>
+    <category>technical</category>
+    <priority>normal</priority>
+    <status>closed</status>
+    <channel>email</channel>
+    <created_at>2025-08-04T22:36:00Z</created_at>
+    <resolved_at>2025-08-06T22:36:00Z</resolved_at>
+    <assignee>isolde.prendergast@veranix.example</assignee>
+    <satisfaction>2</satisfaction>
+    <message>The export runs for a minute, downloads a file of 0 bytes, and no error is shown anywhere.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2111</ticket_id>
+    <user_id>36</user_id>
+    <subject>Order stuck in pending for four days</subject>
+    <category>shipping</category>
+    <priority>low</priority>
+    <status>resolved</status>
+    <channel>phone</channel>
+    <created_at>2025-08-05T01:44:00Z</created_at>
+    <resolved_at>2025-08-13T23:44:00Z</resolved_at>
+    <assignee>isolde.prendergast@veranix.example</assignee>
+    <satisfaction>2</satisfaction>
+    <message>The order has read "pending" since Friday, with no dispatch note and no reply on chat.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2112</ticket_id>
+    <user_id>66</user_id>
+    <subject>Account locked after one failed login</subject>
+    <category>account</category>
+    <priority>normal</priority>
+    <status>pending</status>
+    <channel>email</channel>
+    <created_at>2025-08-06T01:23:00Z</created_at>
+    <resolved_at/>
+    <assignee>soren.brandt@veranix.example</assignee>
+    <satisfaction/>
+    <message>One typo in the password locked the account outright, with no unlock email sent.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2113</ticket_id>
+    <user_id>42</user_id>
+    <subject>Discount code rejected as expired</subject>
+    <category>billing</category>
+    <priority>high</priority>
+    <status>resolved</status>
+    <channel>chat</channel>
+    <created_at>2025-08-06T20:12:00Z</created_at>
+    <resolved_at>2025-08-16T23:12:00Z</resolved_at>
+    <assignee>soren.brandt@veranix.example</assignee>
+    <satisfaction>5</satisfaction>
+    <message>The code SPRING10 is rejected as "expired" although the banner still advertises it.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2114</ticket_id>
+    <user_id>115</user_id>
+    <subject>Timezone shown in the wrong offset</subject>
+    <category>technical</category>
+    <priority>high</priority>
+    <status>open</status>
+    <channel>chat</channel>
+    <created_at>2025-08-06T20:22:00Z</created_at>
+    <resolved_at/>
+    <assignee>kestrel.blackwood@veranix.example</assignee>
+    <satisfaction/>
+    <message>Every timestamp renders two hours behind, even after setting the timezone in settings.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2115</ticket_id>
+    <user_id>57</user_id>
+    <subject>Address change ignored on dispatch</subject>
+    <category>shipping</category>
+    <priority>high</priority>
+    <status>closed</status>
+    <channel>web-form</channel>
+    <created_at>2025-08-07T13:34:00Z</created_at>
+    <resolved_at>2025-08-14T15:34:00Z</resolved_at>
+    <assignee>kiera.eastgate@veranix.example</assignee>
+    <satisfaction>4</satisfaction>
+    <message>I changed the delivery address an hour before dispatch and it shipped to the old one anyway.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2116</ticket_id>
+    <user_id>73</user_id>
+    <subject>Report totals disagree with the dashboard</subject>
+    <category>technical</category>
+    <priority>normal</priority>
+    <status>resolved</status>
+    <channel>email</channel>
+    <created_at>2025-08-08T00:32:00Z</created_at>
+    <resolved_at>2025-08-16T06:32:00Z</resolved_at>
+    <assignee>katriel.eriksen@veranix.example</assignee>
+    <satisfaction>4</satisfaction>
+    <message>The dashboard shows 1,204 events and the CSV export of the same range shows 1,198.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2117</ticket_id>
+    <user_id>87</user_id>
+    <subject>Export finishes with an empty file</subject>
+    <category>technical</category>
+    <priority>normal</priority>
+    <status>closed</status>
+    <channel>email</channel>
+    <created_at>2025-08-08T02:21:00Z</created_at>
+    <resolved_at>2025-08-12T18:21:00Z</resolved_at>
+    <assignee>soren.brandt@veranix.example</assignee>
+    <satisfaction>5</satisfaction>
+    <message>The export runs for a minute, downloads a file of 0 bytes, and no error is shown anywhere.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2118</ticket_id>
+    <user_id>33</user_id>
+    <subject>Cannot remove a card from my wallet</subject>
+    <category>account</category>
+    <priority>high</priority>
+    <status>resolved</status>
+    <channel>email</channel>
+    <created_at>2025-08-08T03:43:00Z</created_at>
+    <resolved_at>2025-08-18T03:43:00Z</resolved_at>
+    <assignee>dorian.quillfeather@veranix.example</assignee>
+    <satisfaction>4</satisfaction>
+    <message>Removing the old card returns a generic error, so both cards remain on the account.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2119</ticket_id>
+    <user_id>120</user_id>
+    <subject>Weekly digest email never arrives</subject>
+    <category>account</category>
+    <priority>low</priority>
+    <status>open</status>
+    <channel>web-form</channel>
+    <created_at>2025-08-08T12:32:00Z</created_at>
+    <resolved_at/>
+    <assignee>isolde.vasquez@veranix.example</assignee>
+    <satisfaction/>
+    <message>The digest has not arrived since the 12th, and it is not in spam or the promotions tab.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2120</ticket_id>
+    <user_id>26</user_id>
+    <subject>Refund has not reached my account</subject>
+    <category>refund</category>
+    <priority>low</priority>
+    <status>resolved</status>
+    <channel>phone</channel>
+    <created_at>2025-08-08T16:18:00Z</created_at>
+    <resolved_at>2025-08-09T17:18:00Z</resolved_at>
+    <assignee>gideon.jandreau@veranix.example</assignee>
+    <satisfaction>2</satisfaction>
+    <message>You confirmed the refund on the 3rd; twelve days later it is still not on the card.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2121</ticket_id>
+    <user_id>15</user_id>
+    <subject>Seat count did not update after upgrade</subject>
+    <category>billing</category>
+    <priority>normal</priority>
+    <status>pending</status>
+    <channel>email</channel>
+    <created_at>2025-08-08T18:22:00Z</created_at>
+    <resolved_at/>
+    <assignee>bastian.quintero@veranix.example</assignee>
+    <satisfaction/>
+    <message>We upgraded to twelve seats, were charged for twelve, and the app still allows only eight.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2122</ticket_id>
+    <user_id>96</user_id>
+    <subject>Weekly digest email never arrives</subject>
+    <category>account</category>
+    <priority>normal</priority>
+    <status>closed</status>
+    <channel>chat</channel>
+    <created_at>2025-08-09T05:42:00Z</created_at>
+    <resolved_at>2025-08-14T07:42:00Z</resolved_at>
+    <assignee>kestrel.hartwell@veranix.example</assignee>
+    <satisfaction>4</satisfaction>
+    <message>The digest has not arrived since the 12th, and it is not in spam or the promotions tab.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2123</ticket_id>
+    <user_id>115</user_id>
+    <subject>Parcel marked delivered but missing</subject>
+    <category>shipping</category>
+    <priority>normal</priority>
+    <status>closed</status>
+    <channel>chat</channel>
+    <created_at>2025-08-09T07:42:00Z</created_at>
+    <resolved_at>2025-08-14T14:42:00Z</resolved_at>
+    <assignee>bastian.quintero@veranix.example</assignee>
+    <satisfaction>5</satisfaction>
+    <message>Tracking says delivered at 10:14, nothing arrived, and the neighbours have not taken it in.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2124</ticket_id>
+    <user_id>99</user_id>
+    <subject>Weekly digest email never arrives</subject>
+    <category>account</category>
+    <priority>normal</priority>
+    <status>closed</status>
+    <channel>email</channel>
+    <created_at>2025-08-10T03:56:00Z</created_at>
+    <resolved_at>2025-08-20T08:56:00Z</resolved_at>
+    <assignee>kestrel.blackwood@veranix.example</assignee>
+    <satisfaction>1</satisfaction>
+    <message>The digest has not arrived since the 12th, and it is not in spam or the promotions tab.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2125</ticket_id>
+    <user_id>11</user_id>
+    <subject>Address change ignored on dispatch</subject>
+    <category>shipping</category>
+    <priority>high</priority>
+    <status>pending</status>
+    <channel>phone</channel>
+    <created_at>2025-08-10T09:29:00Z</created_at>
+    <resolved_at/>
+    <assignee>kiera.eastgate@veranix.example</assignee>
+    <satisfaction/>
+    <message>I changed the delivery address an hour before dispatch and it shipped to the old one anyway.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2126</ticket_id>
+    <user_id>62</user_id>
+    <subject>Order stuck in pending for four days</subject>
+    <category>shipping</category>
+    <priority>low</priority>
+    <status>escalated</status>
+    <channel>email</channel>
+    <created_at>2025-08-13T00:52:00Z</created_at>
+    <resolved_at/>
+    <assignee>kiera.eastgate@veranix.example</assignee>
+    <satisfaction/>
+    <message>The order has read "pending" since Friday, with no dispatch note and no reply on chat.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2127</ticket_id>
+    <user_id>73</user_id>
+    <subject>Sandbox key rejected by the live endpoint</subject>
+    <category>technical</category>
+    <priority>normal</priority>
+    <status>closed</status>
+    <channel>email</channel>
+    <created_at>2025-08-14T02:00:00Z</created_at>
+    <resolved_at>2025-08-18T18:00:00Z</resolved_at>
+    <assignee>gideon.jandreau@veranix.example</assignee>
+    <satisfaction>3</satisfaction>
+    <message>The sandbox key works locally but the live endpoint answers 401 with no detail.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2128</ticket_id>
+    <user_id>46</user_id>
+    <subject>Invoice shows the wrong VAT rate</subject>
+    <category>billing</category>
+    <priority>low</priority>
+    <status>closed</status>
+    <channel>email</channel>
+    <created_at>2025-08-14T04:08:00Z</created_at>
+    <resolved_at>2025-08-15T16:08:00Z</resolved_at>
+    <assignee>isolde.vasquez@veranix.example</assignee>
+    <satisfaction>4</satisfaction>
+    <message>The invoice line reads "VAT 20%" while my account is registered as zero-rated.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2129</ticket_id>
+    <user_id>40</user_id>
+    <subject>Timezone shown in the wrong offset</subject>
+    <category>technical</category>
+    <priority>normal</priority>
+    <status>resolved</status>
+    <channel>email</channel>
+    <created_at>2025-08-14T04:38:00Z</created_at>
+    <resolved_at>2025-08-22T04:38:00Z</resolved_at>
+    <assignee>kestrel.blackwood@veranix.example</assignee>
+    <satisfaction>5</satisfaction>
+    <message>Every timestamp renders two hours behind, even after setting the timezone in settings.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2130</ticket_id>
+    <user_id>3</user_id>
+    <subject>Discount code rejected as expired</subject>
+    <category>billing</category>
+    <priority>low</priority>
+    <status>closed</status>
+    <channel>email</channel>
+    <created_at>2025-08-14T08:21:00Z</created_at>
+    <resolved_at>2025-08-20T11:21:00Z</resolved_at>
+    <assignee>kiera.eastgate@veranix.example</assignee>
+    <satisfaction>4</satisfaction>
+    <message>The code SPRING10 is rejected as "expired" although the banner still advertises it.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2131</ticket_id>
+    <user_id>70</user_id>
+    <subject>Cannot reset my password</subject>
+    <category>account</category>
+    <priority>normal</priority>
+    <status>resolved</status>
+    <channel>social</channel>
+    <created_at>2025-08-14T14:33:00Z</created_at>
+    <resolved_at>2025-08-24T08:33:00Z</resolved_at>
+    <assignee>katriel.eriksen@veranix.example</assignee>
+    <satisfaction>2</satisfaction>
+    <message>I have tried three browsers and a private window; the reset link always says it has expired.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2132</ticket_id>
+    <user_id>66</user_id>
+    <subject>Parcel marked delivered but missing</subject>
+    <category>shipping</category>
+    <priority>normal</priority>
+    <status>resolved</status>
+    <channel>email</channel>
+    <created_at>2025-08-15T19:22:00Z</created_at>
+    <resolved_at>2025-08-22T16:22:00Z</resolved_at>
+    <assignee>soren.merriweather@veranix.example</assignee>
+    <satisfaction>4</satisfaction>
+    <message>Tracking says delivered at 10:14, nothing arrived, and the neighbours have not taken it in.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2133</ticket_id>
+    <user_id>61</user_id>
+    <subject>Report totals disagree with the dashboard</subject>
+    <category>technical</category>
+    <priority>normal</priority>
+    <status>resolved</status>
+    <channel>chat</channel>
+    <created_at>2025-08-15T19:43:00Z</created_at>
+    <resolved_at>2025-08-22T17:43:00Z</resolved_at>
+    <assignee>kestrel.blackwood@veranix.example</assignee>
+    <satisfaction>5</satisfaction>
+    <message>The dashboard shows 1,204 events and the CSV export of the same range shows 1,198.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2134</ticket_id>
+    <user_id>65</user_id>
+    <subject>Report totals disagree with the dashboard</subject>
+    <category>technical</category>
+    <priority>high</priority>
+    <status>open</status>
+    <channel>web-form</channel>
+    <created_at>2025-08-16T01:00:00Z</created_at>
+    <resolved_at/>
+    <assignee/>
+    <satisfaction/>
+    <message>The dashboard shows 1,204 events and the CSV export of the same range shows 1,198.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2135</ticket_id>
+    <user_id>75</user_id>
+    <subject>Invoice shows the wrong VAT rate</subject>
+    <category>billing</category>
+    <priority>normal</priority>
+    <status>closed</status>
+    <channel>web-form</channel>
+    <created_at>2025-08-17T10:21:00Z</created_at>
+    <resolved_at>2025-08-26T09:21:00Z</resolved_at>
+    <assignee>kestrel.blackwood@veranix.example</assignee>
+    <satisfaction>4</satisfaction>
+    <message>The invoice line reads "VAT 20%" while my account is registered as zero-rated.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2136</ticket_id>
+    <user_id>53</user_id>
+    <subject>Refund has not reached my account</subject>
+    <category>refund</category>
+    <priority>high</priority>
+    <status>pending</status>
+    <channel>web-form</channel>
+    <created_at>2025-08-17T11:54:00Z</created_at>
+    <resolved_at/>
+    <assignee>isolde.novachek@veranix.example</assignee>
+    <satisfaction/>
+    <message>You confirmed the refund on the 3rd; twelve days later it is still not on the card.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2137</ticket_id>
+    <user_id>42</user_id>
+    <subject>Address change ignored on dispatch</subject>
+    <category>shipping</category>
+    <priority>high</priority>
+    <status>pending</status>
+    <channel>phone</channel>
+    <created_at>2025-08-18T11:49:00Z</created_at>
+    <resolved_at/>
+    <assignee>kestrel.blackwood@veranix.example</assignee>
+    <satisfaction/>
+    <message>I changed the delivery address an hour before dispatch and it shipped to the old one anyway.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2138</ticket_id>
+    <user_id>33</user_id>
+    <subject>Sandbox key rejected by the live endpoint</subject>
+    <category>technical</category>
+    <priority>normal</priority>
+    <status>closed</status>
+    <channel>phone</channel>
+    <created_at>2025-08-21T17:45:00Z</created_at>
+    <resolved_at>2025-08-26T03:45:00Z</resolved_at>
+    <assignee>soren.merriweather@veranix.example</assignee>
+    <satisfaction>5</satisfaction>
+    <message>The sandbox key works locally but the live endpoint answers 401 with no detail.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2139</ticket_id>
+    <user_id>7</user_id>
+    <subject>Sandbox key rejected by the live endpoint</subject>
+    <category>technical</category>
+    <priority>normal</priority>
+    <status>closed</status>
+    <channel>email</channel>
+    <created_at>2025-08-22T08:58:00Z</created_at>
+    <resolved_at>2025-08-29T14:58:00Z</resolved_at>
+    <assignee>gideon.jandreau@veranix.example</assignee>
+    <satisfaction>3</satisfaction>
+    <message>The sandbox key works locally but the live endpoint answers 401 with no detail.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2140</ticket_id>
+    <user_id>109</user_id>
+    <subject>Sandbox key rejected by the live endpoint</subject>
+    <category>technical</category>
+    <priority>low</priority>
+    <status>closed</status>
+    <channel>web-form</channel>
+    <created_at>2025-08-22T13:23:00Z</created_at>
+    <resolved_at>2025-08-27T15:23:00Z</resolved_at>
+    <assignee>kestrel.hartwell@veranix.example</assignee>
+    <satisfaction>4</satisfaction>
+    <message>The sandbox key works locally but the live endpoint answers 401 with no detail.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2141</ticket_id>
+    <user_id>17</user_id>
+    <subject>Export finishes with an empty file</subject>
+    <category>technical</category>
+    <priority>low</priority>
+    <status>pending</status>
+    <channel>web-form</channel>
+    <created_at>2025-08-23T05:00:00Z</created_at>
+    <resolved_at/>
+    <assignee>katriel.eriksen@veranix.example</assignee>
+    <satisfaction/>
+    <message>The export runs for a minute, downloads a file of 0 bytes, and no error is shown anywhere.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2142</ticket_id>
+    <user_id>107</user_id>
+    <subject>Cannot remove a card from my wallet</subject>
+    <category>account</category>
+    <priority>urgent</priority>
+    <status>open</status>
+    <channel>email</channel>
+    <created_at>2025-08-23T22:16:00Z</created_at>
+    <resolved_at/>
+    <assignee/>
+    <satisfaction/>
+    <message>Removing the old card returns a generic error, so both cards remain on the account.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2143</ticket_id>
+    <user_id>62</user_id>
+    <subject>Attachment upload stalls at 90 percent</subject>
+    <category>technical</category>
+    <priority>high</priority>
+    <status>closed</status>
+    <channel>email</channel>
+    <created_at>2025-08-25T08:32:00Z</created_at>
+    <resolved_at>2025-09-03T03:32:00Z</resolved_at>
+    <assignee>soren.brandt@veranix.example</assignee>
+    <satisfaction>3</satisfaction>
+    <message>Uploads reach 90 percent and stop; smaller files under 2 MB go through without trouble.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2144</ticket_id>
+    <user_id>28</user_id>
+    <subject>Search returns no results for a known product</subject>
+    <category>product</category>
+    <priority>urgent</priority>
+    <status>closed</status>
+    <channel>phone</channel>
+    <created_at>2025-08-25T18:14:00Z</created_at>
+    <resolved_at>2025-08-26T20:14:00Z</resolved_at>
+    <assignee>gideon.jandreau@veranix.example</assignee>
+    <satisfaction>2</satisfaction>
+    <message>Searching for the exact product name gives nothing, though the product page loads fine.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2145</ticket_id>
+    <user_id>96</user_id>
+    <subject>Invoice shows the wrong VAT rate</subject>
+    <category>billing</category>
+    <priority>normal</priority>
+    <status>closed</status>
+    <channel>web-form</channel>
+    <created_at>2025-08-25T19:14:00Z</created_at>
+    <resolved_at>2025-09-05T00:14:00Z</resolved_at>
+    <assignee>dorian.quillfeather@veranix.example</assignee>
+    <satisfaction>5</satisfaction>
+    <message>The invoice line reads "VAT 20%" while my account is registered as zero-rated.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2146</ticket_id>
+    <user_id>6</user_id>
+    <subject>Account locked after one failed login</subject>
+    <category>account</category>
+    <priority>normal</priority>
+    <status>open</status>
+    <channel>web-form</channel>
+    <created_at>2025-08-26T06:07:00Z</created_at>
+    <resolved_at/>
+    <assignee/>
+    <satisfaction/>
+    <message>One typo in the password locked the account outright, with no unlock email sent.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2147</ticket_id>
+    <user_id>19</user_id>
+    <subject>Cannot reset my password</subject>
+    <category>account</category>
+    <priority>low</priority>
+    <status>escalated</status>
+    <channel>phone</channel>
+    <created_at>2025-08-27T05:00:00Z</created_at>
+    <resolved_at/>
+    <assignee>katriel.eriksen@veranix.example</assignee>
+    <satisfaction/>
+    <message>I have tried three browsers and a private window; the reset link always says it has expired.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2148</ticket_id>
+    <user_id>96</user_id>
+    <subject>Report totals disagree with the dashboard</subject>
+    <category>technical</category>
+    <priority>normal</priority>
+    <status>pending</status>
+    <channel>chat</channel>
+    <created_at>2025-08-27T07:58:00Z</created_at>
+    <resolved_at/>
+    <assignee>katriel.eriksen@veranix.example</assignee>
+    <satisfaction/>
+    <message>The dashboard shows 1,204 events and the CSV export of the same range shows 1,198.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2149</ticket_id>
+    <user_id>91</user_id>
+    <subject>Two-factor codes arrive late</subject>
+    <category>account</category>
+    <priority>normal</priority>
+    <status>closed</status>
+    <channel>web-form</channel>
+    <created_at>2025-08-29T16:49:00Z</created_at>
+    <resolved_at>2025-09-05T11:49:00Z</resolved_at>
+    <assignee>bastian.quintero@veranix.example</assignee>
+    <satisfaction>4</satisfaction>
+    <message>Codes turn up eight or nine minutes late, by which point the login screen has timed out.</message>
+  </ticket>
+  <ticket>
+    <ticket_id>TCK-2150</ticket_id>
+    <user_id>9</user_id>
+    <subject>Duplicate charge on one order</subject>
+    <category>billing</category>
+    <priority>low</priority>
+    <status>closed</status>
+    <channel>phone</channel>
+    <created_at>2025-08-29T22:16:00Z</created_at>
+    <resolved_at>2025-09-04T18:16:00Z</resolved_at>
+    <assignee>katriel.eriksen@veranix.example</assignee>
+    <satisfaction>5</satisfaction>
+    <message>One order, two charges, same amount, same timestamp - please reverse the second one.</message>
+  </ticket>
+</support-tickets>
