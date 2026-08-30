@@ -37,6 +37,7 @@
 *.m4a  binary
 
 # Documents
+*.odt  binary
 *.pdf  binary
 *.doc  binary
 *.docx binary
