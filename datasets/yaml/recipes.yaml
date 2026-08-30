@@ -1,0 +1,2155 @@
+# 60 synthetic recipes, with nested ingredients and steps. Invented data; it describes nobody.
+recipes:
+  - id: "RC-001"
+    name: "Charred Tomato Galette"
+    category: "baking"
+    servings: 4
+    prep_minutes: 25
+    cook_minutes: 58
+    difficulty: "hard"
+    ingredients:
+      - item: "vegetable stock"
+        quantity: 100
+        unit: "ml"
+      - item: "hard cheese"
+        quantity: 250
+        unit: "g"
+      - item: "cherry tomato"
+        quantity: 50
+        unit: "g"
+      - item: "olive oil"
+        quantity: 2
+        unit: "tbsp"
+    steps:
+      - "Heat the oven to 200C and line a shallow tray with baking paper."
+      - "Soften the onion and garlic for six minutes, stirring so they do not colour."
+      - "Season generously, then stir through the remaining dry ingredients."
+      - "Transfer to the oven and roast until the edges catch and darken."
+      - "Rest for five minutes off the heat so the sauce thickens."
+      - "Taste, adjust the seasoning, and finish with a squeeze of lemon."
+      - "Scatter over the herbs and serve straight from the pan."
+    tags:
+      - "freezer-friendly"
+      - "high-protein"
+      - "low-waste"
+      - "make-ahead"
+  - id: "RC-002"
+    name: "Chilled Walnut Hash"
+    category: "breakfast"
+    servings: 2
+    prep_minutes: 20
+    cook_minutes: 16
+    difficulty: "easy"
+    ingredients:
+      - item: "vegetable stock"
+        quantity: 200
+        unit: "ml"
+      - item: "hard cheese"
+        quantity: 150
+        unit: "g"
+      - item: "black pepper"
+        quantity: 2
+        unit: "tsp"
+      - item: "caster sugar"
+        quantity: 250
+        unit: "g"
+    steps:
+      - "Warm the oil in a wide pan over a medium heat until it shimmers."
+      - "Season generously, then stir through the remaining dry ingredients."
+      - "Pour in the stock, bring to a simmer, and cook uncovered for twenty minutes."
+      - "Rest for five minutes off the heat so the sauce thickens."
+      - "Taste, adjust the seasoning, and finish with a squeeze of lemon."
+      - "Scatter over the herbs and serve straight from the pan."
+      - "Cool completely before slicing, or the crumb will tear."
+    tags:
+      - "freezer-friendly"
+      - "make-ahead"
+      - "no-oven"
+  - id: "RC-003"
+    name: "Golden Pear Skillet"
+    category: "main"
+    servings: 4
+    prep_minutes: 5
+    cook_minutes: 42
+    difficulty: "easy"
+    ingredients:
+      - item: "red onion"
+        quantity: 4
+        unit: "whole"
+      - item: "hard cheese"
+        quantity: 100
+        unit: "g"
+      - item: "black pepper"
+        quantity: 1
+        unit: "tsp"
+      - item: "thyme sprig"
+        quantity: 1
+        unit: "whole"
+      - item: "plain flour"
+        quantity: 250
+        unit: "g"
+      - item: "cherry tomato"
+        quantity: 300
+        unit: "g"
+      - item: "lemon"
+        quantity: 1
+        unit: "whole"
+      - item: "double cream"
+        quantity: 500
+        unit: "ml"
+    steps:
+      - "Warm the oil in a wide pan over a medium heat until it shimmers."
+      - "Soften the onion and garlic for six minutes, stirring so they do not colour."
+      - "Pour in the stock, bring to a simmer, and cook uncovered for twenty minutes."
+      - "Rest for five minutes off the heat so the sauce thickens."
+      - "Scatter over the herbs and serve straight from the pan."
+      - "Cool completely before slicing, or the crumb will tear."
+    tags:
+      - "freezer-friendly"
+      - "make-ahead"
+      - "one-pot"
+      - "vegetarian"
+  - id: "RC-004"
+    name: "Golden Chickpea Flatbread"
+    category: "baking"
+    servings: 6
+    prep_minutes: 20
+    cook_minutes: 46
+    difficulty: "hard"
+    ingredients:
+      - item: "thyme sprig"
+        quantity: 2
+        unit: "whole"
+      - item: "cherry tomato"
+        quantity: 200
+        unit: "g"
+      - item: "sea salt"
+        quantity: 2
+        unit: "tsp"
+      - item: "wholegrain mustard"
+        quantity: 2
+        unit: "tsp"
+      - item: "black pepper"
+        quantity: 1
+        unit: "tsp"
+    steps:
+      - "Soften the onion and garlic for six minutes, stirring so they do not colour."
+      - "Pour in the stock, bring to a simmer, and cook uncovered for twenty minutes."
+      - "Transfer to the oven and roast until the edges catch and darken."
+      - "Rest for five minutes off the heat so the sauce thickens."
+    tags:
+      - "high-protein"
+      - "make-ahead"
+      - "vegetarian"
+  - id: "RC-005"
+    name: "Slow-roasted Cabbage Flatbread"
+    category: "baking"
+    servings: 8
+    prep_minutes: 10
+    cook_minutes: 54
+    difficulty: "easy"
+    ingredients:
+      - item: "flat-leaf parsley"
+        quantity: 100
+        unit: "g"
+      - item: "pearl barley"
+        quantity: 300
+        unit: "g"
+      - item: "caster sugar"
+        quantity: 150
+        unit: "g"
+      - item: "smoked paprika"
+        quantity: 2
+        unit: "tsp"
+    steps:
+      - "Warm the oil in a wide pan over a medium heat until it shimmers."
+      - "Soften the onion and garlic for six minutes, stirring so they do not colour."
+      - "Transfer to the oven and roast until the edges catch and darken."
+      - "Scatter over the herbs and serve straight from the pan."
+    tags:
+      - "make-ahead"
+      - "one-pot"
+      - "vegetarian"
+  - id: "RC-006"
+    name: "Smoky Aubergine Broth"
+    category: "soup"
+    servings: 8
+    prep_minutes: 5
+    cook_minutes: 38
+    difficulty: "medium"
+    ingredients:
+      - item: "double cream"
+        quantity: 200
+        unit: "ml"
+      - item: "black pepper"
+        quantity: 1
+        unit: "tsp"
+      - item: "vegetable stock"
+        quantity: 200
+        unit: "ml"
+      - item: "baking powder"
+        quantity: 1
+        unit: "tsp"
+    steps:
+      - "Pour in the stock, bring to a simmer, and cook uncovered for twenty minutes."
+      - "Rest for five minutes off the heat so the sauce thickens."
+      - "Taste, adjust the seasoning, and finish with a squeeze of lemon."
+      - "Scatter over the herbs and serve straight from the pan."
+      - "Cool completely before slicing, or the crumb will tear."
+    tags:
+      - "freezer-friendly"
+      - "low-waste"
+      - "make-ahead"
+  - id: "RC-007"
+    name: "Herbed Walnut Soup"
+    category: "soup"
+    servings: 8
+    prep_minutes: 10
+    cook_minutes: 25
+    difficulty: "easy"
+    ingredients:
+      - item: "caster sugar"
+        quantity: 300
+        unit: "g"
+      - item: "black pepper"
+        quantity: 1
+        unit: "tsp"
+      - item: "double cream"
+        quantity: 300
+        unit: "ml"
+      - item: "unsalted butter"
+        quantity: 400
+        unit: "g"
+      - item: "chickpeas"
+        quantity: 100
+        unit: "g"
+      - item: "plain flour"
+        quantity: 300
+        unit: "g"
+      - item: "hard cheese"
+        quantity: 250
+        unit: "g"
+      - item: "thyme sprig"
+        quantity: 2
+        unit: "whole"
+    steps:
+      - "Warm the oil in a wide pan over a medium heat until it shimmers."
+      - "Soften the onion and garlic for six minutes, stirring so they do not colour."
+      - "Rest for five minutes off the heat so the sauce thickens."
+      - "Taste, adjust the seasoning, and finish with a squeeze of lemon."
+      - "Cool completely before slicing, or the crumb will tear."
+    tags:
+      - "batch-cook"
+      - "make-ahead"
+      - "no-oven"
+  - id: "RC-008"
+    name: "Spiced Mushroom Soup"
+    category: "soup"
+    servings: 4
+    prep_minutes: 10
+    cook_minutes: 43
+    difficulty: "medium"
+    ingredients:
+      - item: "double cream"
+        quantity: 500
+        unit: "ml"
+      - item: "lemon"
+        quantity: 4
+        unit: "whole"
+      - item: "red onion"
+        quantity: 1
+        unit: "whole"
+      - item: "caster sugar"
+        quantity: 400
+        unit: "g"
+      - item: "sea salt"
+        quantity: 2
+        unit: "tsp"
+      - item: "garlic clove"
+        quantity: 4
+        unit: "whole"
+    steps:
+      - "Warm the oil in a wide pan over a medium heat until it shimmers."
+      - "Season generously, then stir through the remaining dry ingredients."
+      - "Rest for five minutes off the heat so the sauce thickens."
+      - "Taste, adjust the seasoning, and finish with a squeeze of lemon."
+      - "Scatter over the herbs and serve straight from the pan."
+      - "Cool completely before slicing, or the crumb will tear."
+    tags:
+      - "batch-cook"
+      - "high-protein"
+      - "make-ahead"
+  - id: "RC-009"
+    name: "Spiced Cabbage Gratin"
+    category: "side"
+    servings: 4
+    prep_minutes: 30
+    cook_minutes: 37
+    difficulty: "medium"
+    ingredients:
+      - item: "wholegrain mustard"
+        quantity: 2
+        unit: "tsp"
+      - item: "black pepper"
+        quantity: 1
+        unit: "tsp"
+      - item: "flat-leaf parsley"
+        quantity: 200
+        unit: "g"
+      - item: "pearl barley"
+        quantity: 200
+        unit: "g"
+      - item: "caster sugar"
+        quantity: 400
+        unit: "g"
+      - item: "olive oil"
+        quantity: 2
+        unit: "tbsp"
+      - item: "baking powder"
+        quantity: 1
+        unit: "tsp"
+    steps:
+      - "Heat the oven to 200C and line a shallow tray with baking paper."
+      - "Soften the onion and garlic for six minutes, stirring so they do not colour."
+      - "Season generously, then stir through the remaining dry ingredients."
+      - "Rest for five minutes off the heat so the sauce thickens."
+      - "Taste, adjust the seasoning, and finish with a squeeze of lemon."
+      - "Scatter over the herbs and serve straight from the pan."
+      - "Cool completely before slicing, or the crumb will tear."
+    tags:
+      - "high-protein"
+      - "make-ahead"
+      - "vegan"
+  - id: "RC-010"
+    name: "Smoky Pear Soup"
+    category: "soup"
+    servings: 8
+    prep_minutes: 30
+    cook_minutes: 35
+    difficulty: "easy"
+    ingredients:
+      - item: "thyme sprig"
+        quantity: 1
+        unit: "whole"
+      - item: "caster sugar"
+        quantity: 300
+        unit: "g"
+      - item: "hard cheese"
+        quantity: 200
+        unit: "g"
+      - item: "vegetable stock"
+        quantity: 200
+        unit: "ml"
+    steps:
+      - "Soften the onion and garlic for six minutes, stirring so they do not colour."
+      - "Season generously, then stir through the remaining dry ingredients."
+      - "Pour in the stock, bring to a simmer, and cook uncovered for twenty minutes."
+      - "Rest for five minutes off the heat so the sauce thickens."
+      - "Taste, adjust the seasoning, and finish with a squeeze of lemon."
+      - "Scatter over the herbs and serve straight from the pan."
+      - "Cool completely before slicing, or the crumb will tear."
+    tags:
+      - "batch-cook"
+      - "make-ahead"
+      - "vegan"
+      - "vegetarian"
+  - id: "RC-011"
+    name: "Chilled Chickpea Salad"
+    category: "salad"
+    servings: 6
+    prep_minutes: 10
+    cook_minutes: 0
+    difficulty: "easy"
+    ingredients:
+      - item: "cherry tomato"
+        quantity: 300
+        unit: "g"
+      - item: "pearl barley"
+        quantity: 250
+        unit: "g"
+      - item: "caster sugar"
+        quantity: 250
+        unit: "g"
+      - item: "unsalted butter"
+        quantity: 250
+        unit: "g"
+      - item: "sea salt"
+        quantity: 2
+        unit: "tsp"
+      - item: "flat-leaf parsley"
+        quantity: 200
+        unit: "g"
+      - item: "plain flour"
+        quantity: 400
+        unit: "g"
+      - item: "hard cheese"
+        quantity: 400
+        unit: "g"
+    steps:
+      - "Warm the oil in a wide pan over a medium heat until it shimmers."
+      - "Season generously, then stir through the remaining dry ingredients."
+      - "Pour in the stock, bring to a simmer, and cook uncovered for twenty minutes."
+      - "Rest for five minutes off the heat so the sauce thickens."
+      - "Taste, adjust the seasoning, and finish with a squeeze of lemon."
+      - "Scatter over the herbs and serve straight from the pan."
+      - "Cool completely before slicing, or the crumb will tear."
+    tags:
+      - "freezer-friendly"
+      - "make-ahead"
+      - "no-oven"
+  - id: "RC-012"
+    name: "Crisp Walnut Skillet"
+    category: "main"
+    servings: 2
+    prep_minutes: 15
+    cook_minutes: 37
+    difficulty: "hard"
+    ingredients:
+      - item: "garlic clove"
+        quantity: 2
+        unit: "whole"
+      - item: "double cream"
+        quantity: 200
+        unit: "ml"
+      - item: "baking powder"
+        quantity: 2
+        unit: "tsp"
+      - item: "lemon"
+        quantity: 2
+        unit: "whole"
+      - item: "unsalted butter"
+        quantity: 400
+        unit: "g"
+    steps:
+      - "Warm the oil in a wide pan over a medium heat until it shimmers."
+      - "Pour in the stock, bring to a simmer, and cook uncovered for twenty minutes."
+      - "Rest for five minutes off the heat so the sauce thickens."
+      - "Taste, adjust the seasoning, and finish with a squeeze of lemon."
+      - "Scatter over the herbs and serve straight from the pan."
+    tags:
+      - "batch-cook"
+      - "make-ahead"
+      - "no-oven"
+      - "one-pot"
+  - id: "RC-013"
+    name: "Spiced Barley Salad"
+    category: "salad"
+    servings: 2
+    prep_minutes: 25
+    cook_minutes: 3
+    difficulty: "medium"
+    ingredients:
+      - item: "baking powder"
+        quantity: 2
+        unit: "tsp"
+      - item: "vegetable stock"
+        quantity: 500
+        unit: "ml"
+      - item: "thyme sprig"
+        quantity: 1
+        unit: "whole"
+      - item: "unsalted butter"
+        quantity: 400
+        unit: "g"
+      - item: "hard cheese"
+        quantity: 200
+        unit: "g"
+    steps:
+      - "Warm the oil in a wide pan over a medium heat until it shimmers."
+      - "Soften the onion and garlic for six minutes, stirring so they do not colour."
+      - "Season generously, then stir through the remaining dry ingredients."
+      - "Pour in the stock, bring to a simmer, and cook uncovered for twenty minutes."
+      - "Taste, adjust the seasoning, and finish with a squeeze of lemon."
+      - "Scatter over the herbs and serve straight from the pan."
+      - "Cool completely before slicing, or the crumb will tear."
+    tags:
+      - "low-waste"
+      - "make-ahead"
+      - "vegan"
+  - id: "RC-014"
+    name: "Spiced Walnut Salad"
+    category: "salad"
+    servings: 4
+    prep_minutes: 15
+    cook_minutes: 6
+    difficulty: "easy"
+    ingredients:
+      - item: "black pepper"
+        quantity: 2
+        unit: "tsp"
+      - item: "chickpeas"
+        quantity: 100
+        unit: "g"
+      - item: "flat-leaf parsley"
+        quantity: 150
+        unit: "g"
+      - item: "plain flour"
+        quantity: 200
+        unit: "g"
+    steps:
+      - "Warm the oil in a wide pan over a medium heat until it shimmers."
+      - "Season generously, then stir through the remaining dry ingredients."
+      - "Scatter over the herbs and serve straight from the pan."
+      - "Cool completely before slicing, or the crumb will tear."
+    tags:
+      - "low-waste"
+      - "make-ahead"
+  - id: "RC-015"
+    name: "Spiced Barley Gratin"
+    category: "side"
+    servings: 4
+    prep_minutes: 25
+    cook_minutes: 32
+    difficulty: "easy"
+    ingredients:
+      - item: "chickpeas"
+        quantity: 50
+        unit: "g"
+      - item: "black pepper"
+        quantity: 2
+        unit: "tsp"
+      - item: "red onion"
+        quantity: 4
+        unit: "whole"
+      - item: "caster sugar"
+        quantity: 300
+        unit: "g"
+      - item: "pearl barley"
+        quantity: 50
+        unit: "g"
+    steps:
+      - "Season generously, then stir through the remaining dry ingredients."
+      - "Pour in the stock, bring to a simmer, and cook uncovered for twenty minutes."
+      - "Rest for five minutes off the heat so the sauce thickens."
+      - "Scatter over the herbs and serve straight from the pan."
+    tags:
+      - "batch-cook"
+      - "make-ahead"
+      - "vegan"
+  - id: "RC-016"
+    name: "Charred Tomato Soup"
+    category: "soup"
+    servings: 4
+    prep_minutes: 5
+    cook_minutes: 29
+    difficulty: "hard"
+    ingredients:
+      - item: "caster sugar"
+        quantity: 300
+        unit: "g"
+      - item: "chickpeas"
+        quantity: 100
+        unit: "g"
+      - item: "unsalted butter"
+        quantity: 400
+        unit: "g"
+      - item: "plain flour"
+        quantity: 300
+        unit: "g"
+    steps:
+      - "Warm the oil in a wide pan over a medium heat until it shimmers."
+      - "Soften the onion and garlic for six minutes, stirring so they do not colour."
+      - "Season generously, then stir through the remaining dry ingredients."
+      - "Pour in the stock, bring to a simmer, and cook uncovered for twenty minutes."
+      - "Rest for five minutes off the heat so the sauce thickens."
+      - "Cool completely before slicing, or the crumb will tear."
+    tags:
+      - "batch-cook"
+      - "low-waste"
+      - "make-ahead"
+      - "vegan"
+  - id: "RC-017"
+    name: "Smoky Mushroom Hash"
+    category: "breakfast"
+    servings: 8
+    prep_minutes: 5
+    cook_minutes: 10
+    difficulty: "easy"
+    ingredients:
+      - item: "plain flour"
+        quantity: 50
+        unit: "g"
+      - item: "vegetable stock"
+        quantity: 50
+        unit: "ml"
+      - item: "flat-leaf parsley"
+        quantity: 50
+        unit: "g"
+      - item: "unsalted butter"
+        quantity: 400
+        unit: "g"
+    steps:
+      - "Season generously, then stir through the remaining dry ingredients."
+      - "Rest for five minutes off the heat so the sauce thickens."
+      - "Taste, adjust the seasoning, and finish with a squeeze of lemon."
+      - "Scatter over the herbs and serve straight from the pan."
+    tags:
+      - "high-protein"
+      - "low-waste"
+      - "make-ahead"
+      - "one-pot"
+      - "under-30-minutes"
+  - id: "RC-018"
+    name: "Chilled Mushroom Soup"
+    category: "soup"
+    servings: 6
+    prep_minutes: 30
+    cook_minutes: 41
+    difficulty: "medium"
+    ingredients:
+      - item: "olive oil"
+        quantity: 3
+        unit: "tbsp"
+      - item: "wholegrain mustard"
+        quantity: 2
+        unit: "tsp"
+      - item: "baking powder"
+        quantity: 1
+        unit: "tsp"
+      - item: "flat-leaf parsley"
+        quantity: 300
+        unit: "g"
+      - item: "vegetable stock"
+        quantity: 200
+        unit: "ml"
+      - item: "red onion"
+        quantity: 4
+        unit: "whole"
+    steps:
+      - "Soften the onion and garlic for six minutes, stirring so they do not colour."
+      - "Season generously, then stir through the remaining dry ingredients."
+      - "Taste, adjust the seasoning, and finish with a squeeze of lemon."
+      - "Cool completely before slicing, or the crumb will tear."
+    tags:
+      - "make-ahead"
+      - "one-pot"
+  - id: "RC-019"
+    name: "Herbed Lemon Hash"
+    category: "breakfast"
+    servings: 2
+    prep_minutes: 5
+    cook_minutes: 11
+    difficulty: "medium"
+    ingredients:
+      - item: "sea salt"
+        quantity: 1
+        unit: "tsp"
+      - item: "thyme sprig"
+        quantity: 4
+        unit: "whole"
+      - item: "unsalted butter"
+        quantity: 100
+        unit: "g"
+      - item: "baking powder"
+        quantity: 2
+        unit: "tsp"
+      - item: "caster sugar"
+        quantity: 250
+        unit: "g"
+      - item: "double cream"
+        quantity: 500
+        unit: "ml"
+      - item: "smoked paprika"
+        quantity: 1
+        unit: "tsp"
+    steps:
+      - "Soften the onion and garlic for six minutes, stirring so they do not colour."
+      - "Season generously, then stir through the remaining dry ingredients."
+      - "Pour in the stock, bring to a simmer, and cook uncovered for twenty minutes."
+      - "Rest for five minutes off the heat so the sauce thickens."
+      - "Scatter over the herbs and serve straight from the pan."
+      - "Cool completely before slicing, or the crumb will tear."
+    tags:
+      - "low-waste"
+      - "make-ahead"
+      - "one-pot"
+      - "vegetarian"
+  - id: "RC-020"
+    name: "Smoky Tomato Flatbread"
+    category: "baking"
+    servings: 2
+    prep_minutes: 20
+    cook_minutes: 48
+    difficulty: "medium"
+    ingredients:
+      - item: "baking powder"
+        quantity: 2
+        unit: "tsp"
+      - item: "lemon"
+        quantity: 3
+        unit: "whole"
+      - item: "cherry tomato"
+        quantity: 50
+        unit: "g"
+      - item: "flat-leaf parsley"
+        quantity: 400
+        unit: "g"
+    steps:
+      - "Heat the oven to 200C and line a shallow tray with baking paper."
+      - "Soften the onion and garlic for six minutes, stirring so they do not colour."
+      - "Season generously, then stir through the remaining dry ingredients."
+      - "Pour in the stock, bring to a simmer, and cook uncovered for twenty minutes."
+      - "Rest for five minutes off the heat so the sauce thickens."
+    tags:
+      - "batch-cook"
+      - "make-ahead"
+      - "vegetarian"
+  - id: "RC-021"
+    name: "Spiced Pear Salad"
+    category: "salad"
+    servings: 4
+    prep_minutes: 20
+    cook_minutes: 4
+    difficulty: "easy"
+    ingredients:
+      - item: "chickpeas"
+        quantity: 300
+        unit: "g"
+      - item: "wholegrain mustard"
+        quantity: 1
+        unit: "tsp"
+      - item: "lemon"
+        quantity: 4
+        unit: "whole"
+      - item: "plain flour"
+        quantity: 150
+        unit: "g"
+    steps:
+      - "Soften the onion and garlic for six minutes, stirring so they do not colour."
+      - "Season generously, then stir through the remaining dry ingredients."
+      - "Rest for five minutes off the heat so the sauce thickens."
+      - "Taste, adjust the seasoning, and finish with a squeeze of lemon."
+      - "Scatter over the herbs and serve straight from the pan."
+    tags:
+      - "freezer-friendly"
+      - "high-protein"
+      - "make-ahead"
+      - "no-oven"
+  - id: "RC-022"
+    name: "Buttered Lentil Hash"
+    category: "breakfast"
+    servings: 2
+    prep_minutes: 25
+    cook_minutes: 21
+    difficulty: "easy"
+    ingredients:
+      - item: "sea salt"
+        quantity: 1
+        unit: "tsp"
+      - item: "red onion"
+        quantity: 3
+        unit: "whole"
+      - item: "chickpeas"
+        quantity: 100
+        unit: "g"
+      - item: "thyme sprig"
+        quantity: 1
+        unit: "whole"
+      - item: "garlic clove"
+        quantity: 4
+        unit: "whole"
+      - item: "vegetable stock"
+        quantity: 500
+        unit: "ml"
+      - item: "wholegrain mustard"
+        quantity: 2
+        unit: "tsp"
+    steps:
+      - "Warm the oil in a wide pan over a medium heat until it shimmers."
+      - "Pour in the stock, bring to a simmer, and cook uncovered for twenty minutes."
+      - "Taste, adjust the seasoning, and finish with a squeeze of lemon."
+      - "Scatter over the herbs and serve straight from the pan."
+      - "Cool completely before slicing, or the crumb will tear."
+    tags:
+      - "batch-cook"
+      - "make-ahead"
+      - "no-oven"
+  - id: "RC-023"
+    name: "Whipped Fennel Stew"
+    category: "one-pot"
+    servings: 2
+    prep_minutes: 15
+    cook_minutes: 64
+    difficulty: "medium"
+    ingredients:
+      - item: "pearl barley"
+        quantity: 200
+        unit: "g"
+      - item: "unsalted butter"
+        quantity: 200
+        unit: "g"
+      - item: "baking powder"
+        quantity: 2
+        unit: "tsp"
+      - item: "caster sugar"
+        quantity: 50
+        unit: "g"
+      - item: "hard cheese"
+        quantity: 400
+        unit: "g"
+    steps:
+      - "Warm the oil in a wide pan over a medium heat until it shimmers."
+      - "Soften the onion and garlic for six minutes, stirring so they do not colour."
+      - "Pour in the stock, bring to a simmer, and cook uncovered for twenty minutes."
+      - "Rest for five minutes off the heat so the sauce thickens."
+      - "Scatter over the herbs and serve straight from the pan."
+      - "Cool completely before slicing, or the crumb will tear."
+    tags:
+      - "make-ahead"
+      - "no-oven"
+      - "one-pot"
+  - id: "RC-024"
+    name: "Herbed Walnut Skillet"
+    category: "main"
+    servings: 4
+    prep_minutes: 30
+    cook_minutes: 24
+    difficulty: "easy"
+    ingredients:
+      - item: "red onion"
+        quantity: 2
+        unit: "whole"
+      - item: "vegetable stock"
+        quantity: 300
+        unit: "ml"
+      - item: "lemon"
+        quantity: 2
+        unit: "whole"
+      - item: "smoked paprika"
+        quantity: 1
+        unit: "tsp"
+    steps:
+      - "Warm the oil in a wide pan over a medium heat until it shimmers."
+      - "Season generously, then stir through the remaining dry ingredients."
+      - "Pour in the stock, bring to a simmer, and cook uncovered for twenty minutes."
+      - "Rest for five minutes off the heat so the sauce thickens."
+      - "Scatter over the herbs and serve straight from the pan."
+      - "Cool completely before slicing, or the crumb will tear."
+    tags:
+      - "batch-cook"
+      - "make-ahead"
+      - "no-oven"
+  - id: "RC-025"
+    name: "Slow-roasted Walnut Soup"
+    category: "soup"
+    servings: 4
+    prep_minutes: 5
+    cook_minutes: 30
+    difficulty: "easy"
+    ingredients:
+      - item: "sea salt"
+        quantity: 2
+        unit: "tsp"
+      - item: "wholegrain mustard"
+        quantity: 1
+        unit: "tsp"
+      - item: "flat-leaf parsley"
+        quantity: 150
+        unit: "g"
+      - item: "black pepper"
+        quantity: 1
+        unit: "tsp"
+      - item: "pearl barley"
+        quantity: 50
+        unit: "g"
+    steps:
+      - "Warm the oil in a wide pan over a medium heat until it shimmers."
+      - "Soften the onion and garlic for six minutes, stirring so they do not colour."
+      - "Season generously, then stir through the remaining dry ingredients."
+      - "Pour in the stock, bring to a simmer, and cook uncovered for twenty minutes."
+      - "Taste, adjust the seasoning, and finish with a squeeze of lemon."
+    tags:
+      - "batch-cook"
+      - "freezer-friendly"
+      - "make-ahead"
+      - "one-pot"
+  - id: "RC-026"
+    name: "Whipped Cabbage Salad"
+    category: "salad"
+    servings: 2
+    prep_minutes: 10
+    cook_minutes: 1
+    difficulty: "easy"
+    ingredients:
+      - item: "double cream"
+        quantity: 50
+        unit: "ml"
+      - item: "sea salt"
+        quantity: 1
+        unit: "tsp"
+      - item: "lemon"
+        quantity: 1
+        unit: "whole"
+      - item: "unsalted butter"
+        quantity: 300
+        unit: "g"
+      - item: "vegetable stock"
+        quantity: 300
+        unit: "ml"
+      - item: "cherry tomato"
+        quantity: 400
+        unit: "g"
+      - item: "caster sugar"
+        quantity: 50
+        unit: "g"
+    steps:
+      - "Soften the onion and garlic for six minutes, stirring so they do not colour."
+      - "Season generously, then stir through the remaining dry ingredients."
+      - "Pour in the stock, bring to a simmer, and cook uncovered for twenty minutes."
+      - "Rest for five minutes off the heat so the sauce thickens."
+      - "Taste, adjust the seasoning, and finish with a squeeze of lemon."
+      - "Scatter over the herbs and serve straight from the pan."
+      - "Cool completely before slicing, or the crumb will tear."
+    tags:
+      - "low-waste"
+      - "make-ahead"
+      - "under-30-minutes"
+      - "vegan"
+      - "vegetarian"
+  - id: "RC-027"
+    name: "Buttered Lentil Loaf"
+    category: "baking"
+    servings: 2
+    prep_minutes: 5
+    cook_minutes: 56
+    difficulty: "easy"
+    ingredients:
+      - item: "red onion"
+        quantity: 1
+        unit: "whole"
+      - item: "chickpeas"
+        quantity: 200
+        unit: "g"
+      - item: "sea salt"
+        quantity: 1
+        unit: "tsp"
+      - item: "lemon"
+        quantity: 4
+        unit: "whole"
+      - item: "vegetable stock"
+        quantity: 500
+        unit: "ml"
+      - item: "smoked paprika"
+        quantity: 1
+        unit: "tsp"
+    steps:
+      - "Soften the onion and garlic for six minutes, stirring so they do not colour."
+      - "Pour in the stock, bring to a simmer, and cook uncovered for twenty minutes."
+      - "Transfer to the oven and roast until the edges catch and darken."
+      - "Taste, adjust the seasoning, and finish with a squeeze of lemon."
+      - "Scatter over the herbs and serve straight from the pan."
+    tags:
+      - "high-protein"
+      - "low-waste"
+      - "make-ahead"
+      - "one-pot"
+      - "vegan"
+  - id: "RC-028"
+    name: "Herbed Chickpea Loaf"
+    category: "baking"
+    servings: 4
+    prep_minutes: 10
+    cook_minutes: 56
+    difficulty: "easy"
+    ingredients:
+      - item: "double cream"
+        quantity: 500
+        unit: "ml"
+      - item: "lemon"
+        quantity: 4
+        unit: "whole"
+      - item: "plain flour"
+        quantity: 100
+        unit: "g"
+      - item: "unsalted butter"
+        quantity: 250
+        unit: "g"
+    steps:
+      - "Heat the oven to 200C and line a shallow tray with baking paper."
+      - "Warm the oil in a wide pan over a medium heat until it shimmers."
+      - "Soften the onion and garlic for six minutes, stirring so they do not colour."
+      - "Pour in the stock, bring to a simmer, and cook uncovered for twenty minutes."
+      - "Transfer to the oven and roast until the edges catch and darken."
+      - "Cool completely before slicing, or the crumb will tear."
+    tags:
+      - "batch-cook"
+      - "make-ahead"
+  - id: "RC-029"
+    name: "Spiced Lemon Broth"
+    category: "soup"
+    servings: 6
+    prep_minutes: 15
+    cook_minutes: 27
+    difficulty: "easy"
+    ingredients:
+      - item: "double cream"
+        quantity: 50
+        unit: "ml"
+      - item: "flat-leaf parsley"
+        quantity: 200
+        unit: "g"
+      - item: "vegetable stock"
+        quantity: 50
+        unit: "ml"
+      - item: "thyme sprig"
+        quantity: 2
+        unit: "whole"
+      - item: "lemon"
+        quantity: 3
+        unit: "whole"
+      - item: "caster sugar"
+        quantity: 100
+        unit: "g"
+    steps:
+      - "Warm the oil in a wide pan over a medium heat until it shimmers."
+      - "Soften the onion and garlic for six minutes, stirring so they do not colour."
+      - "Season generously, then stir through the remaining dry ingredients."
+      - "Pour in the stock, bring to a simmer, and cook uncovered for twenty minutes."
+      - "Rest for five minutes off the heat so the sauce thickens."
+      - "Taste, adjust the seasoning, and finish with a squeeze of lemon."
+      - "Scatter over the herbs and serve straight from the pan."
+    tags:
+      - "batch-cook"
+      - "low-waste"
+      - "make-ahead"
+  - id: "RC-030"
+    name: "Golden Lentil Traybake"
+    category: "baking"
+    servings: 8
+    prep_minutes: 20
+    cook_minutes: 50
+    difficulty: "easy"
+    ingredients:
+      - item: "hard cheese"
+        quantity: 50
+        unit: "g"
+      - item: "chickpeas"
+        quantity: 100
+        unit: "g"
+      - item: "black pepper"
+        quantity: 2
+        unit: "tsp"
+      - item: "thyme sprig"
+        quantity: 2
+        unit: "whole"
+    steps:
+      - "Soften the onion and garlic for six minutes, stirring so they do not colour."
+      - "Pour in the stock, bring to a simmer, and cook uncovered for twenty minutes."
+      - "Transfer to the oven and roast until the edges catch and darken."
+      - "Taste, adjust the seasoning, and finish with a squeeze of lemon."
+      - "Scatter over the herbs and serve straight from the pan."
+    tags:
+      - "freezer-friendly"
+      - "low-waste"
+      - "make-ahead"
+      - "vegetarian"
+  - id: "RC-031"
+    name: "Slow-roasted Lemon Galette"
+    category: "baking"
+    servings: 6
+    prep_minutes: 30
+    cook_minutes: 43
+    difficulty: "easy"
+    ingredients:
+      - item: "lemon"
+        quantity: 2
+        unit: "whole"
+      - item: "olive oil"
+        quantity: 2
+        unit: "tbsp"
+      - item: "plain flour"
+        quantity: 200
+        unit: "g"
+      - item: "wholegrain mustard"
+        quantity: 2
+        unit: "tsp"
+    steps:
+      - "Heat the oven to 200C and line a shallow tray with baking paper."
+      - "Rest for five minutes off the heat so the sauce thickens."
+      - "Taste, adjust the seasoning, and finish with a squeeze of lemon."
+      - "Cool completely before slicing, or the crumb will tear."
+    tags:
+      - "make-ahead"
+      - "one-pot"
+      - "vegan"
+      - "vegetarian"
+  - id: "RC-032"
+    name: "Herbed Lemon Flatbread"
+    category: "baking"
+    servings: 2
+    prep_minutes: 15
+    cook_minutes: 59
+    difficulty: "medium"
+    ingredients:
+      - item: "lemon"
+        quantity: 2
+        unit: "whole"
+      - item: "cherry tomato"
+        quantity: 50
+        unit: "g"
+      - item: "flat-leaf parsley"
+        quantity: 50
+        unit: "g"
+      - item: "garlic clove"
+        quantity: 4
+        unit: "whole"
+      - item: "hard cheese"
+        quantity: 300
+        unit: "g"
+      - item: "sea salt"
+        quantity: 1
+        unit: "tsp"
+      - item: "caster sugar"
+        quantity: 100
+        unit: "g"
+    steps:
+      - "Soften the onion and garlic for six minutes, stirring so they do not colour."
+      - "Season generously, then stir through the remaining dry ingredients."
+      - "Transfer to the oven and roast until the edges catch and darken."
+      - "Taste, adjust the seasoning, and finish with a squeeze of lemon."
+    tags:
+      - "batch-cook"
+      - "low-waste"
+      - "make-ahead"
+      - "vegetarian"
+  - id: "RC-033"
+    name: "Chilled Chickpea Traybake"
+    category: "baking"
+    servings: 4
+    prep_minutes: 15
+    cook_minutes: 38
+    difficulty: "easy"
+    ingredients:
+      - item: "thyme sprig"
+        quantity: 2
+        unit: "whole"
+      - item: "unsalted butter"
+        quantity: 50
+        unit: "g"
+      - item: "wholegrain mustard"
+        quantity: 1
+        unit: "tsp"
+      - item: "plain flour"
+        quantity: 200
+        unit: "g"
+      - item: "vegetable stock"
+        quantity: 100
+        unit: "ml"
+    steps:
+      - "Season generously, then stir through the remaining dry ingredients."
+      - "Pour in the stock, bring to a simmer, and cook uncovered for twenty minutes."
+      - "Rest for five minutes off the heat so the sauce thickens."
+      - "Taste, adjust the seasoning, and finish with a squeeze of lemon."
+      - "Scatter over the herbs and serve straight from the pan."
+      - "Cool completely before slicing, or the crumb will tear."
+    tags:
+      - "high-protein"
+      - "low-waste"
+      - "make-ahead"
+  - id: "RC-034"
+    name: "Crisp Tomato Risotto"
+    category: "one-pot"
+    servings: 6
+    prep_minutes: 15
+    cook_minutes: 60
+    difficulty: "easy"
+    ingredients:
+      - item: "baking powder"
+        quantity: 2
+        unit: "tsp"
+      - item: "chickpeas"
+        quantity: 250
+        unit: "g"
+      - item: "double cream"
+        quantity: 100
+        unit: "ml"
+      - item: "black pepper"
+        quantity: 2
+        unit: "tsp"
+      - item: "red onion"
+        quantity: 2
+        unit: "whole"
+      - item: "smoked paprika"
+        quantity: 2
+        unit: "tsp"
+    steps:
+      - "Warm the oil in a wide pan over a medium heat until it shimmers."
+      - "Soften the onion and garlic for six minutes, stirring so they do not colour."
+      - "Season generously, then stir through the remaining dry ingredients."
+      - "Pour in the stock, bring to a simmer, and cook uncovered for twenty minutes."
+      - "Rest for five minutes off the heat so the sauce thickens."
+      - "Scatter over the herbs and serve straight from the pan."
+    tags:
+      - "freezer-friendly"
+      - "make-ahead"
+      - "one-pot"
+      - "vegan"
+  - id: "RC-035"
+    name: "Charred Walnut Gratin"
+    category: "side"
+    servings: 8
+    prep_minutes: 30
+    cook_minutes: 35
+    difficulty: "easy"
+    ingredients:
+      - item: "olive oil"
+        quantity: 1
+        unit: "tbsp"
+      - item: "wholegrain mustard"
+        quantity: 1
+        unit: "tsp"
+      - item: "caster sugar"
+        quantity: 300
+        unit: "g"
+      - item: "chickpeas"
+        quantity: 400
+        unit: "g"
+      - item: "vegetable stock"
+        quantity: 200
+        unit: "ml"
+    steps:
+      - "Heat the oven to 200C and line a shallow tray with baking paper."
+      - "Warm the oil in a wide pan over a medium heat until it shimmers."
+      - "Season generously, then stir through the remaining dry ingredients."
+      - "Pour in the stock, bring to a simmer, and cook uncovered for twenty minutes."
+      - "Scatter over the herbs and serve straight from the pan."
+    tags:
+      - "batch-cook"
+      - "high-protein"
+      - "make-ahead"
+      - "vegan"
+  - id: "RC-036"
+    name: "Chilled Walnut Risotto"
+    category: "one-pot"
+    servings: 2
+    prep_minutes: 25
+    cook_minutes: 47
+    difficulty: "easy"
+    ingredients:
+      - item: "thyme sprig"
+        quantity: 4
+        unit: "whole"
+      - item: "pearl barley"
+        quantity: 250
+        unit: "g"
+      - item: "double cream"
+        quantity: 50
+        unit: "ml"
+      - item: "caster sugar"
+        quantity: 250
+        unit: "g"
+      - item: "red onion"
+        quantity: 1
+        unit: "whole"
+      - item: "black pepper"
+        quantity: 1
+        unit: "tsp"
+      - item: "smoked paprika"
+        quantity: 1
+        unit: "tsp"
+      - item: "unsalted butter"
+        quantity: 300
+        unit: "g"
+    steps:
+      - "Soften the onion and garlic for six minutes, stirring so they do not colour."
+      - "Season generously, then stir through the remaining dry ingredients."
+      - "Rest for five minutes off the heat so the sauce thickens."
+      - "Taste, adjust the seasoning, and finish with a squeeze of lemon."
+      - "Scatter over the herbs and serve straight from the pan."
+    tags:
+      - "high-protein"
+      - "low-waste"
+      - "make-ahead"
+      - "no-oven"
+      - "vegan"
+  - id: "RC-037"
+    name: "Smoky Fennel Risotto"
+    category: "one-pot"
+    servings: 4
+    prep_minutes: 15
+    cook_minutes: 38
+    difficulty: "medium"
+    ingredients:
+      - item: "red onion"
+        quantity: 3
+        unit: "whole"
+      - item: "smoked paprika"
+        quantity: 2
+        unit: "tsp"
+      - item: "hard cheese"
+        quantity: 100
+        unit: "g"
+      - item: "baking powder"
+        quantity: 2
+        unit: "tsp"
+      - item: "flat-leaf parsley"
+        quantity: 150
+        unit: "g"
+      - item: "cherry tomato"
+        quantity: 400
+        unit: "g"
+      - item: "sea salt"
+        quantity: 1
+        unit: "tsp"
+      - item: "lemon"
+        quantity: 4
+        unit: "whole"
+    steps:
+      - "Soften the onion and garlic for six minutes, stirring so they do not colour."
+      - "Season generously, then stir through the remaining dry ingredients."
+      - "Pour in the stock, bring to a simmer, and cook uncovered for twenty minutes."
+      - "Rest for five minutes off the heat so the sauce thickens."
+      - "Taste, adjust the seasoning, and finish with a squeeze of lemon."
+      - "Scatter over the herbs and serve straight from the pan."
+      - "Cool completely before slicing, or the crumb will tear."
+    tags:
+      - "freezer-friendly"
+      - "make-ahead"
+      - "one-pot"
+  - id: "RC-038"
+    name: "Spiced Barley Hash"
+    category: "breakfast"
+    servings: 4
+    prep_minutes: 15
+    cook_minutes: 20
+    difficulty: "medium"
+    ingredients:
+      - item: "smoked paprika"
+        quantity: 1
+        unit: "tsp"
+      - item: "olive oil"
+        quantity: 1
+        unit: "tbsp"
+      - item: "lemon"
+        quantity: 3
+        unit: "whole"
+      - item: "black pepper"
+        quantity: 2
+        unit: "tsp"
+    steps:
+      - "Season generously, then stir through the remaining dry ingredients."
+      - "Pour in the stock, bring to a simmer, and cook uncovered for twenty minutes."
+      - "Rest for five minutes off the heat so the sauce thickens."
+      - "Taste, adjust the seasoning, and finish with a squeeze of lemon."
+      - "Scatter over the herbs and serve straight from the pan."
+    tags:
+      - "freezer-friendly"
+      - "make-ahead"
+      - "no-oven"
+  - id: "RC-039"
+    name: "Golden Fennel Salad"
+    category: "salad"
+    servings: 8
+    prep_minutes: 20
+    cook_minutes: 1
+    difficulty: "medium"
+    ingredients:
+      - item: "chickpeas"
+        quantity: 50
+        unit: "g"
+      - item: "thyme sprig"
+        quantity: 3
+        unit: "whole"
+      - item: "double cream"
+        quantity: 100
+        unit: "ml"
+      - item: "plain flour"
+        quantity: 250
+        unit: "g"
+    steps:
+      - "Warm the oil in a wide pan over a medium heat until it shimmers."
+      - "Soften the onion and garlic for six minutes, stirring so they do not colour."
+      - "Season generously, then stir through the remaining dry ingredients."
+      - "Pour in the stock, bring to a simmer, and cook uncovered for twenty minutes."
+      - "Scatter over the herbs and serve straight from the pan."
+    tags:
+      - "freezer-friendly"
+      - "make-ahead"
+      - "under-30-minutes"
+  - id: "RC-040"
+    name: "Whipped Fennel Broth"
+    category: "soup"
+    servings: 4
+    prep_minutes: 15
+    cook_minutes: 32
+    difficulty: "medium"
+    ingredients:
+      - item: "sea salt"
+        quantity: 1
+        unit: "tsp"
+      - item: "plain flour"
+        quantity: 400
+        unit: "g"
+      - item: "hard cheese"
+        quantity: 250
+        unit: "g"
+      - item: "flat-leaf parsley"
+        quantity: 300
+        unit: "g"
+      - item: "lemon"
+        quantity: 3
+        unit: "whole"
+      - item: "double cream"
+        quantity: 300
+        unit: "ml"
+      - item: "olive oil"
+        quantity: 1
+        unit: "tbsp"
+    steps:
+      - "Soften the onion and garlic for six minutes, stirring so they do not colour."
+      - "Rest for five minutes off the heat so the sauce thickens."
+      - "Taste, adjust the seasoning, and finish with a squeeze of lemon."
+      - "Scatter over the herbs and serve straight from the pan."
+      - "Cool completely before slicing, or the crumb will tear."
+    tags:
+      - "low-waste"
+      - "make-ahead"
+      - "no-oven"
+      - "vegan"
+      - "vegetarian"
+  - id: "RC-041"
+    name: "Charred Fennel Risotto"
+    category: "one-pot"
+    servings: 8
+    prep_minutes: 30
+    cook_minutes: 55
+    difficulty: "medium"
+    ingredients:
+      - item: "smoked paprika"
+        quantity: 2
+        unit: "tsp"
+      - item: "double cream"
+        quantity: 100
+        unit: "ml"
+      - item: "olive oil"
+        quantity: 1
+        unit: "tbsp"
+      - item: "vegetable stock"
+        quantity: 100
+        unit: "ml"
+      - item: "hard cheese"
+        quantity: 300
+        unit: "g"
+      - item: "unsalted butter"
+        quantity: 100
+        unit: "g"
+      - item: "chickpeas"
+        quantity: 250
+        unit: "g"
+    steps:
+      - "Warm the oil in a wide pan over a medium heat until it shimmers."
+      - "Soften the onion and garlic for six minutes, stirring so they do not colour."
+      - "Season generously, then stir through the remaining dry ingredients."
+      - "Rest for five minutes off the heat so the sauce thickens."
+      - "Scatter over the herbs and serve straight from the pan."
+    tags:
+      - "batch-cook"
+      - "high-protein"
+      - "make-ahead"
+  - id: "RC-042"
+    name: "Chilled Aubergine Soup"
+    category: "soup"
+    servings: 4
+    prep_minutes: 15
+    cook_minutes: 37
+    difficulty: "easy"
+    ingredients:
+      - item: "plain flour"
+        quantity: 150
+        unit: "g"
+      - item: "baking powder"
+        quantity: 2
+        unit: "tsp"
+      - item: "sea salt"
+        quantity: 2
+        unit: "tsp"
+      - item: "caster sugar"
+        quantity: 400
+        unit: "g"
+      - item: "olive oil"
+        quantity: 2
+        unit: "tbsp"
+      - item: "cherry tomato"
+        quantity: 100
+        unit: "g"
+      - item: "pearl barley"
+        quantity: 400
+        unit: "g"
+      - item: "smoked paprika"
+        quantity: 1
+        unit: "tsp"
+    steps:
+      - "Soften the onion and garlic for six minutes, stirring so they do not colour."
+      - "Season generously, then stir through the remaining dry ingredients."
+      - "Pour in the stock, bring to a simmer, and cook uncovered for twenty minutes."
+      - "Rest for five minutes off the heat so the sauce thickens."
+      - "Taste, adjust the seasoning, and finish with a squeeze of lemon."
+      - "Scatter over the herbs and serve straight from the pan."
+      - "Cool completely before slicing, or the crumb will tear."
+    tags:
+      - "batch-cook"
+      - "make-ahead"
+      - "no-oven"
+      - "vegan"
+  - id: "RC-043"
+    name: "Golden Cabbage Gratin"
+    category: "side"
+    servings: 4
+    prep_minutes: 30
+    cook_minutes: 34
+    difficulty: "easy"
+    ingredients:
+      - item: "smoked paprika"
+        quantity: 1
+        unit: "tsp"
+      - item: "cherry tomato"
+        quantity: 400
+        unit: "g"
+      - item: "baking powder"
+        quantity: 2
+        unit: "tsp"
+      - item: "vegetable stock"
+        quantity: 300
+        unit: "ml"
+      - item: "plain flour"
+        quantity: 50
+        unit: "g"
+      - item: "pearl barley"
+        quantity: 300
+        unit: "g"
+    steps:
+      - "Warm the oil in a wide pan over a medium heat until it shimmers."
+      - "Soften the onion and garlic for six minutes, stirring so they do not colour."
+      - "Season generously, then stir through the remaining dry ingredients."
+      - "Pour in the stock, bring to a simmer, and cook uncovered for twenty minutes."
+      - "Rest for five minutes off the heat so the sauce thickens."
+      - "Taste, adjust the seasoning, and finish with a squeeze of lemon."
+      - "Cool completely before slicing, or the crumb will tear."
+    tags:
+      - "batch-cook"
+      - "make-ahead"
+  - id: "RC-044"
+    name: "Crisp Aubergine Traybake"
+    category: "baking"
+    servings: 6
+    prep_minutes: 25
+    cook_minutes: 60
+    difficulty: "medium"
+    ingredients:
+      - item: "hard cheese"
+        quantity: 200
+        unit: "g"
+      - item: "unsalted butter"
+        quantity: 200
+        unit: "g"
+      - item: "flat-leaf parsley"
+        quantity: 200
+        unit: "g"
+      - item: "red onion"
+        quantity: 4
+        unit: "whole"
+      - item: "plain flour"
+        quantity: 400
+        unit: "g"
+      - item: "wholegrain mustard"
+        quantity: 2
+        unit: "tsp"
+      - item: "double cream"
+        quantity: 300
+        unit: "ml"
+    steps:
+      - "Season generously, then stir through the remaining dry ingredients."
+      - "Transfer to the oven and roast until the edges catch and darken."
+      - "Rest for five minutes off the heat so the sauce thickens."
+      - "Scatter over the herbs and serve straight from the pan."
+    tags:
+      - "high-protein"
+      - "low-waste"
+      - "make-ahead"
+      - "vegetarian"
+  - id: "RC-045"
+    name: "Herbed Barley Stew"
+    category: "one-pot"
+    servings: 4
+    prep_minutes: 30
+    cook_minutes: 45
+    difficulty: "medium"
+    ingredients:
+      - item: "hard cheese"
+        quantity: 400
+        unit: "g"
+      - item: "flat-leaf parsley"
+        quantity: 250
+        unit: "g"
+      - item: "pearl barley"
+        quantity: 150
+        unit: "g"
+      - item: "caster sugar"
+        quantity: 100
+        unit: "g"
+    steps:
+      - "Warm the oil in a wide pan over a medium heat until it shimmers."
+      - "Soften the onion and garlic for six minutes, stirring so they do not colour."
+      - "Season generously, then stir through the remaining dry ingredients."
+      - "Rest for five minutes off the heat so the sauce thickens."
+      - "Taste, adjust the seasoning, and finish with a squeeze of lemon."
+    tags:
+      - "high-protein"
+      - "low-waste"
+      - "make-ahead"
+  - id: "RC-046"
+    name: "Golden Lentil Soup"
+    category: "soup"
+    servings: 2
+    prep_minutes: 30
+    cook_minutes: 30
+    difficulty: "easy"
+    ingredients:
+      - item: "vegetable stock"
+        quantity: 50
+        unit: "ml"
+      - item: "chickpeas"
+        quantity: 300
+        unit: "g"
+      - item: "double cream"
+        quantity: 100
+        unit: "ml"
+      - item: "lemon"
+        quantity: 2
+        unit: "whole"
+      - item: "unsalted butter"
+        quantity: 100
+        unit: "g"
+      - item: "hard cheese"
+        quantity: 200
+        unit: "g"
+      - item: "flat-leaf parsley"
+        quantity: 50
+        unit: "g"
+      - item: "wholegrain mustard"
+        quantity: 1
+        unit: "tsp"
+    steps:
+      - "Warm the oil in a wide pan over a medium heat until it shimmers."
+      - "Soften the onion and garlic for six minutes, stirring so they do not colour."
+      - "Pour in the stock, bring to a simmer, and cook uncovered for twenty minutes."
+      - "Rest for five minutes off the heat so the sauce thickens."
+      - "Cool completely before slicing, or the crumb will tear."
+    tags:
+      - "freezer-friendly"
+      - "high-protein"
+      - "make-ahead"
+      - "no-oven"
+  - id: "RC-047"
+    name: "Charred Lentil Hash"
+    category: "breakfast"
+    servings: 4
+    prep_minutes: 10
+    cook_minutes: 19
+    difficulty: "hard"
+    ingredients:
+      - item: "caster sugar"
+        quantity: 100
+        unit: "g"
+      - item: "smoked paprika"
+        quantity: 2
+        unit: "tsp"
+      - item: "hard cheese"
+        quantity: 200
+        unit: "g"
+      - item: "olive oil"
+        quantity: 1
+        unit: "tbsp"
+      - item: "pearl barley"
+        quantity: 50
+        unit: "g"
+      - item: "red onion"
+        quantity: 4
+        unit: "whole"
+      - item: "cherry tomato"
+        quantity: 400
+        unit: "g"
+      - item: "lemon"
+        quantity: 2
+        unit: "whole"
+    steps:
+      - "Warm the oil in a wide pan over a medium heat until it shimmers."
+      - "Soften the onion and garlic for six minutes, stirring so they do not colour."
+      - "Season generously, then stir through the remaining dry ingredients."
+      - "Scatter over the herbs and serve straight from the pan."
+      - "Cool completely before slicing, or the crumb will tear."
+    tags:
+      - "batch-cook"
+      - "high-protein"
+      - "low-waste"
+      - "make-ahead"
+      - "vegetarian"
+  - id: "RC-048"
+    name: "Buttered Mushroom Loaf"
+    category: "baking"
+    servings: 4
+    prep_minutes: 10
+    cook_minutes: 35
+    difficulty: "hard"
+    ingredients:
+      - item: "hard cheese"
+        quantity: 100
+        unit: "g"
+      - item: "flat-leaf parsley"
+        quantity: 50
+        unit: "g"
+      - item: "thyme sprig"
+        quantity: 1
+        unit: "whole"
+      - item: "smoked paprika"
+        quantity: 1
+        unit: "tsp"
+      - item: "unsalted butter"
+        quantity: 150
+        unit: "g"
+      - item: "sea salt"
+        quantity: 2
+        unit: "tsp"
+      - item: "plain flour"
+        quantity: 400
+        unit: "g"
+      - item: "chickpeas"
+        quantity: 300
+        unit: "g"
+    steps:
+      - "Soften the onion and garlic for six minutes, stirring so they do not colour."
+      - "Season generously, then stir through the remaining dry ingredients."
+      - "Pour in the stock, bring to a simmer, and cook uncovered for twenty minutes."
+      - "Transfer to the oven and roast until the edges catch and darken."
+      - "Rest for five minutes off the heat so the sauce thickens."
+      - "Cool completely before slicing, or the crumb will tear."
+    tags:
+      - "batch-cook"
+      - "make-ahead"
+  - id: "RC-049"
+    name: "Charred Tomato Salad"
+    category: "salad"
+    servings: 2
+    prep_minutes: 5
+    cook_minutes: 7
+    difficulty: "easy"
+    ingredients:
+      - item: "unsalted butter"
+        quantity: 50
+        unit: "g"
+      - item: "olive oil"
+        quantity: 3
+        unit: "tbsp"
+      - item: "baking powder"
+        quantity: 2
+        unit: "tsp"
+      - item: "chickpeas"
+        quantity: 200
+        unit: "g"
+    steps:
+      - "Warm the oil in a wide pan over a medium heat until it shimmers."
+      - "Soften the onion and garlic for six minutes, stirring so they do not colour."
+      - "Pour in the stock, bring to a simmer, and cook uncovered for twenty minutes."
+      - "Rest for five minutes off the heat so the sauce thickens."
+      - "Taste, adjust the seasoning, and finish with a squeeze of lemon."
+      - "Scatter over the herbs and serve straight from the pan."
+    tags:
+      - "batch-cook"
+      - "low-waste"
+      - "make-ahead"
+      - "vegan"
+  - id: "RC-050"
+    name: "Spiced Pear Gratin"
+    category: "side"
+    servings: 2
+    prep_minutes: 25
+    cook_minutes: 30
+    difficulty: "easy"
+    ingredients:
+      - item: "unsalted butter"
+        quantity: 150
+        unit: "g"
+      - item: "plain flour"
+        quantity: 150
+        unit: "g"
+      - item: "vegetable stock"
+        quantity: 300
+        unit: "ml"
+      - item: "sea salt"
+        quantity: 2
+        unit: "tsp"
+    steps:
+      - "Heat the oven to 200C and line a shallow tray with baking paper."
+      - "Warm the oil in a wide pan over a medium heat until it shimmers."
+      - "Pour in the stock, bring to a simmer, and cook uncovered for twenty minutes."
+      - "Transfer to the oven and roast until the edges catch and darken."
+      - "Rest for five minutes off the heat so the sauce thickens."
+      - "Cool completely before slicing, or the crumb will tear."
+    tags:
+      - "batch-cook"
+      - "make-ahead"
+      - "one-pot"
+  - id: "RC-051"
+    name: "Golden Walnut Risotto"
+    category: "one-pot"
+    servings: 2
+    prep_minutes: 10
+    cook_minutes: 61
+    difficulty: "medium"
+    ingredients:
+      - item: "garlic clove"
+        quantity: 3
+        unit: "whole"
+      - item: "unsalted butter"
+        quantity: 50
+        unit: "g"
+      - item: "vegetable stock"
+        quantity: 50
+        unit: "ml"
+      - item: "hard cheese"
+        quantity: 200
+        unit: "g"
+      - item: "chickpeas"
+        quantity: 50
+        unit: "g"
+      - item: "lemon"
+        quantity: 2
+        unit: "whole"
+      - item: "pearl barley"
+        quantity: 200
+        unit: "g"
+      - item: "plain flour"
+        quantity: 250
+        unit: "g"
+    steps:
+      - "Warm the oil in a wide pan over a medium heat until it shimmers."
+      - "Soften the onion and garlic for six minutes, stirring so they do not colour."
+      - "Pour in the stock, bring to a simmer, and cook uncovered for twenty minutes."
+      - "Rest for five minutes off the heat so the sauce thickens."
+      - "Scatter over the herbs and serve straight from the pan."
+      - "Cool completely before slicing, or the crumb will tear."
+    tags:
+      - "freezer-friendly"
+      - "make-ahead"
+      - "no-oven"
+      - "vegan"
+  - id: "RC-052"
+    name: "Charred Chickpea Flatbread"
+    category: "baking"
+    servings: 4
+    prep_minutes: 15
+    cook_minutes: 58
+    difficulty: "medium"
+    ingredients:
+      - item: "double cream"
+        quantity: 50
+        unit: "ml"
+      - item: "black pepper"
+        quantity: 1
+        unit: "tsp"
+      - item: "olive oil"
+        quantity: 2
+        unit: "tbsp"
+      - item: "garlic clove"
+        quantity: 4
+        unit: "whole"
+      - item: "unsalted butter"
+        quantity: 250
+        unit: "g"
+      - item: "wholegrain mustard"
+        quantity: 1
+        unit: "tsp"
+      - item: "chickpeas"
+        quantity: 400
+        unit: "g"
+    steps:
+      - "Heat the oven to 200C and line a shallow tray with baking paper."
+      - "Warm the oil in a wide pan over a medium heat until it shimmers."
+      - "Soften the onion and garlic for six minutes, stirring so they do not colour."
+      - "Season generously, then stir through the remaining dry ingredients."
+      - "Pour in the stock, bring to a simmer, and cook uncovered for twenty minutes."
+      - "Transfer to the oven and roast until the edges catch and darken."
+    tags:
+      - "make-ahead"
+      - "one-pot"
+  - id: "RC-053"
+    name: "Golden Cabbage Flatbread"
+    category: "baking"
+    servings: 2
+    prep_minutes: 15
+    cook_minutes: 54
+    difficulty: "medium"
+    ingredients:
+      - item: "plain flour"
+        quantity: 300
+        unit: "g"
+      - item: "baking powder"
+        quantity: 1
+        unit: "tsp"
+      - item: "black pepper"
+        quantity: 1
+        unit: "tsp"
+      - item: "flat-leaf parsley"
+        quantity: 100
+        unit: "g"
+    steps:
+      - "Warm the oil in a wide pan over a medium heat until it shimmers."
+      - "Soften the onion and garlic for six minutes, stirring so they do not colour."
+      - "Transfer to the oven and roast until the edges catch and darken."
+      - "Taste, adjust the seasoning, and finish with a squeeze of lemon."
+      - "Cool completely before slicing, or the crumb will tear."
+    tags:
+      - "make-ahead"
+      - "vegan"
+      - "vegetarian"
+  - id: "RC-054"
+    name: "Golden Lentil Risotto"
+    category: "one-pot"
+    servings: 4
+    prep_minutes: 25
+    cook_minutes: 62
+    difficulty: "medium"
+    ingredients:
+      - item: "lemon"
+        quantity: 4
+        unit: "whole"
+      - item: "olive oil"
+        quantity: 2
+        unit: "tbsp"
+      - item: "thyme sprig"
+        quantity: 2
+        unit: "whole"
+      - item: "cherry tomato"
+        quantity: 100
+        unit: "g"
+    steps:
+      - "Warm the oil in a wide pan over a medium heat until it shimmers."
+      - "Soften the onion and garlic for six minutes, stirring so they do not colour."
+      - "Season generously, then stir through the remaining dry ingredients."
+      - "Pour in the stock, bring to a simmer, and cook uncovered for twenty minutes."
+      - "Taste, adjust the seasoning, and finish with a squeeze of lemon."
+      - "Scatter over the herbs and serve straight from the pan."
+      - "Cool completely before slicing, or the crumb will tear."
+    tags:
+      - "batch-cook"
+      - "make-ahead"
+      - "one-pot"
+      - "vegan"
+  - id: "RC-055"
+    name: "Buttered Pear Soup"
+    category: "soup"
+    servings: 4
+    prep_minutes: 5
+    cook_minutes: 38
+    difficulty: "easy"
+    ingredients:
+      - item: "flat-leaf parsley"
+        quantity: 300
+        unit: "g"
+      - item: "chickpeas"
+        quantity: 50
+        unit: "g"
+      - item: "caster sugar"
+        quantity: 50
+        unit: "g"
+      - item: "black pepper"
+        quantity: 1
+        unit: "tsp"
+      - item: "thyme sprig"
+        quantity: 3
+        unit: "whole"
+      - item: "baking powder"
+        quantity: 2
+        unit: "tsp"
+      - item: "hard cheese"
+        quantity: 400
+        unit: "g"
+    steps:
+      - "Warm the oil in a wide pan over a medium heat until it shimmers."
+      - "Soften the onion and garlic for six minutes, stirring so they do not colour."
+      - "Season generously, then stir through the remaining dry ingredients."
+      - "Pour in the stock, bring to a simmer, and cook uncovered for twenty minutes."
+      - "Rest for five minutes off the heat so the sauce thickens."
+      - "Taste, adjust the seasoning, and finish with a squeeze of lemon."
+      - "Cool completely before slicing, or the crumb will tear."
+    tags:
+      - "low-waste"
+      - "make-ahead"
+      - "vegan"
+      - "vegetarian"
+  - id: "RC-056"
+    name: "Charred Chickpea Hash"
+    category: "breakfast"
+    servings: 6
+    prep_minutes: 10
+    cook_minutes: 18
+    difficulty: "medium"
+    ingredients:
+      - item: "thyme sprig"
+        quantity: 4
+        unit: "whole"
+      - item: "olive oil"
+        quantity: 3
+        unit: "tbsp"
+      - item: "hard cheese"
+        quantity: 100
+        unit: "g"
+      - item: "lemon"
+        quantity: 2
+        unit: "whole"
+      - item: "plain flour"
+        quantity: 50
+        unit: "g"
+      - item: "sea salt"
+        quantity: 2
+        unit: "tsp"
+    steps:
+      - "Warm the oil in a wide pan over a medium heat until it shimmers."
+      - "Season generously, then stir through the remaining dry ingredients."
+      - "Pour in the stock, bring to a simmer, and cook uncovered for twenty minutes."
+      - "Taste, adjust the seasoning, and finish with a squeeze of lemon."
+      - "Scatter over the herbs and serve straight from the pan."
+      - "Cool completely before slicing, or the crumb will tear."
+    tags:
+      - "low-waste"
+      - "make-ahead"
+      - "under-30-minutes"
+  - id: "RC-057"
+    name: "Smoky Pumpkin Gratin"
+    category: "side"
+    servings: 2
+    prep_minutes: 15
+    cook_minutes: 34
+    difficulty: "hard"
+    ingredients:
+      - item: "vegetable stock"
+        quantity: 100
+        unit: "ml"
+      - item: "plain flour"
+        quantity: 400
+        unit: "g"
+      - item: "chickpeas"
+        quantity: 250
+        unit: "g"
+      - item: "unsalted butter"
+        quantity: 150
+        unit: "g"
+    steps:
+      - "Soften the onion and garlic for six minutes, stirring so they do not colour."
+      - "Transfer to the oven and roast until the edges catch and darken."
+      - "Taste, adjust the seasoning, and finish with a squeeze of lemon."
+      - "Cool completely before slicing, or the crumb will tear."
+    tags:
+      - "batch-cook"
+      - "low-waste"
+      - "make-ahead"
+      - "vegetarian"
+  - id: "RC-058"
+    name: "Spiced Fennel Skillet"
+    category: "main"
+    servings: 6
+    prep_minutes: 25
+    cook_minutes: 30
+    difficulty: "easy"
+    ingredients:
+      - item: "flat-leaf parsley"
+        quantity: 400
+        unit: "g"
+      - item: "thyme sprig"
+        quantity: 1
+        unit: "whole"
+      - item: "wholegrain mustard"
+        quantity: 2
+        unit: "tsp"
+      - item: "caster sugar"
+        quantity: 200
+        unit: "g"
+      - item: "plain flour"
+        quantity: 50
+        unit: "g"
+    steps:
+      - "Season generously, then stir through the remaining dry ingredients."
+      - "Pour in the stock, bring to a simmer, and cook uncovered for twenty minutes."
+      - "Rest for five minutes off the heat so the sauce thickens."
+      - "Taste, adjust the seasoning, and finish with a squeeze of lemon."
+      - "Cool completely before slicing, or the crumb will tear."
+    tags:
+      - "batch-cook"
+      - "make-ahead"
+      - "no-oven"
+      - "one-pot"
+  - id: "RC-059"
+    name: "Slow-roasted Mushroom Gratin"
+    category: "side"
+    servings: 4
+    prep_minutes: 5
+    cook_minutes: 39
+    difficulty: "medium"
+    ingredients:
+      - item: "cherry tomato"
+        quantity: 150
+        unit: "g"
+      - item: "double cream"
+        quantity: 100
+        unit: "ml"
+      - item: "lemon"
+        quantity: 4
+        unit: "whole"
+      - item: "black pepper"
+        quantity: 1
+        unit: "tsp"
+      - item: "caster sugar"
+        quantity: 250
+        unit: "g"
+      - item: "flat-leaf parsley"
+        quantity: 250
+        unit: "g"
+      - item: "thyme sprig"
+        quantity: 2
+        unit: "whole"
+    steps:
+      - "Heat the oven to 200C and line a shallow tray with baking paper."
+      - "Warm the oil in a wide pan over a medium heat until it shimmers."
+      - "Soften the onion and garlic for six minutes, stirring so they do not colour."
+      - "Season generously, then stir through the remaining dry ingredients."
+      - "Transfer to the oven and roast until the edges catch and darken."
+    tags:
+      - "high-protein"
+      - "low-waste"
+      - "make-ahead"
+  - id: "RC-060"
+    name: "Smoky Chickpea Stew"
+    category: "one-pot"
+    servings: 4
+    prep_minutes: 5
+    cook_minutes: 52
+    difficulty: "easy"
+    ingredients:
+      - item: "chickpeas"
+        quantity: 50
+        unit: "g"
+      - item: "red onion"
+        quantity: 1
+        unit: "whole"
+      - item: "vegetable stock"
+        quantity: 100
+        unit: "ml"
+      - item: "plain flour"
+        quantity: 100
+        unit: "g"
+      - item: "pearl barley"
+        quantity: 400
+        unit: "g"
+      - item: "baking powder"
+        quantity: 2
+        unit: "tsp"
+    steps:
+      - "Warm the oil in a wide pan over a medium heat until it shimmers."
+      - "Soften the onion and garlic for six minutes, stirring so they do not colour."
+      - "Season generously, then stir through the remaining dry ingredients."
+      - "Pour in the stock, bring to a simmer, and cook uncovered for twenty minutes."
+      - "Rest for five minutes off the heat so the sauce thickens."
+      - "Cool completely before slicing, or the crumb will tear."
+    tags:
+      - "make-ahead"
+      - "vegetarian"

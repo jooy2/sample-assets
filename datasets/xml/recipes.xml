@@ -1,0 +1,3133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 60 synthetic recipes, with nested ingredients and steps. Invented data; it describes nobody. -->
+<recipes>
+  <recipe>
+    <id>RC-001</id>
+    <name>Charred Tomato Galette</name>
+    <category>baking</category>
+    <servings>4</servings>
+    <prep_minutes>25</prep_minutes>
+    <cook_minutes>58</cook_minutes>
+    <difficulty>hard</difficulty>
+    <ingredients>
+      <ingredient>
+        <item>vegetable stock</item>
+        <quantity>100</quantity>
+        <unit>ml</unit>
+      </ingredient>
+      <ingredient>
+        <item>hard cheese</item>
+        <quantity>250</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>cherry tomato</item>
+        <quantity>50</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>olive oil</item>
+        <quantity>2</quantity>
+        <unit>tbsp</unit>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Heat the oven to 200C and line a shallow tray with baking paper.</step>
+      <step>Soften the onion and garlic for six minutes, stirring so they do not colour.</step>
+      <step>Season generously, then stir through the remaining dry ingredients.</step>
+      <step>Transfer to the oven and roast until the edges catch and darken.</step>
+      <step>Rest for five minutes off the heat so the sauce thickens.</step>
+      <step>Taste, adjust the seasoning, and finish with a squeeze of lemon.</step>
+      <step>Scatter over the herbs and serve straight from the pan.</step>
+    </steps>
+    <tags>
+      <tag>freezer-friendly</tag>
+      <tag>high-protein</tag>
+      <tag>low-waste</tag>
+      <tag>make-ahead</tag>
+    </tags>
+  </recipe>
+  <recipe>
+    <id>RC-002</id>
+    <name>Chilled Walnut Hash</name>
+    <category>breakfast</category>
+    <servings>2</servings>
+    <prep_minutes>20</prep_minutes>
+    <cook_minutes>16</cook_minutes>
+    <difficulty>easy</difficulty>
+    <ingredients>
+      <ingredient>
+        <item>vegetable stock</item>
+        <quantity>200</quantity>
+        <unit>ml</unit>
+      </ingredient>
+      <ingredient>
+        <item>hard cheese</item>
+        <quantity>150</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>black pepper</item>
+        <quantity>2</quantity>
+        <unit>tsp</unit>
+      </ingredient>
+      <ingredient>
+        <item>caster sugar</item>
+        <quantity>250</quantity>
+        <unit>g</unit>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Warm the oil in a wide pan over a medium heat until it shimmers.</step>
+      <step>Season generously, then stir through the remaining dry ingredients.</step>
+      <step>Pour in the stock, bring to a simmer, and cook uncovered for twenty minutes.</step>
+      <step>Rest for five minutes off the heat so the sauce thickens.</step>
+      <step>Taste, adjust the seasoning, and finish with a squeeze of lemon.</step>
+      <step>Scatter over the herbs and serve straight from the pan.</step>
+      <step>Cool completely before slicing, or the crumb will tear.</step>
+    </steps>
+    <tags>
+      <tag>freezer-friendly</tag>
+      <tag>make-ahead</tag>
+      <tag>no-oven</tag>
+    </tags>
+  </recipe>
+  <recipe>
+    <id>RC-003</id>
+    <name>Golden Pear Skillet</name>
+    <category>main</category>
+    <servings>4</servings>
+    <prep_minutes>5</prep_minutes>
+    <cook_minutes>42</cook_minutes>
+    <difficulty>easy</difficulty>
+    <ingredients>
+      <ingredient>
+        <item>red onion</item>
+        <quantity>4</quantity>
+        <unit>whole</unit>
+      </ingredient>
+      <ingredient>
+        <item>hard cheese</item>
+        <quantity>100</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>black pepper</item>
+        <quantity>1</quantity>
+        <unit>tsp</unit>
+      </ingredient>
+      <ingredient>
+        <item>thyme sprig</item>
+        <quantity>1</quantity>
+        <unit>whole</unit>
+      </ingredient>
+      <ingredient>
+        <item>plain flour</item>
+        <quantity>250</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>cherry tomato</item>
+        <quantity>300</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>lemon</item>
+        <quantity>1</quantity>
+        <unit>whole</unit>
+      </ingredient>
+      <ingredient>
+        <item>double cream</item>
+        <quantity>500</quantity>
+        <unit>ml</unit>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Warm the oil in a wide pan over a medium heat until it shimmers.</step>
+      <step>Soften the onion and garlic for six minutes, stirring so they do not colour.</step>
+      <step>Pour in the stock, bring to a simmer, and cook uncovered for twenty minutes.</step>
+      <step>Rest for five minutes off the heat so the sauce thickens.</step>
+      <step>Scatter over the herbs and serve straight from the pan.</step>
+      <step>Cool completely before slicing, or the crumb will tear.</step>
+    </steps>
+    <tags>
+      <tag>freezer-friendly</tag>
+      <tag>make-ahead</tag>
+      <tag>one-pot</tag>
+      <tag>vegetarian</tag>
+    </tags>
+  </recipe>
+  <recipe>
+    <id>RC-004</id>
+    <name>Golden Chickpea Flatbread</name>
+    <category>baking</category>
+    <servings>6</servings>
+    <prep_minutes>20</prep_minutes>
+    <cook_minutes>46</cook_minutes>
+    <difficulty>hard</difficulty>
+    <ingredients>
+      <ingredient>
+        <item>thyme sprig</item>
+        <quantity>2</quantity>
+        <unit>whole</unit>
+      </ingredient>
+      <ingredient>
+        <item>cherry tomato</item>
+        <quantity>200</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>sea salt</item>
+        <quantity>2</quantity>
+        <unit>tsp</unit>
+      </ingredient>
+      <ingredient>
+        <item>wholegrain mustard</item>
+        <quantity>2</quantity>
+        <unit>tsp</unit>
+      </ingredient>
+      <ingredient>
+        <item>black pepper</item>
+        <quantity>1</quantity>
+        <unit>tsp</unit>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Soften the onion and garlic for six minutes, stirring so they do not colour.</step>
+      <step>Pour in the stock, bring to a simmer, and cook uncovered for twenty minutes.</step>
+      <step>Transfer to the oven and roast until the edges catch and darken.</step>
+      <step>Rest for five minutes off the heat so the sauce thickens.</step>
+    </steps>
+    <tags>
+      <tag>high-protein</tag>
+      <tag>make-ahead</tag>
+      <tag>vegetarian</tag>
+    </tags>
+  </recipe>
+  <recipe>
+    <id>RC-005</id>
+    <name>Slow-roasted Cabbage Flatbread</name>
+    <category>baking</category>
+    <servings>8</servings>
+    <prep_minutes>10</prep_minutes>
+    <cook_minutes>54</cook_minutes>
+    <difficulty>easy</difficulty>
+    <ingredients>
+      <ingredient>
+        <item>flat-leaf parsley</item>
+        <quantity>100</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>pearl barley</item>
+        <quantity>300</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>caster sugar</item>
+        <quantity>150</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>smoked paprika</item>
+        <quantity>2</quantity>
+        <unit>tsp</unit>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Warm the oil in a wide pan over a medium heat until it shimmers.</step>
+      <step>Soften the onion and garlic for six minutes, stirring so they do not colour.</step>
+      <step>Transfer to the oven and roast until the edges catch and darken.</step>
+      <step>Scatter over the herbs and serve straight from the pan.</step>
+    </steps>
+    <tags>
+      <tag>make-ahead</tag>
+      <tag>one-pot</tag>
+      <tag>vegetarian</tag>
+    </tags>
+  </recipe>
+  <recipe>
+    <id>RC-006</id>
+    <name>Smoky Aubergine Broth</name>
+    <category>soup</category>
+    <servings>8</servings>
+    <prep_minutes>5</prep_minutes>
+    <cook_minutes>38</cook_minutes>
+    <difficulty>medium</difficulty>
+    <ingredients>
+      <ingredient>
+        <item>double cream</item>
+        <quantity>200</quantity>
+        <unit>ml</unit>
+      </ingredient>
+      <ingredient>
+        <item>black pepper</item>
+        <quantity>1</quantity>
+        <unit>tsp</unit>
+      </ingredient>
+      <ingredient>
+        <item>vegetable stock</item>
+        <quantity>200</quantity>
+        <unit>ml</unit>
+      </ingredient>
+      <ingredient>
+        <item>baking powder</item>
+        <quantity>1</quantity>
+        <unit>tsp</unit>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Pour in the stock, bring to a simmer, and cook uncovered for twenty minutes.</step>
+      <step>Rest for five minutes off the heat so the sauce thickens.</step>
+      <step>Taste, adjust the seasoning, and finish with a squeeze of lemon.</step>
+      <step>Scatter over the herbs and serve straight from the pan.</step>
+      <step>Cool completely before slicing, or the crumb will tear.</step>
+    </steps>
+    <tags>
+      <tag>freezer-friendly</tag>
+      <tag>low-waste</tag>
+      <tag>make-ahead</tag>
+    </tags>
+  </recipe>
+  <recipe>
+    <id>RC-007</id>
+    <name>Herbed Walnut Soup</name>
+    <category>soup</category>
+    <servings>8</servings>
+    <prep_minutes>10</prep_minutes>
+    <cook_minutes>25</cook_minutes>
+    <difficulty>easy</difficulty>
+    <ingredients>
+      <ingredient>
+        <item>caster sugar</item>
+        <quantity>300</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>black pepper</item>
+        <quantity>1</quantity>
+        <unit>tsp</unit>
+      </ingredient>
+      <ingredient>
+        <item>double cream</item>
+        <quantity>300</quantity>
+        <unit>ml</unit>
+      </ingredient>
+      <ingredient>
+        <item>unsalted butter</item>
+        <quantity>400</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>chickpeas</item>
+        <quantity>100</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>plain flour</item>
+        <quantity>300</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>hard cheese</item>
+        <quantity>250</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>thyme sprig</item>
+        <quantity>2</quantity>
+        <unit>whole</unit>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Warm the oil in a wide pan over a medium heat until it shimmers.</step>
+      <step>Soften the onion and garlic for six minutes, stirring so they do not colour.</step>
+      <step>Rest for five minutes off the heat so the sauce thickens.</step>
+      <step>Taste, adjust the seasoning, and finish with a squeeze of lemon.</step>
+      <step>Cool completely before slicing, or the crumb will tear.</step>
+    </steps>
+    <tags>
+      <tag>batch-cook</tag>
+      <tag>make-ahead</tag>
+      <tag>no-oven</tag>
+    </tags>
+  </recipe>
+  <recipe>
+    <id>RC-008</id>
+    <name>Spiced Mushroom Soup</name>
+    <category>soup</category>
+    <servings>4</servings>
+    <prep_minutes>10</prep_minutes>
+    <cook_minutes>43</cook_minutes>
+    <difficulty>medium</difficulty>
+    <ingredients>
+      <ingredient>
+        <item>double cream</item>
+        <quantity>500</quantity>
+        <unit>ml</unit>
+      </ingredient>
+      <ingredient>
+        <item>lemon</item>
+        <quantity>4</quantity>
+        <unit>whole</unit>
+      </ingredient>
+      <ingredient>
+        <item>red onion</item>
+        <quantity>1</quantity>
+        <unit>whole</unit>
+      </ingredient>
+      <ingredient>
+        <item>caster sugar</item>
+        <quantity>400</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>sea salt</item>
+        <quantity>2</quantity>
+        <unit>tsp</unit>
+      </ingredient>
+      <ingredient>
+        <item>garlic clove</item>
+        <quantity>4</quantity>
+        <unit>whole</unit>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Warm the oil in a wide pan over a medium heat until it shimmers.</step>
+      <step>Season generously, then stir through the remaining dry ingredients.</step>
+      <step>Rest for five minutes off the heat so the sauce thickens.</step>
+      <step>Taste, adjust the seasoning, and finish with a squeeze of lemon.</step>
+      <step>Scatter over the herbs and serve straight from the pan.</step>
+      <step>Cool completely before slicing, or the crumb will tear.</step>
+    </steps>
+    <tags>
+      <tag>batch-cook</tag>
+      <tag>high-protein</tag>
+      <tag>make-ahead</tag>
+    </tags>
+  </recipe>
+  <recipe>
+    <id>RC-009</id>
+    <name>Spiced Cabbage Gratin</name>
+    <category>side</category>
+    <servings>4</servings>
+    <prep_minutes>30</prep_minutes>
+    <cook_minutes>37</cook_minutes>
+    <difficulty>medium</difficulty>
+    <ingredients>
+      <ingredient>
+        <item>wholegrain mustard</item>
+        <quantity>2</quantity>
+        <unit>tsp</unit>
+      </ingredient>
+      <ingredient>
+        <item>black pepper</item>
+        <quantity>1</quantity>
+        <unit>tsp</unit>
+      </ingredient>
+      <ingredient>
+        <item>flat-leaf parsley</item>
+        <quantity>200</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>pearl barley</item>
+        <quantity>200</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>caster sugar</item>
+        <quantity>400</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>olive oil</item>
+        <quantity>2</quantity>
+        <unit>tbsp</unit>
+      </ingredient>
+      <ingredient>
+        <item>baking powder</item>
+        <quantity>1</quantity>
+        <unit>tsp</unit>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Heat the oven to 200C and line a shallow tray with baking paper.</step>
+      <step>Soften the onion and garlic for six minutes, stirring so they do not colour.</step>
+      <step>Season generously, then stir through the remaining dry ingredients.</step>
+      <step>Rest for five minutes off the heat so the sauce thickens.</step>
+      <step>Taste, adjust the seasoning, and finish with a squeeze of lemon.</step>
+      <step>Scatter over the herbs and serve straight from the pan.</step>
+      <step>Cool completely before slicing, or the crumb will tear.</step>
+    </steps>
+    <tags>
+      <tag>high-protein</tag>
+      <tag>make-ahead</tag>
+      <tag>vegan</tag>
+    </tags>
+  </recipe>
+  <recipe>
+    <id>RC-010</id>
+    <name>Smoky Pear Soup</name>
+    <category>soup</category>
+    <servings>8</servings>
+    <prep_minutes>30</prep_minutes>
+    <cook_minutes>35</cook_minutes>
+    <difficulty>easy</difficulty>
+    <ingredients>
+      <ingredient>
+        <item>thyme sprig</item>
+        <quantity>1</quantity>
+        <unit>whole</unit>
+      </ingredient>
+      <ingredient>
+        <item>caster sugar</item>
+        <quantity>300</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>hard cheese</item>
+        <quantity>200</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>vegetable stock</item>
+        <quantity>200</quantity>
+        <unit>ml</unit>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Soften the onion and garlic for six minutes, stirring so they do not colour.</step>
+      <step>Season generously, then stir through the remaining dry ingredients.</step>
+      <step>Pour in the stock, bring to a simmer, and cook uncovered for twenty minutes.</step>
+      <step>Rest for five minutes off the heat so the sauce thickens.</step>
+      <step>Taste, adjust the seasoning, and finish with a squeeze of lemon.</step>
+      <step>Scatter over the herbs and serve straight from the pan.</step>
+      <step>Cool completely before slicing, or the crumb will tear.</step>
+    </steps>
+    <tags>
+      <tag>batch-cook</tag>
+      <tag>make-ahead</tag>
+      <tag>vegan</tag>
+      <tag>vegetarian</tag>
+    </tags>
+  </recipe>
+  <recipe>
+    <id>RC-011</id>
+    <name>Chilled Chickpea Salad</name>
+    <category>salad</category>
+    <servings>6</servings>
+    <prep_minutes>10</prep_minutes>
+    <cook_minutes>0</cook_minutes>
+    <difficulty>easy</difficulty>
+    <ingredients>
+      <ingredient>
+        <item>cherry tomato</item>
+        <quantity>300</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>pearl barley</item>
+        <quantity>250</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>caster sugar</item>
+        <quantity>250</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>unsalted butter</item>
+        <quantity>250</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>sea salt</item>
+        <quantity>2</quantity>
+        <unit>tsp</unit>
+      </ingredient>
+      <ingredient>
+        <item>flat-leaf parsley</item>
+        <quantity>200</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>plain flour</item>
+        <quantity>400</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>hard cheese</item>
+        <quantity>400</quantity>
+        <unit>g</unit>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Warm the oil in a wide pan over a medium heat until it shimmers.</step>
+      <step>Season generously, then stir through the remaining dry ingredients.</step>
+      <step>Pour in the stock, bring to a simmer, and cook uncovered for twenty minutes.</step>
+      <step>Rest for five minutes off the heat so the sauce thickens.</step>
+      <step>Taste, adjust the seasoning, and finish with a squeeze of lemon.</step>
+      <step>Scatter over the herbs and serve straight from the pan.</step>
+      <step>Cool completely before slicing, or the crumb will tear.</step>
+    </steps>
+    <tags>
+      <tag>freezer-friendly</tag>
+      <tag>make-ahead</tag>
+      <tag>no-oven</tag>
+    </tags>
+  </recipe>
+  <recipe>
+    <id>RC-012</id>
+    <name>Crisp Walnut Skillet</name>
+    <category>main</category>
+    <servings>2</servings>
+    <prep_minutes>15</prep_minutes>
+    <cook_minutes>37</cook_minutes>
+    <difficulty>hard</difficulty>
+    <ingredients>
+      <ingredient>
+        <item>garlic clove</item>
+        <quantity>2</quantity>
+        <unit>whole</unit>
+      </ingredient>
+      <ingredient>
+        <item>double cream</item>
+        <quantity>200</quantity>
+        <unit>ml</unit>
+      </ingredient>
+      <ingredient>
+        <item>baking powder</item>
+        <quantity>2</quantity>
+        <unit>tsp</unit>
+      </ingredient>
+      <ingredient>
+        <item>lemon</item>
+        <quantity>2</quantity>
+        <unit>whole</unit>
+      </ingredient>
+      <ingredient>
+        <item>unsalted butter</item>
+        <quantity>400</quantity>
+        <unit>g</unit>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Warm the oil in a wide pan over a medium heat until it shimmers.</step>
+      <step>Pour in the stock, bring to a simmer, and cook uncovered for twenty minutes.</step>
+      <step>Rest for five minutes off the heat so the sauce thickens.</step>
+      <step>Taste, adjust the seasoning, and finish with a squeeze of lemon.</step>
+      <step>Scatter over the herbs and serve straight from the pan.</step>
+    </steps>
+    <tags>
+      <tag>batch-cook</tag>
+      <tag>make-ahead</tag>
+      <tag>no-oven</tag>
+      <tag>one-pot</tag>
+    </tags>
+  </recipe>
+  <recipe>
+    <id>RC-013</id>
+    <name>Spiced Barley Salad</name>
+    <category>salad</category>
+    <servings>2</servings>
+    <prep_minutes>25</prep_minutes>
+    <cook_minutes>3</cook_minutes>
+    <difficulty>medium</difficulty>
+    <ingredients>
+      <ingredient>
+        <item>baking powder</item>
+        <quantity>2</quantity>
+        <unit>tsp</unit>
+      </ingredient>
+      <ingredient>
+        <item>vegetable stock</item>
+        <quantity>500</quantity>
+        <unit>ml</unit>
+      </ingredient>
+      <ingredient>
+        <item>thyme sprig</item>
+        <quantity>1</quantity>
+        <unit>whole</unit>
+      </ingredient>
+      <ingredient>
+        <item>unsalted butter</item>
+        <quantity>400</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>hard cheese</item>
+        <quantity>200</quantity>
+        <unit>g</unit>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Warm the oil in a wide pan over a medium heat until it shimmers.</step>
+      <step>Soften the onion and garlic for six minutes, stirring so they do not colour.</step>
+      <step>Season generously, then stir through the remaining dry ingredients.</step>
+      <step>Pour in the stock, bring to a simmer, and cook uncovered for twenty minutes.</step>
+      <step>Taste, adjust the seasoning, and finish with a squeeze of lemon.</step>
+      <step>Scatter over the herbs and serve straight from the pan.</step>
+      <step>Cool completely before slicing, or the crumb will tear.</step>
+    </steps>
+    <tags>
+      <tag>low-waste</tag>
+      <tag>make-ahead</tag>
+      <tag>vegan</tag>
+    </tags>
+  </recipe>
+  <recipe>
+    <id>RC-014</id>
+    <name>Spiced Walnut Salad</name>
+    <category>salad</category>
+    <servings>4</servings>
+    <prep_minutes>15</prep_minutes>
+    <cook_minutes>6</cook_minutes>
+    <difficulty>easy</difficulty>
+    <ingredients>
+      <ingredient>
+        <item>black pepper</item>
+        <quantity>2</quantity>
+        <unit>tsp</unit>
+      </ingredient>
+      <ingredient>
+        <item>chickpeas</item>
+        <quantity>100</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>flat-leaf parsley</item>
+        <quantity>150</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>plain flour</item>
+        <quantity>200</quantity>
+        <unit>g</unit>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Warm the oil in a wide pan over a medium heat until it shimmers.</step>
+      <step>Season generously, then stir through the remaining dry ingredients.</step>
+      <step>Scatter over the herbs and serve straight from the pan.</step>
+      <step>Cool completely before slicing, or the crumb will tear.</step>
+    </steps>
+    <tags>
+      <tag>low-waste</tag>
+      <tag>make-ahead</tag>
+    </tags>
+  </recipe>
+  <recipe>
+    <id>RC-015</id>
+    <name>Spiced Barley Gratin</name>
+    <category>side</category>
+    <servings>4</servings>
+    <prep_minutes>25</prep_minutes>
+    <cook_minutes>32</cook_minutes>
+    <difficulty>easy</difficulty>
+    <ingredients>
+      <ingredient>
+        <item>chickpeas</item>
+        <quantity>50</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>black pepper</item>
+        <quantity>2</quantity>
+        <unit>tsp</unit>
+      </ingredient>
+      <ingredient>
+        <item>red onion</item>
+        <quantity>4</quantity>
+        <unit>whole</unit>
+      </ingredient>
+      <ingredient>
+        <item>caster sugar</item>
+        <quantity>300</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>pearl barley</item>
+        <quantity>50</quantity>
+        <unit>g</unit>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Season generously, then stir through the remaining dry ingredients.</step>
+      <step>Pour in the stock, bring to a simmer, and cook uncovered for twenty minutes.</step>
+      <step>Rest for five minutes off the heat so the sauce thickens.</step>
+      <step>Scatter over the herbs and serve straight from the pan.</step>
+    </steps>
+    <tags>
+      <tag>batch-cook</tag>
+      <tag>make-ahead</tag>
+      <tag>vegan</tag>
+    </tags>
+  </recipe>
+  <recipe>
+    <id>RC-016</id>
+    <name>Charred Tomato Soup</name>
+    <category>soup</category>
+    <servings>4</servings>
+    <prep_minutes>5</prep_minutes>
+    <cook_minutes>29</cook_minutes>
+    <difficulty>hard</difficulty>
+    <ingredients>
+      <ingredient>
+        <item>caster sugar</item>
+        <quantity>300</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>chickpeas</item>
+        <quantity>100</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>unsalted butter</item>
+        <quantity>400</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>plain flour</item>
+        <quantity>300</quantity>
+        <unit>g</unit>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Warm the oil in a wide pan over a medium heat until it shimmers.</step>
+      <step>Soften the onion and garlic for six minutes, stirring so they do not colour.</step>
+      <step>Season generously, then stir through the remaining dry ingredients.</step>
+      <step>Pour in the stock, bring to a simmer, and cook uncovered for twenty minutes.</step>
+      <step>Rest for five minutes off the heat so the sauce thickens.</step>
+      <step>Cool completely before slicing, or the crumb will tear.</step>
+    </steps>
+    <tags>
+      <tag>batch-cook</tag>
+      <tag>low-waste</tag>
+      <tag>make-ahead</tag>
+      <tag>vegan</tag>
+    </tags>
+  </recipe>
+  <recipe>
+    <id>RC-017</id>
+    <name>Smoky Mushroom Hash</name>
+    <category>breakfast</category>
+    <servings>8</servings>
+    <prep_minutes>5</prep_minutes>
+    <cook_minutes>10</cook_minutes>
+    <difficulty>easy</difficulty>
+    <ingredients>
+      <ingredient>
+        <item>plain flour</item>
+        <quantity>50</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>vegetable stock</item>
+        <quantity>50</quantity>
+        <unit>ml</unit>
+      </ingredient>
+      <ingredient>
+        <item>flat-leaf parsley</item>
+        <quantity>50</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>unsalted butter</item>
+        <quantity>400</quantity>
+        <unit>g</unit>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Season generously, then stir through the remaining dry ingredients.</step>
+      <step>Rest for five minutes off the heat so the sauce thickens.</step>
+      <step>Taste, adjust the seasoning, and finish with a squeeze of lemon.</step>
+      <step>Scatter over the herbs and serve straight from the pan.</step>
+    </steps>
+    <tags>
+      <tag>high-protein</tag>
+      <tag>low-waste</tag>
+      <tag>make-ahead</tag>
+      <tag>one-pot</tag>
+      <tag>under-30-minutes</tag>
+    </tags>
+  </recipe>
+  <recipe>
+    <id>RC-018</id>
+    <name>Chilled Mushroom Soup</name>
+    <category>soup</category>
+    <servings>6</servings>
+    <prep_minutes>30</prep_minutes>
+    <cook_minutes>41</cook_minutes>
+    <difficulty>medium</difficulty>
+    <ingredients>
+      <ingredient>
+        <item>olive oil</item>
+        <quantity>3</quantity>
+        <unit>tbsp</unit>
+      </ingredient>
+      <ingredient>
+        <item>wholegrain mustard</item>
+        <quantity>2</quantity>
+        <unit>tsp</unit>
+      </ingredient>
+      <ingredient>
+        <item>baking powder</item>
+        <quantity>1</quantity>
+        <unit>tsp</unit>
+      </ingredient>
+      <ingredient>
+        <item>flat-leaf parsley</item>
+        <quantity>300</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>vegetable stock</item>
+        <quantity>200</quantity>
+        <unit>ml</unit>
+      </ingredient>
+      <ingredient>
+        <item>red onion</item>
+        <quantity>4</quantity>
+        <unit>whole</unit>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Soften the onion and garlic for six minutes, stirring so they do not colour.</step>
+      <step>Season generously, then stir through the remaining dry ingredients.</step>
+      <step>Taste, adjust the seasoning, and finish with a squeeze of lemon.</step>
+      <step>Cool completely before slicing, or the crumb will tear.</step>
+    </steps>
+    <tags>
+      <tag>make-ahead</tag>
+      <tag>one-pot</tag>
+    </tags>
+  </recipe>
+  <recipe>
+    <id>RC-019</id>
+    <name>Herbed Lemon Hash</name>
+    <category>breakfast</category>
+    <servings>2</servings>
+    <prep_minutes>5</prep_minutes>
+    <cook_minutes>11</cook_minutes>
+    <difficulty>medium</difficulty>
+    <ingredients>
+      <ingredient>
+        <item>sea salt</item>
+        <quantity>1</quantity>
+        <unit>tsp</unit>
+      </ingredient>
+      <ingredient>
+        <item>thyme sprig</item>
+        <quantity>4</quantity>
+        <unit>whole</unit>
+      </ingredient>
+      <ingredient>
+        <item>unsalted butter</item>
+        <quantity>100</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>baking powder</item>
+        <quantity>2</quantity>
+        <unit>tsp</unit>
+      </ingredient>
+      <ingredient>
+        <item>caster sugar</item>
+        <quantity>250</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>double cream</item>
+        <quantity>500</quantity>
+        <unit>ml</unit>
+      </ingredient>
+      <ingredient>
+        <item>smoked paprika</item>
+        <quantity>1</quantity>
+        <unit>tsp</unit>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Soften the onion and garlic for six minutes, stirring so they do not colour.</step>
+      <step>Season generously, then stir through the remaining dry ingredients.</step>
+      <step>Pour in the stock, bring to a simmer, and cook uncovered for twenty minutes.</step>
+      <step>Rest for five minutes off the heat so the sauce thickens.</step>
+      <step>Scatter over the herbs and serve straight from the pan.</step>
+      <step>Cool completely before slicing, or the crumb will tear.</step>
+    </steps>
+    <tags>
+      <tag>low-waste</tag>
+      <tag>make-ahead</tag>
+      <tag>one-pot</tag>
+      <tag>vegetarian</tag>
+    </tags>
+  </recipe>
+  <recipe>
+    <id>RC-020</id>
+    <name>Smoky Tomato Flatbread</name>
+    <category>baking</category>
+    <servings>2</servings>
+    <prep_minutes>20</prep_minutes>
+    <cook_minutes>48</cook_minutes>
+    <difficulty>medium</difficulty>
+    <ingredients>
+      <ingredient>
+        <item>baking powder</item>
+        <quantity>2</quantity>
+        <unit>tsp</unit>
+      </ingredient>
+      <ingredient>
+        <item>lemon</item>
+        <quantity>3</quantity>
+        <unit>whole</unit>
+      </ingredient>
+      <ingredient>
+        <item>cherry tomato</item>
+        <quantity>50</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>flat-leaf parsley</item>
+        <quantity>400</quantity>
+        <unit>g</unit>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Heat the oven to 200C and line a shallow tray with baking paper.</step>
+      <step>Soften the onion and garlic for six minutes, stirring so they do not colour.</step>
+      <step>Season generously, then stir through the remaining dry ingredients.</step>
+      <step>Pour in the stock, bring to a simmer, and cook uncovered for twenty minutes.</step>
+      <step>Rest for five minutes off the heat so the sauce thickens.</step>
+    </steps>
+    <tags>
+      <tag>batch-cook</tag>
+      <tag>make-ahead</tag>
+      <tag>vegetarian</tag>
+    </tags>
+  </recipe>
+  <recipe>
+    <id>RC-021</id>
+    <name>Spiced Pear Salad</name>
+    <category>salad</category>
+    <servings>4</servings>
+    <prep_minutes>20</prep_minutes>
+    <cook_minutes>4</cook_minutes>
+    <difficulty>easy</difficulty>
+    <ingredients>
+      <ingredient>
+        <item>chickpeas</item>
+        <quantity>300</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>wholegrain mustard</item>
+        <quantity>1</quantity>
+        <unit>tsp</unit>
+      </ingredient>
+      <ingredient>
+        <item>lemon</item>
+        <quantity>4</quantity>
+        <unit>whole</unit>
+      </ingredient>
+      <ingredient>
+        <item>plain flour</item>
+        <quantity>150</quantity>
+        <unit>g</unit>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Soften the onion and garlic for six minutes, stirring so they do not colour.</step>
+      <step>Season generously, then stir through the remaining dry ingredients.</step>
+      <step>Rest for five minutes off the heat so the sauce thickens.</step>
+      <step>Taste, adjust the seasoning, and finish with a squeeze of lemon.</step>
+      <step>Scatter over the herbs and serve straight from the pan.</step>
+    </steps>
+    <tags>
+      <tag>freezer-friendly</tag>
+      <tag>high-protein</tag>
+      <tag>make-ahead</tag>
+      <tag>no-oven</tag>
+    </tags>
+  </recipe>
+  <recipe>
+    <id>RC-022</id>
+    <name>Buttered Lentil Hash</name>
+    <category>breakfast</category>
+    <servings>2</servings>
+    <prep_minutes>25</prep_minutes>
+    <cook_minutes>21</cook_minutes>
+    <difficulty>easy</difficulty>
+    <ingredients>
+      <ingredient>
+        <item>sea salt</item>
+        <quantity>1</quantity>
+        <unit>tsp</unit>
+      </ingredient>
+      <ingredient>
+        <item>red onion</item>
+        <quantity>3</quantity>
+        <unit>whole</unit>
+      </ingredient>
+      <ingredient>
+        <item>chickpeas</item>
+        <quantity>100</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>thyme sprig</item>
+        <quantity>1</quantity>
+        <unit>whole</unit>
+      </ingredient>
+      <ingredient>
+        <item>garlic clove</item>
+        <quantity>4</quantity>
+        <unit>whole</unit>
+      </ingredient>
+      <ingredient>
+        <item>vegetable stock</item>
+        <quantity>500</quantity>
+        <unit>ml</unit>
+      </ingredient>
+      <ingredient>
+        <item>wholegrain mustard</item>
+        <quantity>2</quantity>
+        <unit>tsp</unit>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Warm the oil in a wide pan over a medium heat until it shimmers.</step>
+      <step>Pour in the stock, bring to a simmer, and cook uncovered for twenty minutes.</step>
+      <step>Taste, adjust the seasoning, and finish with a squeeze of lemon.</step>
+      <step>Scatter over the herbs and serve straight from the pan.</step>
+      <step>Cool completely before slicing, or the crumb will tear.</step>
+    </steps>
+    <tags>
+      <tag>batch-cook</tag>
+      <tag>make-ahead</tag>
+      <tag>no-oven</tag>
+    </tags>
+  </recipe>
+  <recipe>
+    <id>RC-023</id>
+    <name>Whipped Fennel Stew</name>
+    <category>one-pot</category>
+    <servings>2</servings>
+    <prep_minutes>15</prep_minutes>
+    <cook_minutes>64</cook_minutes>
+    <difficulty>medium</difficulty>
+    <ingredients>
+      <ingredient>
+        <item>pearl barley</item>
+        <quantity>200</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>unsalted butter</item>
+        <quantity>200</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>baking powder</item>
+        <quantity>2</quantity>
+        <unit>tsp</unit>
+      </ingredient>
+      <ingredient>
+        <item>caster sugar</item>
+        <quantity>50</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>hard cheese</item>
+        <quantity>400</quantity>
+        <unit>g</unit>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Warm the oil in a wide pan over a medium heat until it shimmers.</step>
+      <step>Soften the onion and garlic for six minutes, stirring so they do not colour.</step>
+      <step>Pour in the stock, bring to a simmer, and cook uncovered for twenty minutes.</step>
+      <step>Rest for five minutes off the heat so the sauce thickens.</step>
+      <step>Scatter over the herbs and serve straight from the pan.</step>
+      <step>Cool completely before slicing, or the crumb will tear.</step>
+    </steps>
+    <tags>
+      <tag>make-ahead</tag>
+      <tag>no-oven</tag>
+      <tag>one-pot</tag>
+    </tags>
+  </recipe>
+  <recipe>
+    <id>RC-024</id>
+    <name>Herbed Walnut Skillet</name>
+    <category>main</category>
+    <servings>4</servings>
+    <prep_minutes>30</prep_minutes>
+    <cook_minutes>24</cook_minutes>
+    <difficulty>easy</difficulty>
+    <ingredients>
+      <ingredient>
+        <item>red onion</item>
+        <quantity>2</quantity>
+        <unit>whole</unit>
+      </ingredient>
+      <ingredient>
+        <item>vegetable stock</item>
+        <quantity>300</quantity>
+        <unit>ml</unit>
+      </ingredient>
+      <ingredient>
+        <item>lemon</item>
+        <quantity>2</quantity>
+        <unit>whole</unit>
+      </ingredient>
+      <ingredient>
+        <item>smoked paprika</item>
+        <quantity>1</quantity>
+        <unit>tsp</unit>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Warm the oil in a wide pan over a medium heat until it shimmers.</step>
+      <step>Season generously, then stir through the remaining dry ingredients.</step>
+      <step>Pour in the stock, bring to a simmer, and cook uncovered for twenty minutes.</step>
+      <step>Rest for five minutes off the heat so the sauce thickens.</step>
+      <step>Scatter over the herbs and serve straight from the pan.</step>
+      <step>Cool completely before slicing, or the crumb will tear.</step>
+    </steps>
+    <tags>
+      <tag>batch-cook</tag>
+      <tag>make-ahead</tag>
+      <tag>no-oven</tag>
+    </tags>
+  </recipe>
+  <recipe>
+    <id>RC-025</id>
+    <name>Slow-roasted Walnut Soup</name>
+    <category>soup</category>
+    <servings>4</servings>
+    <prep_minutes>5</prep_minutes>
+    <cook_minutes>30</cook_minutes>
+    <difficulty>easy</difficulty>
+    <ingredients>
+      <ingredient>
+        <item>sea salt</item>
+        <quantity>2</quantity>
+        <unit>tsp</unit>
+      </ingredient>
+      <ingredient>
+        <item>wholegrain mustard</item>
+        <quantity>1</quantity>
+        <unit>tsp</unit>
+      </ingredient>
+      <ingredient>
+        <item>flat-leaf parsley</item>
+        <quantity>150</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>black pepper</item>
+        <quantity>1</quantity>
+        <unit>tsp</unit>
+      </ingredient>
+      <ingredient>
+        <item>pearl barley</item>
+        <quantity>50</quantity>
+        <unit>g</unit>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Warm the oil in a wide pan over a medium heat until it shimmers.</step>
+      <step>Soften the onion and garlic for six minutes, stirring so they do not colour.</step>
+      <step>Season generously, then stir through the remaining dry ingredients.</step>
+      <step>Pour in the stock, bring to a simmer, and cook uncovered for twenty minutes.</step>
+      <step>Taste, adjust the seasoning, and finish with a squeeze of lemon.</step>
+    </steps>
+    <tags>
+      <tag>batch-cook</tag>
+      <tag>freezer-friendly</tag>
+      <tag>make-ahead</tag>
+      <tag>one-pot</tag>
+    </tags>
+  </recipe>
+  <recipe>
+    <id>RC-026</id>
+    <name>Whipped Cabbage Salad</name>
+    <category>salad</category>
+    <servings>2</servings>
+    <prep_minutes>10</prep_minutes>
+    <cook_minutes>1</cook_minutes>
+    <difficulty>easy</difficulty>
+    <ingredients>
+      <ingredient>
+        <item>double cream</item>
+        <quantity>50</quantity>
+        <unit>ml</unit>
+      </ingredient>
+      <ingredient>
+        <item>sea salt</item>
+        <quantity>1</quantity>
+        <unit>tsp</unit>
+      </ingredient>
+      <ingredient>
+        <item>lemon</item>
+        <quantity>1</quantity>
+        <unit>whole</unit>
+      </ingredient>
+      <ingredient>
+        <item>unsalted butter</item>
+        <quantity>300</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>vegetable stock</item>
+        <quantity>300</quantity>
+        <unit>ml</unit>
+      </ingredient>
+      <ingredient>
+        <item>cherry tomato</item>
+        <quantity>400</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>caster sugar</item>
+        <quantity>50</quantity>
+        <unit>g</unit>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Soften the onion and garlic for six minutes, stirring so they do not colour.</step>
+      <step>Season generously, then stir through the remaining dry ingredients.</step>
+      <step>Pour in the stock, bring to a simmer, and cook uncovered for twenty minutes.</step>
+      <step>Rest for five minutes off the heat so the sauce thickens.</step>
+      <step>Taste, adjust the seasoning, and finish with a squeeze of lemon.</step>
+      <step>Scatter over the herbs and serve straight from the pan.</step>
+      <step>Cool completely before slicing, or the crumb will tear.</step>
+    </steps>
+    <tags>
+      <tag>low-waste</tag>
+      <tag>make-ahead</tag>
+      <tag>under-30-minutes</tag>
+      <tag>vegan</tag>
+      <tag>vegetarian</tag>
+    </tags>
+  </recipe>
+  <recipe>
+    <id>RC-027</id>
+    <name>Buttered Lentil Loaf</name>
+    <category>baking</category>
+    <servings>2</servings>
+    <prep_minutes>5</prep_minutes>
+    <cook_minutes>56</cook_minutes>
+    <difficulty>easy</difficulty>
+    <ingredients>
+      <ingredient>
+        <item>red onion</item>
+        <quantity>1</quantity>
+        <unit>whole</unit>
+      </ingredient>
+      <ingredient>
+        <item>chickpeas</item>
+        <quantity>200</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>sea salt</item>
+        <quantity>1</quantity>
+        <unit>tsp</unit>
+      </ingredient>
+      <ingredient>
+        <item>lemon</item>
+        <quantity>4</quantity>
+        <unit>whole</unit>
+      </ingredient>
+      <ingredient>
+        <item>vegetable stock</item>
+        <quantity>500</quantity>
+        <unit>ml</unit>
+      </ingredient>
+      <ingredient>
+        <item>smoked paprika</item>
+        <quantity>1</quantity>
+        <unit>tsp</unit>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Soften the onion and garlic for six minutes, stirring so they do not colour.</step>
+      <step>Pour in the stock, bring to a simmer, and cook uncovered for twenty minutes.</step>
+      <step>Transfer to the oven and roast until the edges catch and darken.</step>
+      <step>Taste, adjust the seasoning, and finish with a squeeze of lemon.</step>
+      <step>Scatter over the herbs and serve straight from the pan.</step>
+    </steps>
+    <tags>
+      <tag>high-protein</tag>
+      <tag>low-waste</tag>
+      <tag>make-ahead</tag>
+      <tag>one-pot</tag>
+      <tag>vegan</tag>
+    </tags>
+  </recipe>
+  <recipe>
+    <id>RC-028</id>
+    <name>Herbed Chickpea Loaf</name>
+    <category>baking</category>
+    <servings>4</servings>
+    <prep_minutes>10</prep_minutes>
+    <cook_minutes>56</cook_minutes>
+    <difficulty>easy</difficulty>
+    <ingredients>
+      <ingredient>
+        <item>double cream</item>
+        <quantity>500</quantity>
+        <unit>ml</unit>
+      </ingredient>
+      <ingredient>
+        <item>lemon</item>
+        <quantity>4</quantity>
+        <unit>whole</unit>
+      </ingredient>
+      <ingredient>
+        <item>plain flour</item>
+        <quantity>100</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>unsalted butter</item>
+        <quantity>250</quantity>
+        <unit>g</unit>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Heat the oven to 200C and line a shallow tray with baking paper.</step>
+      <step>Warm the oil in a wide pan over a medium heat until it shimmers.</step>
+      <step>Soften the onion and garlic for six minutes, stirring so they do not colour.</step>
+      <step>Pour in the stock, bring to a simmer, and cook uncovered for twenty minutes.</step>
+      <step>Transfer to the oven and roast until the edges catch and darken.</step>
+      <step>Cool completely before slicing, or the crumb will tear.</step>
+    </steps>
+    <tags>
+      <tag>batch-cook</tag>
+      <tag>make-ahead</tag>
+    </tags>
+  </recipe>
+  <recipe>
+    <id>RC-029</id>
+    <name>Spiced Lemon Broth</name>
+    <category>soup</category>
+    <servings>6</servings>
+    <prep_minutes>15</prep_minutes>
+    <cook_minutes>27</cook_minutes>
+    <difficulty>easy</difficulty>
+    <ingredients>
+      <ingredient>
+        <item>double cream</item>
+        <quantity>50</quantity>
+        <unit>ml</unit>
+      </ingredient>
+      <ingredient>
+        <item>flat-leaf parsley</item>
+        <quantity>200</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>vegetable stock</item>
+        <quantity>50</quantity>
+        <unit>ml</unit>
+      </ingredient>
+      <ingredient>
+        <item>thyme sprig</item>
+        <quantity>2</quantity>
+        <unit>whole</unit>
+      </ingredient>
+      <ingredient>
+        <item>lemon</item>
+        <quantity>3</quantity>
+        <unit>whole</unit>
+      </ingredient>
+      <ingredient>
+        <item>caster sugar</item>
+        <quantity>100</quantity>
+        <unit>g</unit>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Warm the oil in a wide pan over a medium heat until it shimmers.</step>
+      <step>Soften the onion and garlic for six minutes, stirring so they do not colour.</step>
+      <step>Season generously, then stir through the remaining dry ingredients.</step>
+      <step>Pour in the stock, bring to a simmer, and cook uncovered for twenty minutes.</step>
+      <step>Rest for five minutes off the heat so the sauce thickens.</step>
+      <step>Taste, adjust the seasoning, and finish with a squeeze of lemon.</step>
+      <step>Scatter over the herbs and serve straight from the pan.</step>
+    </steps>
+    <tags>
+      <tag>batch-cook</tag>
+      <tag>low-waste</tag>
+      <tag>make-ahead</tag>
+    </tags>
+  </recipe>
+  <recipe>
+    <id>RC-030</id>
+    <name>Golden Lentil Traybake</name>
+    <category>baking</category>
+    <servings>8</servings>
+    <prep_minutes>20</prep_minutes>
+    <cook_minutes>50</cook_minutes>
+    <difficulty>easy</difficulty>
+    <ingredients>
+      <ingredient>
+        <item>hard cheese</item>
+        <quantity>50</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>chickpeas</item>
+        <quantity>100</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>black pepper</item>
+        <quantity>2</quantity>
+        <unit>tsp</unit>
+      </ingredient>
+      <ingredient>
+        <item>thyme sprig</item>
+        <quantity>2</quantity>
+        <unit>whole</unit>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Soften the onion and garlic for six minutes, stirring so they do not colour.</step>
+      <step>Pour in the stock, bring to a simmer, and cook uncovered for twenty minutes.</step>
+      <step>Transfer to the oven and roast until the edges catch and darken.</step>
+      <step>Taste, adjust the seasoning, and finish with a squeeze of lemon.</step>
+      <step>Scatter over the herbs and serve straight from the pan.</step>
+    </steps>
+    <tags>
+      <tag>freezer-friendly</tag>
+      <tag>low-waste</tag>
+      <tag>make-ahead</tag>
+      <tag>vegetarian</tag>
+    </tags>
+  </recipe>
+  <recipe>
+    <id>RC-031</id>
+    <name>Slow-roasted Lemon Galette</name>
+    <category>baking</category>
+    <servings>6</servings>
+    <prep_minutes>30</prep_minutes>
+    <cook_minutes>43</cook_minutes>
+    <difficulty>easy</difficulty>
+    <ingredients>
+      <ingredient>
+        <item>lemon</item>
+        <quantity>2</quantity>
+        <unit>whole</unit>
+      </ingredient>
+      <ingredient>
+        <item>olive oil</item>
+        <quantity>2</quantity>
+        <unit>tbsp</unit>
+      </ingredient>
+      <ingredient>
+        <item>plain flour</item>
+        <quantity>200</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>wholegrain mustard</item>
+        <quantity>2</quantity>
+        <unit>tsp</unit>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Heat the oven to 200C and line a shallow tray with baking paper.</step>
+      <step>Rest for five minutes off the heat so the sauce thickens.</step>
+      <step>Taste, adjust the seasoning, and finish with a squeeze of lemon.</step>
+      <step>Cool completely before slicing, or the crumb will tear.</step>
+    </steps>
+    <tags>
+      <tag>make-ahead</tag>
+      <tag>one-pot</tag>
+      <tag>vegan</tag>
+      <tag>vegetarian</tag>
+    </tags>
+  </recipe>
+  <recipe>
+    <id>RC-032</id>
+    <name>Herbed Lemon Flatbread</name>
+    <category>baking</category>
+    <servings>2</servings>
+    <prep_minutes>15</prep_minutes>
+    <cook_minutes>59</cook_minutes>
+    <difficulty>medium</difficulty>
+    <ingredients>
+      <ingredient>
+        <item>lemon</item>
+        <quantity>2</quantity>
+        <unit>whole</unit>
+      </ingredient>
+      <ingredient>
+        <item>cherry tomato</item>
+        <quantity>50</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>flat-leaf parsley</item>
+        <quantity>50</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>garlic clove</item>
+        <quantity>4</quantity>
+        <unit>whole</unit>
+      </ingredient>
+      <ingredient>
+        <item>hard cheese</item>
+        <quantity>300</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>sea salt</item>
+        <quantity>1</quantity>
+        <unit>tsp</unit>
+      </ingredient>
+      <ingredient>
+        <item>caster sugar</item>
+        <quantity>100</quantity>
+        <unit>g</unit>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Soften the onion and garlic for six minutes, stirring so they do not colour.</step>
+      <step>Season generously, then stir through the remaining dry ingredients.</step>
+      <step>Transfer to the oven and roast until the edges catch and darken.</step>
+      <step>Taste, adjust the seasoning, and finish with a squeeze of lemon.</step>
+    </steps>
+    <tags>
+      <tag>batch-cook</tag>
+      <tag>low-waste</tag>
+      <tag>make-ahead</tag>
+      <tag>vegetarian</tag>
+    </tags>
+  </recipe>
+  <recipe>
+    <id>RC-033</id>
+    <name>Chilled Chickpea Traybake</name>
+    <category>baking</category>
+    <servings>4</servings>
+    <prep_minutes>15</prep_minutes>
+    <cook_minutes>38</cook_minutes>
+    <difficulty>easy</difficulty>
+    <ingredients>
+      <ingredient>
+        <item>thyme sprig</item>
+        <quantity>2</quantity>
+        <unit>whole</unit>
+      </ingredient>
+      <ingredient>
+        <item>unsalted butter</item>
+        <quantity>50</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>wholegrain mustard</item>
+        <quantity>1</quantity>
+        <unit>tsp</unit>
+      </ingredient>
+      <ingredient>
+        <item>plain flour</item>
+        <quantity>200</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>vegetable stock</item>
+        <quantity>100</quantity>
+        <unit>ml</unit>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Season generously, then stir through the remaining dry ingredients.</step>
+      <step>Pour in the stock, bring to a simmer, and cook uncovered for twenty minutes.</step>
+      <step>Rest for five minutes off the heat so the sauce thickens.</step>
+      <step>Taste, adjust the seasoning, and finish with a squeeze of lemon.</step>
+      <step>Scatter over the herbs and serve straight from the pan.</step>
+      <step>Cool completely before slicing, or the crumb will tear.</step>
+    </steps>
+    <tags>
+      <tag>high-protein</tag>
+      <tag>low-waste</tag>
+      <tag>make-ahead</tag>
+    </tags>
+  </recipe>
+  <recipe>
+    <id>RC-034</id>
+    <name>Crisp Tomato Risotto</name>
+    <category>one-pot</category>
+    <servings>6</servings>
+    <prep_minutes>15</prep_minutes>
+    <cook_minutes>60</cook_minutes>
+    <difficulty>easy</difficulty>
+    <ingredients>
+      <ingredient>
+        <item>baking powder</item>
+        <quantity>2</quantity>
+        <unit>tsp</unit>
+      </ingredient>
+      <ingredient>
+        <item>chickpeas</item>
+        <quantity>250</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>double cream</item>
+        <quantity>100</quantity>
+        <unit>ml</unit>
+      </ingredient>
+      <ingredient>
+        <item>black pepper</item>
+        <quantity>2</quantity>
+        <unit>tsp</unit>
+      </ingredient>
+      <ingredient>
+        <item>red onion</item>
+        <quantity>2</quantity>
+        <unit>whole</unit>
+      </ingredient>
+      <ingredient>
+        <item>smoked paprika</item>
+        <quantity>2</quantity>
+        <unit>tsp</unit>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Warm the oil in a wide pan over a medium heat until it shimmers.</step>
+      <step>Soften the onion and garlic for six minutes, stirring so they do not colour.</step>
+      <step>Season generously, then stir through the remaining dry ingredients.</step>
+      <step>Pour in the stock, bring to a simmer, and cook uncovered for twenty minutes.</step>
+      <step>Rest for five minutes off the heat so the sauce thickens.</step>
+      <step>Scatter over the herbs and serve straight from the pan.</step>
+    </steps>
+    <tags>
+      <tag>freezer-friendly</tag>
+      <tag>make-ahead</tag>
+      <tag>one-pot</tag>
+      <tag>vegan</tag>
+    </tags>
+  </recipe>
+  <recipe>
+    <id>RC-035</id>
+    <name>Charred Walnut Gratin</name>
+    <category>side</category>
+    <servings>8</servings>
+    <prep_minutes>30</prep_minutes>
+    <cook_minutes>35</cook_minutes>
+    <difficulty>easy</difficulty>
+    <ingredients>
+      <ingredient>
+        <item>olive oil</item>
+        <quantity>1</quantity>
+        <unit>tbsp</unit>
+      </ingredient>
+      <ingredient>
+        <item>wholegrain mustard</item>
+        <quantity>1</quantity>
+        <unit>tsp</unit>
+      </ingredient>
+      <ingredient>
+        <item>caster sugar</item>
+        <quantity>300</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>chickpeas</item>
+        <quantity>400</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>vegetable stock</item>
+        <quantity>200</quantity>
+        <unit>ml</unit>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Heat the oven to 200C and line a shallow tray with baking paper.</step>
+      <step>Warm the oil in a wide pan over a medium heat until it shimmers.</step>
+      <step>Season generously, then stir through the remaining dry ingredients.</step>
+      <step>Pour in the stock, bring to a simmer, and cook uncovered for twenty minutes.</step>
+      <step>Scatter over the herbs and serve straight from the pan.</step>
+    </steps>
+    <tags>
+      <tag>batch-cook</tag>
+      <tag>high-protein</tag>
+      <tag>make-ahead</tag>
+      <tag>vegan</tag>
+    </tags>
+  </recipe>
+  <recipe>
+    <id>RC-036</id>
+    <name>Chilled Walnut Risotto</name>
+    <category>one-pot</category>
+    <servings>2</servings>
+    <prep_minutes>25</prep_minutes>
+    <cook_minutes>47</cook_minutes>
+    <difficulty>easy</difficulty>
+    <ingredients>
+      <ingredient>
+        <item>thyme sprig</item>
+        <quantity>4</quantity>
+        <unit>whole</unit>
+      </ingredient>
+      <ingredient>
+        <item>pearl barley</item>
+        <quantity>250</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>double cream</item>
+        <quantity>50</quantity>
+        <unit>ml</unit>
+      </ingredient>
+      <ingredient>
+        <item>caster sugar</item>
+        <quantity>250</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>red onion</item>
+        <quantity>1</quantity>
+        <unit>whole</unit>
+      </ingredient>
+      <ingredient>
+        <item>black pepper</item>
+        <quantity>1</quantity>
+        <unit>tsp</unit>
+      </ingredient>
+      <ingredient>
+        <item>smoked paprika</item>
+        <quantity>1</quantity>
+        <unit>tsp</unit>
+      </ingredient>
+      <ingredient>
+        <item>unsalted butter</item>
+        <quantity>300</quantity>
+        <unit>g</unit>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Soften the onion and garlic for six minutes, stirring so they do not colour.</step>
+      <step>Season generously, then stir through the remaining dry ingredients.</step>
+      <step>Rest for five minutes off the heat so the sauce thickens.</step>
+      <step>Taste, adjust the seasoning, and finish with a squeeze of lemon.</step>
+      <step>Scatter over the herbs and serve straight from the pan.</step>
+    </steps>
+    <tags>
+      <tag>high-protein</tag>
+      <tag>low-waste</tag>
+      <tag>make-ahead</tag>
+      <tag>no-oven</tag>
+      <tag>vegan</tag>
+    </tags>
+  </recipe>
+  <recipe>
+    <id>RC-037</id>
+    <name>Smoky Fennel Risotto</name>
+    <category>one-pot</category>
+    <servings>4</servings>
+    <prep_minutes>15</prep_minutes>
+    <cook_minutes>38</cook_minutes>
+    <difficulty>medium</difficulty>
+    <ingredients>
+      <ingredient>
+        <item>red onion</item>
+        <quantity>3</quantity>
+        <unit>whole</unit>
+      </ingredient>
+      <ingredient>
+        <item>smoked paprika</item>
+        <quantity>2</quantity>
+        <unit>tsp</unit>
+      </ingredient>
+      <ingredient>
+        <item>hard cheese</item>
+        <quantity>100</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>baking powder</item>
+        <quantity>2</quantity>
+        <unit>tsp</unit>
+      </ingredient>
+      <ingredient>
+        <item>flat-leaf parsley</item>
+        <quantity>150</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>cherry tomato</item>
+        <quantity>400</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>sea salt</item>
+        <quantity>1</quantity>
+        <unit>tsp</unit>
+      </ingredient>
+      <ingredient>
+        <item>lemon</item>
+        <quantity>4</quantity>
+        <unit>whole</unit>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Soften the onion and garlic for six minutes, stirring so they do not colour.</step>
+      <step>Season generously, then stir through the remaining dry ingredients.</step>
+      <step>Pour in the stock, bring to a simmer, and cook uncovered for twenty minutes.</step>
+      <step>Rest for five minutes off the heat so the sauce thickens.</step>
+      <step>Taste, adjust the seasoning, and finish with a squeeze of lemon.</step>
+      <step>Scatter over the herbs and serve straight from the pan.</step>
+      <step>Cool completely before slicing, or the crumb will tear.</step>
+    </steps>
+    <tags>
+      <tag>freezer-friendly</tag>
+      <tag>make-ahead</tag>
+      <tag>one-pot</tag>
+    </tags>
+  </recipe>
+  <recipe>
+    <id>RC-038</id>
+    <name>Spiced Barley Hash</name>
+    <category>breakfast</category>
+    <servings>4</servings>
+    <prep_minutes>15</prep_minutes>
+    <cook_minutes>20</cook_minutes>
+    <difficulty>medium</difficulty>
+    <ingredients>
+      <ingredient>
+        <item>smoked paprika</item>
+        <quantity>1</quantity>
+        <unit>tsp</unit>
+      </ingredient>
+      <ingredient>
+        <item>olive oil</item>
+        <quantity>1</quantity>
+        <unit>tbsp</unit>
+      </ingredient>
+      <ingredient>
+        <item>lemon</item>
+        <quantity>3</quantity>
+        <unit>whole</unit>
+      </ingredient>
+      <ingredient>
+        <item>black pepper</item>
+        <quantity>2</quantity>
+        <unit>tsp</unit>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Season generously, then stir through the remaining dry ingredients.</step>
+      <step>Pour in the stock, bring to a simmer, and cook uncovered for twenty minutes.</step>
+      <step>Rest for five minutes off the heat so the sauce thickens.</step>
+      <step>Taste, adjust the seasoning, and finish with a squeeze of lemon.</step>
+      <step>Scatter over the herbs and serve straight from the pan.</step>
+    </steps>
+    <tags>
+      <tag>freezer-friendly</tag>
+      <tag>make-ahead</tag>
+      <tag>no-oven</tag>
+    </tags>
+  </recipe>
+  <recipe>
+    <id>RC-039</id>
+    <name>Golden Fennel Salad</name>
+    <category>salad</category>
+    <servings>8</servings>
+    <prep_minutes>20</prep_minutes>
+    <cook_minutes>1</cook_minutes>
+    <difficulty>medium</difficulty>
+    <ingredients>
+      <ingredient>
+        <item>chickpeas</item>
+        <quantity>50</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>thyme sprig</item>
+        <quantity>3</quantity>
+        <unit>whole</unit>
+      </ingredient>
+      <ingredient>
+        <item>double cream</item>
+        <quantity>100</quantity>
+        <unit>ml</unit>
+      </ingredient>
+      <ingredient>
+        <item>plain flour</item>
+        <quantity>250</quantity>
+        <unit>g</unit>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Warm the oil in a wide pan over a medium heat until it shimmers.</step>
+      <step>Soften the onion and garlic for six minutes, stirring so they do not colour.</step>
+      <step>Season generously, then stir through the remaining dry ingredients.</step>
+      <step>Pour in the stock, bring to a simmer, and cook uncovered for twenty minutes.</step>
+      <step>Scatter over the herbs and serve straight from the pan.</step>
+    </steps>
+    <tags>
+      <tag>freezer-friendly</tag>
+      <tag>make-ahead</tag>
+      <tag>under-30-minutes</tag>
+    </tags>
+  </recipe>
+  <recipe>
+    <id>RC-040</id>
+    <name>Whipped Fennel Broth</name>
+    <category>soup</category>
+    <servings>4</servings>
+    <prep_minutes>15</prep_minutes>
+    <cook_minutes>32</cook_minutes>
+    <difficulty>medium</difficulty>
+    <ingredients>
+      <ingredient>
+        <item>sea salt</item>
+        <quantity>1</quantity>
+        <unit>tsp</unit>
+      </ingredient>
+      <ingredient>
+        <item>plain flour</item>
+        <quantity>400</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>hard cheese</item>
+        <quantity>250</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>flat-leaf parsley</item>
+        <quantity>300</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>lemon</item>
+        <quantity>3</quantity>
+        <unit>whole</unit>
+      </ingredient>
+      <ingredient>
+        <item>double cream</item>
+        <quantity>300</quantity>
+        <unit>ml</unit>
+      </ingredient>
+      <ingredient>
+        <item>olive oil</item>
+        <quantity>1</quantity>
+        <unit>tbsp</unit>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Soften the onion and garlic for six minutes, stirring so they do not colour.</step>
+      <step>Rest for five minutes off the heat so the sauce thickens.</step>
+      <step>Taste, adjust the seasoning, and finish with a squeeze of lemon.</step>
+      <step>Scatter over the herbs and serve straight from the pan.</step>
+      <step>Cool completely before slicing, or the crumb will tear.</step>
+    </steps>
+    <tags>
+      <tag>low-waste</tag>
+      <tag>make-ahead</tag>
+      <tag>no-oven</tag>
+      <tag>vegan</tag>
+      <tag>vegetarian</tag>
+    </tags>
+  </recipe>
+  <recipe>
+    <id>RC-041</id>
+    <name>Charred Fennel Risotto</name>
+    <category>one-pot</category>
+    <servings>8</servings>
+    <prep_minutes>30</prep_minutes>
+    <cook_minutes>55</cook_minutes>
+    <difficulty>medium</difficulty>
+    <ingredients>
+      <ingredient>
+        <item>smoked paprika</item>
+        <quantity>2</quantity>
+        <unit>tsp</unit>
+      </ingredient>
+      <ingredient>
+        <item>double cream</item>
+        <quantity>100</quantity>
+        <unit>ml</unit>
+      </ingredient>
+      <ingredient>
+        <item>olive oil</item>
+        <quantity>1</quantity>
+        <unit>tbsp</unit>
+      </ingredient>
+      <ingredient>
+        <item>vegetable stock</item>
+        <quantity>100</quantity>
+        <unit>ml</unit>
+      </ingredient>
+      <ingredient>
+        <item>hard cheese</item>
+        <quantity>300</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>unsalted butter</item>
+        <quantity>100</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>chickpeas</item>
+        <quantity>250</quantity>
+        <unit>g</unit>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Warm the oil in a wide pan over a medium heat until it shimmers.</step>
+      <step>Soften the onion and garlic for six minutes, stirring so they do not colour.</step>
+      <step>Season generously, then stir through the remaining dry ingredients.</step>
+      <step>Rest for five minutes off the heat so the sauce thickens.</step>
+      <step>Scatter over the herbs and serve straight from the pan.</step>
+    </steps>
+    <tags>
+      <tag>batch-cook</tag>
+      <tag>high-protein</tag>
+      <tag>make-ahead</tag>
+    </tags>
+  </recipe>
+  <recipe>
+    <id>RC-042</id>
+    <name>Chilled Aubergine Soup</name>
+    <category>soup</category>
+    <servings>4</servings>
+    <prep_minutes>15</prep_minutes>
+    <cook_minutes>37</cook_minutes>
+    <difficulty>easy</difficulty>
+    <ingredients>
+      <ingredient>
+        <item>plain flour</item>
+        <quantity>150</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>baking powder</item>
+        <quantity>2</quantity>
+        <unit>tsp</unit>
+      </ingredient>
+      <ingredient>
+        <item>sea salt</item>
+        <quantity>2</quantity>
+        <unit>tsp</unit>
+      </ingredient>
+      <ingredient>
+        <item>caster sugar</item>
+        <quantity>400</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>olive oil</item>
+        <quantity>2</quantity>
+        <unit>tbsp</unit>
+      </ingredient>
+      <ingredient>
+        <item>cherry tomato</item>
+        <quantity>100</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>pearl barley</item>
+        <quantity>400</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>smoked paprika</item>
+        <quantity>1</quantity>
+        <unit>tsp</unit>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Soften the onion and garlic for six minutes, stirring so they do not colour.</step>
+      <step>Season generously, then stir through the remaining dry ingredients.</step>
+      <step>Pour in the stock, bring to a simmer, and cook uncovered for twenty minutes.</step>
+      <step>Rest for five minutes off the heat so the sauce thickens.</step>
+      <step>Taste, adjust the seasoning, and finish with a squeeze of lemon.</step>
+      <step>Scatter over the herbs and serve straight from the pan.</step>
+      <step>Cool completely before slicing, or the crumb will tear.</step>
+    </steps>
+    <tags>
+      <tag>batch-cook</tag>
+      <tag>make-ahead</tag>
+      <tag>no-oven</tag>
+      <tag>vegan</tag>
+    </tags>
+  </recipe>
+  <recipe>
+    <id>RC-043</id>
+    <name>Golden Cabbage Gratin</name>
+    <category>side</category>
+    <servings>4</servings>
+    <prep_minutes>30</prep_minutes>
+    <cook_minutes>34</cook_minutes>
+    <difficulty>easy</difficulty>
+    <ingredients>
+      <ingredient>
+        <item>smoked paprika</item>
+        <quantity>1</quantity>
+        <unit>tsp</unit>
+      </ingredient>
+      <ingredient>
+        <item>cherry tomato</item>
+        <quantity>400</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>baking powder</item>
+        <quantity>2</quantity>
+        <unit>tsp</unit>
+      </ingredient>
+      <ingredient>
+        <item>vegetable stock</item>
+        <quantity>300</quantity>
+        <unit>ml</unit>
+      </ingredient>
+      <ingredient>
+        <item>plain flour</item>
+        <quantity>50</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>pearl barley</item>
+        <quantity>300</quantity>
+        <unit>g</unit>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Warm the oil in a wide pan over a medium heat until it shimmers.</step>
+      <step>Soften the onion and garlic for six minutes, stirring so they do not colour.</step>
+      <step>Season generously, then stir through the remaining dry ingredients.</step>
+      <step>Pour in the stock, bring to a simmer, and cook uncovered for twenty minutes.</step>
+      <step>Rest for five minutes off the heat so the sauce thickens.</step>
+      <step>Taste, adjust the seasoning, and finish with a squeeze of lemon.</step>
+      <step>Cool completely before slicing, or the crumb will tear.</step>
+    </steps>
+    <tags>
+      <tag>batch-cook</tag>
+      <tag>make-ahead</tag>
+    </tags>
+  </recipe>
+  <recipe>
+    <id>RC-044</id>
+    <name>Crisp Aubergine Traybake</name>
+    <category>baking</category>
+    <servings>6</servings>
+    <prep_minutes>25</prep_minutes>
+    <cook_minutes>60</cook_minutes>
+    <difficulty>medium</difficulty>
+    <ingredients>
+      <ingredient>
+        <item>hard cheese</item>
+        <quantity>200</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>unsalted butter</item>
+        <quantity>200</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>flat-leaf parsley</item>
+        <quantity>200</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>red onion</item>
+        <quantity>4</quantity>
+        <unit>whole</unit>
+      </ingredient>
+      <ingredient>
+        <item>plain flour</item>
+        <quantity>400</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>wholegrain mustard</item>
+        <quantity>2</quantity>
+        <unit>tsp</unit>
+      </ingredient>
+      <ingredient>
+        <item>double cream</item>
+        <quantity>300</quantity>
+        <unit>ml</unit>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Season generously, then stir through the remaining dry ingredients.</step>
+      <step>Transfer to the oven and roast until the edges catch and darken.</step>
+      <step>Rest for five minutes off the heat so the sauce thickens.</step>
+      <step>Scatter over the herbs and serve straight from the pan.</step>
+    </steps>
+    <tags>
+      <tag>high-protein</tag>
+      <tag>low-waste</tag>
+      <tag>make-ahead</tag>
+      <tag>vegetarian</tag>
+    </tags>
+  </recipe>
+  <recipe>
+    <id>RC-045</id>
+    <name>Herbed Barley Stew</name>
+    <category>one-pot</category>
+    <servings>4</servings>
+    <prep_minutes>30</prep_minutes>
+    <cook_minutes>45</cook_minutes>
+    <difficulty>medium</difficulty>
+    <ingredients>
+      <ingredient>
+        <item>hard cheese</item>
+        <quantity>400</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>flat-leaf parsley</item>
+        <quantity>250</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>pearl barley</item>
+        <quantity>150</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>caster sugar</item>
+        <quantity>100</quantity>
+        <unit>g</unit>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Warm the oil in a wide pan over a medium heat until it shimmers.</step>
+      <step>Soften the onion and garlic for six minutes, stirring so they do not colour.</step>
+      <step>Season generously, then stir through the remaining dry ingredients.</step>
+      <step>Rest for five minutes off the heat so the sauce thickens.</step>
+      <step>Taste, adjust the seasoning, and finish with a squeeze of lemon.</step>
+    </steps>
+    <tags>
+      <tag>high-protein</tag>
+      <tag>low-waste</tag>
+      <tag>make-ahead</tag>
+    </tags>
+  </recipe>
+  <recipe>
+    <id>RC-046</id>
+    <name>Golden Lentil Soup</name>
+    <category>soup</category>
+    <servings>2</servings>
+    <prep_minutes>30</prep_minutes>
+    <cook_minutes>30</cook_minutes>
+    <difficulty>easy</difficulty>
+    <ingredients>
+      <ingredient>
+        <item>vegetable stock</item>
+        <quantity>50</quantity>
+        <unit>ml</unit>
+      </ingredient>
+      <ingredient>
+        <item>chickpeas</item>
+        <quantity>300</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>double cream</item>
+        <quantity>100</quantity>
+        <unit>ml</unit>
+      </ingredient>
+      <ingredient>
+        <item>lemon</item>
+        <quantity>2</quantity>
+        <unit>whole</unit>
+      </ingredient>
+      <ingredient>
+        <item>unsalted butter</item>
+        <quantity>100</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>hard cheese</item>
+        <quantity>200</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>flat-leaf parsley</item>
+        <quantity>50</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>wholegrain mustard</item>
+        <quantity>1</quantity>
+        <unit>tsp</unit>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Warm the oil in a wide pan over a medium heat until it shimmers.</step>
+      <step>Soften the onion and garlic for six minutes, stirring so they do not colour.</step>
+      <step>Pour in the stock, bring to a simmer, and cook uncovered for twenty minutes.</step>
+      <step>Rest for five minutes off the heat so the sauce thickens.</step>
+      <step>Cool completely before slicing, or the crumb will tear.</step>
+    </steps>
+    <tags>
+      <tag>freezer-friendly</tag>
+      <tag>high-protein</tag>
+      <tag>make-ahead</tag>
+      <tag>no-oven</tag>
+    </tags>
+  </recipe>
+  <recipe>
+    <id>RC-047</id>
+    <name>Charred Lentil Hash</name>
+    <category>breakfast</category>
+    <servings>4</servings>
+    <prep_minutes>10</prep_minutes>
+    <cook_minutes>19</cook_minutes>
+    <difficulty>hard</difficulty>
+    <ingredients>
+      <ingredient>
+        <item>caster sugar</item>
+        <quantity>100</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>smoked paprika</item>
+        <quantity>2</quantity>
+        <unit>tsp</unit>
+      </ingredient>
+      <ingredient>
+        <item>hard cheese</item>
+        <quantity>200</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>olive oil</item>
+        <quantity>1</quantity>
+        <unit>tbsp</unit>
+      </ingredient>
+      <ingredient>
+        <item>pearl barley</item>
+        <quantity>50</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>red onion</item>
+        <quantity>4</quantity>
+        <unit>whole</unit>
+      </ingredient>
+      <ingredient>
+        <item>cherry tomato</item>
+        <quantity>400</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>lemon</item>
+        <quantity>2</quantity>
+        <unit>whole</unit>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Warm the oil in a wide pan over a medium heat until it shimmers.</step>
+      <step>Soften the onion and garlic for six minutes, stirring so they do not colour.</step>
+      <step>Season generously, then stir through the remaining dry ingredients.</step>
+      <step>Scatter over the herbs and serve straight from the pan.</step>
+      <step>Cool completely before slicing, or the crumb will tear.</step>
+    </steps>
+    <tags>
+      <tag>batch-cook</tag>
+      <tag>high-protein</tag>
+      <tag>low-waste</tag>
+      <tag>make-ahead</tag>
+      <tag>vegetarian</tag>
+    </tags>
+  </recipe>
+  <recipe>
+    <id>RC-048</id>
+    <name>Buttered Mushroom Loaf</name>
+    <category>baking</category>
+    <servings>4</servings>
+    <prep_minutes>10</prep_minutes>
+    <cook_minutes>35</cook_minutes>
+    <difficulty>hard</difficulty>
+    <ingredients>
+      <ingredient>
+        <item>hard cheese</item>
+        <quantity>100</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>flat-leaf parsley</item>
+        <quantity>50</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>thyme sprig</item>
+        <quantity>1</quantity>
+        <unit>whole</unit>
+      </ingredient>
+      <ingredient>
+        <item>smoked paprika</item>
+        <quantity>1</quantity>
+        <unit>tsp</unit>
+      </ingredient>
+      <ingredient>
+        <item>unsalted butter</item>
+        <quantity>150</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>sea salt</item>
+        <quantity>2</quantity>
+        <unit>tsp</unit>
+      </ingredient>
+      <ingredient>
+        <item>plain flour</item>
+        <quantity>400</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>chickpeas</item>
+        <quantity>300</quantity>
+        <unit>g</unit>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Soften the onion and garlic for six minutes, stirring so they do not colour.</step>
+      <step>Season generously, then stir through the remaining dry ingredients.</step>
+      <step>Pour in the stock, bring to a simmer, and cook uncovered for twenty minutes.</step>
+      <step>Transfer to the oven and roast until the edges catch and darken.</step>
+      <step>Rest for five minutes off the heat so the sauce thickens.</step>
+      <step>Cool completely before slicing, or the crumb will tear.</step>
+    </steps>
+    <tags>
+      <tag>batch-cook</tag>
+      <tag>make-ahead</tag>
+    </tags>
+  </recipe>
+  <recipe>
+    <id>RC-049</id>
+    <name>Charred Tomato Salad</name>
+    <category>salad</category>
+    <servings>2</servings>
+    <prep_minutes>5</prep_minutes>
+    <cook_minutes>7</cook_minutes>
+    <difficulty>easy</difficulty>
+    <ingredients>
+      <ingredient>
+        <item>unsalted butter</item>
+        <quantity>50</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>olive oil</item>
+        <quantity>3</quantity>
+        <unit>tbsp</unit>
+      </ingredient>
+      <ingredient>
+        <item>baking powder</item>
+        <quantity>2</quantity>
+        <unit>tsp</unit>
+      </ingredient>
+      <ingredient>
+        <item>chickpeas</item>
+        <quantity>200</quantity>
+        <unit>g</unit>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Warm the oil in a wide pan over a medium heat until it shimmers.</step>
+      <step>Soften the onion and garlic for six minutes, stirring so they do not colour.</step>
+      <step>Pour in the stock, bring to a simmer, and cook uncovered for twenty minutes.</step>
+      <step>Rest for five minutes off the heat so the sauce thickens.</step>
+      <step>Taste, adjust the seasoning, and finish with a squeeze of lemon.</step>
+      <step>Scatter over the herbs and serve straight from the pan.</step>
+    </steps>
+    <tags>
+      <tag>batch-cook</tag>
+      <tag>low-waste</tag>
+      <tag>make-ahead</tag>
+      <tag>vegan</tag>
+    </tags>
+  </recipe>
+  <recipe>
+    <id>RC-050</id>
+    <name>Spiced Pear Gratin</name>
+    <category>side</category>
+    <servings>2</servings>
+    <prep_minutes>25</prep_minutes>
+    <cook_minutes>30</cook_minutes>
+    <difficulty>easy</difficulty>
+    <ingredients>
+      <ingredient>
+        <item>unsalted butter</item>
+        <quantity>150</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>plain flour</item>
+        <quantity>150</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>vegetable stock</item>
+        <quantity>300</quantity>
+        <unit>ml</unit>
+      </ingredient>
+      <ingredient>
+        <item>sea salt</item>
+        <quantity>2</quantity>
+        <unit>tsp</unit>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Heat the oven to 200C and line a shallow tray with baking paper.</step>
+      <step>Warm the oil in a wide pan over a medium heat until it shimmers.</step>
+      <step>Pour in the stock, bring to a simmer, and cook uncovered for twenty minutes.</step>
+      <step>Transfer to the oven and roast until the edges catch and darken.</step>
+      <step>Rest for five minutes off the heat so the sauce thickens.</step>
+      <step>Cool completely before slicing, or the crumb will tear.</step>
+    </steps>
+    <tags>
+      <tag>batch-cook</tag>
+      <tag>make-ahead</tag>
+      <tag>one-pot</tag>
+    </tags>
+  </recipe>
+  <recipe>
+    <id>RC-051</id>
+    <name>Golden Walnut Risotto</name>
+    <category>one-pot</category>
+    <servings>2</servings>
+    <prep_minutes>10</prep_minutes>
+    <cook_minutes>61</cook_minutes>
+    <difficulty>medium</difficulty>
+    <ingredients>
+      <ingredient>
+        <item>garlic clove</item>
+        <quantity>3</quantity>
+        <unit>whole</unit>
+      </ingredient>
+      <ingredient>
+        <item>unsalted butter</item>
+        <quantity>50</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>vegetable stock</item>
+        <quantity>50</quantity>
+        <unit>ml</unit>
+      </ingredient>
+      <ingredient>
+        <item>hard cheese</item>
+        <quantity>200</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>chickpeas</item>
+        <quantity>50</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>lemon</item>
+        <quantity>2</quantity>
+        <unit>whole</unit>
+      </ingredient>
+      <ingredient>
+        <item>pearl barley</item>
+        <quantity>200</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>plain flour</item>
+        <quantity>250</quantity>
+        <unit>g</unit>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Warm the oil in a wide pan over a medium heat until it shimmers.</step>
+      <step>Soften the onion and garlic for six minutes, stirring so they do not colour.</step>
+      <step>Pour in the stock, bring to a simmer, and cook uncovered for twenty minutes.</step>
+      <step>Rest for five minutes off the heat so the sauce thickens.</step>
+      <step>Scatter over the herbs and serve straight from the pan.</step>
+      <step>Cool completely before slicing, or the crumb will tear.</step>
+    </steps>
+    <tags>
+      <tag>freezer-friendly</tag>
+      <tag>make-ahead</tag>
+      <tag>no-oven</tag>
+      <tag>vegan</tag>
+    </tags>
+  </recipe>
+  <recipe>
+    <id>RC-052</id>
+    <name>Charred Chickpea Flatbread</name>
+    <category>baking</category>
+    <servings>4</servings>
+    <prep_minutes>15</prep_minutes>
+    <cook_minutes>58</cook_minutes>
+    <difficulty>medium</difficulty>
+    <ingredients>
+      <ingredient>
+        <item>double cream</item>
+        <quantity>50</quantity>
+        <unit>ml</unit>
+      </ingredient>
+      <ingredient>
+        <item>black pepper</item>
+        <quantity>1</quantity>
+        <unit>tsp</unit>
+      </ingredient>
+      <ingredient>
+        <item>olive oil</item>
+        <quantity>2</quantity>
+        <unit>tbsp</unit>
+      </ingredient>
+      <ingredient>
+        <item>garlic clove</item>
+        <quantity>4</quantity>
+        <unit>whole</unit>
+      </ingredient>
+      <ingredient>
+        <item>unsalted butter</item>
+        <quantity>250</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>wholegrain mustard</item>
+        <quantity>1</quantity>
+        <unit>tsp</unit>
+      </ingredient>
+      <ingredient>
+        <item>chickpeas</item>
+        <quantity>400</quantity>
+        <unit>g</unit>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Heat the oven to 200C and line a shallow tray with baking paper.</step>
+      <step>Warm the oil in a wide pan over a medium heat until it shimmers.</step>
+      <step>Soften the onion and garlic for six minutes, stirring so they do not colour.</step>
+      <step>Season generously, then stir through the remaining dry ingredients.</step>
+      <step>Pour in the stock, bring to a simmer, and cook uncovered for twenty minutes.</step>
+      <step>Transfer to the oven and roast until the edges catch and darken.</step>
+    </steps>
+    <tags>
+      <tag>make-ahead</tag>
+      <tag>one-pot</tag>
+    </tags>
+  </recipe>
+  <recipe>
+    <id>RC-053</id>
+    <name>Golden Cabbage Flatbread</name>
+    <category>baking</category>
+    <servings>2</servings>
+    <prep_minutes>15</prep_minutes>
+    <cook_minutes>54</cook_minutes>
+    <difficulty>medium</difficulty>
+    <ingredients>
+      <ingredient>
+        <item>plain flour</item>
+        <quantity>300</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>baking powder</item>
+        <quantity>1</quantity>
+        <unit>tsp</unit>
+      </ingredient>
+      <ingredient>
+        <item>black pepper</item>
+        <quantity>1</quantity>
+        <unit>tsp</unit>
+      </ingredient>
+      <ingredient>
+        <item>flat-leaf parsley</item>
+        <quantity>100</quantity>
+        <unit>g</unit>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Warm the oil in a wide pan over a medium heat until it shimmers.</step>
+      <step>Soften the onion and garlic for six minutes, stirring so they do not colour.</step>
+      <step>Transfer to the oven and roast until the edges catch and darken.</step>
+      <step>Taste, adjust the seasoning, and finish with a squeeze of lemon.</step>
+      <step>Cool completely before slicing, or the crumb will tear.</step>
+    </steps>
+    <tags>
+      <tag>make-ahead</tag>
+      <tag>vegan</tag>
+      <tag>vegetarian</tag>
+    </tags>
+  </recipe>
+  <recipe>
+    <id>RC-054</id>
+    <name>Golden Lentil Risotto</name>
+    <category>one-pot</category>
+    <servings>4</servings>
+    <prep_minutes>25</prep_minutes>
+    <cook_minutes>62</cook_minutes>
+    <difficulty>medium</difficulty>
+    <ingredients>
+      <ingredient>
+        <item>lemon</item>
+        <quantity>4</quantity>
+        <unit>whole</unit>
+      </ingredient>
+      <ingredient>
+        <item>olive oil</item>
+        <quantity>2</quantity>
+        <unit>tbsp</unit>
+      </ingredient>
+      <ingredient>
+        <item>thyme sprig</item>
+        <quantity>2</quantity>
+        <unit>whole</unit>
+      </ingredient>
+      <ingredient>
+        <item>cherry tomato</item>
+        <quantity>100</quantity>
+        <unit>g</unit>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Warm the oil in a wide pan over a medium heat until it shimmers.</step>
+      <step>Soften the onion and garlic for six minutes, stirring so they do not colour.</step>
+      <step>Season generously, then stir through the remaining dry ingredients.</step>
+      <step>Pour in the stock, bring to a simmer, and cook uncovered for twenty minutes.</step>
+      <step>Taste, adjust the seasoning, and finish with a squeeze of lemon.</step>
+      <step>Scatter over the herbs and serve straight from the pan.</step>
+      <step>Cool completely before slicing, or the crumb will tear.</step>
+    </steps>
+    <tags>
+      <tag>batch-cook</tag>
+      <tag>make-ahead</tag>
+      <tag>one-pot</tag>
+      <tag>vegan</tag>
+    </tags>
+  </recipe>
+  <recipe>
+    <id>RC-055</id>
+    <name>Buttered Pear Soup</name>
+    <category>soup</category>
+    <servings>4</servings>
+    <prep_minutes>5</prep_minutes>
+    <cook_minutes>38</cook_minutes>
+    <difficulty>easy</difficulty>
+    <ingredients>
+      <ingredient>
+        <item>flat-leaf parsley</item>
+        <quantity>300</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>chickpeas</item>
+        <quantity>50</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>caster sugar</item>
+        <quantity>50</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>black pepper</item>
+        <quantity>1</quantity>
+        <unit>tsp</unit>
+      </ingredient>
+      <ingredient>
+        <item>thyme sprig</item>
+        <quantity>3</quantity>
+        <unit>whole</unit>
+      </ingredient>
+      <ingredient>
+        <item>baking powder</item>
+        <quantity>2</quantity>
+        <unit>tsp</unit>
+      </ingredient>
+      <ingredient>
+        <item>hard cheese</item>
+        <quantity>400</quantity>
+        <unit>g</unit>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Warm the oil in a wide pan over a medium heat until it shimmers.</step>
+      <step>Soften the onion and garlic for six minutes, stirring so they do not colour.</step>
+      <step>Season generously, then stir through the remaining dry ingredients.</step>
+      <step>Pour in the stock, bring to a simmer, and cook uncovered for twenty minutes.</step>
+      <step>Rest for five minutes off the heat so the sauce thickens.</step>
+      <step>Taste, adjust the seasoning, and finish with a squeeze of lemon.</step>
+      <step>Cool completely before slicing, or the crumb will tear.</step>
+    </steps>
+    <tags>
+      <tag>low-waste</tag>
+      <tag>make-ahead</tag>
+      <tag>vegan</tag>
+      <tag>vegetarian</tag>
+    </tags>
+  </recipe>
+  <recipe>
+    <id>RC-056</id>
+    <name>Charred Chickpea Hash</name>
+    <category>breakfast</category>
+    <servings>6</servings>
+    <prep_minutes>10</prep_minutes>
+    <cook_minutes>18</cook_minutes>
+    <difficulty>medium</difficulty>
+    <ingredients>
+      <ingredient>
+        <item>thyme sprig</item>
+        <quantity>4</quantity>
+        <unit>whole</unit>
+      </ingredient>
+      <ingredient>
+        <item>olive oil</item>
+        <quantity>3</quantity>
+        <unit>tbsp</unit>
+      </ingredient>
+      <ingredient>
+        <item>hard cheese</item>
+        <quantity>100</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>lemon</item>
+        <quantity>2</quantity>
+        <unit>whole</unit>
+      </ingredient>
+      <ingredient>
+        <item>plain flour</item>
+        <quantity>50</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>sea salt</item>
+        <quantity>2</quantity>
+        <unit>tsp</unit>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Warm the oil in a wide pan over a medium heat until it shimmers.</step>
+      <step>Season generously, then stir through the remaining dry ingredients.</step>
+      <step>Pour in the stock, bring to a simmer, and cook uncovered for twenty minutes.</step>
+      <step>Taste, adjust the seasoning, and finish with a squeeze of lemon.</step>
+      <step>Scatter over the herbs and serve straight from the pan.</step>
+      <step>Cool completely before slicing, or the crumb will tear.</step>
+    </steps>
+    <tags>
+      <tag>low-waste</tag>
+      <tag>make-ahead</tag>
+      <tag>under-30-minutes</tag>
+    </tags>
+  </recipe>
+  <recipe>
+    <id>RC-057</id>
+    <name>Smoky Pumpkin Gratin</name>
+    <category>side</category>
+    <servings>2</servings>
+    <prep_minutes>15</prep_minutes>
+    <cook_minutes>34</cook_minutes>
+    <difficulty>hard</difficulty>
+    <ingredients>
+      <ingredient>
+        <item>vegetable stock</item>
+        <quantity>100</quantity>
+        <unit>ml</unit>
+      </ingredient>
+      <ingredient>
+        <item>plain flour</item>
+        <quantity>400</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>chickpeas</item>
+        <quantity>250</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>unsalted butter</item>
+        <quantity>150</quantity>
+        <unit>g</unit>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Soften the onion and garlic for six minutes, stirring so they do not colour.</step>
+      <step>Transfer to the oven and roast until the edges catch and darken.</step>
+      <step>Taste, adjust the seasoning, and finish with a squeeze of lemon.</step>
+      <step>Cool completely before slicing, or the crumb will tear.</step>
+    </steps>
+    <tags>
+      <tag>batch-cook</tag>
+      <tag>low-waste</tag>
+      <tag>make-ahead</tag>
+      <tag>vegetarian</tag>
+    </tags>
+  </recipe>
+  <recipe>
+    <id>RC-058</id>
+    <name>Spiced Fennel Skillet</name>
+    <category>main</category>
+    <servings>6</servings>
+    <prep_minutes>25</prep_minutes>
+    <cook_minutes>30</cook_minutes>
+    <difficulty>easy</difficulty>
+    <ingredients>
+      <ingredient>
+        <item>flat-leaf parsley</item>
+        <quantity>400</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>thyme sprig</item>
+        <quantity>1</quantity>
+        <unit>whole</unit>
+      </ingredient>
+      <ingredient>
+        <item>wholegrain mustard</item>
+        <quantity>2</quantity>
+        <unit>tsp</unit>
+      </ingredient>
+      <ingredient>
+        <item>caster sugar</item>
+        <quantity>200</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>plain flour</item>
+        <quantity>50</quantity>
+        <unit>g</unit>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Season generously, then stir through the remaining dry ingredients.</step>
+      <step>Pour in the stock, bring to a simmer, and cook uncovered for twenty minutes.</step>
+      <step>Rest for five minutes off the heat so the sauce thickens.</step>
+      <step>Taste, adjust the seasoning, and finish with a squeeze of lemon.</step>
+      <step>Cool completely before slicing, or the crumb will tear.</step>
+    </steps>
+    <tags>
+      <tag>batch-cook</tag>
+      <tag>make-ahead</tag>
+      <tag>no-oven</tag>
+      <tag>one-pot</tag>
+    </tags>
+  </recipe>
+  <recipe>
+    <id>RC-059</id>
+    <name>Slow-roasted Mushroom Gratin</name>
+    <category>side</category>
+    <servings>4</servings>
+    <prep_minutes>5</prep_minutes>
+    <cook_minutes>39</cook_minutes>
+    <difficulty>medium</difficulty>
+    <ingredients>
+      <ingredient>
+        <item>cherry tomato</item>
+        <quantity>150</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>double cream</item>
+        <quantity>100</quantity>
+        <unit>ml</unit>
+      </ingredient>
+      <ingredient>
+        <item>lemon</item>
+        <quantity>4</quantity>
+        <unit>whole</unit>
+      </ingredient>
+      <ingredient>
+        <item>black pepper</item>
+        <quantity>1</quantity>
+        <unit>tsp</unit>
+      </ingredient>
+      <ingredient>
+        <item>caster sugar</item>
+        <quantity>250</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>flat-leaf parsley</item>
+        <quantity>250</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>thyme sprig</item>
+        <quantity>2</quantity>
+        <unit>whole</unit>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Heat the oven to 200C and line a shallow tray with baking paper.</step>
+      <step>Warm the oil in a wide pan over a medium heat until it shimmers.</step>
+      <step>Soften the onion and garlic for six minutes, stirring so they do not colour.</step>
+      <step>Season generously, then stir through the remaining dry ingredients.</step>
+      <step>Transfer to the oven and roast until the edges catch and darken.</step>
+    </steps>
+    <tags>
+      <tag>high-protein</tag>
+      <tag>low-waste</tag>
+      <tag>make-ahead</tag>
+    </tags>
+  </recipe>
+  <recipe>
+    <id>RC-060</id>
+    <name>Smoky Chickpea Stew</name>
+    <category>one-pot</category>
+    <servings>4</servings>
+    <prep_minutes>5</prep_minutes>
+    <cook_minutes>52</cook_minutes>
+    <difficulty>easy</difficulty>
+    <ingredients>
+      <ingredient>
+        <item>chickpeas</item>
+        <quantity>50</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>red onion</item>
+        <quantity>1</quantity>
+        <unit>whole</unit>
+      </ingredient>
+      <ingredient>
+        <item>vegetable stock</item>
+        <quantity>100</quantity>
+        <unit>ml</unit>
+      </ingredient>
+      <ingredient>
+        <item>plain flour</item>
+        <quantity>100</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>pearl barley</item>
+        <quantity>400</quantity>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <item>baking powder</item>
+        <quantity>2</quantity>
+        <unit>tsp</unit>
+      </ingredient>
+    </ingredients>
+    <steps>
+      <step>Warm the oil in a wide pan over a medium heat until it shimmers.</step>
+      <step>Soften the onion and garlic for six minutes, stirring so they do not colour.</step>
+      <step>Season generously, then stir through the remaining dry ingredients.</step>
+      <step>Pour in the stock, bring to a simmer, and cook uncovered for twenty minutes.</step>
+      <step>Rest for five minutes off the heat so the sauce thickens.</step>
+      <step>Cool completely before slicing, or the crumb will tear.</step>
+    </steps>
+    <tags>
+      <tag>make-ahead</tag>
+      <tag>vegetarian</tag>
+    </tags>
+  </recipe>
+</recipes>
