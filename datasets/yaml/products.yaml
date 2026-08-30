@@ -1,0 +1,3008 @@
+# 200 synthetic catalogue products. Invented data; it describes nobody.
+products:
+  - sku: "AUD-0001"
+    name: "Soft-touch Silicone Audio Splitter"
+    brand: "Lumenta"
+    category: "Audio"
+    price: 46.75
+    currency: "USD"
+    stock: 70
+    weight_g: 780
+    rating: 3.3
+    tags:
+      - "compact"
+      - "gift-idea"
+    released_on: "2022-04-28"
+    discontinued: false
+  - sku: "AUD-0002"
+    name: "Linen-wrapped Audio Splitter"
+    brand: "Lumenta"
+    category: "Audio"
+    price: 75.27
+    currency: "GBP"
+    stock: 35
+    weight_g: 185
+    rating: 3.7
+    tags:
+      - "gift-idea"
+      - "limited-run"
+      - "recycled"
+      - "refurbished"
+    released_on: "2023-07-29"
+    discontinued: true
+  - sku: "AUD-0003"
+    name: "Powder-coated Field Recorder"
+    brand: "Bramblewick"
+    category: "Audio"
+    price: 25.06
+    currency: "EUR"
+    stock: 33
+    weight_g: 1210
+    rating: 3.5
+    tags:
+      - "bestseller"
+      - "compact"
+      - "recycled"
+      - "refurbished"
+    released_on: "2024-09-01"
+    discontinued: false
+  - sku: "AUD-0004"
+    name: "Woven Jute Sound Panel"
+    brand: "Quorra Labs"
+    category: "Audio"
+    price: 5.0
+    currency: "USD"
+    stock: 331
+    weight_g: 770
+    rating: 4.5
+    tags:
+      - "gift-idea"
+      - "new-arrival"
+    released_on: "2025-10-18"
+    discontinued: false
+  - sku: "AUD-0005"
+    name: "Frosted Glass Sound Panel"
+    brand: "Sundara"
+    category: "Audio"
+    price: 399.58
+    currency: "USD"
+    stock: 429
+    weight_g: 1090
+    rating: 4.7
+    tags:
+      - "compact"
+      - "premium"
+    released_on: "2022-04-03"
+    discontinued: false
+  - sku: "AUD-0006"
+    name: "Copper-plated Bookshelf Speaker"
+    brand: "Sundara"
+    category: "Audio"
+    price: 59.35
+    currency: "EUR"
+    stock: 12
+    weight_g: 1195
+    rating: 3.4
+    tags:
+      - "flat-pack"
+      - "limited-run"
+    released_on: "2024-05-19"
+    discontinued: false
+  - sku: "AUD-0007"
+    name: "Woven Jute Earphone Case"
+    brand: "Halcyon Field"
+    category: "Audio"
+    price: 99.51
+    currency: "USD"
+    stock: 20
+    weight_g: 1985
+    rating: 3.3
+    tags:
+      - "dishwasher-safe"
+      - "gift-idea"
+      - "new-arrival"
+      - "premium"
+    released_on: "2022-03-13"
+    discontinued: false
+  - sku: "AUD-0008"
+    name: "Slate Grey Sound Panel"
+    brand: "Vantiq"
+    category: "Audio"
+    price: 74.69
+    currency: "USD"
+    stock: 0
+    weight_g: 2325
+    rating: 3.9
+    tags:
+      - "limited-run"
+      - "premium"
+    released_on: "2023-06-12"
+    discontinued: true
+  - sku: "AUD-0009"
+    name: "Linen-wrapped Audio Splitter Lite"
+    brand: "Aurelis"
+    category: "Audio"
+    price: 129.92
+    currency: "USD"
+    stock: 476
+    weight_g: 1585
+    rating: 3.9
+    tags:
+      - "clearance"
+      - "limited-run"
+    released_on: "2024-08-24"
+    discontinued: false
+  - sku: "AUD-0010"
+    name: "Recycled Cork Bookshelf Speaker"
+    brand: "Tessellate"
+    category: "Audio"
+    price: 249.23
+    currency: "USD"
+    stock: 13
+    weight_g: 630
+    rating: 4.1
+    tags:
+      - "dishwasher-safe"
+      - "limited-run"
+      - "refurbished"
+    released_on: "2023-02-01"
+    discontinued: false
+  - sku: "AUD-0011"
+    name: "Woven Jute Earphone Case Twin Pack"
+    brand: "Norvale Supply"
+    category: "Audio"
+    price: 46.1
+    currency: "USD"
+    stock: 22
+    weight_g: 2010
+    rating: 4.5
+    tags:
+      - "clearance"
+      - "gift-idea"
+      - "new-arrival"
+      - "refurbished"
+    released_on: "2025-06-06"
+    discontinued: false
+  - sku: "AUD-0012"
+    name: "Matte Ceramic Desk Microphone"
+    brand: "Kestrel Works"
+    category: "Audio"
+    price: 5.55
+    currency: "USD"
+    stock: 31
+    weight_g: 605
+    rating: 4.6
+    tags:
+      - "clearance"
+      - "recycled"
+      - "refurbished"
+    released_on: "2025-06-05"
+    discontinued: false
+  - sku: "AUD-0013"
+    name: "Oiled Walnut Field Recorder"
+    brand: "Lumenta"
+    category: "Audio"
+    price: 59.08
+    currency: "EUR"
+    stock: 265
+    weight_g: 150
+    rating: 4.6
+    tags:
+      - "bestseller"
+      - "bundle"
+      - "premium"
+      - "recycled"
+    released_on: "2022-03-02"
+    discontinued: false
+  - sku: "AUD-0014"
+    name: "Frosted Glass Desk Microphone"
+    brand: "Lumenta"
+    category: "Audio"
+    price: 19.01
+    currency: "USD"
+    stock: 23
+    weight_g: 1145
+    rating: 3.5
+    tags:
+      - "bundle"
+      - "clearance"
+      - "dishwasher-safe"
+    released_on: "2023-06-08"
+    discontinued: false
+  - sku: "AUD-0015"
+    name: "Brushed Steel Audio Splitter"
+    brand: "Aurelis"
+    category: "Audio"
+    price: 59.99
+    currency: "USD"
+    stock: 19
+    weight_g: 1775
+    rating: 4.4
+    tags:
+      - "dishwasher-safe"
+      - "new-arrival"
+      - "premium"
+      - "recycled"
+    released_on: "2025-01-31"
+    discontinued: false
+  - sku: "AUD-0016"
+    name: "Slate Grey Sound Panel Compact"
+    brand: "Lumenta"
+    category: "Audio"
+    price: 46.36
+    currency: "USD"
+    stock: 468
+    weight_g: 245
+    rating: 4.2
+    tags:
+      - "bestseller"
+      - "limited-run"
+      - "new-arrival"
+      - "premium"
+    released_on: "2022-05-07"
+    discontinued: false
+  - sku: "AUD-0017"
+    name: "Matte Ceramic Bookshelf Speaker"
+    brand: "Bramblewick"
+    category: "Audio"
+    price: 75.1
+    currency: "GBP"
+    stock: 20
+    weight_g: 1280
+    rating: 3.6
+    tags:
+      - "bestseller"
+      - "bundle"
+      - "refurbished"
+    released_on: "2024-03-06"
+    discontinued: false
+  - sku: "FIT-0001"
+    name: "Frosted Glass Ankle Strap"
+    brand: "Lumenta"
+    category: "Fitness"
+    price: 5.55
+    currency: "EUR"
+    stock: 27
+    weight_g: 650
+    rating: 4.7
+    tags:
+      - "bestseller"
+      - "dishwasher-safe"
+      - "limited-run"
+    released_on: "2025-04-08"
+    discontinued: false
+  - sku: "FIT-0002"
+    name: "Anodised Aluminium Exercise Mat"
+    brand: "Halcyon Field"
+    category: "Fitness"
+    price: 46.22
+    currency: "USD"
+    stock: 217
+    weight_g: 2900
+    rating: 3.5
+    tags:
+      - "bestseller"
+      - "refurbished"
+    released_on: "2023-09-25"
+    discontinued: false
+  - sku: "FIT-0003"
+    name: "Brushed Steel Kettle Weight"
+    brand: "Aurelis"
+    category: "Fitness"
+    price: 19.04
+    currency: "USD"
+    stock: 387
+    weight_g: 1970
+    rating: 3.2
+    tags:
+      - "bundle"
+      - "dishwasher-safe"
+    released_on: "2023-09-16"
+    discontinued: false
+  - sku: "FIT-0004"
+    name: "Cast Iron Grip Trainer"
+    brand: "Norvale Supply"
+    category: "Fitness"
+    price: 32.09
+    currency: "USD"
+    stock: 18
+    weight_g: 800
+    rating: 3.8
+    tags:
+      - "clearance"
+      - "premium"
+      - "recycled"
+      - "refurbished"
+    released_on: "2023-01-13"
+    discontinued: false
+  - sku: "FIT-0005"
+    name: "Cast Iron Grip Trainer Twin Pack"
+    brand: "Vantiq"
+    category: "Fitness"
+    price: 25.52
+    currency: "USD"
+    stock: 29
+    weight_g: 4595
+    rating: 4.4
+    tags:
+      - "bestseller"
+      - "dishwasher-safe"
+      - "recycled"
+    released_on: "2023-10-02"
+    discontinued: false
+  - sku: "FIT-0006"
+    name: "Powder-coated Grip Trainer"
+    brand: "Tessellate"
+    category: "Fitness"
+    price: 249.62
+    currency: "USD"
+    stock: 48
+    weight_g: 205
+    rating: 3.1
+    tags:
+      - "limited-run"
+      - "premium"
+    released_on: "2023-06-09"
+    discontinued: false
+  - sku: "FIT-0007"
+    name: "Linen-wrapped Kettle Weight"
+    brand: "Aurelis"
+    category: "Fitness"
+    price: 399.37
+    currency: "USD"
+    stock: 6
+    weight_g: 930
+    rating: 3.8
+    tags:
+      - "clearance"
+      - "premium"
+    released_on: "2023-07-10"
+    discontinued: false
+  - sku: "FIT-0008"
+    name: "Powder-coated Kettle Weight"
+    brand: "Quorra Labs"
+    category: "Fitness"
+    price: 46.39
+    currency: "USD"
+    stock: 6
+    weight_g: 3320
+    rating: 3.3
+    tags:
+      - "bundle"
+      - "compact"
+      - "dishwasher-safe"
+    released_on: "2025-01-23"
+    discontinued: false
+  - sku: "FIT-0009"
+    name: "Linen-wrapped Kettle Weight Wide"
+    brand: "Quorra Labs"
+    category: "Fitness"
+    price: 185.92
+    currency: "USD"
+    stock: 160
+    weight_g: 5840
+    rating: 3.3
+    tags:
+      - "flat-pack"
+      - "limited-run"
+    released_on: "2024-10-13"
+    discontinued: false
+  - sku: "FIT-0010"
+    name: "Matte Ceramic Yoga Block"
+    brand: "Sundara"
+    category: "Fitness"
+    price: 32.63
+    currency: "USD"
+    stock: 433
+    weight_g: 4725
+    rating: 4.8
+    tags:
+      - "clearance"
+      - "flat-pack"
+    released_on: "2025-04-29"
+    discontinued: false
+  - sku: "FIT-0011"
+    name: "Oiled Walnut Exercise Mat"
+    brand: "Lumenta"
+    category: "Fitness"
+    price: 25.86
+    currency: "EUR"
+    stock: 3
+    weight_g: 1250
+    rating: 3.5
+    tags:
+      - "dishwasher-safe"
+      - "gift-idea"
+      - "new-arrival"
+      - "recycled"
+    released_on: "2023-05-18"
+    discontinued: false
+  - sku: "FIT-0012"
+    name: "Copper-plated Skipping Rope"
+    brand: "Vantiq"
+    category: "Fitness"
+    price: 59.96
+    currency: "USD"
+    stock: 447
+    weight_g: 4640
+    rating: 4.8
+    tags:
+      - "recycled"
+      - "refurbished"
+    released_on: "2022-05-08"
+    discontinued: false
+  - sku: "FIT-0013"
+    name: "Copper-plated Yoga Block"
+    brand: "Orbex"
+    category: "Fitness"
+    price: 75.43
+    currency: "USD"
+    stock: 12
+    weight_g: 2440
+    rating: 4.5
+    tags:
+      - "bestseller"
+      - "flat-pack"
+      - "limited-run"
+      - "new-arrival"
+    released_on: "2022-05-07"
+    discontinued: false
+  - sku: "FIT-0014"
+    name: "Anodised Aluminium Ankle Strap"
+    brand: "Aurelis"
+    category: "Fitness"
+    price: 25.96
+    currency: "USD"
+    stock: 2
+    weight_g: 4800
+    rating: 4.5
+    tags:
+      - "compact"
+      - "flat-pack"
+    released_on: "2025-09-27"
+    discontinued: false
+  - sku: "FIT-0015"
+    name: "Recycled Cork Yoga Block"
+    brand: "Norvale Supply"
+    category: "Fitness"
+    price: 32.04
+    currency: "USD"
+    stock: 47
+    weight_g: 6460
+    rating: 4.2
+    tags:
+      - "compact"
+      - "recycled"
+    released_on: "2022-08-07"
+    discontinued: false
+  - sku: "GRD-0001"
+    name: "Cast Iron Trellis"
+    brand: "Norvale Supply"
+    category: "Garden"
+    price: 9.84
+    currency: "GBP"
+    stock: 457
+    weight_g: 1670
+    rating: 4.5
+    tags:
+      - "bestseller"
+      - "bundle"
+      - "compact"
+      - "flat-pack"
+    released_on: "2023-06-07"
+    discontinued: false
+  - sku: "GRD-0002"
+    name: "Powder-coated Seed Tray"
+    brand: "Orbex"
+    category: "Garden"
+    price: 129.11
+    currency: "EUR"
+    stock: 4
+    weight_g: 510
+    rating: 3.8
+    tags:
+      - "dishwasher-safe"
+      - "flat-pack"
+      - "limited-run"
+      - "recycled"
+    released_on: "2024-11-19"
+    discontinued: false
+  - sku: "GRD-0003"
+    name: "Powder-coated Watering Can"
+    brand: "Halcyon Field"
+    category: "Garden"
+    price: 13.11
+    currency: "USD"
+    stock: 346
+    weight_g: 445
+    rating: 4.1
+    tags:
+      - "compact"
+      - "limited-run"
+    released_on: "2025-07-04"
+    discontinued: false
+  - sku: "GRD-0004"
+    name: "Recycled Cork Trellis"
+    brand: "Norvale Supply"
+    category: "Garden"
+    price: 129.79
+    currency: "USD"
+    stock: 0
+    weight_g: 2620
+    rating: 3.8
+    tags:
+      - "bestseller"
+      - "gift-idea"
+    released_on: "2025-08-09"
+    discontinued: false
+  - sku: "GRD-0005"
+    name: "Woven Jute Compost Bin"
+    brand: "Orbex"
+    category: "Garden"
+    price: 25.27
+    currency: "EUR"
+    stock: 84
+    weight_g: 3330
+    rating: 4.0
+    tags:
+      - "clearance"
+      - "dishwasher-safe"
+      - "gift-idea"
+    released_on: "2023-05-27"
+    discontinued: false
+  - sku: "GRD-0006"
+    name: "Recycled Cork Hose Reel"
+    brand: "Tessellate"
+    category: "Garden"
+    price: 46.8
+    currency: "USD"
+    stock: 287
+    weight_g: 2185
+    rating: 4.2
+    tags:
+      - "clearance"
+      - "gift-idea"
+      - "limited-run"
+      - "recycled"
+    released_on: "2025-02-04"
+    discontinued: false
+  - sku: "GRD-0007"
+    name: "Copper-plated Pruning Shears"
+    brand: "Tessellate"
+    category: "Garden"
+    price: 12.7
+    currency: "GBP"
+    stock: 36
+    weight_g: 3295
+    rating: 3.6
+    tags:
+      - "bestseller"
+      - "limited-run"
+      - "new-arrival"
+    released_on: "2022-06-15"
+    discontinued: false
+  - sku: "GRD-0008"
+    name: "Brushed Steel Compost Bin"
+    brand: "Palewood"
+    category: "Garden"
+    price: 46.68
+    currency: "USD"
+    stock: 93
+    weight_g: 130
+    rating: 3.7
+    tags:
+      - "compact"
+      - "dishwasher-safe"
+      - "new-arrival"
+    released_on: "2025-03-05"
+    discontinued: false
+  - sku: "GRD-0009"
+    name: "Recycled Cork Trellis Lite"
+    brand: "Palewood"
+    category: "Garden"
+    price: 185.86
+    currency: "USD"
+    stock: 13
+    weight_g: 3910
+    rating: 4.2
+    tags:
+      - "flat-pack"
+      - "new-arrival"
+      - "premium"
+    released_on: "2024-05-20"
+    discontinued: false
+  - sku: "GRD-0010"
+    name: "Bamboo Trellis"
+    brand: "Vantiq"
+    category: "Garden"
+    price: 19.33
+    currency: "USD"
+    stock: 33
+    weight_g: 2650
+    rating: 4.1
+    tags:
+      - "dishwasher-safe"
+      - "recycled"
+    released_on: "2022-05-16"
+    discontinued: false
+  - sku: "GRD-0011"
+    name: "Bamboo Hose Reel"
+    brand: "Orbex"
+    category: "Garden"
+    price: 32.11
+    currency: "USD"
+    stock: 2
+    weight_g: 2905
+    rating: 4.7
+    tags:
+      - "flat-pack"
+      - "premium"
+      - "recycled"
+    released_on: "2023-05-30"
+    discontinued: false
+  - sku: "GRD-0012"
+    name: "Bamboo Compost Bin"
+    brand: "Palewood"
+    category: "Garden"
+    price: 185.1
+    currency: "USD"
+    stock: 14
+    weight_g: 470
+    rating: 3.2
+    tags:
+      - "bundle"
+      - "limited-run"
+    released_on: "2022-03-08"
+    discontinued: false
+  - sku: "GRD-0013"
+    name: "Woven Jute Plant Pot"
+    brand: "Halcyon Field"
+    category: "Garden"
+    price: 75.33
+    currency: "USD"
+    stock: 0
+    weight_g: 960
+    rating: 4.4
+    tags:
+      - "bestseller"
+      - "gift-idea"
+      - "limited-run"
+      - "refurbished"
+    released_on: "2025-08-13"
+    discontinued: false
+  - sku: "GRD-0014"
+    name: "Frosted Glass Seed Tray"
+    brand: "Halcyon Field"
+    category: "Garden"
+    price: 13.46
+    currency: "USD"
+    stock: 14
+    weight_g: 3265
+    rating: 3.4
+    tags:
+      - "bundle"
+      - "dishwasher-safe"
+      - "flat-pack"
+    released_on: "2023-11-06"
+    discontinued: false
+  - sku: "GRD-0015"
+    name: "Recycled Cork Trellis Refill"
+    brand: "Lumenta"
+    category: "Garden"
+    price: 249.1
+    currency: "USD"
+    stock: 30
+    weight_g: 2090
+    rating: 3.4
+    tags:
+      - "bundle"
+      - "limited-run"
+      - "refurbished"
+    released_on: "2024-05-12"
+    discontinued: false
+  - sku: "GRD-0016"
+    name: "Recycled Cork Garden Kneeler"
+    brand: "Halcyon Field"
+    category: "Garden"
+    price: 75.03
+    currency: "USD"
+    stock: 298
+    weight_g: 2855
+    rating: 3.9
+    tags:
+      - "compact"
+      - "dishwasher-safe"
+      - "new-arrival"
+      - "recycled"
+    released_on: "2024-04-12"
+    discontinued: false
+  - sku: "GRD-0017"
+    name: "Frosted Glass Seed Tray Refill"
+    brand: "Aurelis"
+    category: "Garden"
+    price: 25.0
+    currency: "EUR"
+    stock: 365
+    weight_g: 3520
+    rating: 4.8
+    tags:
+      - "bestseller"
+      - "gift-idea"
+      - "recycled"
+    released_on: "2025-05-05"
+    discontinued: false
+  - sku: "GRD-0018"
+    name: "Brushed Steel Plant Pot"
+    brand: "Vantiq"
+    category: "Garden"
+    price: 249.62
+    currency: "USD"
+    stock: 477
+    weight_g: 620
+    rating: 3.5
+    tags:
+      - "new-arrival"
+      - "refurbished"
+    released_on: "2025-04-08"
+    discontinued: false
+  - sku: "GRD-0019"
+    name: "Linen-wrapped Pruning Shears"
+    brand: "Quorra Labs"
+    category: "Garden"
+    price: 25.09
+    currency: "GBP"
+    stock: 18
+    weight_g: 3115
+    rating: 3.6
+    tags:
+      - "bestseller"
+      - "dishwasher-safe"
+      - "gift-idea"
+      - "premium"
+    released_on: "2023-03-18"
+    discontinued: false
+  - sku: "GRD-0020"
+    name: "Linen-wrapped Seed Tray"
+    brand: "Sundara"
+    category: "Garden"
+    price: 25.96
+    currency: "USD"
+    stock: 447
+    weight_g: 3835
+    rating: 4.4
+    tags:
+      - "dishwasher-safe"
+      - "recycled"
+    released_on: "2023-10-12"
+    discontinued: false
+  - sku: "GRD-0021"
+    name: "Matte Ceramic Seed Tray"
+    brand: "Vantiq"
+    category: "Garden"
+    price: 129.83
+    currency: "USD"
+    stock: 33
+    weight_g: 1195
+    rating: 3.4
+    tags:
+      - "dishwasher-safe"
+      - "flat-pack"
+      - "refurbished"
+    released_on: "2023-01-08"
+    discontinued: false
+  - sku: "GRD-0022"
+    name: "Woven Jute Pruning Shears"
+    brand: "Bramblewick"
+    category: "Garden"
+    price: 12.56
+    currency: "GBP"
+    stock: 20
+    weight_g: 3825
+    rating: 3.7
+    tags:
+      - "bundle"
+      - "flat-pack"
+    released_on: "2025-01-24"
+    discontinued: false
+  - sku: "KIT-0001"
+    name: "Oiled Walnut Mixing Bowl"
+    brand: "Sundara"
+    category: "Kitchen"
+    price: 32.81
+    currency: "USD"
+    stock: 184
+    weight_g: 1790
+    rating: 4.8
+    tags:
+      - "bundle"
+      - "premium"
+    released_on: "2023-01-02"
+    discontinued: true
+  - sku: "KIT-0002"
+    name: "Frosted Glass Colander"
+    brand: "Tessellate"
+    category: "Kitchen"
+    price: 19.85
+    currency: "USD"
+    stock: 213
+    weight_g: 2420
+    rating: 4.9
+    tags:
+      - "new-arrival"
+      - "premium"
+    released_on: "2024-10-06"
+    discontinued: false
+  - sku: "KIT-0003"
+    name: "Cast Iron Chopping Board"
+    brand: "Aurelis"
+    category: "Kitchen"
+    price: 19.14
+    currency: "USD"
+    stock: 61
+    weight_g: 1515
+    rating: 3.5
+    tags:
+      - "bundle"
+      - "limited-run"
+      - "new-arrival"
+    released_on: "2023-01-12"
+    discontinued: false
+  - sku: "KIT-0004"
+    name: "Matte Ceramic Chopping Board"
+    brand: "Norvale Supply"
+    category: "Kitchen"
+    price: 129.32
+    currency: "USD"
+    stock: 468
+    weight_g: 680
+    rating: 4.3
+    tags:
+      - "bundle"
+      - "flat-pack"
+      - "limited-run"
+    released_on: "2023-10-09"
+    discontinued: false
+  - sku: "KIT-0005"
+    name: "Brushed Steel Mixing Bowl"
+    brand: "Kestrel Works"
+    category: "Kitchen"
+    price: 399.6
+    currency: "USD"
+    stock: 0
+    weight_g: 1930
+    rating: 4.4
+    tags:
+      - "dishwasher-safe"
+      - "flat-pack"
+      - "refurbished"
+    released_on: "2022-11-15"
+    discontinued: true
+  - sku: "KIT-0006"
+    name: "Slate Grey Teapot"
+    brand: "Bramblewick"
+    category: "Kitchen"
+    price: 399.03
+    currency: "EUR"
+    stock: 453
+    weight_g: 2470
+    rating: 4.8
+    tags:
+      - "compact"
+      - "flat-pack"
+      - "refurbished"
+    released_on: "2024-04-02"
+    discontinued: false
+  - sku: "KIT-0007"
+    name: "Woven Jute Skillet"
+    brand: "Vantiq"
+    category: "Kitchen"
+    price: 46.56
+    currency: "USD"
+    stock: 433
+    weight_g: 2005
+    rating: 4.7
+    tags:
+      - "bestseller"
+      - "bundle"
+      - "limited-run"
+      - "premium"
+    released_on: "2025-07-13"
+    discontinued: false
+  - sku: "KIT-0008"
+    name: "Soft-touch Silicone Colander"
+    brand: "Orbex"
+    category: "Kitchen"
+    price: 13.35
+    currency: "EUR"
+    stock: 17
+    weight_g: 2585
+    rating: 3.6
+    tags:
+      - "bestseller"
+      - "gift-idea"
+    released_on: "2022-12-12"
+    discontinued: false
+  - sku: "KIT-0009"
+    name: "Anodised Aluminium Storage Jar"
+    brand: "Bramblewick"
+    category: "Kitchen"
+    price: 19.16
+    currency: "USD"
+    stock: 26
+    weight_g: 2125
+    rating: 3.9
+    tags:
+      - "clearance"
+      - "limited-run"
+      - "premium"
+    released_on: "2025-06-15"
+    discontinued: false
+  - sku: "KIT-0010"
+    name: "Powder-coated Chopping Board"
+    brand: "Vantiq"
+    category: "Kitchen"
+    price: 25.64
+    currency: "USD"
+    stock: 37
+    weight_g: 935
+    rating: 4.7
+    tags:
+      - "compact"
+      - "flat-pack"
+    released_on: "2022-04-22"
+    discontinued: false
+  - sku: "KIT-0011"
+    name: "Cast Iron Kettle"
+    brand: "Aurelis"
+    category: "Kitchen"
+    price: 46.3
+    currency: "USD"
+    stock: 8
+    weight_g: 1415
+    rating: 4.5
+    tags:
+      - "bundle"
+      - "clearance"
+      - "flat-pack"
+    released_on: "2024-02-28"
+    discontinued: true
+  - sku: "KIT-0012"
+    name: "Recycled Cork Storage Jar"
+    brand: "Kestrel Works"
+    category: "Kitchen"
+    price: 399.13
+    currency: "USD"
+    stock: 24
+    weight_g: 2575
+    rating: 3.7
+    tags:
+      - "compact"
+      - "gift-idea"
+      - "new-arrival"
+    released_on: "2024-11-04"
+    discontinued: true
+  - sku: "KIT-0013"
+    name: "Copper-plated Teapot"
+    brand: "Orbex"
+    category: "Kitchen"
+    price: 185.77
+    currency: "USD"
+    stock: 347
+    weight_g: 1655
+    rating: 3.2
+    tags:
+      - "compact"
+      - "limited-run"
+      - "new-arrival"
+      - "recycled"
+    released_on: "2023-10-21"
+    discontinued: false
+  - sku: "KIT-0014"
+    name: "Powder-coated Chopping Board Refill"
+    brand: "Palewood"
+    category: "Kitchen"
+    price: 74.58
+    currency: "USD"
+    stock: 37
+    weight_g: 2270
+    rating: 4.2
+    tags:
+      - "bestseller"
+      - "bundle"
+      - "limited-run"
+      - "new-arrival"
+    released_on: "2025-06-08"
+    discontinued: false
+  - sku: "KIT-0015"
+    name: "Slate Grey Mixing Bowl"
+    brand: "Halcyon Field"
+    category: "Kitchen"
+    price: 46.34
+    currency: "USD"
+    stock: 356
+    weight_g: 2085
+    rating: 4.4
+    tags:
+      - "new-arrival"
+      - "recycled"
+    released_on: "2024-12-20"
+    discontinued: false
+  - sku: "KIT-0016"
+    name: "Copper-plated Mixing Bowl"
+    brand: "Lumenta"
+    category: "Kitchen"
+    price: 129.04
+    currency: "GBP"
+    stock: 3
+    weight_g: 1395
+    rating: 3.1
+    tags:
+      - "bundle"
+      - "compact"
+      - "gift-idea"
+      - "recycled"
+    released_on: "2023-10-28"
+    discontinued: false
+  - sku: "KIT-0017"
+    name: "Brushed Steel Storage Jar"
+    brand: "Lumenta"
+    category: "Kitchen"
+    price: 249.38
+    currency: "USD"
+    stock: 321
+    weight_g: 2400
+    rating: 4.6
+    tags:
+      - "clearance"
+      - "compact"
+      - "gift-idea"
+      - "premium"
+    released_on: "2025-07-06"
+    discontinued: false
+  - sku: "KIT-0018"
+    name: "Oiled Walnut Colander"
+    brand: "Norvale Supply"
+    category: "Kitchen"
+    price: 25.8
+    currency: "USD"
+    stock: 314
+    weight_g: 2575
+    rating: 4.8
+    tags:
+      - "bestseller"
+      - "flat-pack"
+      - "limited-run"
+      - "recycled"
+    released_on: "2025-10-02"
+    discontinued: false
+  - sku: "KIT-0019"
+    name: "Recycled Cork Kettle"
+    brand: "Palewood"
+    category: "Kitchen"
+    price: 185.76
+    currency: "USD"
+    stock: 0
+    weight_g: 1745
+    rating: 4.1
+    tags:
+      - "bestseller"
+      - "limited-run"
+      - "premium"
+      - "refurbished"
+    released_on: "2025-02-02"
+    discontinued: false
+  - sku: "KIT-0020"
+    name: "Copper-plated Colander"
+    brand: "Norvale Supply"
+    category: "Kitchen"
+    price: 249.26
+    currency: "USD"
+    stock: 33
+    weight_g: 2375
+    rating: 4.8
+    tags:
+      - "clearance"
+      - "flat-pack"
+      - "gift-idea"
+      - "refurbished"
+    released_on: "2025-01-20"
+    discontinued: false
+  - sku: "KIT-0021"
+    name: "Oiled Walnut Kettle"
+    brand: "Sundara"
+    category: "Kitchen"
+    price: 129.07
+    currency: "USD"
+    stock: 39
+    weight_g: 1850
+    rating: 4.1
+    tags:
+      - "gift-idea"
+      - "limited-run"
+    released_on: "2025-03-20"
+    discontinued: false
+  - sku: "LGT-0001"
+    name: "Bamboo Night Light"
+    brand: "Tessellate"
+    category: "Lighting"
+    price: 46.04
+    currency: "USD"
+    stock: 3
+    weight_g: 3700
+    rating: 3.3
+    tags:
+      - "bundle"
+      - "clearance"
+      - "new-arrival"
+    released_on: "2025-10-12"
+    discontinued: false
+  - sku: "LGT-0002"
+    name: "Oiled Walnut Wall Sconce"
+    brand: "Vantiq"
+    category: "Lighting"
+    price: 74.54
+    currency: "USD"
+    stock: 203
+    weight_g: 3475
+    rating: 4.9
+    tags:
+      - "bundle"
+      - "premium"
+      - "recycled"
+    released_on: "2024-08-05"
+    discontinued: false
+  - sku: "LGT-0003"
+    name: "Powder-coated Light Strip"
+    brand: "Bramblewick"
+    category: "Lighting"
+    price: 249.29
+    currency: "USD"
+    stock: 1
+    weight_g: 255
+    rating: 3.3
+    tags:
+      - "clearance"
+      - "gift-idea"
+    released_on: "2023-01-26"
+    discontinued: false
+  - sku: "LGT-0004"
+    name: "Soft-touch Silicone Light Strip"
+    brand: "Quorra Labs"
+    category: "Lighting"
+    price: 5.93
+    currency: "USD"
+    stock: 21
+    weight_g: 2870
+    rating: 4.5
+    tags:
+      - "clearance"
+      - "flat-pack"
+      - "premium"
+      - "recycled"
+    released_on: "2025-01-14"
+    discontinued: false
+  - sku: "LGT-0005"
+    name: "Oiled Walnut Wall Sconce Tall"
+    brand: "Halcyon Field"
+    category: "Lighting"
+    price: 99.89
+    currency: "USD"
+    stock: 13
+    weight_g: 1055
+    rating: 4.5
+    tags:
+      - "bestseller"
+      - "dishwasher-safe"
+      - "refurbished"
+    released_on: "2023-03-16"
+    discontinued: false
+  - sku: "LGT-0006"
+    name: "Cast Iron Light Strip"
+    brand: "Norvale Supply"
+    category: "Lighting"
+    price: 249.43
+    currency: "USD"
+    stock: 0
+    weight_g: 3240
+    rating: 4.9
+    tags:
+      - "bestseller"
+      - "compact"
+      - "flat-pack"
+      - "recycled"
+    released_on: "2024-02-13"
+    discontinued: false
+  - sku: "LGT-0007"
+    name: "Copper-plated Pendant Shade"
+    brand: "Bramblewick"
+    category: "Lighting"
+    price: 249.93
+    currency: "USD"
+    stock: 25
+    weight_g: 3075
+    rating: 3.8
+    tags:
+      - "clearance"
+      - "dishwasher-safe"
+      - "new-arrival"
+    released_on: "2025-01-31"
+    discontinued: false
+  - sku: "LGT-0008"
+    name: "Linen-wrapped Wall Sconce"
+    brand: "Lumenta"
+    category: "Lighting"
+    price: 32.68
+    currency: "USD"
+    stock: 33
+    weight_g: 1175
+    rating: 3.8
+    tags:
+      - "bestseller"
+      - "clearance"
+      - "limited-run"
+      - "new-arrival"
+    released_on: "2023-05-18"
+    discontinued: false
+  - sku: "LGT-0009"
+    name: "Anodised Aluminium Light Strip"
+    brand: "Kestrel Works"
+    category: "Lighting"
+    price: 5.53
+    currency: "USD"
+    stock: 16
+    weight_g: 1945
+    rating: 3.5
+    tags:
+      - "bestseller"
+      - "compact"
+      - "flat-pack"
+      - "refurbished"
+    released_on: "2023-01-25"
+    discontinued: false
+  - sku: "LGT-0010"
+    name: "Bamboo Light Strip"
+    brand: "Aurelis"
+    category: "Lighting"
+    price: 75.38
+    currency: "USD"
+    stock: 238
+    weight_g: 1070
+    rating: 3.7
+    tags:
+      - "compact"
+      - "gift-idea"
+      - "premium"
+    released_on: "2025-08-16"
+    discontinued: false
+  - sku: "LGT-0011"
+    name: "Recycled Cork Night Light"
+    brand: "Vantiq"
+    category: "Lighting"
+    price: 46.51
+    currency: "USD"
+    stock: 415
+    weight_g: 2090
+    rating: 4.4
+    tags:
+      - "bestseller"
+      - "compact"
+      - "limited-run"
+      - "refurbished"
+    released_on: "2023-12-19"
+    discontinued: false
+  - sku: "LGT-0012"
+    name: "Powder-coated Light Strip Duo"
+    brand: "Quorra Labs"
+    category: "Lighting"
+    price: 5.06
+    currency: "USD"
+    stock: 38
+    weight_g: 3210
+    rating: 4.6
+    tags:
+      - "flat-pack"
+      - "new-arrival"
+    released_on: "2022-10-22"
+    discontinued: false
+  - sku: "LGT-0013"
+    name: "Woven Jute Bulb Set"
+    brand: "Lumenta"
+    category: "Lighting"
+    price: 9.01
+    currency: "USD"
+    stock: 27
+    weight_g: 1985
+    rating: 3.8
+    tags:
+      - "dishwasher-safe"
+      - "limited-run"
+    released_on: "2022-12-03"
+    discontinued: false
+  - sku: "LGT-0014"
+    name: "Woven Jute Floor Lamp"
+    brand: "Sundara"
+    category: "Lighting"
+    price: 75.07
+    currency: "USD"
+    stock: 17
+    weight_g: 2330
+    rating: 3.9
+    tags:
+      - "new-arrival"
+      - "refurbished"
+    released_on: "2023-04-01"
+    discontinued: true
+  - sku: "LGT-0015"
+    name: "Copper-plated Bulb Set"
+    brand: "Bramblewick"
+    category: "Lighting"
+    price: 74.96
+    currency: "USD"
+    stock: 7
+    weight_g: 2855
+    rating: 3.3
+    tags:
+      - "compact"
+      - "premium"
+      - "refurbished"
+    released_on: "2023-12-25"
+    discontinued: false
+  - sku: "LGT-0016"
+    name: "Frosted Glass Wall Sconce"
+    brand: "Lumenta"
+    category: "Lighting"
+    price: 9.34
+    currency: "EUR"
+    stock: 26
+    weight_g: 1820
+    rating: 4.9
+    tags:
+      - "bestseller"
+      - "gift-idea"
+    released_on: "2023-07-23"
+    discontinued: false
+  - sku: "LGT-0017"
+    name: "Matte Ceramic Pendant Shade"
+    brand: "Orbex"
+    category: "Lighting"
+    price: 399.94
+    currency: "USD"
+    stock: 125
+    weight_g: 4415
+    rating: 3.8
+    tags:
+      - "bestseller"
+      - "compact"
+      - "new-arrival"
+    released_on: "2025-01-02"
+    discontinued: false
+  - sku: "LGT-0018"
+    name: "Anodised Aluminium Reading Lamp"
+    brand: "Tessellate"
+    category: "Lighting"
+    price: 399.19
+    currency: "EUR"
+    stock: 7
+    weight_g: 1865
+    rating: 3.1
+    tags:
+      - "bestseller"
+      - "gift-idea"
+      - "limited-run"
+    released_on: "2024-06-26"
+    discontinued: false
+  - sku: "LGT-0019"
+    name: "Copper-plated Wall Sconce"
+    brand: "Tessellate"
+    category: "Lighting"
+    price: 249.84
+    currency: "USD"
+    stock: 357
+    weight_g: 4890
+    rating: 3.6
+    tags:
+      - "flat-pack"
+      - "gift-idea"
+      - "new-arrival"
+    released_on: "2023-09-30"
+    discontinued: false
+  - sku: "LGT-0020"
+    name: "Matte Ceramic Light Strip"
+    brand: "Vantiq"
+    category: "Lighting"
+    price: 25.74
+    currency: "USD"
+    stock: 142
+    weight_g: 1470
+    rating: 4.6
+    tags:
+      - "compact"
+      - "flat-pack"
+      - "new-arrival"
+    released_on: "2024-07-02"
+    discontinued: false
+  - sku: "LGT-0021"
+    name: "Recycled Cork Light Strip"
+    brand: "Vantiq"
+    category: "Lighting"
+    price: 12.74
+    currency: "USD"
+    stock: 406
+    weight_g: 1715
+    rating: 3.6
+    tags:
+      - "dishwasher-safe"
+      - "gift-idea"
+      - "refurbished"
+    released_on: "2023-09-22"
+    discontinued: true
+  - sku: "LGT-0022"
+    name: "Oiled Walnut Wall Sconce Twin Pack"
+    brand: "Tessellate"
+    category: "Lighting"
+    price: 75.17
+    currency: "USD"
+    stock: 238
+    weight_g: 2110
+    rating: 4.8
+    tags:
+      - "bestseller"
+      - "clearance"
+      - "dishwasher-safe"
+      - "recycled"
+    released_on: "2022-08-16"
+    discontinued: true
+  - sku: "LGT-0023"
+    name: "Oiled Walnut Clip Light"
+    brand: "Halcyon Field"
+    category: "Lighting"
+    price: 59.61
+    currency: "USD"
+    stock: 31
+    weight_g: 860
+    rating: 3.6
+    tags:
+      - "gift-idea"
+      - "premium"
+    released_on: "2024-03-24"
+    discontinued: false
+  - sku: "LGT-0024"
+    name: "Frosted Glass Wall Sconce Refill"
+    brand: "Tessellate"
+    category: "Lighting"
+    price: 249.06
+    currency: "GBP"
+    stock: 17
+    weight_g: 3030
+    rating: 4.9
+    tags:
+      - "bundle"
+      - "dishwasher-safe"
+      - "premium"
+    released_on: "2022-11-27"
+    discontinued: false
+  - sku: "LGT-0025"
+    name: "Brushed Steel Clip Light"
+    brand: "Lumenta"
+    category: "Lighting"
+    price: 19.55
+    currency: "USD"
+    stock: 93
+    weight_g: 480
+    rating: 3.9
+    tags:
+      - "compact"
+      - "dishwasher-safe"
+      - "new-arrival"
+    released_on: "2022-06-18"
+    discontinued: false
+  - sku: "LGT-0026"
+    name: "Bamboo Pendant Shade"
+    brand: "Tessellate"
+    category: "Lighting"
+    price: 74.95
+    currency: "USD"
+    stock: 0
+    weight_g: 2455
+    rating: 3.7
+    tags:
+      - "bestseller"
+      - "new-arrival"
+      - "refurbished"
+    released_on: "2025-01-19"
+    discontinued: false
+  - sku: "OFF-0001"
+    name: "Oiled Walnut Chair Cushion"
+    brand: "Norvale Supply"
+    category: "Office"
+    price: 59.16
+    currency: "USD"
+    stock: 21
+    weight_g: 1700
+    rating: 4.9
+    tags:
+      - "bestseller"
+      - "flat-pack"
+      - "recycled"
+    released_on: "2022-12-26"
+    discontinued: false
+  - sku: "OFF-0002"
+    name: "Recycled Cork Laptop Stand"
+    brand: "Vantiq"
+    category: "Office"
+    price: 12.87
+    currency: "USD"
+    stock: 3
+    weight_g: 3685
+    rating: 3.4
+    tags:
+      - "bundle"
+      - "compact"
+      - "premium"
+    released_on: "2023-10-08"
+    discontinued: false
+  - sku: "OFF-0003"
+    name: "Powder-coated Footrest"
+    brand: "Sundara"
+    category: "Office"
+    price: 32.13
+    currency: "USD"
+    stock: 340
+    weight_g: 5865
+    rating: 4.0
+    tags:
+      - "gift-idea"
+      - "limited-run"
+      - "premium"
+      - "recycled"
+    released_on: "2024-01-23"
+    discontinued: false
+  - sku: "OFF-0004"
+    name: "Powder-coated Footrest Twin Pack"
+    brand: "Vantiq"
+    category: "Office"
+    price: 249.74
+    currency: "USD"
+    stock: 111
+    weight_g: 835
+    rating: 3.5
+    tags:
+      - "bundle"
+      - "compact"
+      - "dishwasher-safe"
+    released_on: "2023-08-19"
+    discontinued: false
+  - sku: "OFF-0005"
+    name: "Powder-coated Footrest Refill"
+    brand: "Bramblewick"
+    category: "Office"
+    price: 59.35
+    currency: "EUR"
+    stock: 303
+    weight_g: 1815
+    rating: 3.7
+    tags:
+      - "clearance"
+      - "flat-pack"
+      - "gift-idea"
+      - "recycled"
+    released_on: "2024-12-28"
+    discontinued: false
+  - sku: "OFF-0006"
+    name: "Slate Grey Desk Mat"
+    brand: "Sundara"
+    category: "Office"
+    price: 99.76
+    currency: "USD"
+    stock: 19
+    weight_g: 4635
+    rating: 3.6
+    tags:
+      - "bundle"
+      - "compact"
+      - "dishwasher-safe"
+      - "recycled"
+    released_on: "2023-09-24"
+    discontinued: false
+  - sku: "OFF-0007"
+    name: "Cast Iron Drawer Unit"
+    brand: "Halcyon Field"
+    category: "Office"
+    price: 129.41
+    currency: "GBP"
+    stock: 10
+    weight_g: 5140
+    rating: 3.9
+    tags:
+      - "compact"
+      - "dishwasher-safe"
+      - "flat-pack"
+    released_on: "2025-11-22"
+    discontinued: false
+  - sku: "OFF-0008"
+    name: "Copper-plated Cable Tray"
+    brand: "Lumenta"
+    category: "Office"
+    price: 129.02
+    currency: "USD"
+    stock: 6
+    weight_g: 2730
+    rating: 4.2
+    tags:
+      - "compact"
+      - "gift-idea"
+    released_on: "2022-04-11"
+    discontinued: false
+  - sku: "OFF-0009"
+    name: "Powder-coated Footrest Compact"
+    brand: "Sundara"
+    category: "Office"
+    price: 399.31
+    currency: "EUR"
+    stock: 35
+    weight_g: 1645
+    rating: 4.2
+    tags:
+      - "bundle"
+      - "dishwasher-safe"
+      - "limited-run"
+      - "refurbished"
+    released_on: "2023-07-30"
+    discontinued: false
+  - sku: "OFF-0010"
+    name: "Woven Jute Monitor Riser"
+    brand: "Orbex"
+    category: "Office"
+    price: 5.03
+    currency: "EUR"
+    stock: 163
+    weight_g: 5520
+    rating: 4.1
+    tags:
+      - "compact"
+      - "gift-idea"
+      - "premium"
+      - "recycled"
+    released_on: "2024-03-19"
+    discontinued: false
+  - sku: "OFF-0011"
+    name: "Slate Grey Monitor Riser"
+    brand: "Norvale Supply"
+    category: "Office"
+    price: 9.41
+    currency: "USD"
+    stock: 80
+    weight_g: 4170
+    rating: 3.9
+    tags:
+      - "bestseller"
+      - "flat-pack"
+      - "limited-run"
+    released_on: "2022-10-03"
+    discontinued: false
+  - sku: "OFF-0012"
+    name: "Linen-wrapped Drawer Unit"
+    brand: "Halcyon Field"
+    category: "Office"
+    price: 19.02
+    currency: "USD"
+    stock: 271
+    weight_g: 1380
+    rating: 4.1
+    tags:
+      - "bestseller"
+      - "dishwasher-safe"
+      - "premium"
+      - "recycled"
+    released_on: "2024-02-05"
+    discontinued: false
+  - sku: "OFF-0013"
+    name: "Cast Iron Cable Tray"
+    brand: "Halcyon Field"
+    category: "Office"
+    price: 13.42
+    currency: "USD"
+    stock: 0
+    weight_g: 3095
+    rating: 4.9
+    tags:
+      - "bundle"
+      - "compact"
+      - "flat-pack"
+    released_on: "2024-10-16"
+    discontinued: false
+  - sku: "OFF-0014"
+    name: "Linen-wrapped Desk Mat"
+    brand: "Kestrel Works"
+    category: "Office"
+    price: 185.95
+    currency: "USD"
+    stock: 193
+    weight_g: 2155
+    rating: 4.5
+    tags:
+      - "bestseller"
+      - "dishwasher-safe"
+      - "gift-idea"
+      - "limited-run"
+    released_on: "2024-09-30"
+    discontinued: false
+  - sku: "OFF-0015"
+    name: "Powder-coated Cable Tray"
+    brand: "Sundara"
+    category: "Office"
+    price: 185.07
+    currency: "USD"
+    stock: 19
+    weight_g: 3730
+    rating: 3.2
+    tags:
+      - "clearance"
+      - "dishwasher-safe"
+      - "limited-run"
+      - "refurbished"
+    released_on: "2025-01-09"
+    discontinued: true
+  - sku: "OFF-0016"
+    name: "Slate Grey Desk Mat Wide"
+    brand: "Norvale Supply"
+    category: "Office"
+    price: 9.05
+    currency: "USD"
+    stock: 0
+    weight_g: 6040
+    rating: 3.9
+    tags:
+      - "compact"
+      - "gift-idea"
+    released_on: "2025-09-24"
+    discontinued: false
+  - sku: "OFF-0017"
+    name: "Copper-plated Chair Cushion"
+    brand: "Palewood"
+    category: "Office"
+    price: 46.35
+    currency: "USD"
+    stock: 12
+    weight_g: 2240
+    rating: 3.3
+    tags:
+      - "bundle"
+      - "dishwasher-safe"
+      - "premium"
+    released_on: "2022-04-22"
+    discontinued: false
+  - sku: "OFF-0018"
+    name: "Bamboo Desk Mat"
+    brand: "Vantiq"
+    category: "Office"
+    price: 12.91
+    currency: "USD"
+    stock: 205
+    weight_g: 5210
+    rating: 4.2
+    tags:
+      - "clearance"
+      - "gift-idea"
+      - "limited-run"
+      - "new-arrival"
+    released_on: "2024-09-20"
+    discontinued: false
+  - sku: "OFF-0019"
+    name: "Oiled Walnut Drawer Unit"
+    brand: "Aurelis"
+    category: "Office"
+    price: 129.53
+    currency: "USD"
+    stock: 94
+    weight_g: 4820
+    rating: 4.2
+    tags:
+      - "gift-idea"
+      - "refurbished"
+    released_on: "2024-01-08"
+    discontinued: false
+  - sku: "OFF-0020"
+    name: "Copper-plated Drawer Unit"
+    brand: "Orbex"
+    category: "Office"
+    price: 18.99
+    currency: "USD"
+    stock: 217
+    weight_g: 2405
+    rating: 4.0
+    tags:
+      - "dishwasher-safe"
+      - "gift-idea"
+      - "new-arrival"
+      - "recycled"
+    released_on: "2022-09-11"
+    discontinued: false
+  - sku: "OFF-0021"
+    name: "Woven Jute Desk Mat"
+    brand: "Palewood"
+    category: "Office"
+    price: 185.28
+    currency: "USD"
+    stock: 194
+    weight_g: 3410
+    rating: 4.1
+    tags:
+      - "clearance"
+      - "refurbished"
+    released_on: "2023-09-22"
+    discontinued: false
+  - sku: "OFF-0022"
+    name: "Anodised Aluminium Cable Tray"
+    brand: "Bramblewick"
+    category: "Office"
+    price: 249.65
+    currency: "EUR"
+    stock: 389
+    weight_g: 1980
+    rating: 4.9
+    tags:
+      - "compact"
+      - "premium"
+    released_on: "2024-02-10"
+    discontinued: true
+  - sku: "OFF-0023"
+    name: "Soft-touch Silicone Footrest"
+    brand: "Aurelis"
+    category: "Office"
+    price: 185.64
+    currency: "USD"
+    stock: 385
+    weight_g: 3685
+    rating: 4.8
+    tags:
+      - "bestseller"
+      - "bundle"
+      - "new-arrival"
+      - "premium"
+    released_on: "2025-08-07"
+    discontinued: false
+  - sku: "OFF-0024"
+    name: "Bamboo Chair Cushion"
+    brand: "Kestrel Works"
+    category: "Office"
+    price: 19.82
+    currency: "USD"
+    stock: 27
+    weight_g: 5490
+    rating: 4.1
+    tags:
+      - "bestseller"
+      - "flat-pack"
+      - "gift-idea"
+      - "new-arrival"
+    released_on: "2022-05-25"
+    discontinued: false
+  - sku: "OFF-0025"
+    name: "Recycled Cork Laptop Stand Compact"
+    brand: "Tessellate"
+    category: "Office"
+    price: 75.34
+    currency: "USD"
+    stock: 473
+    weight_g: 1165
+    rating: 3.5
+    tags:
+      - "bestseller"
+      - "bundle"
+      - "new-arrival"
+    released_on: "2023-07-23"
+    discontinued: true
+  - sku: "OFF-0026"
+    name: "Brushed Steel Footrest"
+    brand: "Quorra Labs"
+    category: "Office"
+    price: 32.07
+    currency: "EUR"
+    stock: 36
+    weight_g: 1735
+    rating: 4.9
+    tags:
+      - "clearance"
+      - "gift-idea"
+    released_on: "2023-02-27"
+    discontinued: false
+  - sku: "OFF-0027"
+    name: "Slate Grey Desk Mat Mini"
+    brand: "Aurelis"
+    category: "Office"
+    price: 19.1
+    currency: "EUR"
+    stock: 475
+    weight_g: 2645
+    rating: 3.7
+    tags:
+      - "flat-pack"
+      - "premium"
+    released_on: "2022-11-29"
+    discontinued: false
+  - sku: "OUT-0001"
+    name: "Linen-wrapped Dry Bag"
+    brand: "Bramblewick"
+    category: "Outdoor"
+    price: 46.39
+    currency: "GBP"
+    stock: 0
+    weight_g: 2165
+    rating: 3.3
+    tags:
+      - "bestseller"
+      - "clearance"
+      - "limited-run"
+      - "new-arrival"
+    released_on: "2022-08-20"
+    discontinued: false
+  - sku: "OUT-0002"
+    name: "Anodised Aluminium Camp Chair"
+    brand: "Aurelis"
+    category: "Outdoor"
+    price: 59.34
+    currency: "USD"
+    stock: 404
+    weight_g: 3495
+    rating: 4.9
+    tags:
+      - "new-arrival"
+      - "recycled"
+    released_on: "2022-03-21"
+    discontinued: false
+  - sku: "OUT-0003"
+    name: "Copper-plated Hammock"
+    brand: "Aurelis"
+    category: "Outdoor"
+    price: 25.37
+    currency: "USD"
+    stock: 219
+    weight_g: 190
+    rating: 4.2
+    tags:
+      - "gift-idea"
+      - "new-arrival"
+    released_on: "2024-03-12"
+    discontinued: false
+  - sku: "OUT-0004"
+    name: "Linen-wrapped Cool Box"
+    brand: "Vantiq"
+    category: "Outdoor"
+    price: 249.48
+    currency: "USD"
+    stock: 33
+    weight_g: 2225
+    rating: 4.1
+    tags:
+      - "gift-idea"
+      - "premium"
+      - "refurbished"
+    released_on: "2025-10-10"
+    discontinued: false
+  - sku: "OUT-0005"
+    name: "Cast Iron Lantern"
+    brand: "Halcyon Field"
+    category: "Outdoor"
+    price: 129.63
+    currency: "USD"
+    stock: 35
+    weight_g: 3735
+    rating: 4.7
+    tags:
+      - "bestseller"
+      - "compact"
+    released_on: "2022-03-08"
+    discontinued: false
+  - sku: "OUT-0006"
+    name: "Frosted Glass Lantern"
+    brand: "Quorra Labs"
+    category: "Outdoor"
+    price: 74.63
+    currency: "EUR"
+    stock: 38
+    weight_g: 2450
+    rating: 4.8
+    tags:
+      - "flat-pack"
+      - "recycled"
+    released_on: "2023-04-03"
+    discontinued: false
+  - sku: "OUT-0007"
+    name: "Brushed Steel Lantern"
+    brand: "Halcyon Field"
+    category: "Outdoor"
+    price: 74.96
+    currency: "EUR"
+    stock: 66
+    weight_g: 3045
+    rating: 3.8
+    tags:
+      - "dishwasher-safe"
+      - "recycled"
+      - "refurbished"
+    released_on: "2024-03-16"
+    discontinued: false
+  - sku: "OUT-0008"
+    name: "Slate Grey Hammock"
+    brand: "Norvale Supply"
+    category: "Outdoor"
+    price: 32.29
+    currency: "EUR"
+    stock: 20
+    weight_g: 240
+    rating: 3.1
+    tags:
+      - "limited-run"
+      - "recycled"
+      - "refurbished"
+    released_on: "2022-10-18"
+    discontinued: false
+  - sku: "OUT-0009"
+    name: "Soft-touch Silicone Trekking Pole"
+    brand: "Lumenta"
+    category: "Outdoor"
+    price: 59.19
+    currency: "USD"
+    stock: 10
+    weight_g: 670
+    rating: 4.9
+    tags:
+      - "compact"
+      - "limited-run"
+    released_on: "2024-04-08"
+    discontinued: false
+  - sku: "OUT-0010"
+    name: "Recycled Cork Water Bottle"
+    brand: "Tessellate"
+    category: "Outdoor"
+    price: 12.54
+    currency: "USD"
+    stock: 28
+    weight_g: 1990
+    rating: 3.1
+    tags:
+      - "dishwasher-safe"
+      - "flat-pack"
+    released_on: "2024-05-18"
+    discontinued: false
+  - sku: "OUT-0011"
+    name: "Recycled Cork Dry Bag"
+    brand: "Vantiq"
+    category: "Outdoor"
+    price: 32.2
+    currency: "USD"
+    stock: 10
+    weight_g: 2820
+    rating: 3.6
+    tags:
+      - "limited-run"
+      - "new-arrival"
+      - "recycled"
+    released_on: "2025-02-18"
+    discontinued: false
+  - sku: "OUT-0012"
+    name: "Cast Iron Camp Chair"
+    brand: "Bramblewick"
+    category: "Outdoor"
+    price: 185.21
+    currency: "USD"
+    stock: 162
+    weight_g: 3465
+    rating: 4.7
+    tags:
+      - "clearance"
+      - "premium"
+      - "refurbished"
+    released_on: "2023-06-17"
+    discontinued: false
+  - sku: "OUT-0013"
+    name: "Oiled Walnut Cool Box"
+    brand: "Orbex"
+    category: "Outdoor"
+    price: 129.58
+    currency: "USD"
+    stock: 375
+    weight_g: 405
+    rating: 3.6
+    tags:
+      - "clearance"
+      - "compact"
+    released_on: "2025-01-15"
+    discontinued: true
+  - sku: "OUT-0014"
+    name: "Soft-touch Silicone Tarp"
+    brand: "Norvale Supply"
+    category: "Outdoor"
+    price: 19.67
+    currency: "EUR"
+    stock: 393
+    weight_g: 2145
+    rating: 4.0
+    tags:
+      - "bundle"
+      - "limited-run"
+      - "new-arrival"
+    released_on: "2025-08-23"
+    discontinued: false
+  - sku: "OUT-0015"
+    name: "Soft-touch Silicone Cool Box"
+    brand: "Sundara"
+    category: "Outdoor"
+    price: 19.66
+    currency: "USD"
+    stock: 3
+    weight_g: 3720
+    rating: 4.5
+    tags:
+      - "flat-pack"
+      - "limited-run"
+    released_on: "2022-06-10"
+    discontinued: false
+  - sku: "OUT-0016"
+    name: "Powder-coated Cool Box"
+    brand: "Sundara"
+    category: "Outdoor"
+    price: 19.06
+    currency: "USD"
+    stock: 245
+    weight_g: 2755
+    rating: 3.3
+    tags:
+      - "bestseller"
+      - "new-arrival"
+    released_on: "2025-07-10"
+    discontinued: false
+  - sku: "OUT-0017"
+    name: "Cast Iron Camp Chair Refill"
+    brand: "Tessellate"
+    category: "Outdoor"
+    price: 74.52
+    currency: "USD"
+    stock: 18
+    weight_g: 3755
+    rating: 3.4
+    tags:
+      - "gift-idea"
+      - "recycled"
+    released_on: "2025-06-04"
+    discontinued: true
+  - sku: "PET-0001"
+    name: "Copper-plated Collar Tag"
+    brand: "Lumenta"
+    category: "Pet"
+    price: 9.03
+    currency: "USD"
+    stock: 188
+    weight_g: 1165
+    rating: 4.0
+    tags:
+      - "flat-pack"
+      - "gift-idea"
+      - "recycled"
+      - "refurbished"
+    released_on: "2022-12-12"
+    discontinued: false
+  - sku: "PET-0002"
+    name: "Powder-coated Pet Bed"
+    brand: "Bramblewick"
+    category: "Pet"
+    price: 25.64
+    currency: "USD"
+    stock: 114
+    weight_g: 1935
+    rating: 3.6
+    tags:
+      - "bundle"
+      - "compact"
+      - "dishwasher-safe"
+      - "limited-run"
+    released_on: "2025-04-20"
+    discontinued: false
+  - sku: "PET-0003"
+    name: "Frosted Glass Pet Bed"
+    brand: "Palewood"
+    category: "Pet"
+    price: 99.47
+    currency: "USD"
+    stock: 6
+    weight_g: 425
+    rating: 4.4
+    tags:
+      - "bestseller"
+      - "bundle"
+      - "new-arrival"
+      - "recycled"
+    released_on: "2025-06-28"
+    discontinued: false
+  - sku: "PET-0004"
+    name: "Brushed Steel Grooming Brush"
+    brand: "Lumenta"
+    category: "Pet"
+    price: 99.92
+    currency: "USD"
+    stock: 31
+    weight_g: 2610
+    rating: 4.6
+    tags:
+      - "bundle"
+      - "premium"
+      - "refurbished"
+    released_on: "2025-02-15"
+    discontinued: false
+  - sku: "PET-0005"
+    name: "Cast Iron Grooming Brush"
+    brand: "Orbex"
+    category: "Pet"
+    price: 32.63
+    currency: "USD"
+    stock: 15
+    weight_g: 2540
+    rating: 3.2
+    tags:
+      - "bundle"
+      - "dishwasher-safe"
+      - "flat-pack"
+      - "premium"
+    released_on: "2025-04-03"
+    discontinued: true
+  - sku: "PET-0006"
+    name: "Anodised Aluminium Litter Scoop"
+    brand: "Quorra Labs"
+    category: "Pet"
+    price: 99.41
+    currency: "USD"
+    stock: 316
+    weight_g: 195
+    rating: 4.8
+    tags:
+      - "bestseller"
+      - "bundle"
+      - "gift-idea"
+    released_on: "2024-07-13"
+    discontinued: false
+  - sku: "PET-0007"
+    name: "Slate Grey Litter Scoop"
+    brand: "Lumenta"
+    category: "Pet"
+    price: 5.61
+    currency: "USD"
+    stock: 17
+    weight_g: 1575
+    rating: 3.7
+    tags:
+      - "clearance"
+      - "dishwasher-safe"
+      - "limited-run"
+      - "new-arrival"
+    released_on: "2023-10-24"
+    discontinued: false
+  - sku: "PET-0008"
+    name: "Anodised Aluminium Chew Toy"
+    brand: "Palewood"
+    category: "Pet"
+    price: 249.17
+    currency: "USD"
+    stock: 35
+    weight_g: 260
+    rating: 3.5
+    tags:
+      - "flat-pack"
+      - "gift-idea"
+      - "limited-run"
+    released_on: "2022-07-24"
+    discontinued: false
+  - sku: "PET-0009"
+    name: "Frosted Glass Feeding Bowl"
+    brand: "Halcyon Field"
+    category: "Pet"
+    price: 59.09
+    currency: "USD"
+    stock: 93
+    weight_g: 2865
+    rating: 3.6
+    tags:
+      - "limited-run"
+      - "new-arrival"
+    released_on: "2025-02-15"
+    discontinued: false
+  - sku: "PET-0010"
+    name: "Soft-touch Silicone Pet Bed"
+    brand: "Bramblewick"
+    category: "Pet"
+    price: 59.27
+    currency: "USD"
+    stock: 158
+    weight_g: 1040
+    rating: 4.9
+    tags:
+      - "compact"
+      - "recycled"
+    released_on: "2023-08-14"
+    discontinued: false
+  - sku: "PET-0011"
+    name: "Woven Jute Collar Tag"
+    brand: "Quorra Labs"
+    category: "Pet"
+    price: 249.01
+    currency: "USD"
+    stock: 403
+    weight_g: 1275
+    rating: 4.2
+    tags:
+      - "dishwasher-safe"
+      - "gift-idea"
+      - "new-arrival"
+      - "premium"
+    released_on: "2025-06-01"
+    discontinued: false
+  - sku: "PET-0012"
+    name: "Matte Ceramic Feeding Bowl"
+    brand: "Aurelis"
+    category: "Pet"
+    price: 249.99
+    currency: "USD"
+    stock: 51
+    weight_g: 2025
+    rating: 3.4
+    tags:
+      - "clearance"
+      - "dishwasher-safe"
+      - "gift-idea"
+      - "refurbished"
+    released_on: "2023-08-13"
+    discontinued: false
+  - sku: "PET-0013"
+    name: "Brushed Steel Travel Crate"
+    brand: "Bramblewick"
+    category: "Pet"
+    price: 5.67
+    currency: "USD"
+    stock: 5
+    weight_g: 345
+    rating: 4.5
+    tags:
+      - "flat-pack"
+      - "recycled"
+    released_on: "2025-11-18"
+    discontinued: false
+  - sku: "PET-0014"
+    name: "Oiled Walnut Litter Scoop"
+    brand: "Bramblewick"
+    category: "Pet"
+    price: 185.49
+    currency: "USD"
+    stock: 31
+    weight_g: 380
+    rating: 4.7
+    tags:
+      - "bestseller"
+      - "clearance"
+      - "dishwasher-safe"
+    released_on: "2024-06-19"
+    discontinued: false
+  - sku: "PET-0015"
+    name: "Bamboo Travel Crate"
+    brand: "Lumenta"
+    category: "Pet"
+    price: 25.69
+    currency: "USD"
+    stock: 37
+    weight_g: 1010
+    rating: 4.7
+    tags:
+      - "clearance"
+      - "flat-pack"
+      - "gift-idea"
+      - "new-arrival"
+    released_on: "2023-02-14"
+    discontinued: true
+  - sku: "PET-0016"
+    name: "Slate Grey Collar Tag"
+    brand: "Palewood"
+    category: "Pet"
+    price: 75.27
+    currency: "USD"
+    stock: 28
+    weight_g: 1100
+    rating: 4.3
+    tags:
+      - "compact"
+      - "refurbished"
+    released_on: "2024-01-04"
+    discontinued: false
+  - sku: "PET-0017"
+    name: "Anodised Aluminium Feeding Bowl"
+    brand: "Bramblewick"
+    category: "Pet"
+    price: 99.12
+    currency: "USD"
+    stock: 23
+    weight_g: 3150
+    rating: 3.9
+    tags:
+      - "gift-idea"
+      - "refurbished"
+    released_on: "2025-07-22"
+    discontinued: true
+  - sku: "PET-0018"
+    name: "Woven Jute Travel Crate"
+    brand: "Aurelis"
+    category: "Pet"
+    price: 13.34
+    currency: "USD"
+    stock: 5
+    weight_g: 2430
+    rating: 4.5
+    tags:
+      - "bestseller"
+      - "bundle"
+      - "gift-idea"
+      - "limited-run"
+    released_on: "2024-05-07"
+    discontinued: false
+  - sku: "PET-0019"
+    name: "Slate Grey Pet Bed"
+    brand: "Aurelis"
+    category: "Pet"
+    price: 25.6
+    currency: "USD"
+    stock: 431
+    weight_g: 2900
+    rating: 3.9
+    tags:
+      - "compact"
+      - "premium"
+      - "refurbished"
+    released_on: "2024-07-03"
+    discontinued: false
+  - sku: "PET-0020"
+    name: "Bamboo Grooming Brush"
+    brand: "Kestrel Works"
+    category: "Pet"
+    price: 75.49
+    currency: "USD"
+    stock: 186
+    weight_g: 2505
+    rating: 4.4
+    tags:
+      - "clearance"
+      - "dishwasher-safe"
+      - "limited-run"
+    released_on: "2022-12-16"
+    discontinued: false
+  - sku: "PET-0021"
+    name: "Matte Ceramic Grooming Brush"
+    brand: "Aurelis"
+    category: "Pet"
+    price: 9.27
+    currency: "GBP"
+    stock: 25
+    weight_g: 95
+    rating: 4.7
+    tags:
+      - "bestseller"
+      - "dishwasher-safe"
+      - "flat-pack"
+      - "recycled"
+    released_on: "2025-05-24"
+    discontinued: false
+  - sku: "STA-0001"
+    name: "Bamboo Washi Tape"
+    brand: "Kestrel Works"
+    category: "Stationery"
+    price: 19.17
+    currency: "USD"
+    stock: 360
+    weight_g: 125
+    rating: 4.4
+    tags:
+      - "bestseller"
+      - "dishwasher-safe"
+      - "flat-pack"
+      - "recycled"
+    released_on: "2024-07-10"
+    discontinued: true
+  - sku: "STA-0002"
+    name: "Linen-wrapped Sticker Sheet"
+    brand: "Kestrel Works"
+    category: "Stationery"
+    price: 249.74
+    currency: "USD"
+    stock: 80
+    weight_g: 565
+    rating: 4.9
+    tags:
+      - "bundle"
+      - "dishwasher-safe"
+      - "gift-idea"
+      - "refurbished"
+    released_on: "2022-07-25"
+    discontinued: false
+  - sku: "STA-0003"
+    name: "Soft-touch Silicone Sticker Sheet"
+    brand: "Halcyon Field"
+    category: "Stationery"
+    price: 13.18
+    currency: "EUR"
+    stock: 17
+    weight_g: 55
+    rating: 3.3
+    tags:
+      - "bestseller"
+      - "compact"
+      - "dishwasher-safe"
+      - "refurbished"
+    released_on: "2024-02-28"
+    discontinued: true
+  - sku: "STA-0004"
+    name: "Frosted Glass Index Cards"
+    brand: "Kestrel Works"
+    category: "Stationery"
+    price: 46.97
+    currency: "USD"
+    stock: 5
+    weight_g: 105
+    rating: 3.6
+    tags:
+      - "bundle"
+      - "compact"
+      - "limited-run"
+    released_on: "2025-01-20"
+    discontinued: false
+  - sku: "STA-0005"
+    name: "Linen-wrapped Sticker Sheet Duo"
+    brand: "Norvale Supply"
+    category: "Stationery"
+    price: 59.83
+    currency: "USD"
+    stock: 0
+    weight_g: 655
+    rating: 4.7
+    tags:
+      - "bestseller"
+      - "clearance"
+      - "compact"
+      - "limited-run"
+    released_on: "2024-11-22"
+    discontinued: false
+  - sku: "STA-0006"
+    name: "Powder-coated Sticker Sheet"
+    brand: "Quorra Labs"
+    category: "Stationery"
+    price: 74.97
+    currency: "USD"
+    stock: 0
+    weight_g: 180
+    rating: 3.7
+    tags:
+      - "bestseller"
+      - "clearance"
+      - "dishwasher-safe"
+      - "refurbished"
+    released_on: "2023-07-02"
+    discontinued: false
+  - sku: "STA-0007"
+    name: "Bamboo Desk Planner"
+    brand: "Vantiq"
+    category: "Stationery"
+    price: 129.82
+    currency: "USD"
+    stock: 358
+    weight_g: 720
+    rating: 3.4
+    tags:
+      - "clearance"
+      - "gift-idea"
+      - "refurbished"
+    released_on: "2025-09-05"
+    discontinued: false
+  - sku: "STA-0008"
+    name: "Copper-plated Pencil Case"
+    brand: "Kestrel Works"
+    category: "Stationery"
+    price: 249.39
+    currency: "USD"
+    stock: 151
+    weight_g: 310
+    rating: 3.5
+    tags:
+      - "flat-pack"
+      - "new-arrival"
+    released_on: "2023-08-11"
+    discontinued: false
+  - sku: "STA-0009"
+    name: "Anodised Aluminium Pencil Case"
+    brand: "Sundara"
+    category: "Stationery"
+    price: 185.25
+    currency: "USD"
+    stock: 216
+    weight_g: 740
+    rating: 4.8
+    tags:
+      - "compact"
+      - "recycled"
+      - "refurbished"
+    released_on: "2023-05-20"
+    discontinued: false
+  - sku: "STA-0010"
+    name: "Woven Jute Sticker Sheet"
+    brand: "Sundara"
+    category: "Stationery"
+    price: 25.25
+    currency: "USD"
+    stock: 14
+    weight_g: 145
+    rating: 4.2
+    tags:
+      - "bundle"
+      - "clearance"
+    released_on: "2025-06-29"
+    discontinued: false
+  - sku: "STA-0011"
+    name: "Soft-touch Silicone Sticker Sheet Pro"
+    brand: "Tessellate"
+    category: "Stationery"
+    price: 19.79
+    currency: "USD"
+    stock: 22
+    weight_g: 470
+    rating: 3.8
+    tags:
+      - "dishwasher-safe"
+      - "refurbished"
+    released_on: "2023-10-11"
+    discontinued: false
+  - sku: "STA-0012"
+    name: "Bamboo Notebook"
+    brand: "Aurelis"
+    category: "Stationery"
+    price: 5.36
+    currency: "USD"
+    stock: 6
+    weight_g: 710
+    rating: 3.5
+    tags:
+      - "bestseller"
+      - "clearance"
+      - "premium"
+      - "recycled"
+    released_on: "2024-10-27"
+    discontinued: false
+  - sku: "STA-0013"
+    name: "Oiled Walnut Index Cards"
+    brand: "Orbex"
+    category: "Stationery"
+    price: 74.73
+    currency: "USD"
+    stock: 33
+    weight_g: 170
+    rating: 3.7
+    tags:
+      - "clearance"
+      - "refurbished"
+    released_on: "2023-07-29"
+    discontinued: false
+  - sku: "STA-0014"
+    name: "Matte Ceramic Washi Tape"
+    brand: "Sundara"
+    category: "Stationery"
+    price: 99.51
+    currency: "USD"
+    stock: 266
+    weight_g: 430
+    rating: 3.2
+    tags:
+      - "bestseller"
+      - "bundle"
+      - "recycled"
+    released_on: "2025-06-11"
+    discontinued: false
+  - sku: "STA-0015"
+    name: "Oiled Walnut Pencil Case"
+    brand: "Lumenta"
+    category: "Stationery"
+    price: 249.37
+    currency: "USD"
+    stock: 92
+    weight_g: 515
+    rating: 3.6
+    tags:
+      - "bestseller"
+      - "bundle"
+      - "limited-run"
+      - "premium"
+    released_on: "2025-10-21"
+    discontinued: false
+  - sku: "STA-0016"
+    name: "Slate Grey Desk Planner"
+    brand: "Aurelis"
+    category: "Stationery"
+    price: 399.09
+    currency: "USD"
+    stock: 32
+    weight_g: 165
+    rating: 3.9
+    tags:
+      - "clearance"
+      - "recycled"
+    released_on: "2024-04-14"
+    discontinued: false
+  - sku: "STA-0017"
+    name: "Recycled Cork Pencil Case"
+    brand: "Tessellate"
+    category: "Stationery"
+    price: 249.64
+    currency: "USD"
+    stock: 0
+    weight_g: 640
+    rating: 3.4
+    tags:
+      - "limited-run"
+      - "refurbished"
+    released_on: "2023-03-11"
+    discontinued: false
+  - sku: "STA-0018"
+    name: "Soft-touch Silicone Pencil Case"
+    brand: "Halcyon Field"
+    category: "Stationery"
+    price: 75.19
+    currency: "USD"
+    stock: 19
+    weight_g: 560
+    rating: 3.4
+    tags:
+      - "bestseller"
+      - "clearance"
+      - "limited-run"
+      - "recycled"
+    released_on: "2024-10-13"
+    discontinued: false
+  - sku: "STA-0019"
+    name: "Anodised Aluminium Pencil Case Twin Pack"
+    brand: "Bramblewick"
+    category: "Stationery"
+    price: 249.06
+    currency: "USD"
+    stock: 205
+    weight_g: 650
+    rating: 4.2
+    tags:
+      - "bestseller"
+      - "bundle"
+      - "premium"
+      - "recycled"
+    released_on: "2022-05-26"
+    discontinued: false
+  - sku: "STA-0020"
+    name: "Copper-plated Desk Planner"
+    brand: "Sundara"
+    category: "Stationery"
+    price: 13.42
+    currency: "USD"
+    stock: 30
+    weight_g: 105
+    rating: 3.1
+    tags:
+      - "compact"
+      - "flat-pack"
+      - "limited-run"
+      - "new-arrival"
+    released_on: "2022-04-28"
+    discontinued: false
+  - sku: "STA-0021"
+    name: "Linen-wrapped Index Cards"
+    brand: "Aurelis"
+    category: "Stationery"
+    price: 19.41
+    currency: "EUR"
+    stock: 22
+    weight_g: 390
+    rating: 3.8
+    tags:
+      - "clearance"
+      - "dishwasher-safe"
+      - "gift-idea"
+      - "limited-run"
+    released_on: "2022-08-22"
+    discontinued: false
+  - sku: "STO-0001"
+    name: "Soft-touch Silicone Shoe Rack"
+    brand: "Bramblewick"
+    category: "Storage"
+    price: 19.2
+    currency: "EUR"
+    stock: 12
+    weight_g: 1430
+    rating: 3.6
+    tags:
+      - "bundle"
+      - "premium"
+    released_on: "2022-10-29"
+    discontinued: false
+  - sku: "STO-0002"
+    name: "Copper-plated Basket Set"
+    brand: "Norvale Supply"
+    category: "Storage"
+    price: 9.47
+    currency: "GBP"
+    stock: 39
+    weight_g: 2175
+    rating: 4.6
+    tags:
+      - "clearance"
+      - "flat-pack"
+      - "gift-idea"
+      - "refurbished"
+    released_on: "2023-02-26"
+    discontinued: false
+  - sku: "STO-0003"
+    name: "Copper-plated Wardrobe Rail"
+    brand: "Vantiq"
+    category: "Storage"
+    price: 25.04
+    currency: "USD"
+    stock: 166
+    weight_g: 2550
+    rating: 3.9
+    tags:
+      - "bundle"
+      - "gift-idea"
+      - "new-arrival"
+      - "premium"
+    released_on: "2025-01-12"
+    discontinued: false
+  - sku: "STO-0004"
+    name: "Matte Ceramic Basket Set"
+    brand: "Orbex"
+    category: "Storage"
+    price: 25.05
+    currency: "USD"
+    stock: 246
+    weight_g: 2875
+    rating: 4.3
+    tags:
+      - "flat-pack"
+      - "new-arrival"
+      - "refurbished"
+    released_on: "2022-10-25"
+    discontinued: false
+  - sku: "STO-0005"
+    name: "Copper-plated Basket Set Compact"
+    brand: "Sundara"
+    category: "Storage"
+    price: 25.41
+    currency: "USD"
+    stock: 0
+    weight_g: 3295
+    rating: 3.3
+    tags:
+      - "bestseller"
+      - "dishwasher-safe"
+      - "new-arrival"
+    released_on: "2025-11-26"
+    discontinued: false
+  - sku: "STO-0006"
+    name: "Powder-coated Stacking Crate"
+    brand: "Norvale Supply"
+    category: "Storage"
+    price: 59.68
+    currency: "GBP"
+    stock: 431
+    weight_g: 1070
+    rating: 4.7
+    tags:
+      - "new-arrival"
+      - "premium"
+      - "recycled"
+      - "refurbished"
+    released_on: "2025-10-19"
+    discontinued: false
+  - sku: "STO-0007"
+    name: "Bamboo Stacking Crate"
+    brand: "Quorra Labs"
+    category: "Storage"
+    price: 399.38
+    currency: "USD"
+    stock: 17
+    weight_g: 2790
+    rating: 4.8
+    tags:
+      - "dishwasher-safe"
+      - "recycled"
+    released_on: "2023-12-05"
+    discontinued: false
+  - sku: "STO-0008"
+    name: "Slate Grey Wardrobe Rail"
+    brand: "Kestrel Works"
+    category: "Storage"
+    price: 9.57
+    currency: "USD"
+    stock: 280
+    weight_g: 760
+    rating: 3.6
+    tags:
+      - "compact"
+      - "flat-pack"
+      - "refurbished"
+    released_on: "2025-10-24"
+    discontinued: true
+  - sku: "STO-0009"
+    name: "Linen-wrapped Lid Organiser"
+    brand: "Halcyon Field"
+    category: "Storage"
+    price: 9.65
+    currency: "USD"
+    stock: 35
+    weight_g: 1055
+    rating: 3.3
+    tags:
+      - "gift-idea"
+      - "recycled"
+    released_on: "2024-10-16"
+    discontinued: false
+  - sku: "STO-0010"
+    name: "Matte Ceramic Lid Organiser"
+    brand: "Vantiq"
+    category: "Storage"
+    price: 249.07
+    currency: "USD"
+    stock: 469
+    weight_g: 450
+    rating: 3.8
+    tags:
+      - "compact"
+      - "dishwasher-safe"
+      - "flat-pack"
+      - "limited-run"
+    released_on: "2022-09-04"
+    discontinued: false
+  - sku: "STO-0011"
+    name: "Soft-touch Silicone Basket Set"
+    brand: "Vantiq"
+    category: "Storage"
+    price: 74.76
+    currency: "USD"
+    stock: 11
+    weight_g: 1955
+    rating: 4.1
+    tags:
+      - "compact"
+      - "dishwasher-safe"
+      - "new-arrival"
+      - "premium"
+    released_on: "2024-08-26"
+    discontinued: false
+  - sku: "STO-0012"
+    name: "Bamboo Shelf Divider"
+    brand: "Tessellate"
+    category: "Storage"
+    price: 249.12
+    currency: "USD"
+    stock: 412
+    weight_g: 390
+    rating: 4.2
+    tags:
+      - "bundle"
+      - "compact"
+      - "gift-idea"
+      - "refurbished"
+    released_on: "2024-06-11"
+    discontinued: false
+  - sku: "STO-0013"
+    name: "Brushed Steel Shoe Rack"
+    brand: "Sundara"
+    category: "Storage"
+    price: 13.26
+    currency: "EUR"
+    stock: 377
+    weight_g: 2200
+    rating: 3.9
+    tags:
+      - "bundle"
+      - "compact"
+      - "limited-run"
+      - "refurbished"
+    released_on: "2024-06-27"
+    discontinued: false
