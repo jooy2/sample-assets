@@ -123,6 +123,22 @@ check locally before opening a pull request:
 python3 .github/scripts/validate-datasets.py
 ```
 
+## Generated content
+
+Some of the assets in this collection are **produced by generative AI agents** — data
+rows, illustrations, code samples, and document text among them. That is deliberate: a
+sample invented for this repository can be handed to anyone, which is not true of material
+borrowed from somewhere else.
+
+None of it depicts or describes anything real. The people, faces, companies, products,
+places, and events in these assets are **inventions rather than records**. They are not
+based on any actual person, organization, or location, and **any resemblance to a real one
+is coincidental**.
+
+So treat a generated asset as a stand-in, not as a source. The figures in it are not
+accurate, the text in it is not authoritative, and the code in it has not been reviewed for
+production use.
+
 ## What does not belong here
 
 - **Real personal data.** Sample records are invented. Names, addresses, and card numbers

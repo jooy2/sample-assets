@@ -58,19 +58,25 @@ this one, and it is what a contributor is asked to follow.
 
 These are not style preferences. A change that breaks one of them does not get merged.
 
-1. **Sample data is synthetic.** No real personal data, no credentials or live API keys,
+1. **Samples are synthetic.** No real personal data, no credentials or live API keys,
    nothing scraped from a service that did not offer it. If a sample needs a person, a
    company, or an address, invent one.
-2. **Every asset must be free to redistribute.** An asset that is not original work keeps
+2. **Generated assets stay fictional.** Much of this collection is written by generative
+   agents, and `README.md` says so. What is invented must stay invented: never model a
+   sample on a real, identifiable person, brand, logo, or place, and never present
+   generated figures as if they were measurements. A resemblance has to be a coincidence,
+   which it only is if nobody aimed for it.
+3. **Every asset must be free to redistribute.** An asset that is not original work keeps
    its own license and is listed in its folder's `README.md` with its source, author, and
    terms — in the same change that adds it. The repository's MIT license covers the
    collection, not a file that arrived under different terms.
-3. **Files stay small.** Git keeps every version of a binary in full, so a large file
+4. **Files stay small.** Git keeps every version of a binary in full, so a large file
    replaced twice lives in the history three times. The folder READMEs give per-type
    ceilings; when a large file is unavoidable, say why in the commit.
-4. **Do not fabricate binary assets.** An agent can write a CSV or a JSON file. It cannot
-   produce a photograph, a video, or a recording, and a placeholder generated to fill the
-   gap is worse than an empty folder. Ask instead.
+5. **Do not improvise a binary asset.** A coding agent can write a CSV, a JSON file, or a
+   code sample. It cannot produce a photograph, a video, or a recording — those are
+   generated or recorded elsewhere and then committed here. A placeholder thrown together
+   to stop a folder from looking empty is worse than the empty folder. Ask instead.
 
 ## The dataset validator
 
