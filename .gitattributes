@@ -1,0 +1,51 @@
+# Normalize line endings for text, and keep binaries untouched.
+* text=auto eol=lf
+
+# Data formats
+*.csv   text eol=lf
+*.tsv   text eol=lf
+*.txt   text eol=lf
+*.json  text eol=lf
+*.jsonl text eol=lf
+*.sql   text eol=lf
+*.xml   text eol=lf
+*.yaml  text eol=lf
+*.yml   text eol=lf
+*.md    text eol=lf
+*.svg   text eol=lf
+
+# Images
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.webp binary
+*.avif binary
+*.ico  binary
+*.psd  binary
+
+# Video
+*.mp4  binary
+*.webm binary
+*.mov  binary
+
+# Audio
+*.mp3  binary
+*.wav  binary
+*.ogg  binary
+*.flac binary
+*.m4a  binary
+
+# Documents
+*.pdf  binary
+*.doc  binary
+*.docx binary
+*.xls  binary
+*.xlsx binary
+*.ppt  binary
+*.pptx binary
+
+# Sample data is content, not source code. Keep it out of the language
+# statistics GitHub shows for this repository.
+datasets/** linguist-detectable=false
+documents/** linguist-detectable=false
