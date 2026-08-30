@@ -16,6 +16,13 @@ password-protected file — belongs here too, with that feature in its name.
   `invoice-sample-scanned.pdf`, `form-fillable.pdf`, `spreadsheet-with-formulas.xlsx`.
 - Add the page or sheet count for large files: `manual-120pages.pdf`.
 
+## Passwords
+
+One sample is encrypted on purpose. `report-password-protected.pdf` opens with the user
+password `sample`, and its permission flags are held by the owner password `sample-owner`.
+A sample that locks something says so here — nothing in this folder protects anything
+worth protecting.
+
 ## Contents
 
 Every document is fictional. No real invoices, contracts, résumés, or correspondence —
