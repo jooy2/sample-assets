@@ -1,0 +1,992 @@
+# 90 synthetic stations on an invented metro network. Invented data; it describes nobody.
+transit_stations:
+  - station_id: "ST-001"
+    name: "Vellin Halt"
+    line: "Crimson"
+    zone: 2
+    opened_year: 1978
+    platforms: 2
+    grid_x: 45
+    grid_y: -10
+    step_free: true
+    interchange: false
+    daily_boardings: 24137
+  - station_id: "ST-002"
+    name: "Quill Wharf"
+    line: "Cobalt"
+    zone: 3
+    opened_year: 1993
+    platforms: 2
+    grid_x: 45
+    grid_y: 11
+    step_free: true
+    interchange: false
+    daily_boardings: 447
+  - station_id: "ST-003"
+    name: "Quill Green"
+    line: "Cobalt"
+    zone: 5
+    opened_year: 2000
+    platforms: 6
+    grid_x: -26
+    grid_y: -33
+    step_free: true
+    interchange: false
+    daily_boardings: 5759
+  - station_id: "ST-004"
+    name: "Dunmar Cross"
+    line: "Violet"
+    zone: 3
+    opened_year: 1969
+    platforms: 1
+    grid_x: -42
+    grid_y: 36
+    step_free: true
+    interchange: false
+    daily_boardings: 6288
+  - station_id: "ST-005"
+    name: "Eastmoor Fields"
+    line: "Violet"
+    zone: 1
+    opened_year: 1986
+    platforms: 2
+    grid_x: -18
+    grid_y: 31
+    step_free: false
+    interchange: false
+    daily_boardings: 22686
+  - station_id: "ST-006"
+    name: "Elmgate Hill"
+    line: "Crimson"
+    zone: 1
+    opened_year: 1998
+    platforms: 6
+    grid_x: -43
+    grid_y: 11
+    step_free: true
+    interchange: false
+    daily_boardings: 41339
+  - station_id: "ST-007"
+    name: "Harrow Row"
+    line: "Amber"
+    zone: 1
+    opened_year: 1992
+    platforms: 2
+    grid_x: -34
+    grid_y: 6
+    step_free: false
+    interchange: false
+    daily_boardings: 54867
+  - station_id: "ST-008"
+    name: "Glass Halt"
+    line: "Crimson"
+    zone: 5
+    opened_year: 2023
+    platforms: 4
+    grid_x: -3
+    grid_y: -32
+    step_free: true
+    interchange: true
+    daily_boardings: 1484
+  - station_id: "ST-009"
+    name: "Quill Cross"
+    line: "Slate"
+    zone: 4
+    opened_year: 2001
+    platforms: 4
+    grid_x: 33
+    grid_y: -34
+    step_free: false
+    interchange: true
+    daily_boardings: 3980
+  - station_id: "ST-010"
+    name: "Alder Quay"
+    line: "Violet"
+    zone: 2
+    opened_year: 1993
+    platforms: 3
+    grid_x: -8
+    grid_y: 33
+    step_free: true
+    interchange: false
+    daily_boardings: 8887
+  - station_id: "ST-011"
+    name: "Pinfold Fields"
+    line: "Violet"
+    zone: 3
+    opened_year: 1999
+    platforms: 4
+    grid_x: 7
+    grid_y: -15
+    step_free: true
+    interchange: true
+    daily_boardings: 13962
+  - station_id: "ST-012"
+    name: "Pinfold Park"
+    line: "Slate"
+    zone: 1
+    opened_year: 2020
+    platforms: 2
+    grid_x: -37
+    grid_y: -6
+    step_free: false
+    interchange: false
+    daily_boardings: 45969
+  - station_id: "ST-013"
+    name: "Quill End"
+    line: "Emerald"
+    zone: 5
+    opened_year: 2003
+    platforms: 3
+    grid_x: 8
+    grid_y: 12
+    step_free: false
+    interchange: false
+    daily_boardings: 7225
+  - station_id: "ST-014"
+    name: "Foxhollow Vale"
+    line: "Amber"
+    zone: 3
+    opened_year: 1989
+    platforms: 4
+    grid_x: 1
+    grid_y: 25
+    step_free: true
+    interchange: false
+    daily_boardings: 12051
+  - station_id: "ST-015"
+    name: "Eastmoor Central"
+    line: "Emerald"
+    zone: 1
+    opened_year: 2018
+    platforms: 5
+    grid_x: -38
+    grid_y: -26
+    step_free: false
+    interchange: true
+    daily_boardings: 48982
+  - station_id: "ST-016"
+    name: "Nether Wharf"
+    line: "Slate"
+    zone: 2
+    opened_year: 2009
+    platforms: 4
+    grid_x: 13
+    grid_y: 15
+    step_free: true
+    interchange: true
+    daily_boardings: 24417
+  - station_id: "ST-017"
+    name: "Fernway Central"
+    line: "Violet"
+    zone: 3
+    opened_year: 1976
+    platforms: 2
+    grid_x: 23
+    grid_y: -25
+    step_free: false
+    interchange: false
+    daily_boardings: 15774
+  - station_id: "ST-018"
+    name: "Saltwick Locks"
+    line: "Slate"
+    zone: 2
+    opened_year: 1974
+    platforms: 2
+    grid_x: -39
+    grid_y: 6
+    step_free: false
+    interchange: false
+    daily_boardings: 17643
+  - station_id: "ST-019"
+    name: "Vellin Gate"
+    line: "Cobalt"
+    zone: 2
+    opened_year: 2021
+    platforms: 3
+    grid_x: 21
+    grid_y: -5
+    step_free: false
+    interchange: false
+    daily_boardings: 21019
+  - station_id: "ST-020"
+    name: "Juniper Row"
+    line: "Crimson"
+    zone: 3
+    opened_year: 1976
+    platforms: 1
+    grid_x: -20
+    grid_y: 30
+    step_free: false
+    interchange: false
+    daily_boardings: 9196
+  - station_id: "ST-021"
+    name: "Nether Hill"
+    line: "Violet"
+    zone: 2
+    opened_year: 1973
+    platforms: 4
+    grid_x: 16
+    grid_y: -9
+    step_free: true
+    interchange: false
+    daily_boardings: 22342
+  - station_id: "ST-022"
+    name: "Ivory Park"
+    line: "Slate"
+    zone: 5
+    opened_year: 1993
+    platforms: 3
+    grid_x: -31
+    grid_y: 34
+    step_free: false
+    interchange: true
+    daily_boardings: 10455
+  - station_id: "ST-023"
+    name: "Pinfold Halt"
+    line: "Cobalt"
+    zone: 3
+    opened_year: 1986
+    platforms: 4
+    grid_x: 23
+    grid_y: -4
+    step_free: true
+    interchange: false
+    daily_boardings: 10282
+  - station_id: "ST-024"
+    name: "Vellin Junction"
+    line: "Emerald"
+    zone: 4
+    opened_year: 1976
+    platforms: 2
+    grid_x: -42
+    grid_y: -6
+    step_free: false
+    interchange: false
+    daily_boardings: 10261
+  - station_id: "ST-025"
+    name: "Foxhollow Bridge"
+    line: "Crimson"
+    zone: 4
+    opened_year: 2006
+    platforms: 2
+    grid_x: -22
+    grid_y: 1
+    step_free: false
+    interchange: false
+    daily_boardings: 14252
+  - station_id: "ST-026"
+    name: "Ivory Central"
+    line: "Emerald"
+    zone: 3
+    opened_year: 2018
+    platforms: 3
+    grid_x: -2
+    grid_y: -7
+    step_free: false
+    interchange: false
+    daily_boardings: 1279
+  - station_id: "ST-027"
+    name: "Candle Hill"
+    line: "Slate"
+    zone: 5
+    opened_year: 2008
+    platforms: 2
+    grid_x: 22
+    grid_y: -35
+    step_free: true
+    interchange: false
+    daily_boardings: 10069
+  - station_id: "ST-028"
+    name: "Pinfold Green"
+    line: "Amber"
+    zone: 2
+    opened_year: 2018
+    platforms: 1
+    grid_x: 9
+    grid_y: 7
+    step_free: true
+    interchange: false
+    daily_boardings: 9791
+  - station_id: "ST-029"
+    name: "Oakem Central"
+    line: "Slate"
+    zone: 3
+    opened_year: 2005
+    platforms: 3
+    grid_x: -24
+    grid_y: 28
+    step_free: true
+    interchange: false
+    daily_boardings: 1352
+  - station_id: "ST-030"
+    name: "Westing Hill"
+    line: "Amber"
+    zone: 1
+    opened_year: 1996
+    platforms: 4
+    grid_x: 47
+    grid_y: 14
+    step_free: true
+    interchange: false
+    daily_boardings: 4874
+  - station_id: "ST-031"
+    name: "Foxhollow Junction"
+    line: "Amber"
+    zone: 2
+    opened_year: 1972
+    platforms: 4
+    grid_x: -9
+    grid_y: -29
+    step_free: true
+    interchange: true
+    daily_boardings: 8612
+  - station_id: "ST-032"
+    name: "Bramble Wharf"
+    line: "Crimson"
+    zone: 4
+    opened_year: 1972
+    platforms: 4
+    grid_x: -48
+    grid_y: 30
+    step_free: false
+    interchange: false
+    daily_boardings: 4155
+  - station_id: "ST-033"
+    name: "Ravens End"
+    line: "Slate"
+    zone: 3
+    opened_year: 1999
+    platforms: 4
+    grid_x: -28
+    grid_y: 10
+    step_free: true
+    interchange: false
+    daily_boardings: 7889
+  - station_id: "ST-034"
+    name: "Glass Quay"
+    line: "Crimson"
+    zone: 1
+    opened_year: 1974
+    platforms: 2
+    grid_x: -18
+    grid_y: -9
+    step_free: false
+    interchange: false
+    daily_boardings: 16912
+  - station_id: "ST-035"
+    name: "Quill Bridge"
+    line: "Slate"
+    zone: 4
+    opened_year: 1969
+    platforms: 5
+    grid_x: 31
+    grid_y: 30
+    step_free: false
+    interchange: true
+    daily_boardings: 5836
+  - station_id: "ST-036"
+    name: "Bellrow Halt"
+    line: "Cobalt"
+    zone: 3
+    opened_year: 1991
+    platforms: 4
+    grid_x: -18
+    grid_y: -22
+    step_free: true
+    interchange: true
+    daily_boardings: 3015
+  - station_id: "ST-037"
+    name: "Candle Fields"
+    line: "Emerald"
+    zone: 4
+    opened_year: 1974
+    platforms: 3
+    grid_x: 34
+    grid_y: 18
+    step_free: true
+    interchange: false
+    daily_boardings: 14519
+  - station_id: "ST-038"
+    name: "Nether End"
+    line: "Slate"
+    zone: 4
+    opened_year: 1987
+    platforms: 2
+    grid_x: 20
+    grid_y: -26
+    step_free: true
+    interchange: false
+    daily_boardings: 709
+  - station_id: "ST-039"
+    name: "Grangeley Fields"
+    line: "Cobalt"
+    zone: 4
+    opened_year: 1984
+    platforms: 2
+    grid_x: 29
+    grid_y: -10
+    step_free: true
+    interchange: false
+    daily_boardings: 203
+  - station_id: "ST-040"
+    name: "Glass Wharf"
+    line: "Crimson"
+    zone: 4
+    opened_year: 1975
+    platforms: 2
+    grid_x: -14
+    grid_y: -12
+    step_free: true
+    interchange: false
+    daily_boardings: 11699
+  - station_id: "ST-041"
+    name: "Umber Wharf"
+    line: "Emerald"
+    zone: 2
+    opened_year: 1999
+    platforms: 5
+    grid_x: 30
+    grid_y: 19
+    step_free: false
+    interchange: true
+    daily_boardings: 6528
+  - station_id: "ST-042"
+    name: "Ivory Quay"
+    line: "Emerald"
+    zone: 4
+    opened_year: 2021
+    platforms: 2
+    grid_x: -45
+    grid_y: 4
+    step_free: true
+    interchange: false
+    daily_boardings: 15303
+  - station_id: "ST-043"
+    name: "Kestrel Junction"
+    line: "Crimson"
+    zone: 3
+    opened_year: 2000
+    platforms: 3
+    grid_x: -26
+    grid_y: 20
+    step_free: false
+    interchange: false
+    daily_boardings: 11630
+  - station_id: "ST-044"
+    name: "Alder Bridge"
+    line: "Cobalt"
+    zone: 2
+    opened_year: 2017
+    platforms: 2
+    grid_x: -6
+    grid_y: 17
+    step_free: true
+    interchange: false
+    daily_boardings: 18377
+  - station_id: "ST-045"
+    name: "Larch Central"
+    line: "Amber"
+    zone: 4
+    opened_year: 1994
+    platforms: 4
+    grid_x: 46
+    grid_y: -32
+    step_free: true
+    interchange: true
+    daily_boardings: 14199
+  - station_id: "ST-046"
+    name: "Foxhollow Quay"
+    line: "Cobalt"
+    zone: 5
+    opened_year: 1988
+    platforms: 3
+    grid_x: -10
+    grid_y: -18
+    step_free: true
+    interchange: false
+    daily_boardings: 7130
+  - station_id: "ST-047"
+    name: "Fernway Locks"
+    line: "Violet"
+    zone: 2
+    opened_year: 2023
+    platforms: 1
+    grid_x: 38
+    grid_y: -16
+    step_free: true
+    interchange: false
+    daily_boardings: 8424
+  - station_id: "ST-048"
+    name: "Marrow Junction"
+    line: "Emerald"
+    zone: 2
+    opened_year: 1999
+    platforms: 2
+    grid_x: -12
+    grid_y: -31
+    step_free: false
+    interchange: false
+    daily_boardings: 13078
+  - station_id: "ST-049"
+    name: "Nether Fields"
+    line: "Amber"
+    zone: 4
+    opened_year: 1991
+    platforms: 6
+    grid_x: 8
+    grid_y: 18
+    step_free: true
+    interchange: false
+    daily_boardings: 2034
+  - station_id: "ST-050"
+    name: "Larch Park"
+    line: "Amber"
+    zone: 2
+    opened_year: 2009
+    platforms: 2
+    grid_x: -34
+    grid_y: 14
+    step_free: false
+    interchange: false
+    daily_boardings: 14096
+  - station_id: "ST-051"
+    name: "Thistle Green"
+    line: "Crimson"
+    zone: 1
+    opened_year: 1999
+    platforms: 8
+    grid_x: 17
+    grid_y: -14
+    step_free: true
+    interchange: true
+    daily_boardings: 12912
+  - station_id: "ST-052"
+    name: "Bellrow Bridge"
+    line: "Violet"
+    zone: 1
+    opened_year: 1982
+    platforms: 3
+    grid_x: 25
+    grid_y: -31
+    step_free: true
+    interchange: false
+    daily_boardings: 32392
+  - station_id: "ST-053"
+    name: "Yarrow Wharf"
+    line: "Emerald"
+    zone: 1
+    opened_year: 2009
+    platforms: 4
+    grid_x: -15
+    grid_y: -21
+    step_free: true
+    interchange: true
+    daily_boardings: 35083
+  - station_id: "ST-054"
+    name: "Bellrow Vale"
+    line: "Emerald"
+    zone: 4
+    opened_year: 1990
+    platforms: 4
+    grid_x: -32
+    grid_y: 28
+    step_free: false
+    interchange: true
+    daily_boardings: 12178
+  - station_id: "ST-055"
+    name: "Westing Row"
+    line: "Slate"
+    zone: 2
+    opened_year: 2009
+    platforms: 2
+    grid_x: -24
+    grid_y: -19
+    step_free: true
+    interchange: false
+    daily_boardings: 7264
+  - station_id: "ST-056"
+    name: "Larch Quay"
+    line: "Amber"
+    zone: 1
+    opened_year: 2007
+    platforms: 2
+    grid_x: 4
+    grid_y: -3
+    step_free: true
+    interchange: false
+    daily_boardings: 57354
+  - station_id: "ST-057"
+    name: "Larch Wharf"
+    line: "Amber"
+    zone: 2
+    opened_year: 2008
+    platforms: 4
+    grid_x: 22
+    grid_y: -5
+    step_free: true
+    interchange: true
+    daily_boardings: 18871
+  - station_id: "ST-058"
+    name: "Thistle End"
+    line: "Cobalt"
+    zone: 3
+    opened_year: 1981
+    platforms: 2
+    grid_x: -12
+    grid_y: 7
+    step_free: true
+    interchange: false
+    daily_boardings: 12502
+  - station_id: "ST-059"
+    name: "Westing Wharf"
+    line: "Crimson"
+    zone: 3
+    opened_year: 1981
+    platforms: 4
+    grid_x: 41
+    grid_y: 18
+    step_free: false
+    interchange: false
+    daily_boardings: 12183
+  - station_id: "ST-060"
+    name: "Candle Park"
+    line: "Violet"
+    zone: 3
+    opened_year: 1987
+    platforms: 2
+    grid_x: 1
+    grid_y: 20
+    step_free: true
+    interchange: false
+    daily_boardings: 20372
+  - station_id: "ST-061"
+    name: "Bramble End"
+    line: "Cobalt"
+    zone: 1
+    opened_year: 2016
+    platforms: 3
+    grid_x: 28
+    grid_y: 9
+    step_free: true
+    interchange: false
+    daily_boardings: 48241
+  - station_id: "ST-062"
+    name: "Oakem Halt"
+    line: "Violet"
+    zone: 4
+    opened_year: 2002
+    platforms: 4
+    grid_x: 39
+    grid_y: 20
+    step_free: false
+    interchange: true
+    daily_boardings: 11691
+  - station_id: "ST-063"
+    name: "Nether Quay"
+    line: "Crimson"
+    zone: 3
+    opened_year: 1977
+    platforms: 4
+    grid_x: -39
+    grid_y: 4
+    step_free: true
+    interchange: true
+    daily_boardings: 2428
+  - station_id: "ST-064"
+    name: "Larch Halt"
+    line: "Cobalt"
+    zone: 1
+    opened_year: 2007
+    platforms: 2
+    grid_x: 22
+    grid_y: -21
+    step_free: false
+    interchange: false
+    daily_boardings: 9675
+  - station_id: "ST-065"
+    name: "Kestrel Park"
+    line: "Emerald"
+    zone: 4
+    opened_year: 2013
+    platforms: 2
+    grid_x: -24
+    grid_y: 10
+    step_free: true
+    interchange: false
+    daily_boardings: 6876
+  - station_id: "ST-066"
+    name: "Candle End"
+    line: "Amber"
+    zone: 2
+    opened_year: 2012
+    platforms: 2
+    grid_x: -30
+    grid_y: -3
+    step_free: false
+    interchange: false
+    daily_boardings: 6323
+  - station_id: "ST-067"
+    name: "Marrow Bridge"
+    line: "Amber"
+    zone: 2
+    opened_year: 2008
+    platforms: 2
+    grid_x: -15
+    grid_y: 16
+    step_free: true
+    interchange: false
+    daily_boardings: 2045
+  - station_id: "ST-068"
+    name: "Fernway Quay"
+    line: "Cobalt"
+    zone: 4
+    opened_year: 2007
+    platforms: 3
+    grid_x: -38
+    grid_y: -10
+    step_free: true
+    interchange: false
+    daily_boardings: 9864
+  - station_id: "ST-069"
+    name: "Oakem Hill"
+    line: "Cobalt"
+    zone: 1
+    opened_year: 1974
+    platforms: 2
+    grid_x: 37
+    grid_y: -30
+    step_free: true
+    interchange: false
+    daily_boardings: 42366
+  - station_id: "ST-070"
+    name: "Quill Hill"
+    line: "Crimson"
+    zone: 2
+    opened_year: 1989
+    platforms: 2
+    grid_x: 47
+    grid_y: -13
+    step_free: true
+    interchange: false
+    daily_boardings: 27299
+  - station_id: "ST-071"
+    name: "Eastmoor Gate"
+    line: "Amber"
+    zone: 3
+    opened_year: 1995
+    platforms: 2
+    grid_x: -29
+    grid_y: 11
+    step_free: true
+    interchange: false
+    daily_boardings: 1563
+  - station_id: "ST-072"
+    name: "Candle Gate"
+    line: "Emerald"
+    zone: 3
+    opened_year: 2015
+    platforms: 4
+    grid_x: -34
+    grid_y: -12
+    step_free: false
+    interchange: false
+    daily_boardings: 6021
+  - station_id: "ST-073"
+    name: "Westing Central"
+    line: "Emerald"
+    zone: 5
+    opened_year: 1989
+    platforms: 2
+    grid_x: 2
+    grid_y: -1
+    step_free: true
+    interchange: false
+    daily_boardings: 6337
+  - station_id: "ST-074"
+    name: "Elmgate Row"
+    line: "Slate"
+    zone: 3
+    opened_year: 1973
+    platforms: 5
+    grid_x: 12
+    grid_y: 26
+    step_free: true
+    interchange: true
+    daily_boardings: 15854
+  - station_id: "ST-075"
+    name: "Umber Locks"
+    line: "Amber"
+    zone: 3
+    opened_year: 1999
+    platforms: 3
+    grid_x: -46
+    grid_y: 29
+    step_free: true
+    interchange: false
+    daily_boardings: 11953
+  - station_id: "ST-076"
+    name: "Glass Gate"
+    line: "Emerald"
+    zone: 3
+    opened_year: 1974
+    platforms: 3
+    grid_x: -23
+    grid_y: -31
+    step_free: true
+    interchange: false
+    daily_boardings: 6991
+  - station_id: "ST-077"
+    name: "Ivory Cross"
+    line: "Amber"
+    zone: 3
+    opened_year: 2009
+    platforms: 4
+    grid_x: 36
+    grid_y: -10
+    step_free: true
+    interchange: true
+    daily_boardings: 16140
+  - station_id: "ST-078"
+    name: "Saltwick Central"
+    line: "Amber"
+    zone: 5
+    opened_year: 1996
+    platforms: 2
+    grid_x: 38
+    grid_y: 19
+    step_free: false
+    interchange: false
+    daily_boardings: 5567
+  - station_id: "ST-079"
+    name: "Bramble Vale"
+    line: "Violet"
+    zone: 2
+    opened_year: 2021
+    platforms: 2
+    grid_x: 48
+    grid_y: 5
+    step_free: true
+    interchange: false
+    daily_boardings: 23015
+  - station_id: "ST-080"
+    name: "Yarrow Halt"
+    line: "Amber"
+    zone: 4
+    opened_year: 1973
+    platforms: 4
+    grid_x: 9
+    grid_y: -26
+    step_free: false
+    interchange: true
+    daily_boardings: 12007
+  - station_id: "ST-081"
+    name: "Quill Park"
+    line: "Amber"
+    zone: 1
+    opened_year: 1986
+    platforms: 4
+    grid_x: 4
+    grid_y: -35
+    step_free: true
+    interchange: true
+    daily_boardings: 10391
+  - station_id: "ST-082"
+    name: "Alder Halt"
+    line: "Violet"
+    zone: 2
+    opened_year: 1998
+    platforms: 2
+    grid_x: -1
+    grid_y: -33
+    step_free: true
+    interchange: false
+    daily_boardings: 3250
+  - station_id: "ST-083"
+    name: "Pinfold Cross"
+    line: "Slate"
+    zone: 2
+    opened_year: 2005
+    platforms: 3
+    grid_x: 27
+    grid_y: 14
+    step_free: false
+    interchange: false
+    daily_boardings: 5613
+  - station_id: "ST-084"
+    name: "Oakem Fields"
+    line: "Slate"
+    zone: 5
+    opened_year: 1977
+    platforms: 2
+    grid_x: 43
+    grid_y: -9
+    step_free: true
+    interchange: false
+    daily_boardings: 10984
+  - station_id: "ST-085"
+    name: "Dunmar Quay"
+    line: "Amber"
+    zone: 3
+    opened_year: 1989
+    platforms: 4
+    grid_x: -36
+    grid_y: -5
+    step_free: true
+    interchange: true
+    daily_boardings: 4442
+  - station_id: "ST-086"
+    name: "Marrow Vale"
+    line: "Amber"
+    zone: 2
+    opened_year: 1999
+    platforms: 2
+    grid_x: -17
+    grid_y: -1
+    step_free: true
+    interchange: false
+    daily_boardings: 16374
+  - station_id: "ST-087"
+    name: "Nether Halt"
+    line: "Crimson"
+    zone: 2
+    opened_year: 2024
+    platforms: 1
+    grid_x: -19
+    grid_y: 9
+    step_free: true
+    interchange: false
+    daily_boardings: 2358
+  - station_id: "ST-088"
+    name: "Ravens Bridge"
+    line: "Cobalt"
+    zone: 3
+    opened_year: 1977
+    platforms: 4
+    grid_x: -44
+    grid_y: 5
+    step_free: true
+    interchange: false
+    daily_boardings: 7471
+  - station_id: "ST-089"
+    name: "Bramble Quay"
+    line: "Amber"
+    zone: 3
+    opened_year: 2013
+    platforms: 2
+    grid_x: 9
+    grid_y: 12
+    step_free: false
+    interchange: false
+    daily_boardings: 12055
+  - station_id: "ST-090"
+    name: "Grangeley Wharf"
+    line: "Cobalt"
+    zone: 1
+    opened_year: 1987
+    platforms: 3
+    grid_x: -13
+    grid_y: 12
+    step_free: true
+    interchange: false
+    daily_boardings: 4627
