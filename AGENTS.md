@@ -6,8 +6,11 @@ match the repo's existing docs (`README.md`, `CONTRIBUTING.md`).
 ## What this repository is
 
 A **resource repository**, not a software project. It collects sample material — data,
-images, video, audio, documents — that other work can borrow: fixtures for tests,
+code, images, video, audio, documents — that other work can borrow: fixtures for tests,
 placeholder content for mockups, input files for parsers and importers.
+
+The code samples are material too. `code/` holds snippets and small programs to be read,
+highlighted, or parsed by something else; it is not this repository's own source.
 
 There is nothing to build, install, or run. The only executable in the tree is
 `.github/scripts/validate-datasets.py`, which checks the sample data.
@@ -19,6 +22,7 @@ so do not treat it as dead and do not delete it.
 
 ```text
 datasets/        Sample data, one subfolder per format: csv, json, sql, tsv, txt, xml, yaml
+code/            Source code samples, one subfolder per language
 images/          photos/, illustrations/, icons/
 videos/          Short video clips
 audio/           Sound files
@@ -41,7 +45,14 @@ this one, and it is what a contributor is asked to follow.
   count, a resolution, a duration, or the shape a sample exists to exercise
   (`users-10000.csv`, `mountain-lake-1920x1080.jpg`, `silence-5s.wav`,
   `users-nested.json`).
-- Names are lowercase `kebab-case`, restricted to `a-z`, `0-9`, `-`, and `.`.
+- Under `code/`, folders are **languages**, never frameworks or projects. A React sample
+  is JavaScript or TypeScript with `react` in its file name.
+- Names are lowercase `kebab-case`, restricted to `a-z`, `0-9`, `-`, and `.` — except
+  under `code/`, where a file is named the way its own language names files
+  (`HelloWorld.java`, `hello_world.py`). Do not rename a sample into `kebab-case` when the
+  language will not compile it under that name.
+- Markup, stylesheets, and SQL are sorted by what they are rather than by being code:
+  `.html` and `.css` go to `documents/`, SQL goes to `datasets/sql/`.
 
 ## Hard rules
 
@@ -83,6 +94,9 @@ reason those samples exist.
   its `.gitkeep`, the format table in `datasets/README.md`, the tree in `README.md`,
   `FOLDER_EXTENSIONS` in `.github/scripts/validate-datasets.py`, and the extension's line
   in `.gitattributes` so its line endings and binary-ness are declared.
+- **Adding a language folder under `code/`** means the folder and its `.gitkeep`, the
+  language table in `code/README.md`, the language list in the `README.md` tree, and the
+  extension's line in `.gitattributes`.
 - **Adding a top-level category** means the folder, a `README.md` for it written like the
   existing ones, and both the category table and the tree in `README.md`.
 - **Adding a file type that is new to the repository** means a line in `.gitattributes`.

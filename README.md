@@ -2,8 +2,8 @@
 
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/jooy2/sample-assets/blob/main/LICENSE) [![Validate datasets](https://github.com/jooy2/sample-assets/actions/workflows/validate-datasets.yml/badge.svg)](https://github.com/jooy2/sample-assets/actions/workflows/validate-datasets.yml) ![Repository size](https://img.shields.io/github/repo-size/jooy2/sample-assets) ![Commit Count](https://img.shields.io/github/commit-activity/y/jooy2/sample-assets) [![Followers](https://img.shields.io/github/followers/jooy2?style=social)](https://github.com/jooy2) ![Stars](https://img.shields.io/github/stars/jooy2/sample-assets?style=social)
 
-**sample-assets** is a collection of sample material — data, images, video, audio, and
-documents — kept in one place so that a demo, a test, a tutorial, or a prototype never
+**sample-assets** is a collection of sample material — data, code, images, video, audio,
+and documents — kept in one place so that a demo, a test, a tutorial, or a prototype never
 stalls on the search for a file to feed it.
 
 Every developer ends up with the same scattered pile: a CSV somewhere in Downloads, a
@@ -18,6 +18,7 @@ repository is that pile, organized, named consistently, and free to redistribute
 | Folder                        | Holds                                                     | Organized by                                     |
 | ----------------------------- | --------------------------------------------------------- | ------------------------------------------------ |
 | [`datasets/`](datasets)       | Synthetic data for imports, fixtures, and parser tests     | File format, then topic                          |
+| [`code/`](code)               | Source snippets and small self-contained programs          | Programming language                             |
 | [`images/`](images)           | Photos, illustrations, and interface icons                 | Kind of image                                    |
 | [`videos/`](videos)           | Short clips for players, thumbnails, and transcoding       | Flat                                             |
 | [`audio/`](audio)             | Sounds, tones, and loops for players and waveform tests    | Flat                                             |
@@ -37,6 +38,9 @@ datasets/        Sample data. One subfolder per format:
   txt/             plain text, log lines, word lists
   xml/             XML documents and feeds
   yaml/            YAML configuration and data
+code/            Source code samples. One subfolder per language:
+  c/  cpp/  csharp/  dart/  go/  java/  javascript/  kotlin/
+  php/  python/  ruby/  rust/  shell/  swift/  typescript/
 images/
   photos/          photographic images
   illustrations/   drawn artwork
@@ -99,7 +103,8 @@ Pin `@main` to a tag or a commit hash when a sample must not change under you.
 The rules are short, and each folder's `README.md` states its own specifics:
 
 - **Lowercase `kebab-case` names**, describing the subject: `world-cities.csv`,
-  `notification-ping.mp3`, `icon-download.svg`.
+  `notification-ping.mp3`, `icon-download.svg`. Code is the exception — a sample there is
+  named the way its own language names files, so `HelloWorld.java` stays `HelloWorld.java`.
 - **Qualifiers go in the name**, not in a nested folder — a row count, a resolution, a
   duration, or the shape a sample exists to exercise: `users-nested.json`,
   `mountain-lake-1920x1080.jpg`, `silence-5s.wav`.
