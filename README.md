@@ -1,3 +1,5 @@
+<img src=".github/resources/sample-assets-logo.webp" alt="sample-assets" width="112" height="112">
+
 # sample-assets
 
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/jooy2/sample-assets/blob/main/LICENSE) [![Validate datasets](https://github.com/jooy2/sample-assets/actions/workflows/validate-datasets.yml/badge.svg)](https://github.com/jooy2/sample-assets/actions/workflows/validate-datasets.yml) ![Repository size](https://img.shields.io/github/repo-size/jooy2/sample-assets) ![Commit Count](https://img.shields.io/github/commit-activity/y/jooy2/sample-assets) [![Followers](https://img.shields.io/github/followers/jooy2?style=social)](https://github.com/jooy2) ![Stars](https://img.shields.io/github/stars/jooy2/sample-assets?style=social)
