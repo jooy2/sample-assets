@@ -25,12 +25,48 @@ name in every format it exists in:
 
 ```text
 datasets/csv/users.csv     ┐
-datasets/json/users.json   ├─ the same 100 people, three ways
+datasets/json/users.json   ├─ the same 120 people, three ways
 datasets/sql/users.sql     ┘
 ```
 
 That way a topic can be picked first and a format second, without hunting through the
 tree twice.
+
+## Topics
+
+Ten topics so far. Every one of them is the same records in each format it lists, so a
+format can be swapped without the data changing underneath.
+
+| Topic               | Records | Formats                        | Holds                                                               |
+| ------------------- | ------: | ------------------------------ | ------------------------------------------------------------------- |
+| `users`             |     120 | csv, tsv, json, sql, xml, yaml | People with contact details, sign-up dates, and account status      |
+| `products`          |     200 | csv, json, sql, xml, yaml      | A retail catalogue: SKUs, prices, stock, ratings, tags              |
+| `orders`            |     300 | csv, tsv, json, sql, xml       | Order headers with totals that actually add up                      |
+| `employees`         |     150 | csv, json, sql, xml, yaml      | An org chart: departments, titles, salaries, `manager_id`           |
+| `books`             |     180 | csv, tsv, json, sql, xml       | A library catalogue of invented titles, authors, and publishers     |
+| `recipes`           |      60 | json, xml, yaml                | Nested records: an ingredient list and ordered steps per recipe     |
+| `sensor-readings`   |     500 | csv, tsv, jsonl, sql           | Hourly telemetry from ten devices — a time series with outliers     |
+| `server-access-log` |     400 | txt, csv, jsonl                | HTTP requests, as combined-log lines and as parsed fields           |
+| `support-tickets`   |     150 | csv, tsv, json, sql, xml       | Helpdesk tickets whose free text carries commas and quotation marks |
+| `transit-stations`  |      90 | csv, json, sql, xml, yaml      | Stations on an invented metro network, placed on a grid             |
+
+Four of them line up, so they can be loaded together and joined:
+
+```text
+orders.user_id           -> users.id
+support-tickets.user_id  -> users.id
+support-tickets.assignee -> employees.email          (Customer Support only)
+employees.manager_id     -> employees.employee_id
+```
+
+`orders.shipping_city` matches the city on the user who placed the order, and every
+`sensor-readings` device keeps to the climate of the site it sits in — so a query that
+groups or joins these files returns something sensible rather than noise.
+
+Each format carries the record in the shape that format is good at. Lists (`tags`,
+`ingredients`, `steps`) nest in JSON, YAML, and XML; in CSV, TSV, and SQL the scalar
+lists collapse to a `;`-separated string, booleans read `true`/`false` in the text
+formats and `1`/`0` in SQL, and an empty cell is a `NULL`.
 
 ## Naming
 
