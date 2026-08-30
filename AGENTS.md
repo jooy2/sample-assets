@@ -115,9 +115,11 @@ reason those samples exist.
 Follow the existing history: `tag: message`, in English, in the imperative.
 
 - **tag** (Udacity Git style): `feat`, `fix`, `docs`, `style`, `refactor`, `test`,
-  `chore`; plus the informal `package` (repository and GitHub configuration) and `typo`.
-- In this repository, `feat` is what adds or updates assets, and `chore` is what moves
-  folders around.
+  `chore`; plus the informal `package` (repository and GitHub configuration), `typo`, and
+  `assets`.
+- In this repository, **`assets` is what adds or updates the assets themselves**, `feat`
+  is what adds a category or a capability around them, and `chore` is what moves folders
+  around.
 - Wrap paths and file names in backticks. Add `(fixes #1)` when an issue tracks the change.
 - One logical change per commit. Adding three unrelated datasets is three commits; adding
   one topic in four formats is one.
@@ -125,7 +127,8 @@ Follow the existing history: `tag: message`, in English, in the imperative.
 Examples:
 
 ```text
-feat: add a `users` dataset in `csv`, `json`, and `sql`
+assets: add a `users` dataset in `csv`, `json`, and `sql`
+assets: add seven flat interface icons
 fix: correct the row count in `datasets/csv/world-cities.csv`
 docs: describe the icon naming rule in `images/README.md`
 package: run the dataset validation workflow on pull requests

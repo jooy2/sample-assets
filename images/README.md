@@ -15,7 +15,8 @@ Photos, illustrations, and icons for mockups, placeholder content, and rendering
 - **Photos:** `.jpg` for anything large, `.webp` or `.avif` when a modern-format sample
   is the point. `.png` only when transparency matters.
 - **Illustrations:** `.svg` when the source is vector, `.png` when it is not.
-- **Icons:** `.svg`. Ship a `.png` next to it only when a raster sample is needed.
+- **Icons:** `.svg` when the source is vector, `.png` on a square canvas when it is not.
+  512×512 is the default raster size here.
 
 ## Naming
 
@@ -28,7 +29,10 @@ Photos, illustrations, and icons for mockups, placeholder content, and rendering
 
 ## Sources
 
-Images made for this repository are covered by its [LICENSE](../LICENSE). An image that
-comes from somewhere else keeps its own license, and is listed here with its source,
-author, and terms before it is added. Only assets that are free to redistribute are
-accepted. Nothing has been added yet.
+Every image in this folder was **generated for this repository**, and is covered by its
+[LICENSE](../LICENSE). None of them photograph or portray anything real — see
+[Generated content](../README.md#generated-content) in the root README.
+
+An image that comes from somewhere else keeps its own license, and is listed here with its
+source, author, and terms before it is added. Only assets that are free to redistribute
+are accepted.
