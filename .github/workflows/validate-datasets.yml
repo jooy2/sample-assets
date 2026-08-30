@@ -1,0 +1,32 @@
+name: Validate datasets
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'datasets/**'
+      - '.github/scripts/validate-datasets.py'
+      - '.github/workflows/validate-datasets.yml'
+  pull_request:
+    paths:
+      - 'datasets/**'
+      - '.github/scripts/validate-datasets.py'
+      - '.github/workflows/validate-datasets.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: Parse every dataset file
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+      - name: Install PyYAML
+        run: pip install --disable-pip-version-check pyyaml
+      - name: Validate
+        run: python3 .github/scripts/validate-datasets.py

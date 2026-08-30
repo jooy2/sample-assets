@@ -1,0 +1,40 @@
+name: 'Asset issue'
+description: Report a problem with an asset in this repository.
+labels: ['bug']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before creating an issue, please read the following:
+
+        - Read the `README.md` in the repository root and in the folder that holds the asset.
+        - Search to see if the same issue already exists, and keep the title concise and accurate so that it's easy for others to understand and search for.
+        - Please create a separate issue for each type of issue.
+        - Please be as detailed as possible and write in English so that we can handle your issue quickly.
+  - type: input
+    attributes:
+      label: Asset path
+      description: The path of the asset the issue is about, from the repository root.
+      placeholder: datasets/json/users.json
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: What kind of problem is it?
+      options:
+        - The file is corrupt or fails to open
+        - The content is invalid for its format
+        - The content is wrong, inconsistent, or misleading
+        - The file is in the wrong folder, or misnamed
+        - The license or attribution is missing or incorrect
+        - It contains data that should not be published
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Describe the problem
+      description: |
+        Describe what you are seeing, what you expected instead, and how you ran into it. Include the error message and the tool or library you used to read the asset, if there is one. You can attach an image or a screenshot if it helps.
+    validations:
+      required: true

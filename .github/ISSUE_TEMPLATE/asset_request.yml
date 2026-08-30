@@ -1,0 +1,34 @@
+name: 'Asset request'
+description: Request a new sample asset, format, or category.
+labels: ['enhancement']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before creating an issue, please read the following:
+
+        - Search to see if the same request already exists, and keep the title concise and accurate so that it's easy for others to understand and search for.
+        - Please create a separate issue for each type of issue.
+        - Please be as detailed as possible and write in English so that we can handle your issue quickly.
+  - type: dropdown
+    attributes:
+      label: What are you asking for?
+      options:
+        - A new asset in an existing folder
+        - An existing topic in another format
+        - A new format folder under `datasets`
+        - A new top-level category
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Describe the asset
+      description: Describe what the asset should contain, which format it should be in, and roughly how large it should be. Examples from other projects are welcome.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: What would you use it for?
+      description: Knowing the use case - a parser test, a demo screen, a tutorial - helps us shape the sample so that it is actually useful.
+    validations:
