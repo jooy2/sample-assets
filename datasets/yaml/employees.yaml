@@ -1,0 +1,1952 @@
+# 150 synthetic employee records, with a manager hierarchy. Invented data; it describes nobody.
+employees:
+  - employee_id: 1
+    first_name: "Beatrix"
+    last_name: "Nordstrom"
+    email: "beatrix.nordstrom@veranix.example"
+    department: "Executive"
+    title: "Chief Executive Officer"
+    manager_id: null
+    hired_on: "2015-01-05"
+    office: "Stonebay"
+    employment_type: "full-time"
+    salary: 268000
+    currency: "USD"
+    active: true
+  - employee_id: 2
+    first_name: "Yolanda"
+    last_name: "Blackwood"
+    email: "yolanda.blackwood@veranix.example"
+    department: "Engineering"
+    title: "Head of Engineering"
+    manager_id: 1
+    hired_on: "2022-06-06"
+    office: "Alderport"
+    employment_type: "full-time"
+    salary: 179000
+    currency: "USD"
+    active: true
+  - employee_id: 3
+    first_name: "Talia"
+    last_name: "Whitlock"
+    email: "talia.whitlock@veranix.example"
+    department: "Design"
+    title: "Head of Design"
+    manager_id: 1
+    hired_on: "2020-10-20"
+    office: "Glenhaven"
+    employment_type: "full-time"
+    salary: 162000
+    currency: "USD"
+    active: true
+  - employee_id: 4
+    first_name: "Dorian"
+    last_name: "Quillfeather"
+    email: "dorian.quillfeather@veranix.example"
+    department: "Customer Support"
+    title: "Head of Customer Support"
+    manager_id: 1
+    hired_on: "2016-03-05"
+    office: "Stonebay"
+    employment_type: "full-time"
+    salary: 167000
+    currency: "USD"
+    active: true
+  - employee_id: 5
+    first_name: "Percival"
+    last_name: "Eriksen"
+    email: "percival.eriksen@veranix.example"
+    department: "Sales"
+    title: "Head of Sales"
+    manager_id: 1
+    hired_on: "2020-07-03"
+    office: "Alderport"
+    employment_type: "part-time"
+    salary: 165000
+    currency: "USD"
+    active: true
+  - employee_id: 6
+    first_name: "Dorian"
+    last_name: "Granholm"
+    email: "dorian.granholm@veranix.example"
+    department: "Marketing"
+    title: "Head of Marketing"
+    manager_id: 1
+    hired_on: "2024-08-15"
+    office: "Northmere"
+    employment_type: "full-time"
+    salary: 159000
+    currency: "USD"
+    active: true
+  - employee_id: 7
+    first_name: "Xiomara"
+    last_name: "Moreau"
+    email: "xiomara.moreau@veranix.example"
+    department: "Finance"
+    title: "Head of Finance"
+    manager_id: 1
+    hired_on: "2020-08-22"
+    office: "Northmere"
+    employment_type: "full-time"
+    salary: 185000
+    currency: "USD"
+    active: true
+  - employee_id: 8
+    first_name: "Quinn"
+    last_name: "Wexford"
+    email: "quinn.wexford@veranix.example"
+    department: "People Operations"
+    title: "Head of People Operations"
+    manager_id: 1
+    hired_on: "2017-01-28"
+    office: "Glenhaven"
+    employment_type: "full-time"
+    salary: 188000
+    currency: "USD"
+    active: true
+  - employee_id: 9
+    first_name: "Thaddeus"
+    last_name: "Duskwood"
+    email: "thaddeus.duskwood@veranix.example"
+    department: "Logistics"
+    title: "Head of Logistics"
+    manager_id: 1
+    hired_on: "2018-10-13"
+    office: "Glenhaven"
+    employment_type: "full-time"
+    salary: 196000
+    currency: "USD"
+    active: true
+  - employee_id: 10
+    first_name: "Maren"
+    last_name: "Gundersen"
+    email: "maren.gundersen@veranix.example"
+    department: "People Operations"
+    title: "Lead Compensation Analyst"
+    manager_id: 8
+    hired_on: "2022-07-17"
+    office: "Northmere"
+    employment_type: "full-time"
+    salary: 163000
+    currency: "USD"
+    active: false
+  - employee_id: 11
+    first_name: "Briony"
+    last_name: "Krivosheev"
+    email: "briony.krivosheev@veranix.example"
+    department: "Marketing"
+    title: "Events Coordinator"
+    manager_id: 6
+    hired_on: "2024-11-24"
+    office: "Alderport"
+    employment_type: "full-time"
+    salary: 83000
+    currency: "USD"
+    active: true
+  - employee_id: 12
+    first_name: "Maren"
+    last_name: "Quintero"
+    email: "maren.quintero@veranix.example"
+    department: "Customer Support"
+    title: "Lead Escalations Analyst"
+    manager_id: 4
+    hired_on: "2022-10-11"
+    office: "Glenhaven"
+    employment_type: "full-time"
+    salary: 155000
+    currency: "USD"
+    active: true
+  - employee_id: 13
+    first_name: "Beatrix"
+    last_name: "Fenwick"
+    email: "beatrix.fenwick@veranix.example"
+    department: "Engineering"
+    title: "Senior Site Reliability Engineer"
+    manager_id: 2
+    hired_on: "2024-06-30"
+    office: "Northmere"
+    employment_type: "full-time"
+    salary: 127000
+    currency: "USD"
+    active: true
+  - employee_id: 14
+    first_name: "Thaddeus"
+    last_name: "Zhang"
+    email: "thaddeus.zhang@veranix.example"
+    department: "Marketing"
+    title: "Lifecycle Marketer"
+    manager_id: 6
+    hired_on: "2025-01-30"
+    office: "Kelbridge"
+    employment_type: "full-time"
+    salary: 92000
+    currency: "USD"
+    active: true
+  - employee_id: 15
+    first_name: "Bastian"
+    last_name: "Stellwagen"
+    email: "bastian.stellwagen@veranix.example"
+    department: "Engineering"
+    title: "Platform Engineer"
+    manager_id: 2
+    hired_on: "2023-08-12"
+    office: "Alderport"
+    employment_type: "full-time"
+    salary: 68000
+    currency: "USD"
+    active: true
+  - employee_id: 16
+    first_name: "Freya"
+    last_name: "Nordstrom"
+    email: "freya.nordstrom@veranix.example"
+    department: "People Operations"
+    title: "Senior People Partner"
+    manager_id: 10
+    hired_on: "2025-06-08"
+    office: "Glenhaven"
+    employment_type: "full-time"
+    salary: 128000
+    currency: "USD"
+    active: true
+  - employee_id: 17
+    first_name: "Dorian"
+    last_name: "Ulvestad"
+    email: "dorian.ulvestad@veranix.example"
+    department: "Marketing"
+    title: "Senior Content Strategist"
+    manager_id: 6
+    hired_on: "2025-05-12"
+    office: "Glenhaven"
+    employment_type: "full-time"
+    salary: 131000
+    currency: "USD"
+    active: true
+  - employee_id: 18
+    first_name: "Niall"
+    last_name: "Whitlock"
+    email: "niall.whitlock@veranix.example"
+    department: "Finance"
+    title: "Senior Revenue Accountant"
+    manager_id: 7
+    hired_on: "2022-09-12"
+    office: "Alderport"
+    employment_type: "part-time"
+    salary: 134000
+    currency: "USD"
+    active: true
+  - employee_id: 19
+    first_name: "Kestrel"
+    last_name: "Dunmore"
+    email: "kestrel.dunmore@veranix.example"
+    department: "Engineering"
+    title: "Software Engineer"
+    manager_id: 2
+    hired_on: "2023-04-11"
+    office: "Kelbridge"
+    employment_type: "full-time"
+    salary: 60000
+    currency: "USD"
+    active: true
+  - employee_id: 20
+    first_name: "Briony"
+    last_name: "Fenwick"
+    email: "briony.fenwick@veranix.example"
+    department: "Marketing"
+    title: "Lead Content Strategist"
+    manager_id: 6
+    hired_on: "2025-03-05"
+    office: "Northmere"
+    employment_type: "full-time"
+    salary: 147000
+    currency: "USD"
+    active: true
+  - employee_id: 21
+    first_name: "Giselle"
+    last_name: "Moreau"
+    email: "giselle.moreau@veranix.example"
+    department: "Finance"
+    title: "Payroll Specialist"
+    manager_id: 7
+    hired_on: "2022-06-02"
+    office: "Stonebay"
+    employment_type: "full-time"
+    salary: 53000
+    currency: "USD"
+    active: true
+  - employee_id: 22
+    first_name: "Ilaria"
+    last_name: "Blackwood"
+    email: "ilaria.blackwood@veranix.example"
+    department: "Sales"
+    title: "Senior Partnerships Manager"
+    manager_id: 5
+    hired_on: "2025-03-28"
+    office: "Stonebay"
+    employment_type: "full-time"
+    salary: 124000
+    currency: "USD"
+    active: true
+  - employee_id: 23
+    first_name: "Ferris"
+    last_name: "Blackwood"
+    email: "ferris.blackwood@veranix.example"
+    department: "Engineering"
+    title: "Data Engineer"
+    manager_id: 2
+    hired_on: "2023-08-29"
+    office: "Kelbridge"
+    employment_type: "full-time"
+    salary: 76000
+    currency: "USD"
+    active: true
+  - employee_id: 24
+    first_name: "Alastair"
+    last_name: "Ardmore"
+    email: "alastair.ardmore@veranix.example"
+    department: "Design"
+    title: "Senior UX Researcher"
+    manager_id: 3
+    hired_on: "2025-05-28"
+    office: "Stonebay"
+    employment_type: "full-time"
+    salary: 122000
+    currency: "USD"
+    active: true
+  - employee_id: 25
+    first_name: "Kestrel"
+    last_name: "Blackwood"
+    email: "kestrel.blackwood@veranix.example"
+    department: "Customer Support"
+    title: "Lead Support Specialist"
+    manager_id: 12
+    hired_on: "2023-12-22"
+    office: "Northmere"
+    employment_type: "full-time"
+    salary: 134000
+    currency: "USD"
+    active: true
+  - employee_id: 26
+    first_name: "Alastair"
+    last_name: "Yarrow"
+    email: "alastair.yarrow@veranix.example"
+    department: "Design"
+    title: "Senior UX Researcher"
+    manager_id: 3
+    hired_on: "2023-02-25"
+    office: "Stonebay"
+    employment_type: "part-time"
+    salary: 100000
+    currency: "USD"
+    active: true
+  - employee_id: 27
+    first_name: "Emrys"
+    last_name: "Bergstrom"
+    email: "emrys.bergstrom@veranix.example"
+    department: "Logistics"
+    title: "Senior Warehouse Coordinator"
+    manager_id: 9
+    hired_on: "2022-09-29"
+    office: "Alderport"
+    employment_type: "full-time"
+    salary: 110000
+    currency: "USD"
+    active: true
+  - employee_id: 28
+    first_name: "Ilaria"
+    last_name: "Pennington"
+    email: "ilaria.pennington@veranix.example"
+    department: "Engineering"
+    title: "Data Engineer"
+    manager_id: 2
+    hired_on: "2023-04-21"
+    office: "Alderport"
+    employment_type: "contract"
+    salary: 55000
+    currency: "USD"
+    active: true
+  - employee_id: 29
+    first_name: "Emrys"
+    last_name: "Chaudhry"
+    email: "emrys.chaudhry@veranix.example"
+    department: "Customer Support"
+    title: "Senior Onboarding Specialist"
+    manager_id: 4
+    hired_on: "2016-06-30"
+    office: "Northmere"
+    employment_type: "contract"
+    salary: 122000
+    currency: "USD"
+    active: false
+  - employee_id: 30
+    first_name: "Soren"
+    last_name: "Krivosheev"
+    email: "soren.krivosheev@veranix.example"
+    department: "Engineering"
+    title: "Software Engineer"
+    manager_id: 2
+    hired_on: "2024-12-30"
+    office: "Stonebay"
+    employment_type: "full-time"
+    salary: 80000
+    currency: "USD"
+    active: true
+  - employee_id: 31
+    first_name: "Jorvik"
+    last_name: "Wexford"
+    email: "jorvik.wexford@veranix.example"
+    department: "Marketing"
+    title: "SEO Analyst"
+    manager_id: 6
+    hired_on: "2025-04-19"
+    office: "Alderport"
+    employment_type: "full-time"
+    salary: 52000
+    currency: "USD"
+    active: true
+  - employee_id: 32
+    first_name: "Malachi"
+    last_name: "Zhang"
+    email: "malachi.zhang@veranix.example"
+    department: "Marketing"
+    title: "Senior SEO Analyst"
+    manager_id: 6
+    hired_on: "2025-06-03"
+    office: "Glenhaven"
+    employment_type: "part-time"
+    salary: 107000
+    currency: "USD"
+    active: true
+  - employee_id: 33
+    first_name: "Giselle"
+    last_name: "Rasmussen"
+    email: "giselle.rasmussen@veranix.example"
+    department: "Marketing"
+    title: "Content Strategist"
+    manager_id: 20
+    hired_on: "2025-09-22"
+    office: "Glenhaven"
+    employment_type: "full-time"
+    salary: 94000
+    currency: "USD"
+    active: true
+  - employee_id: 34
+    first_name: "Isolde"
+    last_name: "Kaltenbach"
+    email: "isolde.kaltenbach@veranix.example"
+    department: "Sales"
+    title: "Sales Development Representative"
+    manager_id: 5
+    hired_on: "2021-02-10"
+    office: "Glenhaven"
+    employment_type: "full-time"
+    salary: 85000
+    currency: "USD"
+    active: true
+  - employee_id: 35
+    first_name: "Thaddeus"
+    last_name: "Abernathy"
+    email: "thaddeus.abernathy@veranix.example"
+    department: "Sales"
+    title: "Senior Partnerships Manager"
+    manager_id: 5
+    hired_on: "2021-02-28"
+    office: "Alderport"
+    employment_type: "part-time"
+    salary: 102000
+    currency: "USD"
+    active: true
+  - employee_id: 36
+    first_name: "Ulric"
+    last_name: "Iversen"
+    email: "ulric.iversen@veranix.example"
+    department: "Logistics"
+    title: "Shipping Clerk"
+    manager_id: 9
+    hired_on: "2022-01-01"
+    office: "Kelbridge"
+    employment_type: "contract"
+    salary: 57000
+    currency: "USD"
+    active: true
+  - employee_id: 37
+    first_name: "Bastian"
+    last_name: "Quintero"
+    email: "bastian.quintero@veranix.example"
+    department: "Customer Support"
+    title: "Support Engineer"
+    manager_id: 25
+    hired_on: "2024-07-08"
+    office: "Glenhaven"
+    employment_type: "full-time"
+    salary: 85000
+    currency: "USD"
+    active: true
+  - employee_id: 38
+    first_name: "Xiomara"
+    last_name: "Duskwood"
+    email: "xiomara.duskwood@veranix.example"
+    department: "Sales"
+    title: "Lead Partnerships Manager"
+    manager_id: 5
+    hired_on: "2024-10-18"
+    office: "Stonebay"
+    employment_type: "full-time"
+    salary: 160000
+    currency: "USD"
+    active: true
+  - employee_id: 39
+    first_name: "Amara"
+    last_name: "Ravenscroft"
+    email: "amara.ravenscroft@veranix.example"
+    department: "Finance"
+    title: "Senior Accounts Payable Clerk"
+    manager_id: 7
+    hired_on: "2025-09-26"
+    office: "Alderport"
+    employment_type: "full-time"
+    salary: 135000
+    currency: "USD"
+    active: true
+  - employee_id: 40
+    first_name: "Reverie"
+    last_name: "Underhill"
+    email: "reverie.underhill@veranix.example"
+    department: "Design"
+    title: "Senior Illustrator"
+    manager_id: 3
+    hired_on: "2021-01-01"
+    office: "Glenhaven"
+    employment_type: "contract"
+    salary: 113000
+    currency: "USD"
+    active: true
+  - employee_id: 41
+    first_name: "Odessa"
+    last_name: "Wexford"
+    email: "odessa.wexford@veranix.example"
+    department: "Engineering"
+    title: "Software Engineer"
+    manager_id: 2
+    hired_on: "2024-05-13"
+    office: "Kelbridge"
+    employment_type: "full-time"
+    salary: 73000
+    currency: "USD"
+    active: true
+  - employee_id: 42
+    first_name: "Jorvik"
+    last_name: "Ardmore"
+    email: "jorvik.ardmore@veranix.example"
+    department: "Logistics"
+    title: "Shipping Clerk"
+    manager_id: 9
+    hired_on: "2023-11-26"
+    office: "Stonebay"
+    employment_type: "part-time"
+    salary: 83000
+    currency: "USD"
+    active: true
+  - employee_id: 43
+    first_name: "Joaquin"
+    last_name: "Eriksen"
+    email: "joaquin.eriksen@veranix.example"
+    department: "People Operations"
+    title: "Senior Learning Coordinator"
+    manager_id: 8
+    hired_on: "2019-02-20"
+    office: "Stonebay"
+    employment_type: "full-time"
+    salary: 115000
+    currency: "USD"
+    active: true
+  - employee_id: 44
+    first_name: "Lysander"
+    last_name: "Gundersen"
+    email: "lysander.gundersen@veranix.example"
+    department: "Design"
+    title: "Lead Brand Designer"
+    manager_id: 3
+    hired_on: "2023-04-15"
+    office: "Alderport"
+    employment_type: "full-time"
+    salary: 141000
+    currency: "USD"
+    active: false
+  - employee_id: 45
+    first_name: "Thaddeus"
+    last_name: "Granholm"
+    email: "thaddeus.granholm@veranix.example"
+    department: "Design"
+    title: "Senior Product Designer"
+    manager_id: 44
+    hired_on: "2023-10-29"
+    office: "Kelbridge"
+    employment_type: "full-time"
+    salary: 96000
+    currency: "USD"
+    active: true
+  - employee_id: 46
+    first_name: "Vesper"
+    last_name: "Underhill"
+    email: "vesper.underhill@veranix.example"
+    department: "Sales"
+    title: "Senior Partnerships Manager"
+    manager_id: 5
+    hired_on: "2022-04-09"
+    office: "Glenhaven"
+    employment_type: "full-time"
+    salary: 107000
+    currency: "USD"
+    active: true
+  - employee_id: 47
+    first_name: "Ilaria"
+    last_name: "Vandermeer"
+    email: "ilaria.vandermeer@veranix.example"
+    department: "People Operations"
+    title: "Compensation Analyst"
+    manager_id: 8
+    hired_on: "2020-06-16"
+    office: "Kelbridge"
+    employment_type: "full-time"
+    salary: 78000
+    currency: "USD"
+    active: true
+  - employee_id: 48
+    first_name: "Everard"
+    last_name: "Pennington"
+    email: "everard.pennington@veranix.example"
+    department: "Marketing"
+    title: "Senior Content Strategist"
+    manager_id: 6
+    hired_on: "2025-04-10"
+    office: "Stonebay"
+    employment_type: "contract"
+    salary: 135000
+    currency: "USD"
+    active: true
+  - employee_id: 49
+    first_name: "Kiera"
+    last_name: "Eastgate"
+    email: "kiera.eastgate@veranix.example"
+    department: "Customer Support"
+    title: "Support Specialist"
+    manager_id: 4
+    hired_on: "2019-01-17"
+    office: "Alderport"
+    employment_type: "full-time"
+    salary: 64000
+    currency: "USD"
+    active: true
+  - employee_id: 50
+    first_name: "Hollis"
+    last_name: "Zabala"
+    email: "hollis.zabala@veranix.example"
+    department: "Sales"
+    title: "Solutions Consultant"
+    manager_id: 5
+    hired_on: "2025-08-06"
+    office: "Northmere"
+    employment_type: "contract"
+    salary: 79000
+    currency: "USD"
+    active: true
+  - employee_id: 51
+    first_name: "Kestrel"
+    last_name: "Novachek"
+    email: "kestrel.novachek@veranix.example"
+    department: "Logistics"
+    title: "Senior Returns Supervisor"
+    manager_id: 9
+    hired_on: "2023-01-18"
+    office: "Glenhaven"
+    employment_type: "full-time"
+    salary: 133000
+    currency: "USD"
+    active: true
+  - employee_id: 52
+    first_name: "Vesper"
+    last_name: "Kowalczyk"
+    email: "vesper.kowalczyk@veranix.example"
+    department: "Logistics"
+    title: "Senior Fulfilment Planner"
+    manager_id: 9
+    hired_on: "2022-10-16"
+    office: "Kelbridge"
+    employment_type: "full-time"
+    salary: 101000
+    currency: "USD"
+    active: true
+  - employee_id: 53
+    first_name: "Lonan"
+    last_name: "Duskwood"
+    email: "lonan.duskwood@veranix.example"
+    department: "Finance"
+    title: "Payroll Specialist"
+    manager_id: 7
+    hired_on: "2022-07-23"
+    office: "Northmere"
+    employment_type: "full-time"
+    salary: 91000
+    currency: "USD"
+    active: true
+  - employee_id: 54
+    first_name: "Halcyon"
+    last_name: "Nordstrom"
+    email: "halcyon.nordstrom@veranix.example"
+    department: "Logistics"
+    title: "Warehouse Coordinator"
+    manager_id: 9
+    hired_on: "2021-03-02"
+    office: "Glenhaven"
+    employment_type: "full-time"
+    salary: 83000
+    currency: "USD"
+    active: true
+  - employee_id: 55
+    first_name: "Imogen"
+    last_name: "Underhill"
+    email: "imogen.underhill@veranix.example"
+    department: "Logistics"
+    title: "Senior Returns Supervisor"
+    manager_id: 9
+    hired_on: "2024-02-01"
+    office: "Glenhaven"
+    employment_type: "full-time"
+    salary: 137000
+    currency: "USD"
+    active: true
+  - employee_id: 56
+    first_name: "Odessa"
+    last_name: "Bergstrom"
+    email: "odessa.bergstrom@veranix.example"
+    department: "Finance"
+    title: "Lead Payroll Specialist"
+    manager_id: 7
+    hired_on: "2023-05-10"
+    office: "Glenhaven"
+    employment_type: "full-time"
+    salary: 132000
+    currency: "USD"
+    active: true
+  - employee_id: 57
+    first_name: "Kestrel"
+    last_name: "Zhang"
+    email: "kestrel.zhang@veranix.example"
+    department: "Engineering"
+    title: "Senior Platform Engineer"
+    manager_id: 2
+    hired_on: "2024-01-15"
+    office: "Stonebay"
+    employment_type: "full-time"
+    salary: 113000
+    currency: "USD"
+    active: true
+  - employee_id: 58
+    first_name: "Quinn"
+    last_name: "Ivarsson"
+    email: "quinn.ivarsson@veranix.example"
+    department: "Sales"
+    title: "Sales Development Representative"
+    manager_id: 38
+    hired_on: "2025-05-03"
+    office: "Stonebay"
+    employment_type: "full-time"
+    salary: 53000
+    currency: "USD"
+    active: true
+  - employee_id: 59
+    first_name: "Zephyr"
+    last_name: "Yeardley"
+    email: "zephyr.yeardley@veranix.example"
+    department: "People Operations"
+    title: "Senior People Partner"
+    manager_id: 10
+    hired_on: "2023-04-24"
+    office: "Kelbridge"
+    employment_type: "full-time"
+    salary: 130000
+    currency: "USD"
+    active: true
+  - employee_id: 60
+    first_name: "Percival"
+    last_name: "Fairbourne"
+    email: "percival.fairbourne@veranix.example"
+    department: "Logistics"
+    title: "Lead Fulfilment Planner"
+    manager_id: 9
+    hired_on: "2025-01-08"
+    office: "Stonebay"
+    employment_type: "part-time"
+    salary: 145000
+    currency: "USD"
+    active: true
+  - employee_id: 61
+    first_name: "Soren"
+    last_name: "Brandt"
+    email: "soren.brandt@veranix.example"
+    department: "Customer Support"
+    title: "Support Specialist"
+    manager_id: 12
+    hired_on: "2024-04-07"
+    office: "Alderport"
+    employment_type: "full-time"
+    salary: 65000
+    currency: "USD"
+    active: true
+  - employee_id: 62
+    first_name: "Gideon"
+    last_name: "Caldwell"
+    email: "gideon.caldwell@veranix.example"
+    department: "Finance"
+    title: "Procurement Analyst"
+    manager_id: 56
+    hired_on: "2024-04-24"
+    office: "Stonebay"
+    employment_type: "part-time"
+    salary: 71000
+    currency: "USD"
+    active: true
+  - employee_id: 63
+    first_name: "Katriel"
+    last_name: "Krivosheev"
+    email: "katriel.krivosheev@veranix.example"
+    department: "Engineering"
+    title: "Platform Engineer"
+    manager_id: 2
+    hired_on: "2024-03-11"
+    office: "Glenhaven"
+    employment_type: "full-time"
+    salary: 64000
+    currency: "USD"
+    active: true
+  - employee_id: 64
+    first_name: "Halcyon"
+    last_name: "Vasquez"
+    email: "halcyon.vasquez@veranix.example"
+    department: "Marketing"
+    title: "Senior Community Manager"
+    manager_id: 20
+    hired_on: "2025-09-04"
+    office: "Northmere"
+    employment_type: "full-time"
+    salary: 105000
+    currency: "USD"
+    active: true
+  - employee_id: 65
+    first_name: "Vesper"
+    last_name: "Vasquez"
+    email: "vesper.vasquez@veranix.example"
+    department: "Sales"
+    title: "Senior Renewals Manager"
+    manager_id: 5
+    hired_on: "2023-05-03"
+    office: "Kelbridge"
+    employment_type: "full-time"
+    salary: 124000
+    currency: "USD"
+    active: true
+  - employee_id: 66
+    first_name: "Orsolya"
+    last_name: "Prendergast"
+    email: "orsolya.prendergast@veranix.example"
+    department: "Engineering"
+    title: "Software Engineer"
+    manager_id: 2
+    hired_on: "2025-01-21"
+    office: "Northmere"
+    employment_type: "full-time"
+    salary: 93000
+    currency: "USD"
+    active: false
+  - employee_id: 67
+    first_name: "Jorvik"
+    last_name: "Novachek"
+    email: "jorvik.novachek@veranix.example"
+    department: "Engineering"
+    title: "Site Reliability Engineer"
+    manager_id: 2
+    hired_on: "2024-02-20"
+    office: "Northmere"
+    employment_type: "full-time"
+    salary: 65000
+    currency: "USD"
+    active: true
+  - employee_id: 68
+    first_name: "Giselle"
+    last_name: "Prendergast"
+    email: "giselle.prendergast@veranix.example"
+    department: "Design"
+    title: "Brand Designer"
+    manager_id: 44
+    hired_on: "2025-02-17"
+    office: "Alderport"
+    employment_type: "full-time"
+    salary: 84000
+    currency: "USD"
+    active: true
+  - employee_id: 69
+    first_name: "Niall"
+    last_name: "Gundersen"
+    email: "niall.gundersen@veranix.example"
+    department: "Customer Support"
+    title: "Escalations Analyst"
+    manager_id: 12
+    hired_on: "2024-05-09"
+    office: "Kelbridge"
+    employment_type: "contract"
+    salary: 52000
+    currency: "USD"
+    active: true
+  - employee_id: 70
+    first_name: "Giselle"
+    last_name: "Yarrow"
+    email: "giselle.yarrow@veranix.example"
+    department: "Engineering"
+    title: "Senior QA Engineer"
+    manager_id: 2
+    hired_on: "2024-06-25"
+    office: "Alderport"
+    employment_type: "full-time"
+    salary: 100000
+    currency: "USD"
+    active: true
+  - employee_id: 71
+    first_name: "Bastian"
+    last_name: "Eastgate"
+    email: "bastian.eastgate@veranix.example"
+    department: "Finance"
+    title: "Senior Revenue Accountant"
+    manager_id: 7
+    hired_on: "2021-02-28"
+    office: "Alderport"
+    employment_type: "contract"
+    salary: 137000
+    currency: "USD"
+    active: true
+  - employee_id: 72
+    first_name: "Kestrel"
+    last_name: "Stellwagen"
+    email: "kestrel.stellwagen@veranix.example"
+    department: "Logistics"
+    title: "Inventory Analyst"
+    manager_id: 60
+    hired_on: "2025-05-24"
+    office: "Stonebay"
+    employment_type: "contract"
+    salary: 62000
+    currency: "USD"
+    active: true
+  - employee_id: 73
+    first_name: "Reverie"
+    last_name: "Kaltenbach"
+    email: "reverie.kaltenbach@veranix.example"
+    department: "Marketing"
+    title: "Community Manager"
+    manager_id: 6
+    hired_on: "2025-03-10"
+    office: "Kelbridge"
+    employment_type: "full-time"
+    salary: 88000
+    currency: "USD"
+    active: true
+  - employee_id: 74
+    first_name: "Willa"
+    last_name: "Eriksen"
+    email: "willa.eriksen@veranix.example"
+    department: "Marketing"
+    title: "Senior Lifecycle Marketer"
+    manager_id: 6
+    hired_on: "2025-04-03"
+    office: "Alderport"
+    employment_type: "full-time"
+    salary: 124000
+    currency: "USD"
+    active: true
+  - employee_id: 75
+    first_name: "Ilaria"
+    last_name: "Zabala"
+    email: "ilaria.zabala@veranix.example"
+    department: "Sales"
+    title: "Sales Development Representative"
+    manager_id: 38
+    hired_on: "2025-05-07"
+    office: "Glenhaven"
+    employment_type: "full-time"
+    salary: 57000
+    currency: "USD"
+    active: false
+  - employee_id: 76
+    first_name: "Celeste"
+    last_name: "Granholm"
+    email: "celeste.granholm@veranix.example"
+    department: "Engineering"
+    title: "Lead Software Engineer"
+    manager_id: 2
+    hired_on: "2025-05-05"
+    office: "Northmere"
+    employment_type: "full-time"
+    salary: 152000
+    currency: "USD"
+    active: true
+  - employee_id: 77
+    first_name: "Katriel"
+    last_name: "Eriksen"
+    email: "katriel.eriksen@veranix.example"
+    department: "Customer Support"
+    title: "Lead Support Specialist"
+    manager_id: 25
+    hired_on: "2025-01-27"
+    office: "Glenhaven"
+    employment_type: "full-time"
+    salary: 132000
+    currency: "USD"
+    active: true
+  - employee_id: 78
+    first_name: "Galen"
+    last_name: "Kowalczyk"
+    email: "galen.kowalczyk@veranix.example"
+    department: "Sales"
+    title: "Solutions Consultant"
+    manager_id: 38
+    hired_on: "2025-07-01"
+    office: "Northmere"
+    employment_type: "full-time"
+    salary: 93000
+    currency: "USD"
+    active: true
+  - employee_id: 79
+    first_name: "Orsolya"
+    last_name: "Ivarsson"
+    email: "orsolya.ivarsson@veranix.example"
+    department: "Marketing"
+    title: "Community Manager"
+    manager_id: 6
+    hired_on: "2025-03-25"
+    office: "Alderport"
+    employment_type: "full-time"
+    salary: 92000
+    currency: "USD"
+    active: true
+  - employee_id: 80
+    first_name: "Lonan"
+    last_name: "Novachek"
+    email: "lonan.novachek@veranix.example"
+    department: "Engineering"
+    title: "Senior QA Engineer"
+    manager_id: 76
+    hired_on: "2025-06-26"
+    office: "Stonebay"
+    employment_type: "full-time"
+    salary: 97000
+    currency: "USD"
+    active: true
+  - employee_id: 81
+    first_name: "Malachi"
+    last_name: "Pennington"
+    email: "malachi.pennington@veranix.example"
+    department: "People Operations"
+    title: "Senior Workplace Coordinator"
+    manager_id: 8
+    hired_on: "2017-05-23"
+    office: "Glenhaven"
+    employment_type: "full-time"
+    salary: 134000
+    currency: "USD"
+    active: true
+  - employee_id: 82
+    first_name: "Odessa"
+    last_name: "Hawthorne"
+    email: "odessa.hawthorne@veranix.example"
+    department: "Engineering"
+    title: "Senior Data Engineer"
+    manager_id: 2
+    hired_on: "2024-03-02"
+    office: "Glenhaven"
+    employment_type: "full-time"
+    salary: 117000
+    currency: "USD"
+    active: true
+  - employee_id: 83
+    first_name: "Wendell"
+    last_name: "Jessop"
+    email: "wendell.jessop@veranix.example"
+    department: "Engineering"
+    title: "Data Engineer"
+    manager_id: 76
+    hired_on: "2025-07-08"
+    office: "Stonebay"
+    employment_type: "full-time"
+    salary: 89000
+    currency: "USD"
+    active: true
+  - employee_id: 84
+    first_name: "Soren"
+    last_name: "Merriweather"
+    email: "soren.merriweather@veranix.example"
+    department: "Customer Support"
+    title: "Senior Support Specialist"
+    manager_id: 25
+    hired_on: "2024-11-03"
+    office: "Alderport"
+    employment_type: "full-time"
+    salary: 98000
+    currency: "USD"
+    active: true
+  - employee_id: 85
+    first_name: "Hollis"
+    last_name: "Duskwood"
+    email: "hollis.duskwood@veranix.example"
+    department: "Logistics"
+    title: "Fulfilment Planner"
+    manager_id: 60
+    hired_on: "2025-03-27"
+    office: "Alderport"
+    employment_type: "full-time"
+    salary: 67000
+    currency: "USD"
+    active: true
+  - employee_id: 86
+    first_name: "Jarek"
+    last_name: "Fenwick"
+    email: "jarek.fenwick@veranix.example"
+    department: "Marketing"
+    title: "Senior Content Strategist"
+    manager_id: 6
+    hired_on: "2024-10-17"
+    office: "Kelbridge"
+    employment_type: "part-time"
+    salary: 96000
+    currency: "USD"
+    active: true
+  - employee_id: 87
+    first_name: "Jarek"
+    last_name: "Yarrow"
+    email: "jarek.yarrow@veranix.example"
+    department: "People Operations"
+    title: "Senior Recruiter"
+    manager_id: 8
+    hired_on: "2021-12-17"
+    office: "Kelbridge"
+    employment_type: "full-time"
+    salary: 116000
+    currency: "USD"
+    active: true
+  - employee_id: 88
+    first_name: "Bastian"
+    last_name: "Nakamura"
+    email: "bastian.nakamura@veranix.example"
+    department: "Finance"
+    title: "Accounts Payable Clerk"
+    manager_id: 7
+    hired_on: "2021-02-27"
+    office: "Alderport"
+    employment_type: "part-time"
+    salary: 54000
+    currency: "USD"
+    active: true
+  - employee_id: 89
+    first_name: "Vesper"
+    last_name: "Ravenscroft"
+    email: "vesper.ravenscroft@veranix.example"
+    department: "Marketing"
+    title: "Senior Lifecycle Marketer"
+    manager_id: 6
+    hired_on: "2025-01-20"
+    office: "Kelbridge"
+    employment_type: "full-time"
+    salary: 120000
+    currency: "USD"
+    active: true
+  - employee_id: 90
+    first_name: "Emrys"
+    last_name: "Duskwood"
+    email: "emrys.duskwood@veranix.example"
+    department: "Logistics"
+    title: "Senior Inventory Analyst"
+    manager_id: 9
+    hired_on: "2024-05-14"
+    office: "Stonebay"
+    employment_type: "contract"
+    salary: 119000
+    currency: "USD"
+    active: true
+  - employee_id: 91
+    first_name: "Kestrel"
+    last_name: "Granholm"
+    email: "kestrel.granholm@veranix.example"
+    department: "Logistics"
+    title: "Lead Returns Supervisor"
+    manager_id: 9
+    hired_on: "2022-03-19"
+    office: "Alderport"
+    employment_type: "full-time"
+    salary: 140000
+    currency: "USD"
+    active: true
+  - employee_id: 92
+    first_name: "Halcyon"
+    last_name: "Ulvestad"
+    email: "halcyon.ulvestad@veranix.example"
+    department: "Engineering"
+    title: "Senior Data Engineer"
+    manager_id: 2
+    hired_on: "2022-11-22"
+    office: "Alderport"
+    employment_type: "full-time"
+    salary: 120000
+    currency: "USD"
+    active: true
+  - employee_id: 93
+    first_name: "Gideon"
+    last_name: "Jandreau"
+    email: "gideon.jandreau@veranix.example"
+    department: "Customer Support"
+    title: "Escalations Analyst"
+    manager_id: 4
+    hired_on: "2016-08-03"
+    office: "Kelbridge"
+    employment_type: "full-time"
+    salary: 85000
+    currency: "USD"
+    active: true
+  - employee_id: 94
+    first_name: "Hollis"
+    last_name: "Rasmussen"
+    email: "hollis.rasmussen@veranix.example"
+    department: "Engineering"
+    title: "Site Reliability Engineer"
+    manager_id: 76
+    hired_on: "2025-07-03"
+    office: "Alderport"
+    employment_type: "full-time"
+    salary: 93000
+    currency: "USD"
+    active: true
+  - employee_id: 95
+    first_name: "Talia"
+    last_name: "Bergstrom"
+    email: "talia.bergstrom@veranix.example"
+    department: "Sales"
+    title: "Senior Sales Development Representative"
+    manager_id: 5
+    hired_on: "2022-08-18"
+    office: "Kelbridge"
+    employment_type: "full-time"
+    salary: 120000
+    currency: "USD"
+    active: true
+  - employee_id: 96
+    first_name: "Joaquin"
+    last_name: "Jarrow"
+    email: "joaquin.jarrow@veranix.example"
+    department: "Marketing"
+    title: "Senior SEO Analyst"
+    manager_id: 20
+    hired_on: "2025-08-28"
+    office: "Stonebay"
+    employment_type: "contract"
+    salary: 128000
+    currency: "USD"
+    active: true
+  - employee_id: 97
+    first_name: "Galen"
+    last_name: "Vandermeer"
+    email: "galen.vandermeer@veranix.example"
+    department: "Sales"
+    title: "Solutions Consultant"
+    manager_id: 5
+    hired_on: "2022-04-15"
+    office: "Kelbridge"
+    employment_type: "part-time"
+    salary: 64000
+    currency: "USD"
+    active: true
+  - employee_id: 98
+    first_name: "Amara"
+    last_name: "Hartwell"
+    email: "amara.hartwell@veranix.example"
+    department: "Design"
+    title: "Senior UX Researcher"
+    manager_id: 44
+    hired_on: "2025-08-19"
+    office: "Glenhaven"
+    employment_type: "full-time"
+    salary: 111000
+    currency: "USD"
+    active: true
+  - employee_id: 99
+    first_name: "Jarek"
+    last_name: "Iversen"
+    email: "jarek.iversen@veranix.example"
+    department: "Finance"
+    title: "Accounts Payable Clerk"
+    manager_id: 56
+    hired_on: "2024-01-07"
+    office: "Alderport"
+    employment_type: "full-time"
+    salary: 89000
+    currency: "USD"
+    active: true
+  - employee_id: 100
+    first_name: "Kestrel"
+    last_name: "Larkspur"
+    email: "kestrel.larkspur@veranix.example"
+    department: "People Operations"
+    title: "Lead People Partner"
+    manager_id: 10
+    hired_on: "2023-10-19"
+    office: "Stonebay"
+    employment_type: "full-time"
+    salary: 142000
+    currency: "USD"
+    active: true
+  - employee_id: 101
+    first_name: "Jorvik"
+    last_name: "Quillfeather"
+    email: "jorvik.quillfeather@veranix.example"
+    department: "Marketing"
+    title: "Senior Events Coordinator"
+    manager_id: 6
+    hired_on: "2025-07-30"
+    office: "Glenhaven"
+    employment_type: "full-time"
+    salary: 131000
+    currency: "USD"
+    active: true
+  - employee_id: 102
+    first_name: "Wendell"
+    last_name: "Prendergast"
+    email: "wendell.prendergast@veranix.example"
+    department: "Finance"
+    title: "Senior Revenue Accountant"
+    manager_id: 56
+    hired_on: "2023-12-27"
+    office: "Alderport"
+    employment_type: "contract"
+    salary: 114000
+    currency: "USD"
+    active: false
+  - employee_id: 103
+    first_name: "Zinnia"
+    last_name: "Ingersleben"
+    email: "zinnia.ingersleben@veranix.example"
+    department: "Engineering"
+    title: "Data Engineer"
+    manager_id: 2
+    hired_on: "2024-01-06"
+    office: "Stonebay"
+    employment_type: "full-time"
+    salary: 94000
+    currency: "USD"
+    active: true
+  - employee_id: 104
+    first_name: "Ulric"
+    last_name: "Krivosheev"
+    email: "ulric.krivosheev@veranix.example"
+    department: "Design"
+    title: "Senior Brand Designer"
+    manager_id: 44
+    hired_on: "2025-04-04"
+    office: "Stonebay"
+    employment_type: "full-time"
+    salary: 120000
+    currency: "USD"
+    active: true
+  - employee_id: 105
+    first_name: "Hesper"
+    last_name: "Jandreau"
+    email: "hesper.jandreau@veranix.example"
+    department: "Logistics"
+    title: "Senior Shipping Clerk"
+    manager_id: 9
+    hired_on: "2025-03-26"
+    office: "Kelbridge"
+    employment_type: "full-time"
+    salary: 129000
+    currency: "USD"
+    active: true
+  - employee_id: 106
+    first_name: "Delphine"
+    last_name: "Bergstrom"
+    email: "delphine.bergstrom@veranix.example"
+    department: "Engineering"
+    title: "Senior Platform Engineer"
+    manager_id: 2
+    hired_on: "2023-02-05"
+    office: "Stonebay"
+    employment_type: "full-time"
+    salary: 118000
+    currency: "USD"
+    active: true
+  - employee_id: 107
+    first_name: "Yrsa"
+    last_name: "Fairbourne"
+    email: "yrsa.fairbourne@veranix.example"
+    department: "Sales"
+    title: "Partnerships Manager"
+    manager_id: 5
+    hired_on: "2021-03-31"
+    office: "Stonebay"
+    employment_type: "full-time"
+    salary: 60000
+    currency: "USD"
+    active: true
+  - employee_id: 108
+    first_name: "Lysander"
+    last_name: "Abernathy"
+    email: "lysander.abernathy@veranix.example"
+    department: "Sales"
+    title: "Renewals Manager"
+    manager_id: 38
+    hired_on: "2025-04-05"
+    office: "Glenhaven"
+    employment_type: "full-time"
+    salary: 84000
+    currency: "USD"
+    active: true
+  - employee_id: 109
+    first_name: "Delphine"
+    last_name: "Sandoval"
+    email: "delphine.sandoval@veranix.example"
+    department: "Engineering"
+    title: "QA Engineer"
+    manager_id: 2
+    hired_on: "2023-10-25"
+    office: "Northmere"
+    employment_type: "full-time"
+    salary: 66000
+    currency: "USD"
+    active: false
+  - employee_id: 110
+    first_name: "Isolde"
+    last_name: "Prendergast"
+    email: "isolde.prendergast@veranix.example"
+    department: "Customer Support"
+    title: "Onboarding Specialist"
+    manager_id: 4
+    hired_on: "2019-12-24"
+    office: "Northmere"
+    employment_type: "full-time"
+    salary: 81000
+    currency: "USD"
+    active: true
+  - employee_id: 111
+    first_name: "Alastair"
+    last_name: "Holloway"
+    email: "alastair.holloway@veranix.example"
+    department: "Marketing"
+    title: "SEO Analyst"
+    manager_id: 20
+    hired_on: "2025-07-18"
+    office: "Kelbridge"
+    employment_type: "full-time"
+    salary: 72000
+    currency: "USD"
+    active: true
+  - employee_id: 112
+    first_name: "Yolanda"
+    last_name: "Everly"
+    email: "yolanda.everly@veranix.example"
+    department: "Sales"
+    title: "Lead Renewals Manager"
+    manager_id: 5
+    hired_on: "2021-12-15"
+    office: "Alderport"
+    employment_type: "full-time"
+    salary: 146000
+    currency: "USD"
+    active: true
+  - employee_id: 113
+    first_name: "Hollis"
+    last_name: "Fenwick"
+    email: "hollis.fenwick@veranix.example"
+    department: "Marketing"
+    title: "Lifecycle Marketer"
+    manager_id: 20
+    hired_on: "2025-05-11"
+    office: "Glenhaven"
+    employment_type: "full-time"
+    salary: 53000
+    currency: "USD"
+    active: true
+  - employee_id: 114
+    first_name: "Dorian"
+    last_name: "Gundersen"
+    email: "dorian.gundersen@veranix.example"
+    department: "Engineering"
+    title: "Lead QA Engineer"
+    manager_id: 2
+    hired_on: "2023-05-21"
+    office: "Stonebay"
+    employment_type: "part-time"
+    salary: 141000
+    currency: "USD"
+    active: true
+  - employee_id: 115
+    first_name: "Kestrel"
+    last_name: "Hartwell"
+    email: "kestrel.hartwell@veranix.example"
+    department: "Customer Support"
+    title: "Onboarding Specialist"
+    manager_id: 77
+    hired_on: "2025-03-17"
+    office: "Northmere"
+    employment_type: "full-time"
+    salary: 53000
+    currency: "USD"
+    active: true
+  - employee_id: 116
+    first_name: "Aurelio"
+    last_name: "Thackeray"
+    email: "aurelio.thackeray@veranix.example"
+    department: "People Operations"
+    title: "Learning Coordinator"
+    manager_id: 100
+    hired_on: "2024-06-04"
+    office: "Alderport"
+    employment_type: "full-time"
+    salary: 92000
+    currency: "USD"
+    active: true
+  - employee_id: 117
+    first_name: "Giselle"
+    last_name: "Rasmussen"
+    email: "giselle.rasmussen2@veranix.example"
+    department: "Engineering"
+    title: "Site Reliability Engineer"
+    manager_id: 2
+    hired_on: "2025-05-17"
+    office: "Kelbridge"
+    employment_type: "full-time"
+    salary: 93000
+    currency: "USD"
+    active: true
+  - employee_id: 118
+    first_name: "Emrys"
+    last_name: "Nordstrom"
+    email: "emrys.nordstrom@veranix.example"
+    department: "Sales"
+    title: "Account Executive"
+    manager_id: 5
+    hired_on: "2022-12-12"
+    office: "Glenhaven"
+    employment_type: "full-time"
+    salary: 95000
+    currency: "USD"
+    active: true
+  - employee_id: 119
+    first_name: "Briony"
+    last_name: "Brandt"
+    email: "briony.brandt@veranix.example"
+    department: "Engineering"
+    title: "Site Reliability Engineer"
+    manager_id: 76
+    hired_on: "2025-08-05"
+    office: "Glenhaven"
+    employment_type: "full-time"
+    salary: 53000
+    currency: "USD"
+    active: true
+  - employee_id: 120
+    first_name: "Ursula"
+    last_name: "Merriweather"
+    email: "ursula.merriweather@veranix.example"
+    department: "Engineering"
+    title: "Senior Platform Engineer"
+    manager_id: 2
+    hired_on: "2024-02-20"
+    office: "Alderport"
+    employment_type: "full-time"
+    salary: 105000
+    currency: "USD"
+    active: true
+  - employee_id: 121
+    first_name: "Hesper"
+    last_name: "Quillfeather"
+    email: "hesper.quillfeather@veranix.example"
+    department: "Engineering"
+    title: "Senior Platform Engineer"
+    manager_id: 76
+    hired_on: "2025-09-20"
+    office: "Glenhaven"
+    employment_type: "full-time"
+    salary: 100000
+    currency: "USD"
+    active: false
+  - employee_id: 122
+    first_name: "Soren"
+    last_name: "Vasquez"
+    email: "soren.vasquez@veranix.example"
+    department: "Finance"
+    title: "Procurement Analyst"
+    manager_id: 7
+    hired_on: "2025-04-11"
+    office: "Northmere"
+    employment_type: "full-time"
+    salary: 73000
+    currency: "USD"
+    active: true
+  - employee_id: 123
+    first_name: "Ulric"
+    last_name: "Blackwood"
+    email: "ulric.blackwood@veranix.example"
+    department: "Finance"
+    title: "Procurement Analyst"
+    manager_id: 7
+    hired_on: "2024-03-25"
+    office: "Northmere"
+    employment_type: "full-time"
+    salary: 74000
+    currency: "USD"
+    active: true
+  - employee_id: 124
+    first_name: "Aurelio"
+    last_name: "Thackeray"
+    email: "aurelio.thackeray2@veranix.example"
+    department: "Sales"
+    title: "Partnerships Manager"
+    manager_id: 5
+    hired_on: "2024-02-03"
+    office: "Alderport"
+    employment_type: "full-time"
+    salary: 70000
+    currency: "USD"
+    active: true
+  - employee_id: 125
+    first_name: "Alastair"
+    last_name: "Ivarsson"
+    email: "alastair.ivarsson@veranix.example"
+    department: "Design"
+    title: "Senior Design Systems Designer"
+    manager_id: 44
+    hired_on: "2023-09-04"
+    office: "Kelbridge"
+    employment_type: "full-time"
+    salary: 112000
+    currency: "USD"
+    active: false
+  - employee_id: 126
+    first_name: "Thaddeus"
+    last_name: "Thackeray"
+    email: "thaddeus.thackeray@veranix.example"
+    department: "Engineering"
+    title: "Platform Engineer"
+    manager_id: 2
+    hired_on: "2024-09-09"
+    office: "Kelbridge"
+    employment_type: "full-time"
+    salary: 55000
+    currency: "USD"
+    active: true
+  - employee_id: 127
+    first_name: "Malachi"
+    last_name: "Quintero"
+    email: "malachi.quintero@veranix.example"
+    department: "Finance"
+    title: "Senior Revenue Accountant"
+    manager_id: 7
+    hired_on: "2022-10-31"
+    office: "Northmere"
+    employment_type: "full-time"
+    salary: 137000
+    currency: "USD"
+    active: true
+  - employee_id: 128
+    first_name: "Cormac"
+    last_name: "Hawthorne"
+    email: "cormac.hawthorne@veranix.example"
+    department: "Design"
+    title: "Brand Designer"
+    manager_id: 3
+    hired_on: "2022-08-17"
+    office: "Alderport"
+    employment_type: "contract"
+    salary: 66000
+    currency: "USD"
+    active: true
+  - employee_id: 129
+    first_name: "Bastian"
+    last_name: "Yeardley"
+    email: "bastian.yeardley@veranix.example"
+    department: "Sales"
+    title: "Senior Sales Development Representative"
+    manager_id: 5
+    hired_on: "2021-03-23"
+    office: "Kelbridge"
+    employment_type: "full-time"
+    salary: 116000
+    currency: "USD"
+    active: true
+  - employee_id: 130
+    first_name: "Reverie"
+    last_name: "Pennington"
+    email: "reverie.pennington@veranix.example"
+    department: "Customer Support"
+    title: "Senior Escalations Analyst"
+    manager_id: 77
+    hired_on: "2025-05-15"
+    office: "Glenhaven"
+    employment_type: "full-time"
+    salary: 130000
+    currency: "USD"
+    active: true
+  - employee_id: 131
+    first_name: "Amara"
+    last_name: "Novachek"
+    email: "amara.novachek@veranix.example"
+    department: "Finance"
+    title: "Senior Financial Analyst"
+    manager_id: 56
+    hired_on: "2025-09-04"
+    office: "Alderport"
+    employment_type: "full-time"
+    salary: 121000
+    currency: "USD"
+    active: false
+  - employee_id: 132
+    first_name: "Maren"
+    last_name: "Brandt"
+    email: "maren.brandt@veranix.example"
+    department: "Marketing"
+    title: "Senior Content Strategist"
+    manager_id: 20
+    hired_on: "2025-09-11"
+    office: "Stonebay"
+    employment_type: "full-time"
+    salary: 126000
+    currency: "USD"
+    active: false
+  - employee_id: 133
+    first_name: "Hesper"
+    last_name: "Hawthorne"
+    email: "hesper.hawthorne@veranix.example"
+    department: "Finance"
+    title: "Accounts Payable Clerk"
+    manager_id: 56
+    hired_on: "2024-08-20"
+    office: "Northmere"
+    employment_type: "full-time"
+    salary: 77000
+    currency: "USD"
+    active: true
+  - employee_id: 134
+    first_name: "Emrys"
+    last_name: "Yarrow"
+    email: "emrys.yarrow@veranix.example"
+    department: "Sales"
+    title: "Solutions Consultant"
+    manager_id: 112
+    hired_on: "2024-01-31"
+    office: "Stonebay"
+    employment_type: "full-time"
+    salary: 62000
+    currency: "USD"
+    active: true
+  - employee_id: 135
+    first_name: "Elowen"
+    last_name: "Rasmussen"
+    email: "elowen.rasmussen@veranix.example"
+    department: "Finance"
+    title: "Senior Payroll Specialist"
+    manager_id: 56
+    hired_on: "2025-04-23"
+    office: "Glenhaven"
+    employment_type: "full-time"
+    salary: 135000
+    currency: "USD"
+    active: true
+  - employee_id: 136
+    first_name: "Everard"
+    last_name: "Vandermeer"
+    email: "everard.vandermeer@veranix.example"
+    department: "Engineering"
+    title: "Lead Software Engineer"
+    manager_id: 2
+    hired_on: "2024-11-28"
+    office: "Kelbridge"
+    employment_type: "full-time"
+    salary: 153000
+    currency: "USD"
+    active: true
+  - employee_id: 137
+    first_name: "Isolde"
+    last_name: "Novachek"
+    email: "isolde.novachek@veranix.example"
+    department: "Customer Support"
+    title: "Onboarding Specialist"
+    manager_id: 77
+    hired_on: "2025-05-18"
+    office: "Northmere"
+    employment_type: "full-time"
+    salary: 64000
+    currency: "USD"
+    active: true
+  - employee_id: 138
+    first_name: "Xander"
+    last_name: "Merriweather"
+    email: "xander.merriweather@veranix.example"
+    department: "Engineering"
+    title: "Senior Data Engineer"
+    manager_id: 2
+    hired_on: "2023-12-07"
+    office: "Stonebay"
+    employment_type: "full-time"
+    salary: 115000
+    currency: "USD"
+    active: true
+  - employee_id: 139
+    first_name: "Isolde"
+    last_name: "Vasquez"
+    email: "isolde.vasquez@veranix.example"
+    department: "Customer Support"
+    title: "Knowledge Base Editor"
+    manager_id: 4
+    hired_on: "2025-08-16"
+    office: "Glenhaven"
+    employment_type: "full-time"
+    salary: 80000
+    currency: "USD"
+    active: true
+  - employee_id: 140
+    first_name: "Quillon"
+    last_name: "Bergstrom"
+    email: "quillon.bergstrom@veranix.example"
+    department: "Sales"
+    title: "Account Executive"
+    manager_id: 5
+    hired_on: "2022-08-11"
+    office: "Alderport"
+    employment_type: "full-time"
+    salary: 88000
+    currency: "USD"
+    active: true
+  - employee_id: 141
+    first_name: "Emrys"
+    last_name: "Jandreau"
+    email: "emrys.jandreau@veranix.example"
+    department: "People Operations"
+    title: "Workplace Coordinator"
+    manager_id: 100
+    hired_on: "2025-09-21"
+    office: "Northmere"
+    employment_type: "contract"
+    salary: 94000
+    currency: "USD"
+    active: true
+  - employee_id: 142
+    first_name: "Willa"
+    last_name: "Tanaka"
+    email: "willa.tanaka@veranix.example"
+    department: "Marketing"
+    title: "Senior Content Strategist"
+    manager_id: 20
+    hired_on: "2025-06-22"
+    office: "Stonebay"
+    employment_type: "full-time"
+    salary: 125000
+    currency: "USD"
+    active: true
+  - employee_id: 143
+    first_name: "Jorvik"
+    last_name: "Fairbourne"
+    email: "jorvik.fairbourne@veranix.example"
+    department: "Logistics"
+    title: "Lead Inventory Analyst"
+    manager_id: 60
+    hired_on: "2025-04-02"
+    office: "Kelbridge"
+    employment_type: "full-time"
+    salary: 138000
+    currency: "USD"
+    active: true
+  - employee_id: 144
+    first_name: "Thaddeus"
+    last_name: "Brandt"
+    email: "thaddeus.brandt@veranix.example"
+    department: "People Operations"
+    title: "Lead Recruiter"
+    manager_id: 100
+    hired_on: "2025-01-25"
+    office: "Stonebay"
+    employment_type: "full-time"
+    salary: 155000
+    currency: "USD"
+    active: true
+  - employee_id: 145
+    first_name: "Zinnia"
+    last_name: "Kaltenbach"
+    email: "zinnia.kaltenbach@veranix.example"
+    department: "People Operations"
+    title: "People Partner"
+    manager_id: 144
+    hired_on: "2025-08-14"
+    office: "Stonebay"
+    employment_type: "full-time"
+    salary: 65000
+    currency: "USD"
+    active: true
+  - employee_id: 146
+    first_name: "Ulric"
+    last_name: "Vandermeer"
+    email: "ulric.vandermeer@veranix.example"
+    department: "Engineering"
+    title: "Senior Site Reliability Engineer"
+    manager_id: 2
+    hired_on: "2024-08-10"
+    office: "Kelbridge"
+    employment_type: "full-time"
+    salary: 107000
+    currency: "USD"
+    active: true
+  - employee_id: 147
+    first_name: "Freya"
+    last_name: "Oyelaran"
+    email: "freya.oyelaran@veranix.example"
+    department: "Sales"
+    title: "Partnerships Manager"
+    manager_id: 112
+    hired_on: "2023-09-19"
+    office: "Stonebay"
+    employment_type: "full-time"
+    salary: 57000
+    currency: "USD"
+    active: true
+  - employee_id: 148
+    first_name: "Freya"
+    last_name: "Hartwell"
+    email: "freya.hartwell@veranix.example"
+    department: "Marketing"
+    title: "Lead Community Manager"
+    manager_id: 20
+    hired_on: "2025-09-19"
+    office: "Stonebay"
+    employment_type: "full-time"
+    salary: 158000
+    currency: "USD"
+    active: true
+  - employee_id: 149
+    first_name: "Ferris"
+    last_name: "Granholm"
+    email: "ferris.granholm@veranix.example"
+    department: "Engineering"
+    title: "Software Engineer"
+    manager_id: 136
+    hired_on: "2025-09-05"
+    office: "Stonebay"
+    employment_type: "full-time"
+    salary: 65000
+    currency: "USD"
+    active: true
+  - employee_id: 150
+    first_name: "Orsolya"
+    last_name: "Blackwood"
+    email: "orsolya.blackwood@veranix.example"
+    department: "Logistics"
+    title: "Fulfilment Planner"
+    manager_id: 91
+    hired_on: "2023-10-11"
+    office: "Stonebay"
+    employment_type: "full-time"
+    salary: 54000
+    currency: "USD"
+    active: true
