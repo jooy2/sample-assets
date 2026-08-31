@@ -6,8 +6,8 @@ match the repo's existing docs (`README.md`, `CONTRIBUTING.md`).
 ## What this repository is
 
 A **resource repository**, not a software project. It collects sample material — data,
-code, images, video, audio, documents — that other work can borrow: fixtures for tests,
-placeholder content for mockups, input files for parsers and importers.
+code, images, video, audio, documents, prose — that other work can borrow: fixtures for
+tests, placeholder content for mockups, input files for parsers and importers.
 
 The code samples are material too. `code/` holds snippets and small programs to be read,
 highlighted, or parsed by something else; it is not this repository's own source.
@@ -27,6 +27,7 @@ images/          photos/, illustrations/, icons/
 videos/          Short video clips
 audio/           Sound files
 documents/       Documents, one subfolder per format
+text/            Long-form prose and verse as plain text, no markup
 .github/         Issue and pull request templates, the dataset validation workflow
 ```
 
@@ -57,6 +58,12 @@ this one, and it is what a contributor is asked to follow.
 - Markup, stylesheets, and SQL are sorted by what they are rather than by being code:
   `.html` goes to `documents/html/` and `.css` to `documents/css/`, SQL goes to
   `datasets/sql/`.
+- **Plain text splits three ways**, by what the file is rather than by its extension. A
+  log, a word list, or anything meant to be parsed is data and goes to `datasets/txt/`.
+  A story, essay, report, or poem is prose and goes to `text/`, hard-wrapped and with no
+  markup at all. Writing that needs headings or a layout is a document and goes to
+  `documents/`. `text/` is flat and the genre goes in the file name
+  (`essay-…`, `poems-…`, `report-…`).
 
 ## Hard rules
 

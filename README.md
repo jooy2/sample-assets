@@ -5,8 +5,8 @@
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/jooy2/sample-assets/blob/main/LICENSE) [![Validate datasets](https://github.com/jooy2/sample-assets/actions/workflows/validate-datasets.yml/badge.svg)](https://github.com/jooy2/sample-assets/actions/workflows/validate-datasets.yml) ![Repository size](https://img.shields.io/github/repo-size/jooy2/sample-assets) ![Commit Count](https://img.shields.io/github/commit-activity/y/jooy2/sample-assets) [![Followers](https://img.shields.io/github/followers/jooy2?style=social)](https://github.com/jooy2) ![Stars](https://img.shields.io/github/stars/jooy2/sample-assets?style=social)
 
 **sample-assets** is a collection of sample material — data, code, images, video, audio,
-and documents — kept in one place so that a demo, a test, a tutorial, or a prototype never
-stalls on the search for a file to feed it.
+documents, and prose — kept in one place so that a demo, a test, a tutorial, or a
+prototype never stalls on the search for a file to feed it.
 
 Every developer ends up with the same scattered pile: a CSV somewhere in Downloads, a
 placeholder photo borrowed from a blog post, a PDF that happened to be lying around. This
@@ -25,6 +25,7 @@ repository is that pile, organized, named consistently, and free to redistribute
 | [`videos/`](videos)           | Short clips for players, thumbnails, and transcoding       | Flat                                             |
 | [`audio/`](audio)             | Sounds, tones, and loops for players and waveform tests    | Flat                                             |
 | [`documents/`](documents)     | PDFs, office files, and other document formats             | File format                                      |
+| [`text/`](text)               | Long-form prose and verse as plain text, no markup         | Flat, genre in the file name                     |
 
 Each folder carries its own `README.md` describing what belongs in it, which formats it
 accepts, and how its files are named. Read that one before adding anything.
@@ -52,6 +53,7 @@ audio/           Sound files
 documents/       Documents. One subfolder per format:
   adoc/  css/  docx/  epub/  html/  md/  odp/  ods/
   odt/  org/  pdf/  pptx/  rst/  rtf/  tex/  xlsx/
+text/            Long-form plain text: stories, essays, reports, poems
 ```
 
 ## Datasets are indexed twice
@@ -69,6 +71,20 @@ datasets/sql/users.sql     ┘
 Pick the topic and you know the file name; pick the format and you know the folder. When
 one topic comes in several sizes, the row count goes in the name — `users-100.csv`,
 `users-10000.csv` — and a plain `users.csv` is always the small, quick-to-read one.
+
+## Three folders hold text, for three different reasons
+
+Plain text turns up in three places, and the difference is what the file *is*:
+
+```text
+datasets/txt/server-access-log.txt   data to parse
+text/story-the-last-round.txt        prose to read
+documents/md/readme-sample.md        a document, with markup
+```
+
+A log, a word list, or a fixture is data, whatever its extension. A story, a report, or
+an essay is prose, and lives in `text/` with no markup at all. Writing that needs
+headings, italics, or a page layout is a document.
 
 ## Using the assets
 
