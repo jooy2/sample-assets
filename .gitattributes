@@ -43,6 +43,7 @@
 *.tex  text eol=lf
 *.rtf  text eol=lf
 *.odt  binary
+*.ods  binary
 *.pdf  binary
 *.doc  binary
 *.docx binary
