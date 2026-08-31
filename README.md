@@ -50,8 +50,8 @@ images/
 videos/          Short video clips
 audio/           Sound files
 documents/       Documents. One subfolder per format:
-  adoc/  css/  docx/  html/  md/  ods/  odt/  org/
-  pdf/  pptx/  rst/  rtf/  tex/  xlsx/
+  adoc/  css/  docx/  html/  md/  odp/  ods/  odt/
+  org/  pdf/  pptx/  rst/  rtf/  tex/  xlsx/
 ```
 
 ## Datasets are indexed twice

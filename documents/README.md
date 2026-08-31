@@ -13,6 +13,7 @@ One subfolder per format, named after the extension it holds:
 | [`docx/`](docx)   | Word (Office Open XML)          | `.docx`   | binary |
 | [`html/`](html)   | HTML pages                      | `.html`   | text   |
 | [`md/`](md)       | Markdown                        | `.md`     | text   |
+| [`odp/`](odp)     | OpenDocument presentation       | `.odp`    | binary |
 | [`ods/`](ods)     | OpenDocument spreadsheet        | `.ods`    | binary |
 | [`odt/`](odt)     | OpenDocument text               | `.odt`    | binary |
 | [`org/`](org)     | Org mode                        | `.org`    | text   |
@@ -36,7 +37,7 @@ line in the table above.
 - Lowercase, `kebab-case`, describing the document: `invoice-sample.pdf`,
   `meeting-notes.docx`, `budget-planner.xlsx`.
 - Add the feature under test when that is the reason the file exists:
-  `form-fillable.pdf`, `spreadsheet-with-formulas.xlsx`, `slides-with-notes.pptx`.
+  `form-fillable.pdf`, `spreadsheet-with-formulas.xlsx`, `slides-with-notes.odp`.
 - Add the page, sheet, slide, or chapter count for large files: `manual-20pages.pdf`,
   `training-deck-10slides.pptx`.
 - The extension is not repeated in the name. The folder already says it.
