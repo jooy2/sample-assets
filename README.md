@@ -24,7 +24,7 @@ repository is that pile, organized, named consistently, and free to redistribute
 | [`images/`](images)           | Photos, illustrations, and interface icons                 | Kind of image                                    |
 | [`videos/`](videos)           | Short clips for players, thumbnails, and transcoding       | Flat                                             |
 | [`audio/`](audio)             | Sounds, tones, and loops for players and waveform tests    | Flat                                             |
-| [`documents/`](documents)     | PDFs, office files, and other document formats             | Flat                                             |
+| [`documents/`](documents)     | PDFs, office files, and other document formats             | File format                                      |
 
 Each folder carries its own `README.md` describing what belongs in it, which formats it
 accepts, and how its files are named. Read that one before adding anything.
@@ -49,7 +49,8 @@ images/
   icons/           interface marks, preferably SVG
 videos/          Short video clips
 audio/           Sound files
-documents/       PDFs and office documents
+documents/       Documents. One subfolder per format:
+  docx/  html/  md/  odt/  pdf/  pptx/  rtf/  xlsx/
 ```
 
 ## Datasets are indexed twice

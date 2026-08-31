@@ -26,7 +26,7 @@ code/            Source code samples, one subfolder per language
 images/          photos/, illustrations/, icons/
 videos/          Short video clips
 audio/           Sound files
-documents/       PDFs and office documents
+documents/       Documents, one subfolder per format
 .github/         Issue and pull request templates, the dataset validation workflow
 ```
 
@@ -38,9 +38,12 @@ this one, and it is what a contributor is asked to follow.
 
 - Sort by **what the file is**, not by what it is for. A JSON file used as an icon
   manifest is still data, and belongs in `datasets/json/`.
-- Under `datasets/`, folders are **formats** and file names are **topics**. The same topic
-  keeps the same name in every format it exists in, so `datasets/csv/users.csv` and
-  `datasets/json/users.json` hold the same records. Do not add topic folders.
+- Under `datasets/` and `documents/`, folders are **formats** and file names are
+  **topics**. The same topic keeps the same name in every format it exists in, so
+  `datasets/csv/users.csv` and `datasets/json/users.json` hold the same records, and
+  `documents/docx/meeting-notes.docx` and `documents/odt/meeting-notes.odt` are the same
+  document twice. Do not add topic folders, and do not repeat the extension in the name —
+  the folder already says it.
 - Everywhere else, qualifiers live in the file name rather than in a nested folder: a row
   count, a resolution, a duration, or the shape a sample exists to exercise
   (`users-10000.csv`, `mountain-lake-1920x1080.jpg`, `silence-5s.wav`,
@@ -52,7 +55,8 @@ this one, and it is what a contributor is asked to follow.
   (`HelloWorld.java`, `hello_world.py`). Do not rename a sample into `kebab-case` when the
   language will not compile it under that name.
 - Markup, stylesheets, and SQL are sorted by what they are rather than by being code:
-  `.html` and `.css` go to `documents/`, SQL goes to `datasets/sql/`.
+  `.html` goes to `documents/html/` and `.css` to `documents/css/`, SQL goes to
+  `datasets/sql/`.
 
 ## Hard rules
 
@@ -103,6 +107,10 @@ reason those samples exist.
 - **Adding a language folder under `code/`** means the folder and its `.gitkeep`, the
   language table in `code/README.md`, the language list in the `README.md` tree, and the
   extension's line in `.gitattributes`.
+- **Adding a format folder under `documents/`** means the folder, the format table in
+  `documents/README.md`, the format list in the `README.md` tree, and the extension's line
+  in `.gitattributes`. The dataset validator does not walk `documents/`, so there is no
+  script to edit.
 - **Adding a top-level category** means the folder, a `README.md` for it written like the
   existing ones, and both the category table and the tree in `README.md`.
 - **Adding a file type that is new to the repository** means a line in `.gitattributes`.

@@ -2,26 +2,51 @@
 
 Document files for viewers, parsers, text extraction, conversion, and upload tests.
 
-## Formats
+## Layout
 
-`.pdf`, `.docx`, `.xlsx`, `.pptx`, `.odt`, `.rtf`, `.md`, `.html`. A document that exists
-to exercise a specific feature — a form, an embedded font, a scanned page needing OCR, a
-password-protected file — belongs here too, with that feature in its name.
+One subfolder per format, named after the extension it holds:
+
+| Folder            | Format                          | Extension | Kind   |
+| ----------------- | ------------------------------- | --------- | ------ |
+| [`docx/`](docx)   | Word (Office Open XML)          | `.docx`   | binary |
+| [`html/`](html)   | HTML pages                      | `.html`   | text   |
+| [`md/`](md)       | Markdown                        | `.md`     | text   |
+| [`odt/`](odt)     | OpenDocument text               | `.odt`    | binary |
+| [`pdf/`](pdf)     | PDF                             | `.pdf`    | binary |
+| [`pptx/`](pptx)   | PowerPoint (Office Open XML)    | `.pptx`   | binary |
+| [`rtf/`](rtf)     | Rich Text Format                | `.rtf`    | text   |
+| [`xlsx/`](xlsx)   | Excel (Office Open XML)         | `.xlsx`   | binary |
+
+**Folders are formats. File names are topics** — the same rule `datasets/` follows. A
+topic keeps the same name in every format it exists in, so `documents/docx/meeting-notes.docx`
+and `documents/odt/meeting-notes.odt` are the same document twice, and picking either the
+topic or the format tells you where to look.
+
+A format that has no folder yet gets one, named after its extension in lowercase, and a
+line in the table above.
 
 ## Naming
 
 - Lowercase, `kebab-case`, describing the document: `invoice-sample.pdf`,
-  `meeting-notes.docx`, `monthly-report.xlsx`.
+  `meeting-notes.docx`, `budget-planner.xlsx`.
 - Add the feature under test when that is the reason the file exists:
-  `invoice-sample-scanned.pdf`, `form-fillable.pdf`, `spreadsheet-with-formulas.xlsx`.
-- Add the page or sheet count for large files: `manual-120pages.pdf`.
+  `form-fillable.pdf`, `spreadsheet-with-formulas.xlsx`, `slides-with-notes.pptx`.
+- Add the page, sheet, slide, or chapter count for large files: `manual-20pages.pdf`,
+  `training-deck-10slides.pptx`.
+- The extension is not repeated in the name. The folder already says it.
+
+## Size
+
+A document is meant to be opened, not archived. Keep text formats under 100 KB and binary
+ones under 1 MB; a sample that exists to be large says so in its name and says why in the
+commit that adds it.
 
 ## Passwords
 
-One sample is encrypted on purpose. `report-password-protected.pdf` opens with the user
-password `sample`, and its permission flags are held by the owner password `sample-owner`.
-A sample that locks something says so here — nothing in this folder protects anything
-worth protecting.
+One sample is encrypted on purpose. `pdf/report-password-protected.pdf` opens with the
+user password `sample`, and its permission flags are held by the owner password
+`sample-owner`. A sample that locks something says so here — nothing in this folder
+protects anything worth protecting.
 
 ## Contents
 
