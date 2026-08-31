@@ -1,0 +1,190 @@
+% article-sample.tex — a complete LaTeX article, self-contained.
+% Compile with: pdflatex article-sample.tex
+%
+% Everything below is invented for sample purposes. The institute, the survey,
+% and the figures in it describe nothing real.
+
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{geometry}
+\usepackage{hyperref}
+
+\geometry{margin=2.5cm}
+
+\title{Reading Habits in Municipal Libraries:\\
+       A Two-Year Observational Survey}
+\author{R.\ Almeida\thanks{Corresponding author, Fenwick Institute for Civic
+        Research.} \and T.\ Okonkwo \and M.\ Halvorsen}
+\date{14 March 2027}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+We report on a two-year survey of borrowing behaviour across eleven municipal
+library branches in the fictional district of Fenwick. Circulation records,
+reservation queues, and door counts were collected monthly. The data suggest
+that branch opening hours explain more of the variation in borrowing than
+collection size does, and that evening hours are disproportionately valuable to
+borrowers who visit fewer than four times a year. All figures in this paper are
+fabricated for demonstration and must not be cited.
+\end{abstract}
+
+\tableofcontents
+
+\section{Introduction}
+\label{sec:intro}
+
+A library branch is measured, most often, by the size of its collection. That is
+a convenient measure because it is easy to count, but it is a poor predictor of
+whether anybody walks through the door. Over two years we tracked eleven
+branches that vary widely in both collection size and opening hours, and asked a
+narrow question: which of the two moves circulation more?
+
+The remainder of this paper is organised as follows. Section~\ref{sec:method}
+describes how the records were gathered. Section~\ref{sec:results} presents the
+observed relationships. Section~\ref{sec:discussion} argues that the result is
+less about libraries than about scheduling, and Section~\ref{sec:conclusion}
+notes what a follow-up study would need to measure.
+
+\section{Method}
+\label{sec:method}
+
+\subsection{Sites}
+
+Eleven branches were included. Three are open seven days a week, five are open
+six days, and three close on both Sunday and Monday. Collection sizes range from
+just under 9{,}000 volumes at the smallest branch to a little over 140{,}000 at
+the district's central branch.
+
+\subsection{Instruments}
+
+Three instruments were used, in decreasing order of reliability:
+
+\begin{enumerate}
+  \item \textbf{Circulation records.} Every loan, renewal, and return is logged
+        by the catalogue system with a timestamp accurate to the minute.
+  \item \textbf{Reservation queues.} A snapshot of every outstanding hold was
+        taken at 03:00 on the first of each month.
+  \item \textbf{Door counts.} Infrared counters at each entrance, reset nightly.
+        These over-count, because a visitor who steps outside and returns is
+        counted twice.
+\end{enumerate}
+
+Door counts were therefore used only as a coarse cross-check, never as a
+dependent variable.\footnote{An earlier draft of this paper did use them
+directly. The reviewers were right to object.}
+
+\subsection{Exclusions}
+
+Two months were excluded from every branch: the December in which the catalogue
+system was migrated, and the following February, when three branches ran a
+fine-forgiveness campaign that distorted returns. That leaves twenty-two
+usable months.
+
+\section{Results}
+\label{sec:results}
+
+\subsection{Opening hours dominate}
+
+Weekly opening hours correlate with annual loans per capita at
+$r = 0.71$. Collection size correlates at $r = 0.24$. When both are entered into
+a single model, collection size stops being distinguishable from noise, while
+opening hours retains almost all of its explanatory power:
+
+\begin{quote}
+Each additional weekly opening hour is associated with roughly 340 additional
+annual loans at a median-sized branch, holding collection size fixed.
+\end{quote}
+
+\subsection{Evening hours are not like daytime hours}
+
+Splitting opening hours by time of day changes the picture. Hours after 18:00
+are associated with about 2.4 times the loans of an equivalent hour between
+10:00 and 16:00. The effect is concentrated in a group we labelled
+\emph{occasional borrowers} --- those with fewer than four visits a year, who
+account for 31\,\% of registered members and 9\,\% of loans.
+
+\subsection{The smallest branch is the exception}
+
+The Marlow Street branch has the smallest collection and the shortest hours, and
+outperforms the model's prediction by a wide margin in every month observed. It
+is also the only branch inside a building that houses something else --- a
+community kitchen that runs four evenings a week. We do not treat this as a
+finding, only as the most interesting thing we could not explain.
+
+\section{Discussion}
+\label{sec:discussion}
+
+The result is unsurprising once stated plainly: a library that is shut cannot
+lend anything. What makes it worth reporting is how weak the competing
+explanation turned out to be. Collection size is the number that appears in
+budget submissions, in press coverage, and in the branch comparisons published
+by the district itself. It is the number that is easiest to grow with money and
+hardest to grow with anything else.
+
+Opening hours, by contrast, are a staffing question. They are unglamorous, they
+recur every year, and they are the first thing cut when a budget tightens. Our
+data suggest that this ordering is exactly backwards, at least where the goal is
+circulation.
+
+We are careful not to overstate this. Circulation is one purpose of a library
+among several, and the branch that lends the most books is not automatically the
+branch doing the most good. A study that took reference desk questions,
+study-space occupancy, or programme attendance as its outcome might well order
+the branches differently.
+
+\section{Threats to validity}
+
+\begin{itemize}
+  \item \textbf{Self-selection.} Branches with longer hours may be sited where
+        demand was already higher. We have no instrument that separates the two.
+  \item \textbf{Two years is short.} Both years shared the same funding formula,
+        so the range of variation in hours is narrower than it looks.
+  \item \textbf{One district.} Fenwick has an unusual density of branches for
+        its population, which may make the marginal branch less valuable here
+        than it would be elsewhere.
+\end{itemize}
+
+\section{Conclusion}
+\label{sec:conclusion}
+
+Across eleven branches and twenty-two months, when a branch is open predicts
+borrowing better than what the branch holds. Evening hours are worth more than
+their count suggests, and they matter most to the borrowers who come least
+often. A follow-up should extend the observation window past a funding cycle and
+should treat the co-located community kitchen at Marlow Street as a hypothesis
+rather than an anomaly.
+
+\section*{Acknowledgements}
+
+We thank the branch managers of the Fenwick district for two years of patient
+data entry, and the anonymous reviewers who removed the door counts from
+Section~\ref{sec:results}.
+
+\begin{thebibliography}{9}
+
+\bibitem{fenwick2025}
+Fenwick District Council.
+\newblock \emph{Annual Library Service Report}.
+\newblock Fenwick, 2025.
+
+\bibitem{okonkwo2026}
+T.~Okonkwo.
+\newblock Counting doors, counting people: instrumentation error in footfall
+studies.
+\newblock \emph{Journal of Invented Methods}, 12(3):211--229, 2026.
+
+\bibitem{halvorsen2026}
+M.~Halvorsen and R.~Almeida.
+\newblock Opening hours as a policy lever.
+\newblock In \emph{Proceedings of the Fictional Conference on Civic
+Infrastructure}, pages 88--97, 2026.
+
+\end{thebibliography}
+
+\end{document}

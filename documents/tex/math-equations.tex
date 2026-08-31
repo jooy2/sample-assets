@@ -1,0 +1,204 @@
+% math-equations.tex — a tour of LaTeX mathematics: inline and display,
+% numbered and aligned, matrices, cases, integrals, and theorem environments.
+% Compile with: pdflatex math-equations.tex
+%
+% The results stated here are standard textbook material restated in the
+% author's own words; nothing is presented as new.
+
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{geometry}
+
+\geometry{margin=2.6cm}
+
+\theoremstyle{plain}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+
+\theoremstyle{remark}
+\newtheorem*{remark}{Remark}
+
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\norm}[1]{\left\lVert #1 \right\rVert}
+\newcommand{\abs}[1]{\left\lvert #1 \right\rvert}
+\DeclareMathOperator{\tr}{tr}
+\DeclareMathOperator*{\argmin}{arg\,min}
+
+\title{A Working Set of Mathematical Notation}
+\author{Sample Assets}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section{Inline and display}
+
+An inline formula sits in the line of text, like $e^{i\pi} + 1 = 0$, and should
+not disturb the leading. A displayed formula is set apart:
+\[
+  \sum_{n=1}^{\infty} \frac{1}{n^{2}} = \frac{\pi^{2}}{6}.
+\]
+A numbered display can be referred to later:
+\begin{equation}
+  \label{eq:gaussian}
+  \int_{-\infty}^{\infty} e^{-x^{2}} \, dx = \sqrt{\pi}.
+\end{equation}
+Equation~\eqref{eq:gaussian} is the one identity every typesetting sample
+eventually contains.
+
+\section{Alignment}
+
+Several steps of a derivation align on the relation symbol:
+\begin{align}
+  (a + b)^{3} &= (a + b)(a + b)^{2} \notag \\
+              &= (a + b)(a^{2} + 2ab + b^{2}) \notag \\
+              &= a^{3} + 3a^{2}b + 3ab^{2} + b^{3}.
+  \label{eq:cube}
+\end{align}
+Two unrelated equations can share a display without sharing an alignment point:
+\begin{gather}
+  \nabla \cdot \mathbf{E} = \frac{\rho}{\varepsilon_{0}}, \\
+  \nabla \times \mathbf{B} - \mu_{0}\varepsilon_{0}
+    \frac{\partial \mathbf{E}}{\partial t} = \mu_{0}\mathbf{J}.
+\end{gather}
+
+\section{Matrices and arrays}
+
+\[
+  A =
+  \begin{pmatrix}
+    a_{11} & a_{12} & \cdots & a_{1n} \\
+    a_{21} & a_{22} & \cdots & a_{2n} \\
+    \vdots & \vdots & \ddots & \vdots \\
+    a_{m1} & a_{m2} & \cdots & a_{mn}
+  \end{pmatrix},
+  \qquad
+  \det
+  \begin{vmatrix}
+    a & b \\
+    c & d
+  \end{vmatrix}
+  = ad - bc .
+\]
+
+For a square matrix $A \in \R^{n \times n}$ with eigenvalues
+$\lambda_{1}, \dots, \lambda_{n}$,
+\[
+  \tr(A) = \sum_{i=1}^{n} \lambda_{i},
+  \qquad
+  \det(A) = \prod_{i=1}^{n} \lambda_{i}.
+\]
+
+\section{Cases and piecewise definitions}
+
+\begin{definition}[Sign function]
+For $x \in \R$,
+\[
+  \operatorname{sgn}(x) =
+  \begin{cases}
+    -1 & \text{if } x < 0, \\
+     0 & \text{if } x = 0, \\
+     1 & \text{if } x > 0.
+  \end{cases}
+\]
+\end{definition}
+
+\section{Limits, sums, and products}
+
+\[
+  \lim_{n \to \infty} \left( 1 + \frac{x}{n} \right)^{n} = e^{x},
+  \qquad
+  \prod_{k=1}^{n} k = n!,
+  \qquad
+  \binom{n}{k} = \frac{n!}{k!\,(n-k)!}.
+\]
+
+The derivative of a product and the chain rule, side by side:
+\begin{align*}
+  \frac{d}{dx}\bigl( f(x)g(x) \bigr) &= f'(x)g(x) + f(x)g'(x), \\
+  \frac{d}{dx} f\bigl( g(x) \bigr)   &= f'\bigl( g(x) \bigr)\, g'(x).
+\end{align*}
+
+\section{Theorems}
+
+\begin{theorem}[Triangle inequality]
+\label{thm:triangle}
+For all $u, v$ in a normed vector space,
+\[
+  \norm{u + v} \le \norm{u} + \norm{v}.
+\]
+\end{theorem}
+
+\begin{proof}
+Expand the square of the left-hand side and apply the Cauchy--Schwarz
+inequality:
+\[
+  \norm{u + v}^{2}
+    = \norm{u}^{2} + 2\langle u, v \rangle + \norm{v}^{2}
+    \le \norm{u}^{2} + 2\norm{u}\norm{v} + \norm{v}^{2}
+    = \bigl( \norm{u} + \norm{v} \bigr)^{2}.
+\]
+Both sides are non-negative, so taking square roots preserves the inequality.
+\end{proof}
+
+\begin{lemma}
+\label{lem:reverse}
+Under the hypotheses of Theorem~\ref{thm:triangle},
+$\bigl\lvert \norm{u} - \norm{v} \bigr\rvert \le \norm{u - v}$.
+\end{lemma}
+
+\begin{corollary}
+The norm $\norm{\cdot}$ is continuous.
+\end{corollary}
+
+\begin{remark}
+Lemma~\ref{lem:reverse} is usually called the reverse triangle inequality, and
+follows from Theorem~\ref{thm:triangle} by writing $u = (u - v) + v$.
+\end{remark}
+
+\begin{example}
+Let $f(x) = \abs{x}$ on $\R$. Then $f$ is continuous everywhere and
+differentiable everywhere except at $x = 0$, where the left and right difference
+quotients converge to $-1$ and $1$ respectively.
+\end{example}
+
+\section{An optimisation problem}
+
+A least-squares fit written as a minimisation:
+\begin{equation}
+  \hat{\beta} = \argmin_{\beta \in \R^{p}}
+    \; \norm{y - X\beta}_{2}^{2} + \lambda \norm{\beta}_{2}^{2},
+  \qquad \lambda \ge 0,
+\end{equation}
+with the closed-form solution
+\[
+  \hat{\beta} = \left( X^{\top}X + \lambda I \right)^{-1} X^{\top} y ,
+\]
+which exists for every $\lambda > 0$ even when $X^{\top}X$ is singular.
+
+\section{Symbols in running text}
+
+Set membership $x \in A$, subset $A \subseteq B$, union $A \cup B$, intersection
+$A \cap B$, and complement $A^{c}$. Logical quantifiers
+$\forall \varepsilon > 0 \; \exists \delta > 0$, implication
+$P \Rightarrow Q$, equivalence $P \iff Q$. Greek letters
+$\alpha, \beta, \gamma, \delta, \varepsilon, \theta, \lambda, \mu, \sigma,
+\varphi, \omega$ and their capitals $\Gamma, \Delta, \Theta, \Lambda, \Sigma,
+\Phi, \Omega$. Number systems $\N \subset \mathbb{Z} \subset \mathbb{Q}
+\subset \R \subset \C$.
+
+\end{document}

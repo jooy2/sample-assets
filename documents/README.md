@@ -15,6 +15,7 @@ One subfolder per format, named after the extension it holds:
 | [`pdf/`](pdf)     | PDF                             | `.pdf`    | binary |
 | [`pptx/`](pptx)   | PowerPoint (Office Open XML)    | `.pptx`   | binary |
 | [`rtf/`](rtf)     | Rich Text Format                | `.rtf`    | text   |
+| [`tex/`](tex)     | LaTeX                           | `.tex`    | text   |
 | [`xlsx/`](xlsx)   | Excel (Office Open XML)         | `.xlsx`   | binary |
 
 **Folders are formats. File names are topics** — the same rule `datasets/` follows. A

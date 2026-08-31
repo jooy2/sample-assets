@@ -37,6 +37,7 @@
 *.m4a  binary
 
 # Documents
+*.tex  text eol=lf
 *.rtf  text eol=lf
 *.odt  binary
 *.pdf  binary

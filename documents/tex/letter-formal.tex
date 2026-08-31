@@ -1,0 +1,111 @@
+% letter-formal.tex — a formal letter using the standard letter class, with a
+% second letter in the same file to show how the class handles more than one.
+% Compile with: pdflatex letter-formal.tex
+%
+% Both correspondents, the addresses, and the reference numbers are invented.
+
+\documentclass[11pt,a4paper]{letter}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{geometry}
+
+\geometry{margin=2.5cm}
+
+\signature{Marguerite Oyelaran\\Head of Collections}
+\address{
+  Fenwick District Libraries \\
+  118 Marlow Street \\
+  Fenwick FW2 4RG
+}
+
+\begin{document}
+
+\begin{letter}{
+  Mr. D.\ Ashworth \\
+  Ashworth \& Pell Bindery \\
+  7 Cooper's Yard \\
+  Fenwick FW1 9BT
+}
+
+\opening{Dear Mr. Ashworth,}
+
+\textbf{Re: Conservation of the Marlow Street bequest --- reference FDL/27/0412}
+
+Thank you for your estimate of 3 August and for the time your colleague spent
+with our collections officer last week.
+
+The Board has approved the work in full, at the quoted figure of £14,600
+excluding VAT, and I am writing to confirm the terms we discussed so that both
+of us are working from the same understanding.
+
+The bequest comprises 212 volumes. Of these, 47 require full rebinding, 96
+require repair to the spine or boards only, and the remaining 69 require
+cleaning and boxing. Your estimate treats these as three separate schedules,
+which suits us; we would like to be invoiced against each schedule as it
+completes rather than on a single invoice at the end.
+
+Three points were left open at our meeting, and I should set out our position on
+each:
+
+\begin{enumerate}
+  \item \textbf{Original materials.} Where a board or an endpaper can be
+        retained, it should be, even at the cost of a less uniform finish
+        across the set. Uniformity is not what this collection is for.
+  \item \textbf{Documentation.} We ask for a photographic record before and
+        after treatment of every volume in the first two schedules, supplied as
+        files rather than prints.
+  \item \textbf{Transport.} Volumes will move in batches of no more than
+        twenty, and will remain insured under our policy while in your
+        possession. Please confirm that this is acceptable to your own insurer.
+\end{enumerate}
+
+Subject to your confirmation of the third point, we would like work to begin on
+14 September. Our collections officer, Mr.\ Tobias Renn, will be your contact
+for scheduling and will arrange the first collection.
+
+Please countersign the enclosed schedule of works and return one copy.
+
+\closing{Yours sincerely,}
+
+\encl{Schedule of works (two copies)}
+\cc{T.\ Renn, Collections Officer \\ Finance Office, Fenwick District Council}
+\ps{P.S. The reading room will be closed for its own refurbishment from 2 to 16
+September. Deliveries during that fortnight should go to the Cooper Street
+annexe instead.}
+
+\end{letter}
+
+\begin{letter}{
+  Ms. P.\ Lindqvist \\
+  Fenwick District Council \\
+  Finance Office \\
+  Fenwick FW1 1AA
+}
+
+\opening{Dear Ms. Lindqvist,}
+
+\textbf{Re: Commitment against budget line 4420 --- reference FDL/27/0413}
+
+Further to the Board's decision of 11 August, I am writing to commit £14,600
+excluding VAT against budget line 4420 for the conservation of the Marlow Street
+bequest.
+
+The work will be invoiced in three parts across the current and following
+financial quarters, as set out in the attached schedule. No part of the
+commitment falls outside the current financial year.
+
+The bequest was accepted on the condition that it be made available to readers
+within two years of receipt. That deadline falls in June of next year, and the
+conservation work is the only outstanding obstacle to meeting it.
+
+I am happy to answer any questions the Finance Office may have.
+
+\closing{Yours sincerely,}
+
+\encl{Payment schedule}
+
+\end{letter}
+
+\end{document}

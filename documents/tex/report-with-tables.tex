@@ -1,0 +1,209 @@
+% report-with-tables.tex — tabular material in LaTeX: simple tables, a table
+% spanning columns, a multi-page table, and a table with merged cells.
+% Compile with: pdflatex report-with-tables.tex   (run twice for references)
+%
+% The company, the quarters, and every number below are invented.
+
+\documentclass[11pt,a4paper]{report}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{geometry}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{caption}
+
+\geometry{margin=2.4cm}
+\captionsetup{font=small}
+
+\newcolumntype{R}{>{\raggedleft\arraybackslash}p{2.2cm}}
+
+\title{Northwind Ferry Cooperative\\ Operating Report}
+\author{Prepared by the Finance Working Group}
+\date{Quarter ending 30 June 2027}
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+\listoftables
+
+\chapter{Summary}
+
+The cooperative operated four routes across the quarter, carrying 214{,}880
+passengers on 3{,}102 sailings. Two routes covered their direct costs; the
+Halloway service did not, and the Kestrel Point service did so only after the
+seasonal fare adjustment in May.
+
+Every figure in this report is fabricated for demonstration purposes.
+
+\chapter{Traffic}
+
+\section{Passengers by route}
+
+Table~\ref{tab:passengers} gives the passenger count for each route, split by
+month.
+
+\begin{table}[ht]
+  \centering
+  \caption{Passengers carried, by route and month}
+  \label{tab:passengers}
+  \begin{tabular}{l R R R R}
+    \toprule
+    Route          & April  & May    & June   & Total  \\
+    \midrule
+    Harbour Loop   & 24\,910 & 27\,640 & 31\,205 & 83\,755 \\
+    Kestrel Point  & 18\,330 & 20\,115 & 24\,880 & 63\,325 \\
+    Halloway       &  9\,470 &  9\,905 & 11\,240 & 30\,615 \\
+    Night Crossing & 11\,020 & 12\,640 & 13\,525 & 37\,185 \\
+    \midrule
+    \textbf{Total} & \textbf{63\,730} & \textbf{70\,300} & \textbf{80\,850}
+                   & \textbf{214\,880} \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\section{Load factor}
+
+Table~\ref{tab:load} uses a merged first column to group the two daytime routes
+against the two others.
+
+\begin{table}[ht]
+  \centering
+  \caption{Average load factor by service class}
+  \label{tab:load}
+  \begin{tabular}{llrrr}
+    \toprule
+    Class & Route & April & May & June \\
+    \midrule
+    \multirow{2}{*}{Daytime}
+          & Harbour Loop   & 61\,\% & 66\,\% & 74\,\% \\
+          & Kestrel Point  & 54\,\% & 58\,\% & 69\,\% \\
+    \midrule
+    \multirow{2}{*}{Other}
+          & Halloway       & 38\,\% & 39\,\% & 44\,\% \\
+          & Night Crossing & 47\,\% & 52\,\% & 55\,\% \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\chapter{Finance}
+
+\section{Direct cost recovery}
+
+\begin{table}[ht]
+  \centering
+  \caption{Revenue against direct cost, quarter to 30 June (thousands)}
+  \label{tab:recovery}
+  \begin{tabular}{lrrrr}
+    \toprule
+    Route          & Revenue & Direct cost & Margin & Recovery \\
+    \midrule
+    Harbour Loop   & 1\,284 & 1\,011 & 273  & 127\,\% \\
+    Kestrel Point  &   902  &   874  &  28  & 103\,\% \\
+    Halloway       &   341  &   498  & -157 &  68\,\% \\
+    Night Crossing &   556  &   540  &  16  & 103\,\% \\
+    \midrule
+    \textbf{Total} & \textbf{3\,083} & \textbf{2\,923} & \textbf{160}
+                   & \textbf{105\,\%} \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\section{Sailings, cancellations, and causes}
+
+The table below runs past a single page on purpose, so that a parser or a
+converter meets a repeated header and a continuation footer.
+
+\begin{longtable}{lllr}
+  \caption{Cancelled sailings, quarter to 30 June}
+  \label{tab:cancellations} \\
+  \toprule
+  Date & Route & Cause & Passengers affected \\
+  \midrule
+  \endfirsthead
+
+  \multicolumn{4}{l}{\small\itshape Table \thetable\ continued from previous page} \\
+  \toprule
+  Date & Route & Cause & Passengers affected \\
+  \midrule
+  \endhead
+
+  \midrule
+  \multicolumn{4}{r}{\small\itshape continued on next page} \\
+  \endfoot
+
+  \bottomrule
+  \endlastfoot
+
+  02 Apr & Halloway       & Weather: swell        & 118 \\
+  02 Apr & Night Crossing & Weather: swell        & 204 \\
+  06 Apr & Kestrel Point  & Mechanical: gearbox   & 331 \\
+  07 Apr & Kestrel Point  & Mechanical: gearbox   & 298 \\
+  11 Apr & Harbour Loop   & Crew shortage         & 176 \\
+  14 Apr & Halloway       & Weather: fog          &  84 \\
+  15 Apr & Halloway       & Weather: fog          &  91 \\
+  19 Apr & Night Crossing & Berth unavailable     & 143 \\
+  23 Apr & Harbour Loop   & Weather: wind         & 260 \\
+  28 Apr & Kestrel Point  & Crew shortage         & 187 \\
+  03 May & Halloway       & Weather: swell        & 102 \\
+  09 May & Night Crossing & Mechanical: generator & 221 \\
+  10 May & Night Crossing & Mechanical: generator & 209 \\
+  12 May & Harbour Loop   & Berth unavailable     & 314 \\
+  17 May & Kestrel Point  & Weather: wind         & 246 \\
+  21 May & Halloway       & Crew shortage         &  77 \\
+  24 May & Harbour Loop   & Weather: wind         & 288 \\
+  30 May & Night Crossing & Weather: fog          & 165 \\
+  02 Jun & Kestrel Point  & Mechanical: steering  & 355 \\
+  02 Jun & Halloway       & Mechanical: steering  &  96 \\
+  08 Jun & Harbour Loop   & Crew shortage         & 201 \\
+  13 Jun & Night Crossing & Weather: swell        & 188 \\
+  16 Jun & Halloway       & Weather: fog          &  88 \\
+  19 Jun & Kestrel Point  & Berth unavailable     & 271 \\
+  22 Jun & Harbour Loop   & Weather: wind         & 305 \\
+  25 Jun & Night Crossing & Crew shortage         & 174 \\
+  27 Jun & Halloway       & Weather: swell        & 109 \\
+  29 Jun & Kestrel Point  & Weather: wind         & 233 \\
+\end{longtable}
+
+\section{Cause summary}
+
+Weather accounts for slightly more than half of all cancellations, and for the
+majority of those on the two exposed routes. Mechanical causes cluster: the
+Kestrel Point gearbox took two consecutive days in April, and the Night Crossing
+generator took two in May.
+
+\begin{table}[ht]
+  \centering
+  \caption{Cancellations by cause}
+  \label{tab:causes}
+  \begin{tabular}{lrr}
+    \toprule
+    Cause & Sailings & Share \\
+    \midrule
+    Weather            & 15 & 53.6\,\% \\
+    Crew shortage      &  5 & 17.9\,\% \\
+    Mechanical         &  5 & 17.9\,\% \\
+    Berth unavailable  &  3 & 10.7\,\% \\
+    \midrule
+    \textbf{Total}     & \textbf{28} & \textbf{100.0\,\%} \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\chapter{Recommendations}
+
+\begin{enumerate}
+  \item Retire the Kestrel Point gearbox at the winter overhaul rather than
+        waiting for the scheduled replacement in the following year.
+  \item Review the Halloway timetable. Its recovery rate has not exceeded
+        70\,\% in six quarters, and its cancellations are dominated by weather
+        the timetable does not account for.
+  \item Hold the seasonal fare adjustment for a full year before judging it.
+        One quarter is not enough to separate it from the summer traffic.
+\end{enumerate}
+
+\end{document}

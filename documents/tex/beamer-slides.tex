@@ -1,0 +1,191 @@
+% beamer-slides.tex — a presentation in the beamer class: title slide, outline,
+% overlays, columns, blocks, a table, and a backup slide.
+% Compile with: pdflatex beamer-slides.tex   (run twice for the outline)
+%
+% The project, the team, and the numbers are invented.
+
+\documentclass[aspectratio=169,11pt]{beamer}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{booktabs}
+
+\usetheme{Madrid}
+\usecolortheme{seabird}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{caption}[numbered]
+
+\title[Tideline]{Tideline}
+\subtitle{Rebuilding the ingest pipeline without a maintenance window}
+\author[H.\ Vance]{Helena Vance}
+\institute[Northwind]{Northwind Ferry Cooperative \\ Platform Team}
+\date{September 2027}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{Outline}
+  \tableofcontents
+\end{frame}
+
+\section{The problem}
+
+\begin{frame}{Where we are}
+  The ingest pipeline has run unchanged for six years.
+
+  \begin{itemize}
+    \item<1-> It processes about 400\,000 events a day.
+    \item<2-> It fails, on average, once every eleven days.
+    \item<3-> Every failure needs a human to replay a window by hand.
+    \item<4-> Nobody on the current team wrote any of it.
+  \end{itemize}
+
+  \onslide<4->{
+    \vspace{1em}
+    \begin{alertblock}{The real cost}
+      Not the downtime. The replays: 40 engineer-hours a month, all of it
+      out of hours.
+    \end{alertblock}
+  }
+\end{frame}
+
+\begin{frame}{Why it fails}
+  \begin{columns}[T]
+    \begin{column}{0.5\textwidth}
+      \begin{block}{Immediate causes}
+        \begin{itemize}
+          \item Upstream schema drift
+          \item Duplicate delivery on retry
+          \item Clock skew between producers
+        \end{itemize}
+      \end{block}
+    \end{column}
+    \begin{column}{0.5\textwidth}
+      \begin{block}{Underlying cause}
+        The pipeline has no notion of an event's identity, so it cannot tell a
+        retry from a new fact. Everything else follows from that.
+      \end{block}
+    \end{column}
+  \end{columns}
+
+  \vspace{1em}
+  \begin{exampleblock}{Consequence}
+    A fix for any one symptom leaves the other two.
+  \end{exampleblock}
+\end{frame}
+
+\section{The proposal}
+
+\begin{frame}{Tideline in one slide}
+  Give every event a stable identity at the edge, then make every stage
+  downstream idempotent with respect to it.
+
+  \begin{enumerate}
+    \item<1-> Producers stamp a deterministic key: source, stream, sequence.
+    \item<2-> The edge deduplicates on that key within a 24-hour window.
+    \item<3-> Stages become pure functions of the deduplicated stream.
+    \item<4-> A replay is then just a re-read, safe to run at any time.
+  \end{enumerate}
+
+  \onslide<4->{
+    \vspace{0.5em}
+    \begin{block}{The point}
+      Replays stop being an incident response and become a routine operation.
+    \end{block}
+  }
+\end{frame}
+
+\begin{frame}{Migration without a window}
+  Run both pipelines side by side and compare, before switching anything.
+
+  \begin{table}
+    \centering
+    \caption{Phases}
+    \begin{tabular}{llr}
+      \toprule
+      Phase & What runs & Duration \\
+      \midrule
+      Shadow    & Both, old is authoritative & 4 weeks \\
+      Compare   & Both, diffs alarmed        & 2 weeks \\
+      Cut over  & Both, new is authoritative & 2 weeks \\
+      Retire    & New only                   & --- \\
+      \bottomrule
+    \end{tabular}
+  \end{table}
+
+  At no point is there a moment where neither pipeline is running.
+\end{frame}
+
+\section{Cost and risk}
+
+\begin{frame}{What it costs}
+  \begin{columns}[T]
+    \begin{column}{0.55\textwidth}
+      \begin{itemize}
+        \item Two engineers, eight weeks
+        \item Roughly 1.9$\times$ storage during shadow
+        \item One new service to operate afterwards
+      \end{itemize}
+    \end{column}
+    \begin{column}{0.45\textwidth}
+      \begin{block}{Against}
+        40 engineer-hours a month, indefinitely, all out of hours.
+      \end{block}
+    \end{column}
+  \end{columns}
+
+  \vspace{1em}
+  Break-even falls in the fifth month after cut-over.
+\end{frame}
+
+\begin{frame}{What could go wrong}
+  \begin{enumerate}
+    \item \textbf{Producers cannot stamp keys.} Two of eleven are third-party.
+          Mitigation: the edge derives a key for those from content plus
+          arrival window, which is weaker but sufficient.
+    \item \textbf{Shadow reveals more drift than expected.} That is the phase
+          doing its job. It extends the timeline; it does not invalidate it.
+    \item \textbf{The team is pulled onto something else.} The shadow phase is
+          safe to pause indefinitely. The compare phase is not.
+  \end{enumerate}
+\end{frame}
+
+\begin{frame}{Asking for}
+  \begin{block}{Decision}
+    Approval to start the shadow phase in October, with a checkpoint before the
+    compare phase begins.
+  \end{block}
+
+  \vspace{1em}
+  \centering
+  \Large Questions?
+\end{frame}
+
+\appendix
+
+\begin{frame}{Backup: current failure log}
+  \small
+  \begin{table}
+    \centering
+    \begin{tabular}{llr}
+      \toprule
+      Month & Incidents & Replay hours \\
+      \midrule
+      March     & 3 & 41 \\
+      April     & 2 & 28 \\
+      May       & 4 & 55 \\
+      June      & 2 & 31 \\
+      July      & 3 & 44 \\
+      August    & 3 & 39 \\
+      \midrule
+      \textbf{Mean} & \textbf{2.8} & \textbf{39.7} \\
+      \bottomrule
+    \end{tabular}
+  \end{table}
+\end{frame}
+
+\end{document}
