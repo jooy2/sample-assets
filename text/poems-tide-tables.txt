@@ -1,0 +1,319 @@
+TIDE TABLES
+
+Poems
+
+Oswin Bramble
+
+
+                          I. WATER
+
+
+TIDE TABLE
+
+The book says the water will be here at four.
+The water does not read.
+It arrives at four.
+
+This is the oldest agreement
+between a thing that keeps promises
+and a thing that writes them down.
+
+
+ESTUARY, FEBRUARY
+
+Mud, and the smell of mud,
+and a heron standing in it
+like a decision nobody has made yet.
+
+Somewhere upriver a gate opens.
+The heron does not look up.
+It has been standing here
+
+since before the gate,
+since before the river had a name
+that could be written on a gate.
+
+
+FERRY, LAST SAILING
+
+Six of us and a bicycle.
+The engine finds its note
+and holds it, the way a held note
+
+stops being sound
+and becomes a room.
+Nobody speaks.
+
+Not from unfriendliness —
+from the ordinary courtesy
+of people who will be strangers again
+
+in eleven minutes.
+
+
+WHAT THE WATER DOES NOT DO
+
+It does not rise to meet you.
+It does not remember the boat.
+It does not, whatever the poem says,
+
+grieve, or wait, or forgive.
+
+It goes where the moon and the land
+have already agreed it will go,
+and this is the whole of its kindness:
+
+that it is never, once,
+about you.
+
+
+SPRING TIDE
+
+Twice a month the water forgets
+where it agreed to stop
+and the road becomes a suggestion.
+
+The town has known this for four hundred years
+and builds there anyway,
+which is either faith or arithmetic
+
+and has been called both
+by people who were equally sure.
+
+
+                         II. WORK
+
+
+THE LAMPLIGHTER
+
+Ninety-four steps and a brass key.
+An hour and forty minutes
+of a job that ends
+
+the moment anyone invents
+a better way to do it.
+She knew this the whole time.
+
+She climbed anyway.
+Not out of protest —
+out of the evening being the evening
+
+and the lamp being unlit.
+
+
+NIGHT SHIFT
+
+The building at three in the morning
+is a different building.
+The lift takes longer.
+
+The corridors have opinions.
+
+You learn which floors hum
+and which ones only hum on Tuesdays,
+and you tell nobody,
+
+because there is nobody
+and because it would not survive the telling.
+
+
+HANDOVER
+
+Everything I know about this machine
+fits in forty minutes
+if you already know machines,
+
+and does not fit at all
+if you do not.
+
+So: forty minutes,
+a diagram I drew badly,
+and the number of the man
+
+who wrote it in 1998
+and does not answer.
+
+
+THE INVENTORY
+
+Fourth count, fourth answer.
+The problem was never arithmetic.
+
+Behind the mooring rope,
+third shelf, on no list since 1994:
+forty-one brass keys,
+
+each tagged,
+each tag naming a lamp post
+that no longer stands.
+
+I counted them twice.
+Forty-one both times —
+the first thing all week
+
+that counted correctly.
+I put the box back
+and wrote nothing in the ledger
+
+and the fifth count came out right.
+
+
+RETIREMENT, SECOND WEEK
+
+The alarm goes off out of habit.
+He lets it.
+
+Some mornings a thing is worth keeping
+precisely because it is no longer
+worth anything.
+
+
+                       III. WEATHER
+
+
+FOG, HALLOWAY
+
+The far shore is a rumour.
+The near shore is a rumour
+the moment you turn your back on it.
+
+Somewhere a bell,
+and the bell is honest,
+and the bell is the only honest thing
+
+for a mile in any direction.
+
+
+WIND, FORCE SEVEN
+
+Everything that can be blown away
+has been.
+
+What is left is the argument
+the coast has been making
+for eleven thousand years,
+
+at volume,
+to nobody.
+
+
+RAIN ON A METAL ROOF
+
+Not a drumming.
+
+A conversation
+conducted entirely in one syllable
+by an enormous number of speakers
+
+who have agreed
+not to interrupt.
+
+
+FIRST FROST
+
+The grass has been issued
+with an opinion overnight.
+
+By ten it will have withdrawn it.
+By eleven it will deny
+having held it.
+
+Only the shadowed side of the wall
+keeps the record.
+
+
+THE FORECAST
+
+Eighty per cent, they said,
+which is a number about them
+and not about the sky.
+
+The sky does not deal in percentages.
+It deals in one of two things
+and has already decided which.
+
+
+                        IV. ROOMS
+
+
+READING ROOM, MARLOW STREET
+
+Eleven people, none of them together,
+all of them companionable.
+
+The radiator ticks.
+A page turns three seats down
+and everybody, without looking,
+
+knows which seat.
+
+
+KITCHEN, AFTER
+
+The soup was the announcement.
+The argument was the soup's
+and it lost.
+
+We ate it anyway.
+
+That is what a sister is:
+someone whose losing argument
+you finish the whole bowl of.
+
+
+EMPTY FLAT, VIEWING
+
+Somebody measured this room
+against a life
+and the life did not fit
+
+or fitted and ended.
+
+The agent says it has potential.
+So did they.
+
+We are all of us
+previous occupants.
+
+
+THE DRAWER
+
+A key to a lock
+on a post
+that no longer has a lamp
+
+in a town that no longer
+needs anybody to climb it.
+
+Council property.
+Sixty years.
+Nobody ever asked.
+
+
+LAST ROOM
+
+Turn the light off from the door
+and the room becomes what it was
+before anybody furnished it:
+
+a volume of air
+with a window in one wall
+and no opinion about who leaves.
+
+
+                         NOTES
+
+
+These poems were written as a sample asset, in one sitting, for a repository
+that needed a long plain-text file with verse in it. They are not previously
+published and there is no poet called Oswin Bramble.
+
+The place names — Corrance, Fenwick, Halloway, Marlow Street, Fisher's Rise —
+are shared with the other fiction in this collection, on the principle that a
+sample library may as well have a consistent geography. None of those places
+exists.
+
+Line breaks and stanza breaks are meaningful and are preserved with ordinary
+newlines rather than any markup, which is the point of a plain-text sample: a
+tool that reflows this file has damaged it, and a tool that does not has
+passed.

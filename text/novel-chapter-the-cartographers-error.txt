@@ -1,0 +1,191 @@
+THE CARTOGRAPHER'S ERROR
+
+Chapter Eleven
+
+
+The error was on sheet forty-one, and it had been there since 1911, and Devraj
+Pillai found it on a Tuesday afternoon in a room with no windows because he
+was avoiding a meeting.
+
+That is the honest account and it is the one he gave, eventually, to the
+inquiry. He had not been looking for it. He had been looking for somewhere to
+be for ninety minutes, and the map room was cold and unpopular and nobody ever
+went there, and he had pulled sheet forty-one off the rack for no better
+reason than that it was the one nearest the light.
+
+Fenwick estuary, 1:10,560, surveyed 1909, published 1911. Third edition, with
+revisions to the railway.
+
+He had seen it before. Everyone in the department had seen it before; a copy
+hung in the corridor outside the director's office, badly framed, sun-bleached
+along the western third. What Devraj had never done, in four years, was put it
+flat on a table next to the current sheet and look at both at once.
+
+The causeway was in the wrong place.
+
+Not badly wrong. Not a mile out, or a hundred metres, or anything that a
+surveyor would have noticed on the ground. On the 1911 sheet the causeway to
+Tern Island ran from the point at Chandler's Head across the flats on a
+bearing that was — he measured it three times with a rule, and then a fourth
+time with the digital caliper he had to go and fetch, which meant leaving the
+room and risking the meeting — eleven degrees south of where it ran on the
+modern sheet.
+
+Eleven degrees, over a mile and a half, is about three hundred metres at the
+far end.
+
+He stood there for a while and thought about the ways this could be nothing.
+
+The first way was that the causeway had moved. Causeways do not move, but the
+posts that mark them are replaced, and a village that replaces posts over a
+century might drift the line without anyone deciding to. That was easy to
+check and he checked it that afternoon: the parish records at Halloway Bank
+listed every post replacement since 1888, with a bearing, and the bearing had
+not changed since the list began.
+
+The second way was that the 1911 survey was simply wrong. This was the
+comfortable answer and it was the one the director gave him a fortnight later,
+in the meeting he had by then been unable to avoid. Old surveys contain
+errors. Everybody knows this. An eleven-degree error in a minor feature on a
+coastal sheet was, the director said, "not evidence of anything except 1909."
+
+Devraj had been ready for that.
+
+He had spent the fortnight in the archive, and what he had found was that the
+1909 surveyors had been extremely good. He had checked eleven other features
+on sheet forty-one against modern positions: the church at Halloway Bank, the
+two mussel poles that survive, the corner of the sea wall, the boundary stone
+at Cooper's Yard, the crooked marker, the slipway, four field corners, and the
+Fenwick light.
+
+Every one of them was within four metres.
+
+"Four metres," he said, in the meeting, and put the sheet on the table.
+
+"And the causeway is three hundred out. The same surveyors. The same
+afternoon, probably. They did not have an eleven-degree error in them."
+
+The director looked at the sheet for what Devraj remembered afterwards as an
+uncomfortably long time.
+
+"Then what," she said, "are you telling me?"
+
+And Devraj, who had rehearsed this on the train and had a careful version
+prepared, heard himself say the uncareful one instead.
+
+"I am telling you that in 1909 the causeway was where they drew it."
+
+
+The trouble with that sentence — and he understood the trouble as soon as it
+was out of his mouth — is that it is not a statement about a map. It is a
+statement about a mile and a half of sand.
+
+If the causeway had run eleven degrees further south in 1909, then the safe
+line across the flats had been eleven degrees further south, and the safe line
+across the flats is not a decision anybody makes. It is a property of the
+sand. It is where the bank is highest and where the channels do not cut
+across. You do not choose it; you find it, and then you mark it, and the marks
+are a record of the finding.
+
+Which meant one of two things had happened.
+
+Either the sand had changed — a mile and a half of it, three hundred metres at
+the far end, in a hundred and sixteen years — and nobody had written it down.
+
+Or the marks were wrong, and had been wrong for a century, and everybody who
+crossed the causeway to Tern Island was walking a line that had been the safe
+line in 1909 and had stopped being it at some point nobody could name.
+
+The second possibility was the one that made the room go quiet.
+
+
+He did not sleep much that week. Not from drama; from arithmetic.
+
+The causeway carries, at a rough estimate, four hundred crossings a year. It
+is passable four and a half hours either side of low water. It has a refuge
+box at the halfway point with a visitors' book in it, and Devraj had read the
+visitors' book, because he read everything, and it is not a cheerful document.
+
+The entries fall into two kinds. The first kind is people who misread the tide
+table and got caught, and there are eleven of those since 1994, and every one
+of them says the same thing in different handwriting, which is that the water
+came from the wrong direction.
+
+The second kind — there are four — say something else. They say that the posts
+ran out.
+
+He had read those four entries a dozen times. The last was from 2019. A family
+of three, crossing in the afternoon, who had followed the posts as far as the
+bend and then found, in their words, "no more posts for about eighty yards"
+and had gone back, and had made it, and had been very frightened, and had
+written about it in the box on the way home because they did not know what
+else to do with it.
+
+The parish had investigated. The parish had walked the line the following
+week at low water and found every post standing.
+
+Of course they had. They had walked it at low water. The family had crossed at
+half tide, when the water was already in the low ground on the southern side,
+and had been looking for posts on a line that no longer had any, because the
+posts they could see were three hundred metres to the north and behind them.
+
+
+He put all of this in a note. Four pages, no adjectives, every claim sourced.
+He sent it to the director on a Thursday and he sent a copy to the parish
+clerk at Halloway Bank on the same day, which was the thing he was later
+criticised for and the thing he would do again.
+
+The director's reply came on the Monday and was three lines long. It said that
+the department would commission a survey of the causeway line, that the survey
+would take four months, and that in the meantime no statement would be made.
+
+The parish clerk's reply came on the Friday afternoon, forty hours after he
+sent it, and said:
+
+We have closed the causeway. There is a notice at both ends. We will keep it
+closed until somebody with a theodolite tells us where it is.
+
+Please come and show us the map.
+
+
+He went on the Saturday.
+
+There were nine of them in the parish room, which he later learned was most of
+the adult population of Tern Island and about a third of Halloway Bank, and
+they had put out chairs, and somebody had made tea, and on the table at the
+front they had laid the framed copy from the church, which was the same third
+edition and which nobody had looked at properly in fifty years either.
+
+He put his sheet next to it. He put the modern sheet next to that.
+
+He did not have to explain anything. A woman of about eighty in the second row
+said "That's not right" within about four seconds, and pointed, and she was
+pointing at exactly the place.
+
+"No," said Devraj. "It isn't."
+
+"It's gone north," she said.
+
+"Yes."
+
+"Since when?"
+
+And that was the question, and he had come all this way to say the only honest
+answer, which was that he did not know, that nobody knew, that a hundred and
+sixteen years of a mile and a half of sand had gone unrecorded because a
+causeway is not a thing anybody surveys, and that the only reason he knew it
+at all was that he had been avoiding a meeting.
+
+He said all of that, and it took about two minutes, and when he stopped there
+was a silence of a kind he had never encountered in a professional setting and
+has not encountered since.
+
+Then the woman in the second row said:
+
+"Well. That's more than anyone's told us before."
+
+
+— This chapter is from a work of fiction written as a sample asset. Fenwick,
+Tern Island, the causeway, the survey, and every person in this chapter are
+invented, and any resemblance to a real place, map, or incident is
+coincidental.

@@ -1,0 +1,247 @@
+WHY THE TIDE IS NOT WHERE YOU THINK IT IS
+
+Lecture 4 of 12: Coastal Processes
+Notes for students. These notes are complete; the lecture is not.
+
+
+BEFORE WE START
+
+Three warnings.
+
+First, almost everything you were told about tides at school is a simplified
+model, and the simplification is not innocent. It gets the cause roughly right
+and the timing badly wrong, and the timing is the part anybody actually needs.
+
+Second, I am going to spend most of this lecture on why the simple model fails
+rather than on the model itself. If you want the model, it is in any textbook.
+What is not in most textbooks is a clear account of the gap between the model
+and the tide table on the harbour wall, and that gap is where the interesting
+physics lives.
+
+Third: none of this is a substitute for a tide table. If you take one thing
+from today, take that. Every year somebody drowns on a causeway having
+reasoned correctly from first principles about a coastline that does not care.
+
+
+1. THE MODEL YOU WERE TAUGHT
+
+The equilibrium theory of tides, which is what you got at school, says roughly
+this.
+
+The Moon's gravitational pull is stronger on the near side of the Earth than
+on the far side. Water, being able to move, is drawn towards the Moon on the
+near side. On the far side, the water is left behind — the solid Earth is
+pulled away from it more strongly than it is. You get two bulges, one facing
+the Moon and one directly opposite.
+
+The Earth rotates beneath these bulges. Any given point passes through two of
+them per rotation. Two high tides a day.
+
+The Sun does the same thing at about 46 per cent of the strength. When Sun and
+Moon line up, the effects add: spring tides. When they are at right angles,
+they partly cancel: neap tides.
+
+Every sentence in that account is correct, and the account as a whole predicts
+almost nothing useful.
+
+
+2. WHAT IT GETS WRONG
+
+Take the equilibrium model seriously for a moment and ask it three questions.
+
+Q: When is high water?
+A: When the Moon is overhead, or directly underfoot.
+
+Q: How big is the tidal range?
+A: About 0.5 metres.
+
+Q: Does it vary much from place to place?
+A: Not really.
+
+Now go and stand somewhere with a tide table.
+
+At Fenwick the mean spring range is 6.2 metres — twelve times the model's
+answer. High water occurs roughly five hours after the Moon's transit, not at
+it. And forty miles along the same coast, at Kestrel Point, the range is 2.1
+metres and high water is fifty minutes earlier.
+
+The model is not slightly wrong. It is wrong by an order of magnitude in
+amplitude, wrong by hours in phase, and it has no mechanism at all for
+variation between two places on the same coast.
+
+
+3. WHY IT IS WRONG: THE OCEAN IS NOT DEEP ENOUGH
+
+Here is the single fact that unlocks everything.
+
+For the equilibrium bulges to keep up with the Moon, the tidal wave would have
+to travel westward around the Earth at the speed of the Earth's rotation —
+about 1,670 km/h at the equator.
+
+A shallow-water wave travels at the square root of (g × depth). For the
+ocean's mean depth of about 4 km, that gives roughly 700 km/h.
+
+The wave cannot keep up. It is not a bulge being dragged along; it is a wave
+being driven at more than twice its natural speed, by a force that is
+oscillating. That is a forced oscillation problem, and forced oscillations do
+not sit obediently under the driver. They respond at the driving frequency but
+with an amplitude and a phase set by the system's own properties.
+
+This is the whole answer. Everything else is detail.
+
+Write it down like this: the tide is not a bulge that the Moon drags round the
+Earth. The tide is an oscillation of each ocean basin, driven at the frequency
+the Moon supplies, with an amplitude and a phase determined by the basin.
+
+
+4. WHAT THE BASIN DOES
+
+An ocean basin has natural periods, the way a bathtub does and for the same
+reason.
+
+Slosh a bathtub at random and you get chop. Slosh it at its natural period and
+you get a standing wave, and the water at one end goes up and down by far more
+than the force you applied would suggest.
+
+The semidiurnal driving period is 12 hours 25 minutes. Where a basin's natural
+period is close to that, the response is large. Where it is not, the response
+is small.
+
+This is why the Mediterranean, which is large but whose geometry gives it
+natural periods far from 12h 25m, has a tidal range of centimetres, while the
+Bay of Fundy, whose natural period is very close indeed, has a range of over
+fifteen metres.
+
+Nothing about the Moon is different in those two places.
+
+
+5. AMPHIDROMIC SYSTEMS
+
+Add the Earth's rotation and the standing wave stops standing still.
+
+The Coriolis effect deflects the moving water, and instead of a wave sloshing
+back and forth along a basin, you get a wave rotating around a point. That
+point is an amphidromic point: a place where the tidal range of that
+constituent is zero, and around which high water travels like the hand of a
+clock.
+
+Consequences worth knowing:
+
+- Tidal range increases with distance from the amphidromic point. Coastlines
+far from one have big tides. - The time of high water advances progressively
+along a coast, in the direction of the rotation. This is why high water at
+Kestrel Point is fifty minutes before Fenwick and not at the same time. - In
+the northern hemisphere the rotation is anticlockwise. In the southern, it is
+clockwise. - There are several amphidromic points per ocean, and a different
+set for each tidal constituent.
+
+If you understand amphidromic systems you can look at a co-tidal chart and
+predict, roughly, the shape of the tide anywhere on it. That is worth more
+than memorising anything else in this lecture.
+
+
+6. LOCAL AMPLIFICATION
+
+Then the coast gets hold of it.
+
+Three mechanisms, all of which apply on the estuary outside this window.
+
+Shoaling. As depth decreases, wave speed decreases, and energy is conserved by
+an increase in amplitude. A tidal wave entering a shelf sea gets taller.
+
+Funnelling. A converging channel concentrates the same energy into a narrowing
+width. The Fenwick estuary narrows from 14 km at the mouth to 900 m at Marlow
+Point, which multiplies the range by roughly 2.4 before any other effect.
+
+Resonance again, locally. An estuary of the right length for the tidal
+wavelength resonates in its own right. The quarter-wavelength condition is the
+one to remember: an estuary about a quarter of a tidal wavelength long, closed
+at the head, will amplify strongly.
+
+Fenwick is, unhelpfully for anyone living there, close to that condition.
+
+
+7. THE SHAPE OF THE CURVE
+
+One more thing that catches people out.
+
+In deep water the tidal curve is close to a sinusoid: the rise and the fall
+take the same time. In a shallow estuary it is not. Friction acts more
+strongly on the low-water part of the cycle, so the flood becomes shorter and
+steeper and the ebb becomes longer and gentler.
+
+At Fenwick the flood takes 4 hours 50 minutes and the ebb takes 7 hours 35.
+
+The practical consequence: the incoming tide moves faster than the outgoing
+one. The rule of twelfths — that the tide rises 1/12, 2/12, 3/12, 3/12, 2/12,
+1/12 of its range in the six hours — assumes a symmetric curve and is
+consistently optimistic on a flood tide in a shallow estuary.
+
+People cross causeways on the rule of twelfths. Do not.
+
+
+8. WHAT THE TIDE TABLE ACTUALLY IS
+
+A tide table is not a calculation from the Moon's position.
+
+It is a harmonic prediction. For each port, the historic record is decomposed
+into constituents — M2 (principal lunar semidiurnal, 12h 25m), S2 (principal
+solar, 12h 00m), N2, K1, O1, and dozens more — and each constituent's
+amplitude and phase at that port are measured from years of observation.
+
+The prediction is then just the sum of those constituents projected forward.
+
+Two things follow.
+
+First, the table is only as good as the record it was built from. A port with
+four years of data has a worse table than one with forty.
+
+Second, the table predicts the astronomical tide only. It does not know about
+weather. A deep depression raises sea level by roughly 1 cm per millibar of
+pressure drop, and a sustained onshore wind can add far more. Storm surges of
+a metre are unremarkable on this coast and two metres has happened twice in
+living memory.
+
+The table said the water would be at 4.1 m. The water was at 5.6 m. The table
+was not wrong; it was answering a different question.
+
+
+9. WHAT TO REMEMBER
+
+If you remember five things:
+
+1. The tide is a forced oscillation of ocean basins, not a bulge dragged round
+   the Earth. The ocean is too shallow for the bulge model to work.
+
+2. Amplitude and phase are set by basin geometry and resonance, not by the
+   Moon's position. This is why two places on the same coast differ.
+
+3. High water rotates around amphidromic points. Range grows with distance
+   from them.
+
+4. Estuaries amplify by shoaling, funnelling, and local resonance, and they
+   distort the curve so that the flood is faster than the ebb.
+
+5. A tide table is a harmonic prediction of the astronomical tide, and the
+   weather is not in it.
+
+
+READING
+
+Any coastal oceanography text will cover sections 3 to 6 properly. For section
+8, get hold of an actual harmonic constituent table for a port you know and
+look at how much of the total is M2. On this coast it is about 71 per cent.
+Somewhere with a strongly diurnal tide it can be under 20 per cent, and the
+whole shape of the day is different as a result.
+
+
+NEXT WEEK
+
+Tidal currents, which are not simply the tide moving sideways, and which reach
+their maximum at a time that surprises everybody the first time they see it.
+
+
+— These lecture notes are a work of fiction written as a sample asset. The
+course, the coast, and the specific figures for Fenwick and Kestrel Point are
+invented. The physics is standard and stated in the author's own words, but
+this document should not be used as a reference.
