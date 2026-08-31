@@ -1,0 +1,220 @@
+#+TITLE: Org Mode Syntax Showcase
+#+AUTHOR: Sample Assets
+#+EMAIL: sample@example.invalid
+#+DATE: <2027-09-02 Thu>
+#+DESCRIPTION: One document exercising common Org constructs.
+#+KEYWORDS: org, emacs, sample
+#+LANGUAGE: en
+#+OPTIONS: toc:3 num:t H:4 ^:{} todo:t tags:t
+#+STARTUP: showall inlineimages
+#+MACRO: product Driftwood
+#+MACRO: version 2.4.1
+
+One document exercising the constructs an Org parser is expected to handle.
+{{{product}}} {{{version}}} is a fictional project used here as filler.
+
+* Headlines and structure
+** A second level
+*** A third level
+**** A fourth level
+
+     The number of leading asterisks sets the level. Content belongs to the
+     nearest headline above it.
+
+** Drawers and properties
+   :PROPERTIES:
+   :CUSTOM_ID: drawers
+   :OWNER:    Sample Assets
+   :Effort:   2h
+   :END:
+
+   A property drawer sits directly under its headline and is not part of the
+   body text.
+
+   :NOTES:
+   A generic drawer holds material that is folded away by default. Any name in
+   colons opens one.
+   :END:
+
+* Text formatting
+
+  *bold*, /italic/, _underlined_, =verbatim=, ~code~, +struck through+, and
+  combinations like */bold italic/*.
+
+  Subscripts and superscripts: H_2O and E = mc^2, with braces for anything
+  longer than a character: x_{i+1} and 2^{32}.
+
+  Entities: \alpha \beta \gamma, \to, \Rightarrow, \pm, \deg, \nbsp, and
+  \ldots{} followed by text.
+
+  A line break is forced with a trailing backslash-backslash \\
+  like this.
+
+* Lists
+
+** Unordered
+   - First item
+   - Second item, whose continuation lines
+     indent to match
+   - Third item
+     + a different bullet character opens a sublist
+     + and another
+       * deeper still
+
+** Ordered
+   1. First
+   2. Second
+      1) alternative closing character
+      2) and another
+   3. Third
+
+** Description
+   - archive :: One file holding an index and every object it refers to.
+   - object :: A byte stream stored under the digest of its own contents.
+   - digest :: Thirty-two bytes identifying an object uniquely.
+
+** Checkboxes
+   - [-] Partially complete parent [1/3]
+     - [X] Done
+     - [ ] Not done
+     - [ ] Also not done
+
+   - [ ] A parent with a percentage cookie [0%]
+     - [ ] One
+     - [ ] Two
+
+* Tables
+
+  A plain table, with an alignment row and a formula:
+
+  | Route          | Passengers | Recovery |
+  |----------------+------------+----------|
+  | Harbour Loop   |      83755 |     127% |
+  | Kestrel Point  |      63325 |     103% |
+  | Halloway       |      30615 |      68% |
+  | Night Crossing |      37185 |     103% |
+  |----------------+------------+----------|
+  | Total          |     214880 |          |
+  #+TBLFM: @>$2=vsum(@2..@-1)
+
+  A table with a caption and a name, so it can be referenced:
+
+  #+CAPTION: Exit codes returned by the command-line tool
+  #+NAME: tbl-exit-codes
+  | Code | Meaning                          |
+  |------+----------------------------------|
+  |    0 | Success                          |
+  |    1 | Usage error                      |
+  |    2 | Archive not found or unreadable  |
+  |    3 | Verification failed              |
+  |    4 | Interrupted; archive resumable   |
+
+  See [[tbl-exit-codes]] for the full list.
+
+* Blocks
+
+** Source code
+
+   #+BEGIN_SRC python :results output :exports both
+     def store_all(paths, store):
+         digests = {}
+         for path in paths:
+             with open(path, "rb") as handle:
+                 digests[path] = store.put(handle)
+         return digests
+   #+END_SRC
+
+   #+BEGIN_SRC sh
+     driftwood pack ./photos --into photos.dw
+     driftwood verify photos.dw --fast
+   #+END_SRC
+
+** Example
+
+   #+BEGIN_EXAMPLE
+     scanned 4,812 files (3.2 GiB)
+     stored  4,166 objects (2.7 GiB, 16% deduplicated)
+   #+END_EXAMPLE
+
+   A shorthand for a single line uses a colon at the start:
+
+   : this line is example text
+
+** Quote
+
+   #+BEGIN_QUOTE
+   A sample that only exercises the constructs an author happens to like is not
+   a sample of the format. It is a sample of the author.
+   #+END_QUOTE
+
+** Verse
+
+   #+BEGIN_VERSE
+   The tide comes in on the hour,
+     the ferry on the half,
+   and neither of them waits
+     for anybody's timetable.
+   #+END_VERSE
+
+** Centre
+
+   #+BEGIN_CENTER
+   Centred text, which matters only in exported output.
+   #+END_CENTER
+
+** Export
+
+   #+BEGIN_EXPORT html
+   <p><em>This paragraph reaches HTML output only.</em></p>
+   #+END_EXPORT
+
+** Comment
+
+   #+BEGIN_COMMENT
+   A comment block. Absent from every export backend.
+   #+END_COMMENT
+
+* Links
+
+  - An external link with a description:
+    [[https://example.invalid/driftwood][the project page]]
+  - A bare external link: https://example.invalid/driftwood
+  - An internal link to a headline: [[*Tables]]
+  - A link to a custom id: [[#drawers][the drawers section]]
+  - A file link: [[file:../md/readme-sample.md][the Markdown readme sample]]
+  - An image, displayed inline rather than linked:
+
+  #+CAPTION: A shield with a sparkle
+  #+ATTR_HTML: :width 96
+  [[file:../../images/icons/icon-shield-sparkle-512x512.png]]
+
+* Footnotes and targets
+
+  A statement with a footnote[fn:1], and one with a named
+  footnote[fn:named:An inline named footnote, defined where it is used].
+
+  A radio target for cross-referencing: <<<content addressing>>> is defined
+  here, and every later mention of the phrase links back to it.
+
+* Timestamps
+
+  - Active, appearing in the agenda: <2027-09-02 Thu>
+  - Inactive, not appearing in the agenda: [2027-09-02 Thu]
+  - With a time: <2027-09-02 Thu 10:00>
+  - A range: <2027-09-02 Thu 10:00-11:00>
+  - A date range: <2027-10-01 Fri>--<2027-10-29 Fri>
+  - Repeating weekly: <2027-09-06 Fri 07:00 +1w>
+  - With a warning period: <2027-09-30 Thu -3d>
+
+* Comments and keywords
+
+# A single-line comment begins with a hash and a space.
+
+  #+NAME: a-named-paragraph
+  A block or paragraph may carry a name, which is how other parts of a document
+  and other tools refer to it.
+
+* Footnotes
+
+[fn:1] Footnote definitions collect at the end of the file, under a headline
+named "Footnotes" by convention.

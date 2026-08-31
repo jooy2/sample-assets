@@ -38,6 +38,7 @@
 
 # Documents
 *.adoc text eol=lf
+*.org  text eol=lf
 *.rst  text eol=lf
 *.tex  text eol=lf
 *.rtf  text eol=lf

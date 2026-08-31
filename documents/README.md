@@ -13,6 +13,7 @@ One subfolder per format, named after the extension it holds:
 | [`html/`](html)   | HTML pages                      | `.html`   | text   |
 | [`md/`](md)       | Markdown                        | `.md`     | text   |
 | [`odt/`](odt)     | OpenDocument text               | `.odt`    | binary |
+| [`org/`](org)     | Org mode                        | `.org`    | text   |
 | [`pdf/`](pdf)     | PDF                             | `.pdf`    | binary |
 | [`pptx/`](pptx)   | PowerPoint (Office Open XML)    | `.pptx`   | binary |
 | [`rst/`](rst)     | reStructuredText                | `.rst`    | text   |

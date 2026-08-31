@@ -1,0 +1,144 @@
+#+TITLE: Platform Team — Weekly Sync
+#+AUTHOR: Helena Vance
+#+DATE: <2027-09-02 Thu>
+#+STARTUP: overview
+#+OPTIONS: toc:2 num:nil
+#+TODO: TODO NEXT WAITING | DONE CANCELLED
+
+Notes from the weekly platform sync. Everyone and everything below is
+invented for a sample document.
+
+* Attendance
+  - Helena Vance (chair)
+  - Tobias Renn
+  - Marguerite Oyelaran
+  - Devraj Pillai
+  - Apologies: Ines Kowalczyk (on call)
+
+* Agenda
+  1. Tideline shadow phase — go/no-go
+  2. The Thursday pager problem
+  3. Chunk size default, again
+  4. Quarter planning, first pass
+
+* Tideline shadow phase
+  :PROPERTIES:
+  :OWNER: Tobias
+  :DUE: <2027-10-01 Fri>
+  :END:
+
+  Tobias walked through the readiness checklist. Nine of eleven producers now
+  stamp deterministic keys. The two that do not are third-party and will use
+  content-plus-arrival-window keys derived at the edge.
+
+** Decision
+   *Go.* Shadow phase starts 1 October. Old pipeline stays authoritative for the
+   full four weeks regardless of what the comparison shows.
+
+** Discussion
+   Marguerite asked whether four weeks is long enough to see monthly batch
+   traffic. It is not — the month-end batch lands on the 3rd, so the window
+   catches exactly one. Agreed to extend to five weeks if the first month-end
+   shows any divergence at all.
+
+   Devraj raised storage. Shadow roughly doubles ingest storage for its
+   duration. Current headroom is 41%, which is enough, but it removes the
+   margin we would want if something else needed space in October.
+
+** Actions
+   - [ ] TODO Confirm the two third-party key derivations with their vendors
+     :PROPERTIES:
+     :OWNER: Tobias
+     :DUE: <2027-09-19 Fri>
+     :END:
+   - [ ] TODO Reserve October storage headroom explicitly rather than relying on it
+     :PROPERTIES:
+     :OWNER: Devraj
+     :DUE: <2027-09-12 Fri>
+     :END:
+   - [ ] NEXT Write the comparison dashboard before the phase starts, not during
+     :PROPERTIES:
+     :OWNER: Helena
+     :DUE: <2027-09-26 Fri>
+     :END:
+
+* The Thursday pager problem
+
+  Six of the last eight out-of-hours pages have landed on a Thursday night,
+  between 22:00 and 01:00. Nobody had noticed until Ines plotted them.
+
+** Cause
+   The weekly reconciliation job starts at 22:00 Thursday. It is not itself
+   failing; it saturates the same connection pool the ingest path uses, and
+   ingest is what pages.
+
+** Options considered
+   | Option                          | Effort | Risk   | Fixes it? |
+   |---------------------------------+--------+--------+-----------|
+   | Move the job to Sunday          | Low    | Low    | Moves it  |
+   | Separate connection pools       | Medium | Low    | Yes       |
+   | Rate-limit the reconciliation   | Low    | Medium | Mostly    |
+   | Raise the pool size             | Low    | High   | No        |
+
+** Decision
+   Separate pools. Moving the job to Sunday was tempting and was rejected
+   because it relocates the pain onto whoever is on call at the weekend, which
+   is worse, not better.
+
+** Actions
+   - [ ] TODO Split the reconciliation pool from the ingest pool
+     :PROPERTIES:
+     :OWNER: Ines
+     :DUE: <2027-09-26 Fri>
+     :END:
+   - [X] DONE Plot the pages by day of week and share it
+     CLOSED: [2027-08-29 Fri]
+     :PROPERTIES:
+     :OWNER: Ines
+     :END:
+
+* Chunk size default
+
+  Raised for the third time this quarter. Helena's position, restated: the
+  default is 4 MiB, the measurements have not changed, and the case for 16 MiB
+  is a throughput gain of under 1% for four times the memory.
+
+  Agreed to stop revisiting this. Devraj will add the measurement table to the
+  technical note so the next person finds the answer instead of the argument.
+
+  - [ ] TODO Fold the chunk-size measurements into the technical note
+    :PROPERTIES:
+    :OWNER: Devraj
+    :DUE: <2027-09-12 Fri>
+    :END:
+
+* Quarter planning, first pass
+
+  A rough shape only. Nothing here is committed.
+
+** Certain
+   - Tideline shadow, compare, and cut-over — eight weeks, two people
+   - Connection pool split — one week
+   - Two on-call rotations of routine work
+
+** Likely
+   - Retire the 1.x compatibility reader (nothing has used it in five months)
+   - Index streaming, so ~list~ stops reading the whole index into memory
+
+** Wanted, unscheduled
+   - FUSE mount. Devraj has a prototype. It is a quarter of work and it is not
+     the most valuable quarter of work available.
+
+** Explicitly not this quarter
+   - Encryption at rest. This keeps appearing in requests and keeps being the
+     wrong layer; the archive file should be encrypted by whatever holds it.
+
+* Next meeting
+  <2027-09-09 Thu 10:00-11:00>
+
+  Standing items plus a first look at the comparison dashboard.
+
+* Footnotes
+
+[fn:1] The reconciliation job predates everybody currently on the team, which is
+becoming a theme.

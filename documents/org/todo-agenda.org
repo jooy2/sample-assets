@@ -1,0 +1,151 @@
+#+TITLE: Driftwood — Project Backlog
+#+AUTHOR: Sample Assets
+#+STARTUP: overview
+#+TODO: TODO NEXT STARTED WAITING HOLD | DONE CANCELLED
+#+TAGS: { @work(w) @home(h) } urgent(u) docs(d) infra(i) research(r)
+#+PRIORITIES: A C B
+#+CATEGORY: driftwood
+#+COLUMNS: %40ITEM %TODO %PRIORITY %Effort(Est) %CLOCKSUM
+
+A task file exercising Org's agenda features: TODO keywords, priorities, tags,
+scheduling, deadlines, effort estimates, clock entries, repeaters, and
+checkboxes. The project is fictional.
+
+* Release 2.5                                                        :@work:
+  :PROPERTIES:
+  :CATEGORY: release
+  :END:
+
+** NEXT [#A] Stream the archive index instead of reading it whole      :infra:
+   DEADLINE: <2027-10-15 Fri> SCHEDULED: <2027-09-08 Wed>
+   :PROPERTIES:
+   :Effort:   3d
+   :ASSIGNEE: Devraj
+   :END:
+   :LOGBOOK:
+   CLOCK: [2027-09-02 Thu 09:15]--[2027-09-02 Thu 11:40] =>  2:25
+   :END:
+
+   ~list~ currently reads the whole index into memory, which stops being
+   acceptable somewhere past ten million paths.
+
+   - [X] Establish where the current limit actually is
+   - [X] Decide on the on-disk layout for a streamable index
+   - [ ] Write the streaming reader
+   - [ ] Keep the old reader behind ~--raw~ for one release
+
+** TODO [#B] ~--json~ output for ~list~ and ~verify~                    :docs:
+   SCHEDULED: <2027-09-15 Mon>
+   :PROPERTIES:
+   :Effort:   1d
+   :END:
+
+   One object per line. No wrapper array, so the output stays streamable.
+
+** WAITING [#A] Third-party key derivation sign-off
+   :PROPERTIES:
+   :Effort:   0.5d
+   :ASSIGNEE: Tobias
+   :END:
+
+   Blocked on two vendors. Chased 2027-08-28; chase again if nothing by the
+   12th.
+
+** HOLD [#C] FUSE mount                                            :research:
+   :PROPERTIES:
+   :Effort:   20d
+   :END:
+
+   Prototype exists and works on Linux. macOS needs a signed kernel extension
+   or a userspace alternative, and neither is a week of work.
+
+   Held, not cancelled: this is the right feature at the wrong time.
+
+* Operations                                                    :@work:infra:
+
+** TODO Rotate the signing key                                        :urgent:
+   DEADLINE: <2027-09-30 Thu>
+   :PROPERTIES:
+   :Effort:   2h
+   :END:
+
+** TODO Weekly archive verification
+   SCHEDULED: <2027-09-06 Fri 07:00 +1w>
+   :PROPERTIES:
+   :Effort:   15m
+   :END:
+
+   A repeating task. Completing it schedules the next occurrence a week out.
+
+** TODO Quarterly dependency audit
+   SCHEDULED: <2027-10-01 Fri ++3m>
+   :PROPERTIES:
+   :Effort:   4h
+   :END:
+
+** DONE Split the reconciliation connection pool
+   CLOSED: [2027-08-30 Mon 16:20] DEADLINE: <2027-09-26 Fri>
+   :LOGBOOK:
+   CLOCK: [2027-08-29 Fri 13:00]--[2027-08-29 Fri 17:30] =>  4:30
+   CLOCK: [2027-08-30 Mon 09:00]--[2027-08-30 Mon 16:20] =>  7:20
+   :END:
+
+   Landed early. Thursday pages have not recurred in the two weeks since.
+
+* Documentation                                                 :@work:docs:
+
+** STARTED [#B] Rewrite the user guide troubleshooting section
+   SCHEDULED: <2027-09-03 Fri>
+   :PROPERTIES:
+   :Effort:   1d
+   :END:
+
+   - [X] Collect the last six months of support questions
+   - [X] Group them by cause rather than by symptom
+   - [ ] Write the section
+   - [ ] Have somebody who has never used Driftwood read it
+
+** TODO Fold chunk-size measurements into the technical note
+   DEADLINE: <2027-09-12 Fri>
+   :PROPERTIES:
+   :Effort:   2h
+   :ASSIGNEE: Devraj
+   :END:
+
+** CANCELLED Man pages
+   CLOSED: [2027-08-11 Wed]
+
+   ~--help~ is the documentation for a command-line tool that has fourteen
+   flags. A man page would be a second thing to keep correct.
+
+* Someday                                                         :@home:
+  :PROPERTIES:
+  :CATEGORY: someday
+  :END:
+
+** TODO Read the paper on content-defined chunking                :research:
+** TODO Try the archive format against a two-terabyte directory
+** TODO Write up why the deduplication percentage is reported against bytes
+
+* Notes
+
+** Effort estimates
+   Estimates are in the ~Effort~ property and roll up in column view. They are
+   estimates of focused work, not of elapsed time; a 3d task rarely finishes in
+   three consecutive days.
+
+** Clocking
+   Clock entries live in a ~LOGBOOK~ drawer under the task. Only two tasks in
+   this file carry them, which is honest about how consistently anybody clocks.
+
+** A table for capacity
+   | Person     | Days available | Committed | Free |
+   |------------+----------------+-----------+------|
+   | Helena     |             18 |        14 |    4 |
+   | Tobias     |             20 |        20 |    0 |
+   | Devraj     |             20 |        11 |    9 |
+   | Marguerite |             12 |         9 |    3 |
+   | Ines       |             16 |        13 |    3 |
+   |------------+----------------+-----------+------|
+   | Total      |             86 |        67 |   19 |
+   #+TBLFM: $4=$2-$3::@>$2=vsum(@2..@-1)::@>$3=vsum(@2..@-1)::@>$4=vsum(@2..@-1)

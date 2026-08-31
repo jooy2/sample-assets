@@ -1,0 +1,115 @@
+#+TITLE: Technical Note: Choosing a Chunk Size
+#+AUTHOR: Helena Vance
+#+EMAIL: h.vance@example.invalid
+#+DATE: <2027-07-30 Fri>
+#+OPTIONS: toc:t num:t
+#+STARTUP: showall
+
+Driftwood reads and hashes files in fixed-size chunks. The size is
+configurable, defaults to four mebibytes, and is the single setting most likely
+to be changed for the wrong reason. This note explains what the setting actually
+controls, measures its effect, and gives a rule for choosing it.
+
+Everything measured here is invented for a sample document.
+
+* What the setting does
+
+  A chunk is the unit in which an object is read from disk, held in memory, and
+  hashed. It is *not* the unit of deduplication --- Driftwood deduplicates whole
+  objects, not chunks --- and this is the first thing people get wrong about it.
+
+  Three quantities follow from the chunk size:
+
+  - Peak memory :: Bounded by =chunk_size × parallelism=, plus a fixed overhead
+    of about 12 MiB. This is the only hard constraint.
+  - Syscall count :: One read per chunk per object. Larger chunks mean fewer,
+    larger reads.
+  - Resume granularity :: An interrupted run resumes at an *object* boundary,
+    not a chunk boundary, so chunk size does not affect it at all. This is the
+    second thing people get wrong.
+
+* What it does not do
+
+  Changing the chunk size does not change how much an archive deduplicates. Two
+  archives of the same directory written with 1 MiB and 64 MiB chunks contain
+  exactly the same objects and are exactly the same size.
+
+  Nor does it affect compatibility. The chunk size used to write each object is
+  recorded with the object, so any version reads any archive.
+
+* Measurements
+
+  The runs below pack the same 18.7 GiB directory of 12,904 files on the same
+  machine, varying only the chunk size. Each figure is the median of five runs.
+
+  #+CAPTION: Effect of chunk size on a mixed directory
+  #+NAME: tbl-mixed
+  | Chunk size | Wall clock | Peak RSS | Read syscalls |
+  |------------+------------+----------+---------------|
+  | 64 KiB     | 4m 51s     | 21 MiB   |        306400 |
+  | 256 KiB    | 3m 12s     | 24 MiB   |         76600 |
+  | 1 MiB      | 2m 44s     | 28 MiB   |         19150 |
+  | 4 MiB      | 2m 38s     | 44 MiB   |          4790 |
+  | 16 MiB     | 2m 37s     | 108 MiB  |          1200 |
+  | 64 MiB     | 2m 39s     | 268 MiB  |           300 |
+
+  The curve flattens at 1 MiB and is indistinguishable from flat past 4 MiB.
+  Memory, meanwhile, grows linearly and without limit.
+
+** The same directory, all small files
+
+   Repeating the experiment on 40,000 files averaging 9 KiB each:
+
+   #+CAPTION: Effect of chunk size on many small files
+   #+NAME: tbl-small
+   | Chunk size | Wall clock | Peak RSS |
+   |------------+------------+----------|
+   | 64 KiB     | 1m 38s     | 19 MiB   |
+   | 1 MiB      | 1m 36s     | 22 MiB   |
+   | 4 MiB      | 1m 36s     | 25 MiB   |
+   | 64 MiB     | 1m 37s     | 31 MiB   |
+
+   Chunk size is irrelevant here, because no file fills even one chunk. Memory
+   barely moves for the same reason: a chunk buffer is allocated at the size of
+   the object when the object is smaller than a chunk.
+
+* The rule
+
+  Leave it at 4 MiB unless one of these is true:
+
+  - *Memory is tightly constrained.* Drop to 1 MiB. You lose about 4% of
+    throughput on large files and nothing at all on small ones.
+  - *You are packing a small number of very large files over a network mount.*
+    Raise to 16 MiB. Past that, nothing improves.
+
+  Do not raise the chunk size to improve deduplication, because it will not. Do
+  not lower it to make resuming finer-grained, because resuming does not work
+  that way.
+
+* Why the default is not 16 MiB
+
+  16 MiB is marginally faster on the large-file workload and costs 64 MiB of
+  resident memory at the default parallelism of four. On a machine packing a
+  photo library that is free. On a build agent running four packs at once next
+  to a compiler, it is 256 MiB that something else wanted.
+
+  The default is chosen for the worse case, which is the one nobody measures
+  before it bites.
+
+* Appendix: setting it
+
+  In the configuration file:
+
+  #+BEGIN_SRC toml
+    [pack]
+    chunk-size = "4MiB"
+  #+END_SRC
+
+  On the command line, which wins:
+
+  #+BEGIN_SRC sh
+    driftwood pack ./photos --into photos.dw --chunk-size 1MiB
+  #+END_SRC
+
+  Accepted suffixes are =KiB=, =MiB=, and =GiB=. The value must be a power of
+  two between 64 KiB and 64 MiB; anything else is a usage error and exits 1.
