@@ -1,0 +1,393 @@
+/*
+ * print-stylesheet.css — a stylesheet for paged output: page boxes and margins,
+ * running headers and footers, page numbers, break control, and the rules that
+ * turn a screen document into something worth putting on paper.
+ *
+ * The @page and generated-content rules follow the CSS Paged Media and
+ * Generated Content for Paged Media specifications. Browsers implement a
+ * subset; a dedicated print formatter implements more. Both are catered for.
+ */
+
+/* --------------------------------------------------------- the page box -- */
+
+@page {
+  size: A4 portrait;
+  margin: 22mm 18mm 20mm;
+
+  @top-center {
+    content: string(doc-title);
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 9pt;
+    color: #555;
+    padding-block-end: 2mm;
+    border-block-end: 0.4pt solid #bbb;
+  }
+
+  @bottom-right {
+    content: counter(page) " / " counter(pages);
+    font-family: Georgia, serif;
+    font-size: 9pt;
+    color: #555;
+  }
+
+  @bottom-left {
+    content: "Northwind Ferry Cooperative — Operating Report";
+    font-family: Georgia, serif;
+    font-size: 8pt;
+    color: #888;
+  }
+}
+
+/* The first page carries no running header: the title is already on it. */
+@page :first {
+  margin-block-start: 32mm;
+
+  @top-center {
+    content: none;
+  }
+
+  @bottom-left {
+    content: none;
+  }
+}
+
+/* Mirrored margins for double-sided printing: the binding edge is wider. */
+@page :left {
+  margin-inline: 18mm 24mm;
+
+  @bottom-right {
+    content: none;
+  }
+
+  @bottom-left {
+    content: counter(page);
+  }
+}
+
+@page :right {
+  margin-inline: 24mm 18mm;
+}
+
+/* A landscape page for wide tables, opted into by a class. */
+@page wide {
+  size: A4 landscape;
+  margin: 16mm;
+}
+
+.landscape-table {
+  page: wide;
+  break-before: page;
+  break-after: page;
+}
+
+/* A blank verso page before a part opening, in double-sided output. */
+@page blank {
+  @top-center { content: none; }
+  @bottom-right { content: none; }
+  @bottom-left { content: none; }
+}
+
+/* ------------------------------------------------------- screen defaults -- */
+
+/*
+ * Everything above applies only to paged output. The rules below apply
+ * everywhere but are overridden for print further down, so that this file is
+ * readable on its own rather than being a list of things to hide.
+ */
+
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  line-height: 1.55;
+  color: #1b1b1f;
+}
+
+/* ----------------------------------------------------------- print rules -- */
+
+@media print {
+  /* ------------------------------------------------------------ basics -- */
+
+  html {
+    font-size: 11pt;
+  }
+
+  body {
+    background: #fff;
+    color: #000;
+    line-height: 1.45;
+    margin: 0;
+    /* Widows and orphans are ignored by most screen engines and honoured by
+       print engines, which is exactly where they matter. */
+    orphans: 3;
+    widows: 3;
+  }
+
+  /* -------------------------------------------------- string extraction -- */
+
+  /* The running header pulls its text from the most recent h1 on the page. */
+  h1 {
+    string-set: doc-title content(text);
+  }
+
+  h2 {
+    string-set: section-title content(text);
+  }
+
+  /* ------------------------------------------------------------ breaks -- */
+
+  h1 {
+    break-before: page;
+    break-after: avoid;
+    font-size: 20pt;
+    margin-block: 0 12pt;
+  }
+
+  h1:first-of-type {
+    break-before: avoid;
+  }
+
+  h2 {
+    break-after: avoid;
+    font-size: 15pt;
+    margin-block: 18pt 8pt;
+  }
+
+  h3,
+  h4 {
+    break-after: avoid;
+    margin-block: 14pt 6pt;
+  }
+
+  /* Never split these across a page boundary. */
+  figure,
+  table,
+  pre,
+  blockquote,
+  .card,
+  .callout {
+    break-inside: avoid;
+  }
+
+  /* A paragraph may split, but not into a single line. */
+  p {
+    break-inside: auto;
+  }
+
+  .page-break {
+    break-before: page;
+  }
+
+  .keep-together {
+    break-inside: avoid;
+  }
+
+  .column-break {
+    break-before: column;
+  }
+
+  /* ------------------------------------------------------------ tables -- */
+
+  table {
+    border-collapse: collapse;
+    inline-size: 100%;
+    font-size: 9.5pt;
+  }
+
+  /* Repeat the header on every page a long table spans. */
+  thead {
+    display: table-header-group;
+  }
+
+  tfoot {
+    display: table-footer-group;
+  }
+
+  tr {
+    break-inside: avoid;
+  }
+
+  th,
+  td {
+    border: 0.5pt solid #999;
+    padding: 3pt 5pt;
+    text-align: start;
+  }
+
+  th {
+    background-color: #eee;
+    /* Without this, browsers drop the background to save ink. */
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+
+  caption {
+    caption-side: top;
+    font-size: 9pt;
+    font-style: italic;
+    text-align: start;
+    margin-block-end: 3pt;
+  }
+
+  /* ------------------------------------------------------------- links -- */
+
+  a {
+    color: #000;
+    text-decoration: underline;
+  }
+
+  /* Expand external links; leave internal fragments alone, because the URL of
+     an anchor on the page the reader is holding is noise. */
+  a[href^="http"]::after,
+  a[href^="mailto:"]::after {
+    content: " <" attr(href) ">";
+    font-size: 8.5pt;
+    font-family: "Courier New", monospace;
+    word-break: break-all;
+    color: #444;
+  }
+
+  a[href^="#"]::after,
+  a[href^="javascript:"]::after,
+  a.no-url::after {
+    content: none;
+  }
+
+  /* A cross-reference that prints the page its target is on. */
+  a.xref::after {
+    content: " (page " target-counter(attr(href url), page) ")";
+    font-size: 9pt;
+    font-family: Georgia, serif;
+  }
+
+  /* ----------------------------------------------------------- figures -- */
+
+  img,
+  svg {
+    max-inline-size: 100%;
+    /* Images are frequently the reason a page breaks badly. */
+    break-inside: avoid;
+  }
+
+  figcaption {
+    font-size: 9pt;
+    font-style: italic;
+    color: #333;
+    margin-block-start: 3pt;
+  }
+
+  figure {
+    margin-inline: 0;
+    counter-increment: figure;
+  }
+
+  figcaption::before {
+    content: "Figure " counter(figure) ". ";
+    font-style: normal;
+    font-weight: bold;
+  }
+
+  /* --------------------------------------------------------- footnotes -- */
+
+  /* Where the formatter supports it, footnotes move to the foot of the page
+     they are referenced from rather than to the end of the document. */
+  .footnote {
+    float: footnote;
+    font-size: 9pt;
+  }
+
+  @page {
+    @footnote {
+      border-block-start: 0.5pt solid #666;
+      padding-block-start: 2mm;
+      margin-block-start: 4mm;
+    }
+  }
+
+  /* ---------------------------------------------- table of contents -- */
+
+  .toc a::after {
+    content: leader(".") target-counter(attr(href url), page);
+  }
+
+  .toc li {
+    list-style: none;
+    margin-block: 2pt;
+  }
+
+  .toc > ol > li > a {
+    font-weight: bold;
+  }
+
+  /* -------------------------------------------------------- suppressed -- */
+
+  nav.site-nav,
+  .site-header,
+  .site-footer,
+  .skip-link,
+  .search,
+  .share-buttons,
+  .comments,
+  video,
+  audio,
+  iframe,
+  button,
+  .no-print {
+    display: none !important;
+  }
+
+  /* The opposite: an element that exists only on paper. */
+  .print-only {
+    display: block !important;
+  }
+
+  /* ------------------------------------------------------------ colour -- */
+
+  /* Convert the two callout styles to something that survives a mono printer:
+     the wash becomes a rule, the colour becomes weight. */
+  .callout {
+    border: none;
+    border-inline-start: 2pt solid #000;
+    background: none;
+    padding-inline-start: 8pt;
+  }
+
+  .callout--warning::before {
+    content: "Warning. ";
+    font-weight: bold;
+  }
+
+  .callout--note::before {
+    content: "Note. ";
+    font-weight: bold;
+  }
+
+  /* ------------------------------------------------------- code blocks -- */
+
+  pre {
+    font-family: "Courier New", monospace;
+    font-size: 9pt;
+    line-height: 1.35;
+    border: 0.5pt solid #999;
+    padding: 5pt;
+    /* Long lines must wrap; there is no horizontal scroll on paper. */
+    white-space: pre-wrap;
+    word-break: break-word;
+  }
+
+  /* ------------------------------------------------------------ layout -- */
+
+  .grid,
+  .auto-grid,
+  .with-sidebar,
+  .rail {
+    display: block;
+  }
+
+  aside {
+    float: none;
+    inline-size: auto;
+    margin: 0 0 8pt;
+    border-inline-start: 1pt solid #999;
+    padding-inline-start: 8pt;
+    font-size: 9.5pt;
+  }
+}

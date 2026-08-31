@@ -1,0 +1,353 @@
+/*
+ * responsive-grid.css — layout primitives built on CSS Grid and Flexbox.
+ *
+ * Every primitive here is intrinsic: it responds to its own content and its own
+ * container rather than to a fixed set of breakpoints. Media queries appear
+ * only at the end, and only where an intrinsic rule genuinely cannot express
+ * the intent.
+ */
+
+:root {
+  --gutter: clamp(1rem, 0.6rem + 2vw, 2.5rem);
+  --gap: 1.5rem;
+  --gap-sm: 0.75rem;
+  --gap-lg: 3rem;
+
+  --content-width: 68rem;
+  --wide-width: 84rem;
+  --narrow-width: 42rem;
+
+  --sidebar-width: 18rem;
+  --min-column: 16rem;
+}
+
+/* ------------------------------------------------------------- the page -- */
+
+/*
+ * A single grid that gives every direct child a sensible column without the
+ * child having to know anything about the page. Children opt out by naming a
+ * wider track.
+ */
+.layout {
+  display: grid;
+  grid-template-columns:
+    [full-start] minmax(var(--gutter), 1fr)
+    [wide-start] minmax(0, calc((var(--wide-width) - var(--content-width)) / 2))
+    [content-start] min(100% - var(--gutter) * 2, var(--content-width))
+    [content-end] minmax(0, calc((var(--wide-width) - var(--content-width)) / 2))
+    [wide-end] minmax(var(--gutter), 1fr)
+    [full-end];
+}
+
+.layout > * {
+  grid-column: content;
+}
+
+.layout > .-wide {
+  grid-column: wide;
+}
+
+.layout > .-full {
+  grid-column: full;
+}
+
+.layout > .-narrow {
+  grid-column: content;
+  max-width: var(--narrow-width);
+  margin-inline: auto;
+}
+
+/* ---------------------------------------------------------- auto-fitting -- */
+
+/* Columns that appear and disappear on their own as space allows. */
+.auto-grid {
+  display: grid;
+  gap: var(--gap);
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(min(var(--min-column), 100%), 1fr)
+  );
+}
+
+/* auto-fill instead of auto-fit: empty tracks are kept, so a row of two items
+   in a four-column space stays two columns wide rather than stretching. */
+.auto-grid.-keep-tracks {
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(min(var(--min-column), 100%), 1fr)
+  );
+}
+
+.auto-grid.-dense {
+  grid-auto-flow: row dense;
+}
+
+.auto-grid > .-span-2 {
+  grid-column: span 2;
+}
+
+/* A span must not exceed the available track count. */
+@supports (grid-template-columns: subgrid) {
+  .auto-grid > .-span-2 {
+    grid-column: span min(2, var(--track-count, 2));
+  }
+}
+
+/* ----------------------------------------------------------- sidebar -- */
+
+/*
+ * A sidebar and a main area that stack when the main area would be squeezed
+ * below its own minimum, with no media query involved.
+ */
+.with-sidebar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--gap);
+}
+
+.with-sidebar > :first-child {
+  flex-grow: 1;
+  flex-basis: var(--sidebar-width);
+}
+
+.with-sidebar > :last-child {
+  flex-grow: 999;
+  flex-basis: 0;
+  min-inline-size: 50%;
+}
+
+.with-sidebar.-right > :first-child {
+  order: 2;
+}
+
+/* ------------------------------------------------------------- switcher -- */
+
+/*
+ * Items sit in a row until the container falls below a threshold, then all of
+ * them stack at once — no intermediate state where some wrap and some do not.
+ */
+.switcher {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--gap);
+  --threshold: 32rem;
+}
+
+.switcher > * {
+  flex-grow: 1;
+  flex-basis: calc((var(--threshold) - 100%) * 999);
+}
+
+.switcher > :nth-last-child(n + 5),
+.switcher > :nth-last-child(n + 5) ~ * {
+  /* Past four items the switcher stops being the right tool. */
+  flex-basis: 100%;
+}
+
+/* --------------------------------------------------------------- stack -- */
+
+/* Vertical rhythm applied between siblings rather than around them. */
+.stack {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.stack > * + * {
+  margin-block-start: var(--stack-space, var(--gap));
+}
+
+.stack.-sm { --stack-space: var(--gap-sm); }
+.stack.-lg { --stack-space: var(--gap-lg); }
+
+/* Push everything after this element to the bottom of the stack. */
+.stack > .-push-down {
+  margin-block-end: auto;
+}
+
+/* -------------------------------------------------------------- cluster -- */
+
+/* A group of items that wraps and keeps consistent spacing on both axes. */
+.cluster {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--gap-sm);
+  align-items: center;
+}
+
+.cluster.-between {
+  justify-content: space-between;
+}
+
+.cluster.-end {
+  justify-content: flex-end;
+}
+
+/* ---------------------------------------------------------------- rail -- */
+
+/* A horizontally scrolling row with snap points and no scrollbar jitter. */
+.rail {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(var(--min-column), 1fr);
+  gap: var(--gap);
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+  scroll-snap-type: inline mandatory;
+  scroll-padding-inline: var(--gutter);
+  padding-block-end: var(--gap-sm);
+}
+
+.rail > * {
+  scroll-snap-align: start;
+}
+
+/* -------------------------------------------------------------- centre -- */
+
+.centre {
+  box-sizing: content-box;
+  max-inline-size: var(--content-width);
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+
+.centre.-intrinsic {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* ------------------------------------------------------------- cover -- */
+
+/* A hero that fills the viewport with a centred principal element. */
+.cover {
+  display: flex;
+  flex-direction: column;
+  min-block-size: 100svh;
+  padding: var(--gutter);
+  gap: var(--gap);
+}
+
+.cover > * {
+  margin-block: 0;
+}
+
+.cover > .-centred {
+  margin-block: auto;
+}
+
+/* ------------------------------------------------------------- frame -- */
+
+/* A fixed aspect ratio around media of unknown intrinsic size. */
+.frame {
+  aspect-ratio: var(--ratio, 16 / 9);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.frame > :is(img, video) {
+  inline-size: 100%;
+  block-size: 100%;
+  object-fit: cover;
+}
+
+.frame.-square { --ratio: 1; }
+.frame.-portrait { --ratio: 3 / 4; }
+.frame.-cinema { --ratio: 21 / 9; }
+
+/* ---------------------------------------------------- container queries -- */
+
+.card-holder {
+  container-type: inline-size;
+  container-name: card;
+}
+
+.card {
+  display: grid;
+  gap: var(--gap-sm);
+}
+
+@container card (inline-size >= 28rem) {
+  .card {
+    grid-template-columns: 12rem 1fr;
+    align-items: start;
+    gap: var(--gap);
+  }
+}
+
+@container card (inline-size >= 48rem) {
+  .card {
+    grid-template-columns: 18rem 1fr;
+  }
+
+  .card__title {
+    font-size: 1.5rem;
+  }
+}
+
+/* ------------------------------------------------------ subgrid alignment -- */
+
+/*
+ * Cards of differing content length whose internal rows still line up across
+ * the grid, which is the one thing auto-fit alone cannot do.
+ */
+@supports (grid-template-rows: subgrid) {
+  .aligned-cards {
+    display: grid;
+    gap: var(--gap);
+    grid-template-columns: repeat(auto-fit, minmax(var(--min-column), 1fr));
+  }
+
+  .aligned-cards > * {
+    display: grid;
+    grid-row: span 3;
+    grid-template-rows: subgrid;
+    gap: var(--gap-sm);
+  }
+}
+
+/* ------------------------------------------------------------- utilities -- */
+
+.flow-space-0 { --stack-space: 0; }
+.full-bleed {
+  inline-size: 100vw;
+  margin-inline: calc(50% - 50vw);
+}
+
+/* ------------------------------------------------ the few media queries -- */
+
+/*
+ * Only two, and both express something intrinsic sizing cannot: a change of
+ * intent rather than a change of fit.
+ */
+
+@media (width < 40rem) {
+  /* On a narrow screen the rail becomes a stack, because horizontal scrolling
+     next to vertical scrolling is a poor combination on touch. */
+  .rail {
+    grid-auto-flow: row;
+    grid-auto-columns: auto;
+    overflow-x: visible;
+    scroll-snap-type: none;
+  }
+}
+
+@media print {
+  .rail,
+  .with-sidebar,
+  .switcher,
+  .auto-grid {
+    display: block;
+  }
+
+  .cover {
+    min-block-size: auto;
+  }
+
+  .full-bleed {
+    inline-size: auto;
+    margin-inline: 0;
+  }
+}

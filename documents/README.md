@@ -9,6 +9,7 @@ One subfolder per format, named after the extension it holds:
 | Folder            | Format                          | Extension | Kind   |
 | ----------------- | ------------------------------- | --------- | ------ |
 | [`adoc/`](adoc)   | AsciiDoc                        | `.adoc`   | text   |
+| [`css/`](css)     | Cascading style sheets          | `.css`    | text   |
 | [`docx/`](docx)   | Word (Office Open XML)          | `.docx`   | binary |
 | [`html/`](html)   | HTML pages                      | `.html`   | text   |
 | [`md/`](md)       | Markdown                        | `.md`     | text   |
