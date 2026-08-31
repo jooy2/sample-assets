@@ -11,6 +11,7 @@ One subfolder per format, named after the extension it holds:
 | [`adoc/`](adoc)   | AsciiDoc                        | `.adoc`   | text   |
 | [`css/`](css)     | Cascading style sheets          | `.css`    | text   |
 | [`docx/`](docx)   | Word (Office Open XML)          | `.docx`   | binary |
+| [`epub/`](epub)   | EPUB 3 ebooks                   | `.epub`   | binary |
 | [`html/`](html)   | HTML pages                      | `.html`   | text   |
 | [`md/`](md)       | Markdown                        | `.md`     | text   |
 | [`odp/`](odp)     | OpenDocument presentation       | `.odp`    | binary |
@@ -39,7 +40,7 @@ line in the table above.
 - Add the feature under test when that is the reason the file exists:
   `form-fillable.pdf`, `spreadsheet-with-formulas.xlsx`, `slides-with-notes.odp`.
 - Add the page, sheet, slide, or chapter count for large files: `manual-20pages.pdf`,
-  `training-deck-10slides.pptx`.
+  `training-deck-10slides.pptx`, `short-stories-10chapters.epub`.
 - The extension is not repeated in the name. The folder already says it.
 
 ## Size
@@ -59,6 +60,10 @@ protects anything worth protecting.
 
 Every document is fictional. No real invoices, contracts, résumés, or correspondence —
 even redacted. If a sample needs a company, an address, or a person, invent one.
+
+The prose samples share a geography on purpose: the Fenwick district, the Northwind Ferry
+Cooperative, and the Driftwood command-line tool recur across formats so that a converter
+can be pointed at two files and compared. None of the three exists.
 
 ## Sources
 

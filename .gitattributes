@@ -42,6 +42,7 @@
 *.rst  text eol=lf
 *.tex  text eol=lf
 *.rtf  text eol=lf
+*.epub binary
 *.odt  binary
 *.ods  binary
 *.odp  binary
