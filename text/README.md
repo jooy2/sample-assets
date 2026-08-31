@@ -24,13 +24,14 @@ paragraphs, line breaks, and blank lines — belongs here.
 
 `.txt` only. UTF-8, LF line endings, no BOM.
 
-- **Hard-wrapped at 78 columns or less.** These files are meant to be readable in a
-  terminal and in a viewer that does not reflow. A tool that reflows one of these files
-  has damaged it; a tool that leaves it alone has passed. That is a useful thing to be
-  able to test.
+- **No fixed width. Every line break is meaningful.** Lines are not wrapped to a column,
+  because this is prose and not a source file. A line ends where the writing ends: one
+  sentence per line in prose, the poet's line in verse, one speech in a script or a
+  transcript. A long sentence gets a long line, and the reader's viewer is expected to
+  soft-wrap it.
 - **Structure comes from whitespace**: a blank line between paragraphs, a run of blank
-  lines between sections, indentation and centring for headings and verse. There is no
-  markup, and adding some would make the file something else.
+  lines between sections, and indentation for headings, verse, speaker columns, and
+  tables. There is no markup, and adding some would make the file something else.
 - **No trailing whitespace**, and one newline at the end.
 
 ## Naming

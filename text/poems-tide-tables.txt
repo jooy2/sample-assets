@@ -304,16 +304,10 @@ and no opinion about who leaves.
                          NOTES
 
 
-These poems were written as a sample asset, in one sitting, for a repository
-that needed a long plain-text file with verse in it. They are not previously
-published and there is no poet called Oswin Bramble.
+These poems were written as a sample asset, in one sitting, for a repository that needed a long plain-text file with verse in it.
+They are not previously published and there is no poet called Oswin Bramble.
 
-The place names — Corrance, Fenwick, Halloway, Marlow Street, Fisher's Rise —
-are shared with the other fiction in this collection, on the principle that a
-sample library may as well have a consistent geography. None of those places
-exists.
+The place names — Corrance, Fenwick, Halloway, Marlow Street, Fisher's Rise — are shared with the other fiction in this collection, on the principle that a sample library may as well have a consistent geography.
+None of those places exists.
 
-Line breaks and stanza breaks are meaningful and are preserved with ordinary
-newlines rather than any markup, which is the point of a plain-text sample: a
-tool that reflows this file has damaged it, and a tool that does not has
-passed.
+Line breaks and stanza breaks are meaningful and are preserved with ordinary newlines rather than any markup, which is the point of a plain-text sample: a tool that reflows this file has damaged it, and a tool that does not has passed.
