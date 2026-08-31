@@ -14,6 +14,7 @@ One subfolder per format, named after the extension it holds:
 | [`odt/`](odt)     | OpenDocument text               | `.odt`    | binary |
 | [`pdf/`](pdf)     | PDF                             | `.pdf`    | binary |
 | [`pptx/`](pptx)   | PowerPoint (Office Open XML)    | `.pptx`   | binary |
+| [`rst/`](rst)     | reStructuredText                | `.rst`    | text   |
 | [`rtf/`](rtf)     | Rich Text Format                | `.rtf`    | text   |
 | [`tex/`](tex)     | LaTeX                           | `.tex`    | text   |
 | [`xlsx/`](xlsx)   | Excel (Office Open XML)         | `.xlsx`   | binary |
