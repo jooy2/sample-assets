@@ -1,0 +1,244 @@
+= Driftwood User Guide
+Sample Assets
+v2.4, 2027-08
+:doctype: book
+:toc:
+:toclevels: 2
+:icons: font
+:sectnums:
+:source-highlighter: rouge
+:experimental:
+:leveloffset: 0
+
+[preface]
+== About this guide
+
+This guide covers Driftwood from a first archive through to running it on a
+schedule. It assumes a command line and nothing else.
+
+Driftwood is a fictional tool. Follow the guide for the shape of the
+documentation, not for a working install.
+
+== Concepts
+
+Three words carry most of the meaning in this guide, and they are worth pinning
+down before anything else.
+
+Object::
+  A byte stream, stored under the digest of its own contents. An object has no
+  name and no date. It is only its bytes.
+
+Index::
+  A map from paths to digests. The index is what makes an archive browsable, and
+  it is the only part of an archive that knows what a directory is.
+
+Archive::
+  One file holding an index and every object the index refers to.
+
+The separation matters in practice: two paths holding identical bytes cost one
+object and two index entries, which is where Driftwood's deduplication comes
+from.
+
+== Your first archive
+
+=== Packing
+
+[source,console]
+----
+$ driftwood pack ./documents --into documents.dw
+----
+
+The command scans the directory, stores every file it finds, and writes the
+archive. It does not modify the source directory in any way.
+
+TIP: Add `--dry-run` to see what would be stored without writing anything. It
+costs nothing and it catches a wrong path before you wait for a scan.
+
+=== Checking
+
+[source,console]
+----
+$ driftwood verify documents.dw
+4,166 objects checked, 0 mismatches
+----
+
+`verify` re-reads every object and re-computes its digest. On a large archive
+this takes as long as writing it did. `--fast` checks only the first and last
+chunk of each object, which catches truncation and misses interior corruption.
+
+=== Unpacking
+
+[source,console]
+----
+$ driftwood unpack documents.dw --to ./restored
+----
+
+Give a pattern to restore part of an archive:
+
+[source,console]
+----
+$ driftwood unpack documents.dw 'reports/2027/*' --to ./restored
+----
+
+CAUTION: `unpack` refuses to overwrite an existing file unless `--force` is
+given. This is deliberate and there is no configuration option to change it.
+
+== Excluding files
+
+`--exclude` takes a glob and may be repeated. A leading `!` re-includes
+something an earlier pattern excluded.
+
+[source,console]
+----
+$ driftwood pack ./project \
+    --exclude 'node_modules/' \
+    --exclude '*.log' \
+    --exclude '!important.log' \
+    --into project.dw
+----
+
+Patterns are matched against the path relative to the pack root, with forward
+slashes on every platform.
+
+.Pattern matching rules
+[cols="2,3", options="header"]
+|===
+| Pattern | Matches
+
+| `*.log`
+| Any path whose final component ends in `.log`
+
+| `build/`
+| A directory named `build` and everything under it, at any depth
+
+| `/build/`
+| A directory named `build` at the pack root only
+
+| `**/tmp`
+| A component named `tmp` at any depth
+|===
+
+== Deduplication
+
+Driftwood stores an object once per distinct content. This is automatic and
+cannot be turned off.
+
+The saving depends entirely on the input. A photo library deduplicates by a few
+percent. A directory of exported reports, where the same attachment is embedded
+in forty files, can halve.
+
+[source,console]
+----
+$ driftwood pack ./exports --into exports.dw
+scanned 12,904 files (18.7 GiB)
+stored   6,201 objects (8.9 GiB, 52% deduplicated)
+----
+
+The percentage reported is bytes saved against bytes scanned, not files.
+
+== Resuming an interrupted run
+
+If `pack` is interrupted, it leaves a journal beside the target archive.
+
+[source,console]
+----
+$ driftwood pack ./photos --into photos.dw
+^C
+interrupted after 2,880 of 4,812 files; journal written
+
+$ driftwood pack ./photos --into photos.dw
+resuming from journal: 2,880 files already stored
+----
+
+The resumed run re-scans the source. Files that changed since the interruption
+are stored again under their new digest; the old object stays until `gc` runs.
+
+IMPORTANT: A journal is only valid for the archive it sits beside. Moving or
+renaming the archive invalidates it, and the next run starts over.
+
+== Reclaiming space
+
+`gc` drops objects that no index entry refers to.
+
+[source,console]
+----
+$ driftwood gc photos.dw --dry-run
+would drop 118 objects (412 MiB)
+
+$ driftwood gc photos.dw
+dropped 118 objects (412 MiB)
+----
+
+The archive is rewritten in place. Take a copy first if the archive is the only
+one you have.
+
+== Running it on a schedule
+
+Driftwood has no scheduler. Use the one already on the machine.
+
+.A nightly archive, retaining seven days
+[source,bash]
+----
+#!/usr/bin/env bash
+set -euo pipefail
+
+SOURCE="/srv/documents"
+DEST="/backup/documents-$(date +%F).dw"
+
+driftwood pack "$SOURCE" --into "$DEST" --quiet
+driftwood verify "$DEST" --fast
+
+find /backup -name 'documents-*.dw' -mtime +7 -delete
+----
+
+Because objects are content-addressed, a second archive of a mostly-unchanged
+directory writes only what changed — but it is still a whole archive file. If
+disk is scarce, keep fewer of them rather than expecting them to share storage.
+
+== Troubleshooting
+
+.Symptoms and causes
+[cols="2,3", options="header"]
+|===
+| Symptom | Likely cause
+
+| `pack` refuses to start, reports a lock
+| A previous run was killed with `SIGKILL`. Delete the `.lock` file beside the
+  archive.
+
+| `verify` reports mismatches after copying an archive
+| The copy is incomplete or the medium is failing. Re-copy and verify again
+  before assuming the archive is bad.
+
+| `unpack` restores fewer files than `list` shows
+| A pattern was supplied and matched fewer paths than expected. Quote the
+  pattern so the shell does not expand it first.
+
+| Memory use grows during `list`
+| Expected. The index is read in full. There is no streaming `list` yet.
+|===
+
+[appendix]
+== Environment variables
+
+`DRIFTWOOD_CONFIG`::
+  Path to a configuration file, overriding the search order.
+
+`DRIFTWOOD_NO_COLOR`::
+  Set to any value to suppress colour, equivalent to `--no-color`.
+
+`DRIFTWOOD_PARALLELISM`::
+  Default for `--parallelism`. A command-line flag still wins.
+
+[appendix]
+== Glossary
+
+chunk:: The unit in which an object is read and hashed. Configurable, four
+mebibytes by default.
+
+digest:: Thirty-two bytes identifying an object.
+
+journal:: The record written beside an archive by an interrupted `pack`.
+
+[index]
+== Index
