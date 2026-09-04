@@ -29,6 +29,43 @@ Photos, illustrations, and icons for mockups, placeholder content, and rendering
 - Keep single files under about 5 MB. This repository is cloned for its samples, not
   for its weight.
 
+## Compression
+
+Compress an image before committing it. The pixel dimensions and the visible colors stay
+as they are: this removes what the encoding wastes, not what the image shows. Never
+resize, crop, or convert an image to a different format to save space, because that
+changes the sample itself and the file name records the resolution.
+
+```bash
+brew install pngquant oxipng jpegoptim
+```
+
+A PNG takes two passes. `pngquant` reduces it to a palette, then `oxipng` packs the
+result losslessly:
+
+```bash
+pngquant --quality=95-100 --speed 1 --force --ext .png icon-download-512x512.png
+oxipng -o max --strip safe -a icon-download-512x512.png
+```
+
+`pngquant` leaves a file alone and exits with 99 when it cannot hold quality at 95. That
+is the intended outcome for photographic artwork and smooth gradients, which band once
+they are quantized. Run `oxipng` afterwards on every file either way: it compresses what
+`pngquant` skipped, and it reverses the small increase `pngquant` leaves on a file that
+was already compressed, so the pair is safe to run a second time. The `-a` flag drops an
+alpha channel that is fully opaque, which costs about a quarter of the file and shows
+nothing.
+
+A JPEG takes one lossless pass:
+
+```bash
+jpegoptim --strip-all --all-progressive mountain-lake-1920x1080.jpg
+```
+
+All three commands accept several files at once, and `pngquant` reports 99 if it skipped
+any of them. Open the result next to the original before committing it; if the two differ
+where a reader would notice, keep the original and compress it losslessly instead.
+
 ## Sources
 
 Every image in this folder was **generated for this repository**, and is covered by its

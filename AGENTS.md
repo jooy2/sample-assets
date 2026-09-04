@@ -83,8 +83,11 @@ These are not style preferences. A change that breaks one of them does not get m
    terms — in the same change that adds it. The repository's MIT license covers the
    collection, not a file that arrived under different terms.
 4. **Files stay small.** Git keeps every version of a binary in full, so a large file
-   replaced twice lives in the history three times. The folder READMEs give per-type
-   ceilings; when a large file is unavoidable, say why in the commit.
+   replaced twice lives in the history three times. Compress an image before committing
+   it, at the same resolution and without visible quality loss;
+   [`images/README.md`](images/README.md) gives the tools and the settings. The folder
+   READMEs give per-type ceilings; when a large file is unavoidable, say why in the
+   commit.
 5. **Do not improvise a binary asset.** A coding agent can write a CSV, a JSON file, or a
    code sample. It cannot produce a photograph, a video, or a recording — those are
    generated or recorded elsewhere and then committed here. A placeholder thrown together
