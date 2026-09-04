@@ -23,7 +23,7 @@ so do not treat it as dead and do not delete it.
 ```text
 datasets/        Sample data, one subfolder per format: csv, json, sql, tsv, txt, xml, yaml
 code/            Source code samples, one subfolder per language
-images/          photos/, illustrations/, icons/
+images/          photos/ by subject, plus illustrations/ and icons/
 videos/          Short video clips
 audio/           Sound files
 documents/       Documents, one subfolder per format
@@ -48,7 +48,8 @@ this one, and it is what a contributor is asked to follow.
 - Everywhere else, qualifiers live in the file name rather than in a nested folder: a row
   count, a resolution, a duration, or the shape a sample exists to exercise
   (`users-10000.csv`, `mountain-lake-1920x1080.jpg`, `silence-5s.wav`,
-  `users-nested.json`).
+  `users-nested.json`). Subject categories under `images/photos/` are the deliberate
+  exception; follow `images/photos/README.md`, including its people-image rules.
 - Under `code/`, folders are **languages**, never frameworks or projects. A React sample
   is JavaScript or TypeScript with `react` in its file name.
 - Names are lowercase `kebab-case`, restricted to `a-z`, `0-9`, `-`, and `.` — except

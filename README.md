@@ -21,7 +21,7 @@ repository is that pile, organized, named consistently, and free to redistribute
 | ----------------------------- | --------------------------------------------------------- | ------------------------------------------------ |
 | [`datasets/`](datasets)       | Synthetic data for imports, fixtures, and parser tests     | File format, then topic                          |
 | [`code/`](code)               | Source snippets and small self-contained programs          | Programming language                             |
-| [`images/`](images)           | Photos, illustrations, and interface icons                 | Kind of image                                    |
+| [`images/`](images)           | Photos, illustrations, and interface icons                 | Kind, then photo subject                         |
 | [`videos/`](videos)           | Short clips for players, thumbnails, and transcoding       | Flat                                             |
 | [`audio/`](audio)             | Sounds, tones, and loops for players and waveform tests    | Flat                                             |
 | [`documents/`](documents)     | PDFs, office files, and other document formats             | File format                                      |
@@ -45,7 +45,14 @@ code/            Source code samples. One subfolder per language:
   c/  cpp/  csharp/  dart/  go/  java/  javascript/  kotlin/
   php/  python/  ruby/  rust/  shell/  swift/  typescript/
 images/
-  photos/          photographic images
+  photos/          photographic images, grouped by primary subject
+    backgrounds/   scenic and atmospheric backgrounds
+    food-and-drink/ food and serving scenes
+    nature/        plants and natural details
+    objects/       products, tools, and still lifes
+    people/        fictional people on transparent backgrounds
+    places/        architecture, interiors, and places
+    transportation/ vehicles and other transport
   illustrations/   drawn artwork
   icons/           interface marks, preferably SVG
 videos/          Short video clips
@@ -113,7 +120,7 @@ curl -O https://raw.githubusercontent.com/jooy2/sample-assets/main/datasets/json
 Or link one straight into a page or a fixture, served by jsDelivr's CDN:
 
 ```text
-https://cdn.jsdelivr.net/gh/jooy2/sample-assets@main/images/photos/mountain-lake.jpg
+https://cdn.jsdelivr.net/gh/jooy2/sample-assets@main/images/photos/backgrounds/alpine-lake-dawn-1536x1024.jpg
 ```
 
 Pin `@main` to a tag or a commit hash when a sample must not change under you.
@@ -127,7 +134,8 @@ The rules are short, and each folder's `README.md` states its own specifics:
   named the way its own language names files, so `HelloWorld.java` stays `HelloWorld.java`.
 - **Qualifiers go in the name**, not in a nested folder — a row count, a resolution, a
   duration, or the shape a sample exists to exercise: `users-nested.json`,
-  `mountain-lake-1920x1080.jpg`, `silence-5s.wav`.
+  `mountain-lake-1920x1080.jpg`, `silence-5s.wav`. The subject-category folders under
+  `images/photos/` are the deliberate exception.
 - **Deliberately broken samples say so**, with `-malformed`, `-invalid`, or `-broken` in
   the name. Those are the only files exempt from the format check in CI.
 - **UTF-8 and LF**, unless a sample exists to demonstrate the opposite.

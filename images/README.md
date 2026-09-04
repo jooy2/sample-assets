@@ -6,7 +6,7 @@ Photos, illustrations, and icons for mockups, placeholder content, and rendering
 
 | Folder                            | Holds                                                                 |
 | --------------------------------- | --------------------------------------------------------------------- |
-| [`photos/`](photos)               | Photographic images — landscapes, objects, people, textures            |
+| [`photos/`](photos)               | Photographic images, grouped by primary subject                         |
 | [`illustrations/`](illustrations) | Drawn artwork — flat scenes, characters, backgrounds, patterns         |
 | [`icons/`](icons)                 | Small interface marks, ideally SVG, ideally on a square canvas         |
 
@@ -22,6 +22,8 @@ Photos, illustrations, and icons for mockups, placeholder content, and rendering
 
 - Lowercase, `kebab-case`, describing the subject: `mountain-lake.jpg`,
   `empty-state-box.svg`, `icon-download.svg`.
+- Photos live in the subject categories defined in [`photos/README.md`](photos/README.md).
+  People photos follow that document's fixed PNG sizes and structured naming pattern.
 - Put the size in the name when several resolutions of one image exist:
   `mountain-lake-1920x1080.jpg`, `mountain-lake-320x180.jpg`.
 - Keep single files under about 5 MB. This repository is cloned for its samples, not
