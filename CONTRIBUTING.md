@@ -1,8 +1,8 @@
-# Contributing to Project
+# Contributing to sample-assets
 
 Thank you for contributing to the project. Your contributions will help us take the project to the next level.
 
-This project adheres to the Contributor Covenant code of conduct. Your contribution implies that you have read and agree to this policy. Any behavior that undermines the quality of the project community, including this policy, will be warned or restricted by the maintainers.
+This project adheres to the [Contributor Covenant](https://www.contributor-covenant.org/version/2/1/code_of_conduct.html) code of conduct, version 2.1, reproduced in [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md). Your contribution implies that you have read and agree to this policy. Any behavior that undermines the quality of the project community, including this policy, will be warned or restricted by the maintainers.
 
 ## Issues
 
