@@ -4,7 +4,7 @@
 
 To report a security vulnerability, create an issue on GitHub on the "Open a draft security advisory" page on GitHub: https://github.com/jooy2/sample-assets/security/advisories/new
 
-Also, send private instructions in advance via maintainer email. Do not submit vulnerability-related content as a general issue.
+Also, send private instructions in advance through https://cdget.com/contact. Do not submit vulnerability-related content as a general issue.
 
 ## Security compliance
 
@@ -18,4 +18,4 @@ We recommend that users of project sources use the latest version, which address
 
 ## Contact
 
-- Administrator: jooy2.contact@gmail.com
+- Administrator: https://cdget.com/contact

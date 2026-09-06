@@ -8,7 +8,7 @@ This project adheres to the [Contributor Covenant](https://www.contributor-coven
 
 Issues can be created on the following page: https://github.com/jooy2/sample-assets/issues
 
-Alternatively, you can email the package maintainer. However, we prefer to track progress via GitHub Issues.
+Alternatively, you can reach the maintainers at https://cdget.com/contact. However, we prefer to track progress via GitHub Issues.
 
 When creating an issue, keep the following in mind:
 
@@ -68,3 +68,11 @@ When creating a pull request, keep the following in mind:
 - Please use English in all content.
 
 Typically, a project maintainer will review and test your code before merging it into the project. This process can take some time, and they may ask you for further edits or clarifications in the comments.
+
+## Reporting a security issue
+
+A security vulnerability, or an asset that should not have been published, does not go in a general issue. [SECURITY.md](SECURITY.md) describes how to report one privately.
+
+## Contact
+
+For anything that does not belong in an issue or a pull request, reach the maintainers at https://cdget.com/contact.

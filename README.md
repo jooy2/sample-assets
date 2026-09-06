@@ -193,7 +193,7 @@ the process described in [SECURITY.md](SECURITY.md).
 
 ## Author
 
-CDGet &lt;jooy2.contact@gmail.com&gt; · [cdget.com](https://cdget.com)
+CDGet · [cdget.com](https://cdget.com) · [Contact](https://cdget.com/contact)
 
 ## License
 
