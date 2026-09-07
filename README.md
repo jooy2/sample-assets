@@ -46,6 +46,7 @@ code/            Source code samples. One subfolder per language:
   php/  python/  ruby/  rust/  shell/  swift/  typescript/
 images/
   photos/          photographic images, grouped by primary subject
+    animals/       wildlife and other animals
     backgrounds/   scenic and atmospheric backgrounds
     food-and-drink/ food and serving scenes
     nature/        plants and natural details
@@ -55,6 +56,7 @@ images/
     transportation/ vehicles and other transport
   illustrations/   drawn artwork
   icons/           interface marks, preferably SVG
+  objects/         single objects on transparent 250x250 canvases
 videos/          Short video clips
 audio/           Sound files
 documents/       Documents. One subfolder per format:

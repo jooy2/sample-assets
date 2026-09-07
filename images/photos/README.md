@@ -7,9 +7,10 @@ the collection without scanning one large directory.
 
 | Folder                                      | Holds                                                        |
 | ------------------------------------------- | ------------------------------------------------------------ |
+| [`animals/`](animals)                       | Wildlife and other animals                                   |
 | [`backgrounds/`](backgrounds)               | Scenic or atmospheric images suited to large-area backgrounds |
 | [`food-and-drink/`](food-and-drink)         | Food, ingredients, drinks, and serving scenes                |
-| [`nature/`](nature)                         | Plants, wildlife, and natural details                         |
+| [`nature/`](nature)                         | Plants and other natural details                              |
 | [`objects/`](objects)                       | Products, tools, and still-life arrangements                  |
 | [`people/`](people)                         | Fictional people isolated on transparent backgrounds          |
 | [`places/`](places)                         | Architecture, interiors, and identifiable types of places     |

@@ -1,6 +1,7 @@
 # Images
 
-Photos, illustrations, and icons for mockups, placeholder content, and rendering tests.
+Photos, illustrations, icons, and isolated objects for mockups, placeholder content, and
+rendering tests.
 
 ## Layout
 
@@ -9,6 +10,7 @@ Photos, illustrations, and icons for mockups, placeholder content, and rendering
 | [`photos/`](photos)               | Photographic images, grouped by primary subject                         |
 | [`illustrations/`](illustrations) | Drawn artwork — flat scenes, characters, backgrounds, patterns         |
 | [`icons/`](icons)                 | Small interface marks, ideally SVG, ideally on a square canvas         |
+| [`objects/`](objects)             | Single objects isolated on transparent 250×250 canvases                |
 
 ## Formats
 
@@ -17,6 +19,7 @@ Photos, illustrations, and icons for mockups, placeholder content, and rendering
 - **Illustrations:** `.svg` when the source is vector, `.png` when it is not.
 - **Icons:** `.svg` when the source is vector, `.png` on a square canvas when it is not.
   512×512 is the default raster size here.
+- **Objects:** `.png` on a 250×250 canvas with a genuinely transparent background.
 
 ## Naming
 
@@ -24,6 +27,7 @@ Photos, illustrations, and icons for mockups, placeholder content, and rendering
   `empty-state-box.svg`, `icon-download.svg`.
 - Photos live in the subject categories defined in [`photos/README.md`](photos/README.md).
   People photos follow that document's fixed PNG sizes and structured naming pattern.
+- Isolated objects live in [`objects/`](objects) and end in `-250x250.png`.
 - Put the size in the name when several resolutions of one image exist:
   `mountain-lake-1920x1080.jpg`, `mountain-lake-320x180.jpg`.
 - Keep single files under about 5 MB. This repository is cloned for its samples, not
